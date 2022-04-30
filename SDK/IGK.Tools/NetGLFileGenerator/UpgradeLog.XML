@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="NetGLFileGenerator">
+</Property><Property Name="Solution File" Value="D:\CSDEV\NetGLFileGenerator\NetGLFileGenerator.sln">
+</Property><Property Name="User Options File" Value="D:\CSDEV\NetGLFileGenerator\NetGLFileGenerator.suo">
+</Property><Property Name="Date" Value="samedi 30 avril 2011">
+</Property><Property Name="Time" Value="16:05">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="NetGLFileGenerator.sln" Description="File successfully backed up as D:\CSDEV\NetGLFileGenerator\Backup\NetGLFileGenerator.sln">
+</Event><Event ErrorLevel="0" Project="" Source="NetGLFileGenerator.suo" Description="File successfully backed up as D:\CSDEV\NetGLFileGenerator\Backup\NetGLFileGenerator.suo">
+</Event><Event ErrorLevel="0" Project="NetGLFileGenerator" Source="NetGLFileGenerator.csproj" Description="Project file successfully backed up as D:\CSDEV\NetGLFileGenerator\Backup\NetGLFileGenerator.csproj">
+</Event><Event ErrorLevel="0" Project="NetGLFileGenerator" Source="glewTraductor.cs" Description="File successfully backed up as D:\CSDEV\NetGLFileGenerator\Backup\glewTraductor.cs">
+</Event><Event ErrorLevel="0" Project="NetGLFileGenerator" Source="Properties\AssemblyInfo.cs" Description="File successfully backed up as D:\CSDEV\NetGLFileGenerator\Backup\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="NetGLFileGenerator" Source="NetGLFileGenerator.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="NetGLFileGenerator" Source="NetGLFileGenerator.csproj" Description="Converted">
+</Event><Event ErrorLevel="1" Project="GK.GLImpl" Source="..\GLImplementation\GK.GLImpl.csproj" Description="Warning: The project file is being backed up to a relative path that differs from the original solution relative path.  The difference in folder hierarchy may create problems in opening or building the backed up solution and project.">
+</Event><Event ErrorLevel="2" Project="GK.GLImpl" Source="..\GLImplementation\GK.GLImpl.csproj" Description="Unable to open project file to perform upgrade.  ">
+</Event><Event ErrorLevel="1" Project="NetWGLFileGenerator" Source="..\NetWGLFileGenerator\NetWGLFileGenerator.csproj" Description="Warning: The project file is being backed up to a relative path that differs from the original solution relative path.  The difference in folder hierarchy may create problems in opening or building the backed up solution and project.">
+</Event><Event ErrorLevel="0" Project="NetWGLFileGenerator" Source="..\NetWGLFileGenerator\NetWGLFileGenerator.csproj" Description="Project file successfully backed up as D:\CSDEV\NetGLFileGenerator\Backup\NetWGLFileGenerator\NetWGLFileGenerator.csproj">
+</Event><Event ErrorLevel="0" Project="NetWGLFileGenerator" Source="..\NetWGLFileGenerator\wglewTraductor.cs" Description="File successfully backed up as D:\CSDEV\NetGLFileGenerator\Backup\NetWGLFileGenerator\wglewTraductor.cs">
+</Event><Event ErrorLevel="0" Project="NetWGLFileGenerator" Source="..\NetWGLFileGenerator\Properties\AssemblyInfo.cs" Description="File successfully backed up as D:\CSDEV\NetGLFileGenerator\Backup\NetWGLFileGenerator\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="NetWGLFileGenerator" Source="..\NetWGLFileGenerator\NetWGLFileGenerator.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="NetWGLFileGenerator" Source="..\NetWGLFileGenerator\NetWGLFileGenerator.csproj" Description="Converted">
+</Event><Event ErrorLevel="1" Project="BuildString" Source="..\BuildString\BuildString.csproj" Description="Warning: The project file is being backed up to a relative path that differs from the original solution relative path.  The difference in folder hierarchy may create problems in opening or building the backed up solution and project.">
+</Event><Event ErrorLevel="2" Project="BuildString" Source="..\BuildString\BuildString.csproj" Description="Unable to open project file to perform upgrade.  ">
+</Event><Event ErrorLevel="1" Project="GLSamples" Source="..\GLSampleTexture\GLSamples.csproj" Description="Warning: The project file is being backed up to a relative path that differs from the original solution relative path.  The difference in folder hierarchy may create problems in opening or building the backed up solution and project.">
+</Event><Event ErrorLevel="2" Project="GLSamples" Source="..\GLSampleTexture\GLSamples.csproj" Description="Unable to open project file to perform upgrade.  ">
+</Event><Event ErrorLevel="1" Project="GK.Windows" Source="..\GK.Controls\GK.Windows.csproj" Description="Warning: The project file is being backed up to a relative path that differs from the original solution relative path.  The difference in folder hierarchy may create problems in opening or building the backed up solution and project.">
+</Event><Event ErrorLevel="2" Project="GK.Windows" Source="..\GK.Controls\GK.Windows.csproj" Description="Unable to open project file to perform upgrade.  ">
+</Event><Event ErrorLevel="0" Project="" Source="NetGLFileGenerator.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="NetGLFileGenerator.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="NetGLFileGenerator" Source="NetGLFileGenerator.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="NetWGLFileGenerator" Source="..\NetWGLFileGenerator\NetWGLFileGenerator.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

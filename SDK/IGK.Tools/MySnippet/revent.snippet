@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Shortcut>revent</Shortcut>
+      <Title>raise event</Title>
+      <Author>C.A.D. BONDJE DOUE</Author>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>eventname</ID>
+          <Default>Event</Default>
+        </Literal>
+        <Literal>
+          <ID>type</ID>
+          <Default>Type</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="CSharp"><![CDATA[protected virtual void On$eventname$($type$ e)
+{
+if (this.$eventname$ !=null)
+{
+this.$eventname$(this, e);
+}
+}]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

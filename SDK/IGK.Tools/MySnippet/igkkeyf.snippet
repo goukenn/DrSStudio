@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Description>Keys filter</Description>
+      <Shortcut>igkkeyf</Shortcut>
+      <Title>igkkeyf</Title>
+      <Author>C.A.D. BONDJE DOUE</Author>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>key</ID>
+          <Function />
+          <ToolTip>the key to host</ToolTip>
+          <Default>K</Default>
+        </Literal>
+        <Literal Editable="False">
+          <ID>classname</ID>
+          <Function>ClassName()</Function>
+          <Default>Class</Default>
+        </Literal>
+        <Literal>
+          <ID>type</ID>
+          <Default>MenuType</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="CSharp"><![CDATA[  private CoreMenuMessageFilter m_filter;
+        private Dictionary<Keys, $type$> sm_dicTool;
+        public override bool CanShow
+        {
+            get { return false; }
+        }
+        protected override void GenerateHostedControl()
+        {
+           this.HostedControl = null;
+        }
+        private $classname$()
+        {
+            sm_dicTool = new Dictionary<Keys, $type$>();
+        }
+
+        internal void AddTool($type$ item)
+        {
+            if (item == null) return;
+
+            if ((item.ShortCut != Keys.None) && (!sm_dicTool.ContainsKey(item.ShortCut)))
+            {
+                sm_dicTool.Add(item.ShortCut , item);
+ if (item.MenuItem != null)
+                {
+                    item.MenuItem.ShortcutKeys = Keys.None;
+                    item.MenuItem.ShortcutKeyDisplayString = CoreSystem.GetString (
+                        Keys.Control | Keys.$key$ )+","+ CoreSystem.GetString (item.ShortCut);
+                }
+            }
+        }
+        
+        internal bool IsFiltering {
+            get
+            {
+                return (m_filter != null);
+            }
+
+        }
+        public void StartFilter()
+        {
+            if (this.m_filter != null)
+                return;
+            this.m_filter = new IGK.DrSStudio.Menu.CoreMenuMessageFilter(this.Workbench,
+                this, '$key$');
+            this.m_filter.StartFiltering();
+        }
+        public void EndFilter()
+        {
+            if (this.m_filter != null)
+            {
+                this.m_filter.EndFilter();
+            }
+            this.m_filter = null;
+        }
+
+        #region ICoreMenuShortcutContainer Members
+
+        public void Call(Keys k)
+        {
+            Instance.sm_dicTool[k].DoAction();
+        }
+        public bool Contains(Keys k)
+        {
+            return Instance.sm_dicTool.ContainsKey(k);
+        }
+        #endregion]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

@@ -1,0 +1,8 @@
+D:\DRSStudio 9.0 Src\Test\GetStyleableAndroidAttributeDemo\bin\Debug\GetStyleableAndroidAttributeDemo.exe.config
+D:\DRSStudio 9.0 Src\Test\GetStyleableAndroidAttributeDemo\bin\Debug\GetStyleableAndroidAttributeDemo.exe
+D:\DRSStudio 9.0 Src\Test\GetStyleableAndroidAttributeDemo\bin\Debug\GetStyleableAndroidAttributeDemo.pdb
+D:\DRSStudio 9.0 Src\Test\GetStyleableAndroidAttributeDemo\bin\Debug\IGK.ICore.dll
+D:\DRSStudio 9.0 Src\Test\GetStyleableAndroidAttributeDemo\bin\Debug\IGK.ICore.pdb
+D:\DRSStudio 9.0 Src\Test\GetStyleableAndroidAttributeDemo\obj\Debug\GetStyleableAndroidAttributeDemo.csprojResolveAssemblyReference.cache
+D:\DRSStudio 9.0 Src\Test\GetStyleableAndroidAttributeDemo\obj\Debug\GetStyleableAndroidAttributeDemo.exe
+D:\DRSStudio 9.0 Src\Test\GetStyleableAndroidAttributeDemo\obj\Debug\GetStyleableAndroidAttributeDemo.pdb

@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skins>
+  <ButtonBackground Type="Color" Value="#FFF4F4F4" />
+  <BackgroundColor Type="Color" Value="#FFC4C4C4" />
+  <SurfaceContainerTabBackgroundColor Type="Color" Value="#FFA8A8A8" />
+  <SurfaceContainerTabBorderColor Type="Color" Value="#FF6393ED" />
+  <SurfaceContainerTabOngletForeColor Type="Color" Value="#F000" />
+  <SurfaceContainerTabOngletSelectedForeColor Type="Color" Value="#FFFF" />
+  <MenuStripGradientBegin Type="Color" Value="#F000" />
+  <MenuStripGradientEnd Type="Color" Value="#F000" />
+  <MenuStripRootTextColor Type="Color" Value="#FFF4F4F4" />
+  <MainFormCaptionBarStartColor Type="Color" Value="#F666" />
+  <MainFormCaptionBarEndColor Type="Color" Value="#F666" />
+  <MainFormCaptionBarForeColor Type="Color" Value="#FFE5E5E5" />
+  <WinCoreActiveStatusBackgroundColor Type="Color" Value="#FF490082" />
+  <ForeColor Type="Color" Value="#FFFF" />
+  <MenuItemBorder Type="Color" Value="#0000" />
+  <MenuItemSelectedGradientBegin Type="Color" Value="#FFFF2100" />
+  <MenuItemSelectedGradientEnd Type="Color" Value="#FFFF7F00" />
+  <MenuStripRootHighLightTextColor Type="Color" Value="#F000" />
+  <MenuToolStripDropDownBackground Type="Color" Value="#FF262626" />
+  <MenuStripMarginSeparatorColor Type="Color" Value="#0000" />
+  <MenuStripDisableTextColor Type="Color" Value="#FF515151" />
+  <MenuBorder Type="Color" Value="#F000" />
+  <MenuItemPressedGradientBegin Type="Color" Value="#FFFF2100" />
+  <MenuItemPressedGradientEnd Type="Color" Value="#FFFF7F00" />
+  <MenuStripTextColor Type="Color" Value="#FFE5E5E5" />
+  <MenuStripArrawColor Type="Color" Value="#FFE5E5E5" />
+  <MenuSeparatorDark Type="Color" Value="#F000" />
+  <MenuSeparatorLight Type="Color" Value="#F000" />
+  <MenuItemSelectedBackgroundColor Type="Color" Value="#F999" />
+  <MenuStripHightLightTextColor Type="Color" Value="#FF191919" />
+  <WinCoreInActiveStatusBackgroundColor Type="Color" Value="#FF40" />
+  <MenuCheckBackground Type="Color" Value="#F000" />
+  <MenuButtonSelectedBorder Type="Color" Value="#F000" />
+  <MenuCheckSelectedBackground Type="Color" Value="#F000" />
+  <SplitterBackgroundColor Type="Color" Value="#FFB2B2B2" />
+  <ButtonNormalColor Type="Color" Value="#FFF0F0F0" />
+  <ButtonTextNormalColor Type="Color" Value="#F000" />
+  <ButtonFont Type="Font" Value="FontName:consolas;Size:10.66667;VerticalAlignment:Center;HorizontalAlignment:Center;HotKeyPrefix:Hide;" />
+  <ButtonDisabledBackgroundColor Type="Color" Value="#FCCC" />
+  <ButtonDisabledTextColor Type="Color" Value="#FFFF" />
+  <RuleSeparatorDark Type="Color" Value="#F333" />
+  <RuleSeparatorLight Type="Color" Value="#F999" />
+  <ButtonHighLightColor Type="Color" Value="#FFFFA500" />
+  <ButtonTextHighLightColor Type="Color" Value="#FFADD8E5" />
+</Skins>

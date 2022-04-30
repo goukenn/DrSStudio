@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Shortcut>sprop</Shortcut>
+      <Title>generate setting property</Title>
+      <Author>C.A.D. BONDJE DOUE</Author>
+      <Keywords>
+        <Keyword>type</Keyword>
+        <Keyword>name</Keyword>
+      </Keywords>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>type</ID>
+          <Default>System.Type</Default>
+          <Type>System.Type</Type>
+        </Literal>
+        <Literal>
+          <ID>name</ID>
+          <Default>PropertyName</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="CSharp"><![CDATA[    public $type$ $name$
+        {
+            get { return this["$name$"].Value as $type$; }
+            set
+            {
+                this["$name$"].Value = value;
+            }
+        }
+$end$]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

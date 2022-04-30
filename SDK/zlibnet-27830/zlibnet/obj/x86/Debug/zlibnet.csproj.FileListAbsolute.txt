@@ -1,0 +1,8 @@
+C:\Users\IGKBondje\Desktop\zlibnet-27830\zlibnet\bin\x86\Debug\zlibnet.dll
+C:\Users\IGKBondje\Desktop\zlibnet-27830\zlibnet\bin\x86\Debug\zlibnet.pdb
+C:\Users\IGKBondje\Desktop\zlibnet-27830\zlibnet\obj\x86\Debug\zlibnet.dll
+C:\Users\IGKBondje\Desktop\zlibnet-27830\zlibnet\obj\x86\Debug\zlibnet.pdb
+D:\DRSStudio 9.0 Src\SDK\zlibnet-27830\zlibnet\bin\x86\Debug\zlibnet.dll
+D:\DRSStudio 9.0 Src\SDK\zlibnet-27830\zlibnet\bin\x86\Debug\zlibnet.pdb
+D:\DRSStudio 9.0 Src\SDK\zlibnet-27830\zlibnet\obj\x86\Debug\zlibnet.dll
+D:\DRSStudio 9.0 Src\SDK\zlibnet-27830\zlibnet\obj\x86\Debug\zlibnet.pdb

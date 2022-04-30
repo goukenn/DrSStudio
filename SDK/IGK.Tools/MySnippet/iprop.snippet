@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Shortcut>iprop</Shortcut>
+      <Title>iprop</Title>
+      <Author>C.A.D. BONDJE DOUE</Author>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>type</ID>
+          <ToolTip>The type of the property</ToolTip>
+          <Default>System.Type</Default>
+        </Literal>
+        <Literal>
+          <ID>name</ID>
+          <ToolTip>name of the property</ToolTip>
+          <Default>Name</Default>
+        </Literal>
+        <Literal>
+          <ID>key</ID>
+          <ToolTip>Key of the property</ToolTip>
+          <Default>Key</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="CSharp"><![CDATA[public $type$ $name${
+get{
+return ($type$)this[nameof($name$)].Value;
+}
+set{
+ this[nameof($name$)].Value=value;
+}
+}
+$end$]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

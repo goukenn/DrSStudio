@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Windows Desktop
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zlibnet", "zlibnet.csproj", "{18077F2F-5242-4807-B0BD-29129F0A4A74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IGK.testZLibNet", "..\IGK.testZLibNet\IGK.testZLibNet.csproj", "{85309F98-E0B4-46AD-AC71-A0AA802AEB85}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18077F2F-5242-4807-B0BD-29129F0A4A74}.Debug|x64.ActiveCfg = Debug|x64
+		{18077F2F-5242-4807-B0BD-29129F0A4A74}.Debug|x64.Build.0 = Debug|x64
+		{18077F2F-5242-4807-B0BD-29129F0A4A74}.Debug|x86.ActiveCfg = Debug|x86
+		{18077F2F-5242-4807-B0BD-29129F0A4A74}.Debug|x86.Build.0 = Debug|x86
+		{18077F2F-5242-4807-B0BD-29129F0A4A74}.Release|x64.ActiveCfg = Release|x64
+		{18077F2F-5242-4807-B0BD-29129F0A4A74}.Release|x64.Build.0 = Release|x64
+		{18077F2F-5242-4807-B0BD-29129F0A4A74}.Release|x86.ActiveCfg = Release|x86
+		{18077F2F-5242-4807-B0BD-29129F0A4A74}.Release|x86.Build.0 = Release|x86
+		{85309F98-E0B4-46AD-AC71-A0AA802AEB85}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{85309F98-E0B4-46AD-AC71-A0AA802AEB85}.Debug|x86.ActiveCfg = Debug|x86
+		{85309F98-E0B4-46AD-AC71-A0AA802AEB85}.Debug|x86.Build.0 = Debug|x86
+		{85309F98-E0B4-46AD-AC71-A0AA802AEB85}.Release|x64.ActiveCfg = Release|Any CPU
+		{85309F98-E0B4-46AD-AC71-A0AA802AEB85}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = zlibnet.csproj
+	EndGlobalSection
+EndGlobal

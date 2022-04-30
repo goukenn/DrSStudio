@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetGLFileGenerator", "NetGLFileGenerator.csproj", "{B4155224-E26A-49E6-A9DD-9D4A9191BBB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GK.GLImpl", "..\GLImplementation\GK.GLImpl.csproj", "{B83906EE-DF08-4D12-9C00-C83FC942D6C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetWGLFileGenerator", "..\NetWGLFileGenerator\NetWGLFileGenerator.csproj", "{2E4E01AD-DCC1-4FDC-8ECD-80E5AACAFFC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildString", "..\BuildString\BuildString.csproj", "{78FECBFE-29C8-437D-9750-378628681DA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GLSamples", "..\GLSampleTexture\GLSamples.csproj", "{833E4109-148A-437C-A31A-E61F2A55A5E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GK.Windows", "..\GK.Controls\GK.Windows.csproj", "{327AD776-2C51-4A83-9E3E-B10A27ACE078}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4155224-E26A-49E6-A9DD-9D4A9191BBB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4155224-E26A-49E6-A9DD-9D4A9191BBB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4155224-E26A-49E6-A9DD-9D4A9191BBB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4155224-E26A-49E6-A9DD-9D4A9191BBB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B83906EE-DF08-4D12-9C00-C83FC942D6C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B83906EE-DF08-4D12-9C00-C83FC942D6C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B83906EE-DF08-4D12-9C00-C83FC942D6C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B83906EE-DF08-4D12-9C00-C83FC942D6C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E4E01AD-DCC1-4FDC-8ECD-80E5AACAFFC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E4E01AD-DCC1-4FDC-8ECD-80E5AACAFFC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E4E01AD-DCC1-4FDC-8ECD-80E5AACAFFC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E4E01AD-DCC1-4FDC-8ECD-80E5AACAFFC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78FECBFE-29C8-437D-9750-378628681DA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78FECBFE-29C8-437D-9750-378628681DA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78FECBFE-29C8-437D-9750-378628681DA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78FECBFE-29C8-437D-9750-378628681DA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{833E4109-148A-437C-A31A-E61F2A55A5E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{833E4109-148A-437C-A31A-E61F2A55A5E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{833E4109-148A-437C-A31A-E61F2A55A5E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{833E4109-148A-437C-A31A-E61F2A55A5E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{327AD776-2C51-4A83-9E3E-B10A27ACE078}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{327AD776-2C51-4A83-9E3E-B10A27ACE078}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{327AD776-2C51-4A83-9E3E-B10A27ACE078}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{327AD776-2C51-4A83-9E3E-B10A27ACE078}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

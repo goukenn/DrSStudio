@@ -1,0 +1,16 @@
+D:\DRSStudio 9.0 Src\Test\test_color_point\obj\Release\test_color_point.csproj.CoreCompileInputs.cache
+D:\DRSStudio 9.0 Src\Test\test_color_point\bin\Release\test_color_point.exe.config
+D:\DRSStudio 9.0 Src\Test\test_color_point\bin\Release\test_color_point.exe
+D:\DRSStudio 9.0 Src\Test\test_color_point\bin\Release\test_color_point.pdb
+D:\DRSStudio 9.0 Src\Test\test_color_point\bin\Release\IGK.ICore.dll
+D:\DRSStudio 9.0 Src\Test\test_color_point\bin\Release\IGK.ICore.Drawing2D.dll
+D:\DRSStudio 9.0 Src\Test\test_color_point\bin\Release\IGK.ICore.WinCore.dll
+D:\DRSStudio 9.0 Src\Test\test_color_point\bin\Release\Microsoft.Toolkit.Win32.UI.Controls.dll
+D:\DRSStudio 9.0 Src\Test\test_color_point\bin\Release\IGK.ICore.Drawing2D.pdb
+D:\DRSStudio 9.0 Src\Test\test_color_point\bin\Release\IGK.ICore.WinCore.pdb
+D:\DRSStudio 9.0 Src\Test\test_color_point\bin\Release\IGK.ICore.pdb
+D:\DRSStudio 9.0 Src\Test\test_color_point\bin\Release\Microsoft.Toolkit.Win32.UI.Controls.pdb
+D:\DRSStudio 9.0 Src\Test\test_color_point\bin\Release\Microsoft.Toolkit.Win32.UI.Controls.xml
+D:\DRSStudio 9.0 Src\Test\test_color_point\obj\Release\test_color_point.csproj.CopyComplete
+D:\DRSStudio 9.0 Src\Test\test_color_point\obj\Release\test_color_point.exe
+D:\DRSStudio 9.0 Src\Test\test_color_point\obj\Release\test_color_point.pdb

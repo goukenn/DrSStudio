@@ -1,0 +1,10 @@
+D:\CSDEV\NetWGLFileGenerator\bin\Debug\NetWGLFileGenerator.exe
+D:\CSDEV\NetWGLFileGenerator\bin\Debug\NetWGLFileGenerator.pdb
+D:\CSDEV\NetWGLFileGenerator\obj\Debug\ResolveAssemblyReference.cache
+D:\CSDEV\NetWGLFileGenerator\obj\Debug\NetWGLFileGenerator.exe
+D:\CSDEV\NetWGLFileGenerator\obj\Debug\NetWGLFileGenerator.pdb
+D:\DRSStudio 7 Src\IGK.Tools\NetWGLFileGenerator\bin\Debug\NetWGLFileGenerator.exe
+D:\DRSStudio 7 Src\IGK.Tools\NetWGLFileGenerator\bin\Debug\NetWGLFileGenerator.pdb
+D:\DRSStudio 7 Src\IGK.Tools\NetWGLFileGenerator\obj\Debug\ResolveAssemblyReference.cache
+D:\DRSStudio 7 Src\IGK.Tools\NetWGLFileGenerator\obj\Debug\NetWGLFileGenerator.exe
+D:\DRSStudio 7 Src\IGK.Tools\NetWGLFileGenerator\obj\Debug\NetWGLFileGenerator.pdb

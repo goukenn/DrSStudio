@@ -1,0 +1,10 @@
+D:\C#Dvlp\NetWGLFileGenerator\obj\Debug\ResolveAssemblyReference.cache
+D:\C#Dvlp\NetWGLFileGenerator\bin\Debug\NetWGLFileGenerator.exe
+D:\C#Dvlp\NetWGLFileGenerator\bin\Debug\NetWGLFileGenerator.pdb
+D:\C#Dvlp\NetWGLFileGenerator\obj\Debug\NetWGLFileGenerator.exe
+D:\C#Dvlp\NetWGLFileGenerator\obj\Debug\NetWGLFileGenerator.pdb
+D:\C#Dvlp\NetWGLFileGenerator\bin\Release\NetWGLFileGenerator.exe
+D:\C#Dvlp\NetWGLFileGenerator\bin\Release\NetWGLFileGenerator.pdb
+D:\C#Dvlp\NetWGLFileGenerator\obj\Release\ResolveAssemblyReference.cache
+D:\C#Dvlp\NetWGLFileGenerator\obj\Release\NetWGLFileGenerator.exe
+D:\C#Dvlp\NetWGLFileGenerator\obj\Release\NetWGLFileGenerator.pdb

@@ -1,0 +1,10 @@
+D:\DEV\APP\zlibnet-27830\zlibnet\bin\Debug\zlibnet.dll
+D:\DEV\APP\zlibnet-27830\zlibnet\bin\Debug\zlibnet.pdb
+D:\DEV\APP\zlibnet-27830\zlibnet\obj\Debug\zlibnet.csprojResolveAssemblyReference.cache
+D:\DEV\APP\zlibnet-27830\zlibnet\obj\Debug\zlibnet.dll
+D:\DEV\APP\zlibnet-27830\zlibnet\obj\Debug\zlibnet.pdb
+D:\DRSStudio 9.0 Src\SDK\zlibnet-27830\zlibnet\obj\Debug\zlibnet.csprojResolveAssemblyReference.cache
+D:\DRSStudio 9.0 Src\SDK\zlibnet-27830\zlibnet\obj\Debug\zlibnet.dll
+D:\DRSStudio 9.0 Src\SDK\zlibnet-27830\zlibnet\obj\Debug\zlibnet.pdb
+D:\DRSStudio 9.0 Src\SDK\zlibnet-27830\zlibnet\bin\Debug\zlibnet.dll
+D:\DRSStudio 9.0 Src\SDK\zlibnet-27830\zlibnet\bin\Debug\zlibnet.pdb

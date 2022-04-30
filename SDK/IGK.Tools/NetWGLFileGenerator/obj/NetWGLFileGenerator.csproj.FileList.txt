@@ -1,0 +1,10 @@
+bin\Release\NetWGLFileGenerator.exe
+bin\Release\NetWGLFileGenerator.pdb
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\NetWGLFileGenerator.exe
+obj\Release\NetWGLFileGenerator.pdb
+bin\Debug\NetWGLFileGenerator.exe
+bin\Debug\NetWGLFileGenerator.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\NetWGLFileGenerator.exe
+obj\Debug\NetWGLFileGenerator.pdb

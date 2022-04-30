@@ -1,0 +1,10 @@
+D:\CSDEV\NetGLFileGenerator\obj\Debug\NetGLFileGenerator.exe
+D:\CSDEV\NetGLFileGenerator\obj\Debug\NetGLFileGenerator.pdb
+D:\CSDEV\NetGLFileGenerator\bin\Debug\NetGLFileGenerator.exe
+D:\CSDEV\NetGLFileGenerator\bin\Debug\NetGLFileGenerator.pdb
+D:\CSDEV\NetGLFileGenerator\obj\Debug\ResolveAssemblyReference.cache
+D:\DRSStudio 7 Src\IGK.Tools\NetGLFileGenerator\obj\Debug\NetGLFileGenerator.exe
+D:\DRSStudio 7 Src\IGK.Tools\NetGLFileGenerator\obj\Debug\NetGLFileGenerator.pdb
+D:\DRSStudio 7 Src\IGK.Tools\NetGLFileGenerator\bin\Debug\NetGLFileGenerator.exe
+D:\DRSStudio 7 Src\IGK.Tools\NetGLFileGenerator\bin\Debug\NetGLFileGenerator.pdb
+D:\DRSStudio 7 Src\IGK.Tools\NetGLFileGenerator\obj\Debug\ResolveAssemblyReference.cache

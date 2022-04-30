@@ -1,0 +1,16 @@
+﻿body, html {
+padding: 0px;
+margin:0px;
+}
+
+.igk-drs-notifybox{
+padding:0px;
+}
+.igk-drs-notifybox .igk-notify-box{
+max-height:600px;
+overflow-y:auto;
+}
+.igk-invalid,.igk-form-control.igk-invalid{
+	background-color:red;
+	font-size:1.2em;
+}

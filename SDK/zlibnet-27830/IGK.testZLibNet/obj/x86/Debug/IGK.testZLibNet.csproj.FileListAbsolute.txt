@@ -1,0 +1,10 @@
+D:\DRSStudio 9.0 Src\SDK\zlibnet-27830\IGK.testZLibNet\bin\x86\Debug\IGK.testZLibNet.exe.config
+D:\DRSStudio 9.0 Src\SDK\zlibnet-27830\IGK.testZLibNet\bin\x86\Debug\zlib32.dll
+D:\DRSStudio 9.0 Src\SDK\zlibnet-27830\IGK.testZLibNet\bin\x86\Debug\zlib64.dll
+D:\DRSStudio 9.0 Src\SDK\zlibnet-27830\IGK.testZLibNet\bin\x86\Debug\IGK.testZLibNet.exe
+D:\DRSStudio 9.0 Src\SDK\zlibnet-27830\IGK.testZLibNet\bin\x86\Debug\IGK.testZLibNet.pdb
+D:\DRSStudio 9.0 Src\SDK\zlibnet-27830\IGK.testZLibNet\bin\x86\Debug\zlibnet.dll
+D:\DRSStudio 9.0 Src\SDK\zlibnet-27830\IGK.testZLibNet\bin\x86\Debug\zlibnet.pdb
+D:\DRSStudio 9.0 Src\SDK\zlibnet-27830\IGK.testZLibNet\obj\x86\Debug\IGK.testZLibNet.csprojResolveAssemblyReference.cache
+D:\DRSStudio 9.0 Src\SDK\zlibnet-27830\IGK.testZLibNet\obj\x86\Debug\IGK.testZLibNet.exe
+D:\DRSStudio 9.0 Src\SDK\zlibnet-27830\IGK.testZLibNet\obj\x86\Debug\IGK.testZLibNet.pdb

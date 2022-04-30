@@ -1,0 +1,13 @@
+D:\DRSStudio 9.0 Src\SDK\IGK.Tools\IGK.ResourceManager\bin\x86\Release\resman.exe.config
+D:\DRSStudio 9.0 Src\SDK\IGK.Tools\IGK.ResourceManager\bin\x86\Release\resman.exe
+D:\DRSStudio 9.0 Src\SDK\IGK.Tools\IGK.ResourceManager\bin\x86\Release\resman.pdb
+D:\DRSStudio 9.0 Src\SDK\IGK.Tools\IGK.ResourceManager\obj\x86\Release\IGK.ResMan.AddImage.resources
+D:\DRSStudio 9.0 Src\SDK\IGK.Tools\IGK.ResourceManager\obj\x86\Release\IGK.ResMan.AddText.resources
+D:\DRSStudio 9.0 Src\SDK\IGK.Tools\IGK.ResourceManager\obj\x86\Release\IGK.ResMan.MainForm.resources
+D:\DRSStudio 9.0 Src\SDK\IGK.Tools\IGK.ResourceManager\obj\x86\Release\IGK.ResMan.Properties.Resources.resources
+D:\DRSStudio 9.0 Src\SDK\IGK.Tools\IGK.ResourceManager\obj\x86\Release\IGK.ResMan.ResManAboutBox.resources
+D:\DRSStudio 9.0 Src\SDK\IGK.Tools\IGK.ResourceManager\obj\x86\Release\IGK.ResourceManager.csproj.GenerateResource.Cache
+D:\DRSStudio 9.0 Src\SDK\IGK.Tools\IGK.ResourceManager\obj\x86\Release\resman.exe
+D:\DRSStudio 9.0 Src\SDK\IGK.Tools\IGK.ResourceManager\obj\x86\Release\resman.pdb
+D:\DRSStudio 9.0 Src\SDK\IGK.Tools\IGK.ResourceManager\obj\x86\Release\IGK.ResourceManager.csprojResolveAssemblyReference.cache
+D:\DRSStudio 9.0 Src\SDK\IGK.Tools\IGK.ResourceManager\obj\x86\Release\IGK.ResMan.UIEditTextControl.resources

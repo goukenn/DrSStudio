@@ -1,0 +1,5 @@
+C:\Users\IGKBondje\Desktop\zlibnet-27830\zlibnet\bin\x64\Debug\zlibnet.dll
+C:\Users\IGKBondje\Desktop\zlibnet-27830\zlibnet\bin\x64\Debug\zlibnet.pdb
+C:\Users\IGKBondje\Desktop\zlibnet-27830\zlibnet\obj\x64\Debug\zlibnet.csprojResolveAssemblyReference.cache
+C:\Users\IGKBondje\Desktop\zlibnet-27830\zlibnet\obj\x64\Debug\zlibnet.dll
+C:\Users\IGKBondje\Desktop\zlibnet-27830\zlibnet\obj\x64\Debug\zlibnet.pdb

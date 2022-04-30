@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Shortcut>igk_dlli</Shortcut>
+      <Title>dll import</Title>
+      <Author>C.A.D. BONDJE DOUE</Author>
+      <SnippetTypes SnippetType="System.Windows.Forms" />
+    </Header>
+    <Snippet>
+      <References>
+        <Reference>
+          <Assembly>System.Drawing.Dll</Assembly>
+        </Reference>
+      </References>
+      <Imports>
+        <Import>
+          <Namespace>System.Runtime.InteropServices</Namespace>
+        </Import>
+      </Imports>
+      <Declarations>
+        <Literal>
+          <ID>lib</ID>
+          <Default>User32.dll</Default>
+        </Literal>
+        <Literal>
+          <ID>return</ID>
+          <ToolTip>Return type</ToolTip>
+          <Default>void</Default>
+        </Literal>
+        <Literal>
+          <ID>methName</ID>
+          <ToolTip>Method name to call</ToolTip>
+          <Default>Procedure</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="CSharp"><![CDATA[[System.Runtime.InteropServices.DllImport("$lib$")]
+internal static extern $return$ $methName$($end$);
+]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

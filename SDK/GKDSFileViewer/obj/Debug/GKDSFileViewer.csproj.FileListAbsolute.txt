@@ -1,0 +1,11 @@
+D:\DRSStudio 9.0 Src\SDK\GKDSFileViewer\bin\Debug\GKDSFileViewer.exe.config
+D:\DRSStudio 9.0 Src\SDK\GKDSFileViewer\obj\Debug\GKDSFileViewer.csprojResolveAssemblyReference.cache
+D:\DRSStudio 9.0 Src\SDK\GKDSFileViewer\obj\Debug\IGK.FileViewer.Properties.Resources.resources
+D:\DRSStudio 9.0 Src\SDK\GKDSFileViewer\obj\Debug\IGK.FileViewer.WinUI.GKDSFVMainForm.resources
+D:\DRSStudio 9.0 Src\SDK\GKDSFileViewer\obj\Debug\GKDSFileViewer.csproj.GenerateResource.Cache
+D:\DRSStudio 9.0 Src\SDK\GKDSFileViewer\bin\Debug\GKDSFileViewer.exe
+D:\DRSStudio 9.0 Src\SDK\GKDSFileViewer\bin\Debug\GKDSFileViewer.pdb
+D:\DRSStudio 9.0 Src\SDK\GKDSFileViewer\obj\Debug\GKDSFileViewer.exe
+D:\DRSStudio 9.0 Src\SDK\GKDSFileViewer\obj\Debug\GKDSFileViewer.pdb
+D:\DRSStudio 9.0 Src\SDK\GKDSFileViewer\bin\Debug\IGK.ICore.dll
+D:\DRSStudio 9.0 Src\SDK\GKDSFileViewer\bin\Debug\IGK.ICore.pdb

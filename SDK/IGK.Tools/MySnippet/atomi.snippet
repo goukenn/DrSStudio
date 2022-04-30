@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Description>public constructor with InitializeComponent Method</Description>
+      <Shortcut>atomi</Shortcut>
+      <Title>atomi</Title>
+      <Author>C.A.D. BONDJE DOUE</Author>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal Editable="False">
+          <ID>TypeName</ID>
+          <Function>ClassName()</Function>
+          <ToolTip>Current Type</ToolTip>
+        </Literal>
+      </Declarations>
+      <Code Language="CSharp"><![CDATA[private static readonly $TypeName$ sm_instance;
+private $TypeName$(){
+}
+
+public static $TypeName$ Instance{
+get{
+return sm_instance;
+}
+}
+static $TypeName$(){ 
+sm_instance = new $TypeName$();
+$end$
+}]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

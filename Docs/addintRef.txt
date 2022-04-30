@@ -1,0 +1,22 @@
+<!--addin references-->
+
+    <Reference Include="IGK.DrSStudio.Drawing2D">
+      <HintPath>..\..\..\..\Bin\$(Platform)\$(Configuration)\IGK.DrSStudio.Drawing2D.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="IGK.DrSStudio.ICore">
+      <HintPath>..\..\..\..\Bin\$(Platform)\$(Configuration)\IGK.DrSStudio.ICore.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="IGK.DrSStudio.Resources">
+      <HintPath>..\..\..\..\Bin\$(Platform)\$(Configuration)\IGK.DrSStudio.Resources.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="IGK.DrSStudio.WinCore">
+      <HintPath>..\..\..\..\Bin\$(Platform)\$(Configuration)\IGK.DrSStudio.WinCore.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="IGK.DrSStudio.WinGUI">
+      <HintPath>..\..\..\..\Bin\$(Platform)\$(Configuration)\IGK.DrSStudio.WinGUI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>

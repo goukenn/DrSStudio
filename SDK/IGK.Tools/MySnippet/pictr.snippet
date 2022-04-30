@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Description>public constructor with InitializeComponent Method</Description>
+      <Shortcut>pinictr</Shortcut>
+      <Title>pictr</Title>
+      <Author>C.A.D. BONDJE DOUE</Author>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal Editable="False">
+          <ID>TypeName</ID>
+          <Function>ClassName()</Function>
+          <ToolTip>Current Type</ToolTip>
+        </Literal>
+      </Declarations>
+      <Code Language="CSharp"><![CDATA[public $TypeName$(){ 
+InitializeComponent(); 
+}
+private void InitializeComponent()
+{
+$end$
+}
+
+]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

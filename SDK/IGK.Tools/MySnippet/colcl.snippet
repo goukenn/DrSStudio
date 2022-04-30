@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Shortcut>colcl</Shortcut>
+      <Title>Collection Class</Title>
+      <Author>C.A.D. BONDJE DOUE</Author>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>classname</ID>
+          <Default>Collection</Default>
+        </Literal>
+        <Literal>
+          <ID>type</ID>
+          <Default>System.Type</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="CSharp"><![CDATA[class $classname$ : System.Collections.IEnumerable
+{
+private List<$type$> m_list;
+public int Count{get{ return this.m_list.Count;}}
+
+public $classname$(){
+this.m_list = new List<$type$>();
+$end$
+}
+public System.Collections.IEnumerator GetEnumerator(){
+return this.m_list.GetEnumerator();
+}
+}]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

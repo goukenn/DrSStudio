@@ -1,0 +1,6 @@
+D:\DRSStudio 9.0 Src\SDK\zlibnet-27830\zlibnet\bin\x86\Release\zlibnet.dll
+D:\DRSStudio 9.0 Src\SDK\zlibnet-27830\zlibnet\bin\x86\Release\zlibnet.pdb
+D:\DRSStudio 9.0 Src\SDK\zlibnet-27830\zlibnet\obj\x86\Release\zlibnet.dll
+D:\DRSStudio 9.0 Src\SDK\zlibnet-27830\zlibnet\obj\x86\Release\zlibnet.pdb
+D:\DRSStudio 9.0 Src\SDK\zlibnet-27830\zlibnet\bin\x86\Release\zlib32.dll
+D:\DRSStudio 9.0 Src\SDK\zlibnet-27830\zlibnet\bin\x86\Release\zlib64.dll

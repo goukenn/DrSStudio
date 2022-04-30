@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Shortcut>pgseprop</Shortcut>
+      <Title>public get or set property with event</Title>
+      <Author>C.A.D. BONDJE DOUE</Author>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>type</ID>
+          <ToolTip>type of the property</ToolTip>
+          <Default>System.Type</Default>
+        </Literal>
+        <Literal>
+          <ID>name</ID>
+          <ToolTip>name of the attribute</ToolTip>
+          <Default>name</Default>
+        </Literal>
+		<Literal>
+          <ID>eventhandler</ID>
+          <ToolTip>event handler Type</ToolTip>
+          <Default>EventHandler</Default>
+        </Literal>
+		<Literal>
+          <ID>eventargs</ID>
+          <ToolTip>event args Type</ToolTip>
+          <Default>EventArgs</Default>
+        </Literal>
+		<Literal>
+          <ID>calleventargs</ID>
+          <ToolTip>event args value</ToolTip>
+          <Default>EventArgs.Empty</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="CSharp"><![CDATA[private $type$ m_$name$;
+$end$
+public $type$ $name${
+get{ return m_$name$;}
+set{ 
+if (m_$name$ !=value)
+{
+m_$name$ =value;
+On$name$Changed($calleventargs$);
+}
+}
+}
+public event $eventhandler$ $name$Changed;
+
+protected virtual void On$name$Changed( $eventargs$ e)
+{
+	if ($name$Changed !=null){
+		$name$Changed(this, e);
+	}
+}
+
+]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

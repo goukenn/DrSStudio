@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Description>get color</Description>
+      <Shortcut>gccl</Shortcut>
+      <Title>gccl</Title>
+      <Author>C.A.D. BONDJE DOUE</Author>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>clname</ID>
+          <ToolTip>Name of the color property</ToolTip>
+          <Default>ClassName</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="CSharp"><![CDATA[public static Colorf $clname${get{ return CoreRenderer.GetColor(nameof($clname$), Colorf.Black);}}$end$]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

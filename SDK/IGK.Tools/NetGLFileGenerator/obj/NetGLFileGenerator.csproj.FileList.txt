@@ -1,0 +1,10 @@
+bin\Release\NetGLFileGenerator.exe
+bin\Release\NetGLFileGenerator.pdb
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\NetGLFileGenerator.exe
+obj\Release\NetGLFileGenerator.pdb
+obj\Debug\NetGLFileGenerator.exe
+obj\Debug\NetGLFileGenerator.pdb
+bin\Debug\NetGLFileGenerator.exe
+bin\Debug\NetGLFileGenerator.pdb
+obj\Debug\ResolveAssemblyReference.cache

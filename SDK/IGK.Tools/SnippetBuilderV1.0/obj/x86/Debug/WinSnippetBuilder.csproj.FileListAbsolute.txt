@@ -1,0 +1,14 @@
+D:\DRSStudio 9.0 Src\SDK\IGK.Tools\SnippetBuilderV1.0\bin\x86\Debug\WinSnippetBuilder.exe.config
+D:\DRSStudio 9.0 Src\SDK\IGK.Tools\SnippetBuilderV1.0\bin\x86\Debug\WinSnippetBuilder.exe
+D:\DRSStudio 9.0 Src\SDK\IGK.Tools\SnippetBuilderV1.0\bin\x86\Debug\WinSnippetBuilder.pdb
+D:\DRSStudio 9.0 Src\SDK\IGK.Tools\SnippetBuilderV1.0\obj\x86\Debug\WinSnippetBuilder.AboutBox.resources
+D:\DRSStudio 9.0 Src\SDK\IGK.Tools\SnippetBuilderV1.0\obj\x86\Debug\WinSnippetBuilder.MainForm.resources
+D:\DRSStudio 9.0 Src\SDK\IGK.Tools\SnippetBuilderV1.0\obj\x86\Debug\WinSnippetBuilder.Properties.Resources.resources
+D:\DRSStudio 9.0 Src\SDK\IGK.Tools\SnippetBuilderV1.0\obj\x86\Debug\WinSnippetBuilder.UIXImportDesignerControl.resources
+D:\DRSStudio 9.0 Src\SDK\IGK.Tools\SnippetBuilderV1.0\obj\x86\Debug\WinSnippetBuilder.UIXNameSelection.resources
+D:\DRSStudio 9.0 Src\SDK\IGK.Tools\SnippetBuilderV1.0\obj\x86\Debug\WinSnippetBuilder.UIXReferenceDesignerControl.resources
+D:\DRSStudio 9.0 Src\SDK\IGK.Tools\SnippetBuilderV1.0\obj\x86\Debug\WinSnippetBuilder.WinDeclarationDesigner.resources
+D:\DRSStudio 9.0 Src\SDK\IGK.Tools\SnippetBuilderV1.0\obj\x86\Debug\WinSnippetBuilder.csproj.GenerateResource.cache
+D:\DRSStudio 9.0 Src\SDK\IGK.Tools\SnippetBuilderV1.0\obj\x86\Debug\WinSnippetBuilder.csproj.CoreCompileInputs.cache
+D:\DRSStudio 9.0 Src\SDK\IGK.Tools\SnippetBuilderV1.0\obj\x86\Debug\WinSnippetBuilder.exe
+D:\DRSStudio 9.0 Src\SDK\IGK.Tools\SnippetBuilderV1.0\obj\x86\Debug\WinSnippetBuilder.pdb

@@ -1,0 +1,10 @@
+D:\DEV\AppColorPicker\IGK.ColorPicker\bin\Debug\IGK.ColorPicker.exe.config
+D:\DEV\AppColorPicker\IGK.ColorPicker\bin\Debug\IGK.ColorPicker.exe
+D:\DEV\AppColorPicker\IGK.ColorPicker\bin\Debug\IGK.ColorPicker.pdb
+D:\DEV\AppColorPicker\IGK.ColorPicker\obj\Debug\IGK.ColorPicker.csprojResolveAssemblyReference.cache
+D:\DEV\AppColorPicker\IGK.ColorPicker\obj\Debug\IGK.ColorPicker.ColorPickerForm.resources
+D:\DEV\AppColorPicker\IGK.ColorPicker\obj\Debug\IGK.ColorPicker.IGKXColorPickerControl.resources
+D:\DEV\AppColorPicker\IGK.ColorPicker\obj\Debug\IGK.ColorPicker.Properties.Resources.resources
+D:\DEV\AppColorPicker\IGK.ColorPicker\obj\Debug\IGK.ColorPicker.csproj.GenerateResource.Cache
+D:\DEV\AppColorPicker\IGK.ColorPicker\obj\Debug\IGK.ColorPicker.exe
+D:\DEV\AppColorPicker\IGK.ColorPicker\obj\Debug\IGK.ColorPicker.pdb

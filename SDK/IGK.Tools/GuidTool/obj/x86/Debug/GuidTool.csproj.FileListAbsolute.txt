@@ -1,0 +1,5 @@
+C:\Users\IGKBondje\AppData\Local\Temporary Projects\GuidTool\bin\Debug\GuidTool.exe
+C:\Users\IGKBondje\AppData\Local\Temporary Projects\GuidTool\bin\Debug\GuidTool.pdb
+C:\Users\IGKBondje\AppData\Local\Temporary Projects\GuidTool\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\IGKBondje\AppData\Local\Temporary Projects\GuidTool\obj\x86\Debug\GuidTool.exe
+C:\Users\IGKBondje\AppData\Local\Temporary Projects\GuidTool\obj\x86\Debug\GuidTool.pdb

@@ -1,0 +1,10 @@
+D:\C#Dvlp\NetGLFileGenerator\obj\Debug\ResolveAssemblyReference.cache
+D:\C#Dvlp\NetGLFileGenerator\bin\Debug\NetGLFileGenerator.exe
+D:\C#Dvlp\NetGLFileGenerator\bin\Debug\NetGLFileGenerator.pdb
+D:\C#Dvlp\NetGLFileGenerator\obj\Debug\NetGLFileGenerator.exe
+D:\C#Dvlp\NetGLFileGenerator\obj\Debug\NetGLFileGenerator.pdb
+D:\C#Dvlp\NetGLFileGenerator\bin\Release\NetGLFileGenerator.exe
+D:\C#Dvlp\NetGLFileGenerator\bin\Release\NetGLFileGenerator.pdb
+D:\C#Dvlp\NetGLFileGenerator\obj\Release\ResolveAssemblyReference.cache
+D:\C#Dvlp\NetGLFileGenerator\obj\Release\NetGLFileGenerator.exe
+D:\C#Dvlp\NetGLFileGenerator\obj\Release\NetGLFileGenerator.pdb
