@@ -1,0 +1,71 @@
+
+
+/*
+IGKDEV @ 2008-2016
+Project : IGK 
+author: C.A.D . BONDJE DOUE
+site: http://www.igkdev.be
+file: Language.cs
+THIS FILE IS A PART OF IGK Library FOR DRSSTUDION APPLICATION.
+Read license.text
+THIS SOFTWARE IS PROVIDED "AS IS" AND WITHOUT ANY EXPRESS OR
+IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+PURPOSE.
+*/
+﻿
+using IGK.ICore;using IGK.DrSStudio.Menu;
+using IGK.ICore.Menu;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace IGK.DrSStudio.TextCodeEditorAddIn.Menu.Language
+{
+    [DrSStudioMenu("Language", 0x15)]
+    class Language : TCCoreMenuBase 
+    {
+
+        class LanguageMenu : TCCoreMenuBase 
+        {
+            private string m_hightLight;
+
+            public LanguageMenu(string p)
+            {
+
+                this.m_hightLight = p;
+                this.CaptionKey = string.Format ("Menu.Language."+p);
+                this.Id = p;
+            }
+            protected override void InitMenu()
+            {
+                base.InitMenu();
+            }
+            protected override bool PerformAction()
+            {
+                this.CurrentSurface.HightLight =  ICSharpCode.AvalonEdit.Highlighting.HighlightingManager.Instance.GetDefinition(this.m_hightLight);
+
+                return true;
+            }
+        }
+        protected override bool PerformAction()
+        {
+
+            return base.PerformAction();
+        }
+        protected override void InitMenu()
+        {
+            base.InitMenu();
+
+            //CoreMenuAttribute v_attr = null;
+            foreach (var e in ICSharpCode.AvalonEdit.Highlighting.HighlightingManager.Instance.HighlightingDefinitions)
+            {
+                LanguageMenu c = new LanguageMenu(e.Name);
+
+                this.Childs.Add(c);
+            }
+        }
+    }
+}

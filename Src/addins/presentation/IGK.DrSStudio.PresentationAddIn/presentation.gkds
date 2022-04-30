@@ -1,0 +1,28 @@
+﻿<!--This is a gkds ICore file 9.7.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2016-->
+<gkds>
+  <Project>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+    <Author>Charles A.D. BONDJE DOUE</Author>
+    <Creation>30-09-2017 14:53:07</Creation>
+    <Version>1.0</Version>
+  </Project>
+  <Documents>
+    <LayerDocument Id="LayerDocument_59966575" FillBrush="#FFFF" Width="400" Height="300">
+      <Layer Id="Layer_63630337">
+        <Rectangle Bounds="0;0;138;300" FillBrush="#FFFF7100" StrokeBrush="#FFFF30C2" Id="Rectangle_59796770" />
+      </Layer>
+    </LayerDocument>
+    <LayerDocument Id="LayerDocument_54399477" FillBrush="#FFFF" Width="400" Height="300">
+      <Layer Id="Layer_63630337">
+        <Rectangle Bounds="0;0;138;300" FillBrush="#FFFBFF00" StrokeBrush="transparent" Id="Rectangle_59796770" />
+      </Layer>
+    </LayerDocument>
+    <LayerDocument Id="LayerDocument_64196600" FillBrush="#FFFF" Width="400" Height="300">
+      <Layer Id="Layer_63630337">
+        <Rectangle Bounds="0;0;138;300" FillBrush="#FFD510FF" StrokeBrush="transparent" Id="Rectangle_59796770" />
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

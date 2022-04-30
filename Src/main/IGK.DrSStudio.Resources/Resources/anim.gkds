@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--This is a gkds DrSStudio file 8.5.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2013-->
+<gkds>
+  <Project>
+    <SurfaceType>IConSurface</SurfaceType>
+    <FileName>D:\DRSStudio 8.4 Src\IGK.DrSStudio.Resources\Resources\anim.gkds</FileName>
+    <Resources>
+      <String Id="app_title" />
+    </Resources>
+  </Project>
+<Documents>
+  <LayerDocument InterpolationMode="Pixel" TextContrast="4" Width="256" Height="256" Id="LayerDocument_35299953"><Extensions /><Layer Id="Layer_26407268"><Rectangle Bounds="-9.536743E-07;0;256;256" FillBrush="Type:Solid;Colors:#F000;" Matrix="1;0;0;1;0;-1" Id="Rectangle_38750847"><Filters /></Rectangle><Rectangle Bounds="8;194;43;48" Matrix="1;0;0;0.6730092;183.464;-110.5635" Id="Rectangle_15770869"><Filters /></Rectangle><Rectangle Bounds="8;194;43;48" Matrix="1;0;0;0.6730092;13.53604;-110.5635" Id="Rectangle_3171672"><Filters /></Rectangle><Rectangle Bounds="8;194;43;48" Matrix="1;0;0;0.6730092;98.50035;-110.5631" Id="Rectangle_4832123"><Filters /></Rectangle><Rectangle Bounds="8;194;43;48" Matrix="1;0;0;0.6730092;13.53604;68.43622" Id="Rectangle_23014118"><Filters /></Rectangle><Rectangle Bounds="8;194;43;48" Matrix="1;0;0;0.6730092;98.5001;68.43571" Id="Rectangle_19522662"><Filters /></Rectangle><Rectangle Bounds="8;194;43;48" Matrix="1;0;0;0.6730092;183.464;68.43652" Id="Rectangle_6453161"><Filters /></Rectangle><Rectangle Bounds="17.99998;79.28347;212.9279;97.43308" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#FF708090;" Matrix="1;0;0;1;3.536064;0" Id="Rectangle_32182075"><Filters /></Rectangle></Layer></LayerDocument>
+</Documents>
+</gkds>

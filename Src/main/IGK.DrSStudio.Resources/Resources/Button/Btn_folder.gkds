@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--This is a gkds DrSStudio file 7.0.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--IGKDEV © 2008-2012-->
+<gkds>
+  <Project>
+    <SurfaceType>ButtonSurface</SurfaceType>
+  </Project>
+  <Documents>
+    <LayerDocument InterpolationMode="Pixel" BackgroundTransparent="True" Width="32" Height="32" Id="Normal">
+      <Layer Id="Layer_33531529">
+        <Rectangle Bounds="3;8;25;21" StrokeBrush="Type:Solid;Colors:#0000;LineJoin:Round" FillBrush="Type:Solid;Colors:#FF5A555F;" Id="Rectangle_15443734" />
+        <Rectangle Bounds="5;4;10;8" StrokeBrush="Type:Solid;Colors:#0000;LineJoin:Round" FillBrush="Type:Solid;Colors:#FF5A555F;" Id="Rectangle_2543678" />
+        <Rectangle Bounds="3;13;25;3" StrokeBrush="Type:Solid;Colors:#0000;LineJoin:Round" Id="Rectangle_20946689" />
+        <Ellipse Center="15;25" Radius="11;5" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:PathGradient;Colors:#F777 #0000;LinearMode:Dual;Factors: 0 0;Positions: 0 1;WrapMode:Tile;PathFocusScale:0 0;OneColorPerVertex:True;" Matrix="1;0;0;1.300709;0;-10.02128" Id="Ellipse_29239072" />
+      </Layer>
+    </LayerDocument>
+    <LayerDocument InterpolationMode="Pixel" BackgroundTransparent="True" Width="32" Height="32" Id="Over">
+      <Layer Id="Layer_33531529">
+        <Rectangle Bounds="3;8;25;21" StrokeBrush="Type:Solid;Colors:#0000;LineJoin:Round" FillBrush="Type:Solid;Colors:#FFFFAD00;" Id="Rectangle_15443734" />
+        <Rectangle Bounds="5;4;10;8" StrokeBrush="Type:Solid;Colors:#0000;LineJoin:Round" FillBrush="Type:Solid;Colors:#FFFFAD00;" Id="Rectangle_2543678" />
+        <Rectangle Bounds="3;13;25;3" StrokeBrush="Type:Solid;Colors:#0000;LineJoin:Round" Id="Rectangle_20946689" />
+        <Ellipse Center="15;25" Radius="11;5" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#FFFFAD00;" Matrix="1;0;0;1.300709;0;-10.02128" Id="Ellipse_29239072" />
+      </Layer>
+    </LayerDocument>
+    <LayerDocument InterpolationMode="Pixel" BackgroundTransparent="True" Width="32" Height="32" Id="Down">
+      <Layer Id="Layer_33531529">
+        <Rectangle Bounds="3;8;25;21" StrokeBrush="Type:Solid;Colors:#0000;LineJoin:Round" FillBrush="Type:Solid;Colors:#FF009CFF;" Id="Rectangle_15443734" />
+        <Rectangle Bounds="5;4;10;8" StrokeBrush="Type:Solid;Colors:#0000;LineJoin:Round" FillBrush="Type:Solid;Colors:#FF009CFF;" Id="Rectangle_2543678" />
+        <Rectangle Bounds="3;13;25;3" StrokeBrush="Type:Solid;Colors:#0000;LineJoin:Round" Id="Rectangle_20946689" />
+        <Ellipse Center="15;25" Radius="11;5" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#FF009CFF;" Matrix="1;0;0;1.300709;0;-10.02128" Id="Ellipse_29239072" />
+      </Layer>
+    </LayerDocument>
+    <LayerDocument InterpolationMode="Pixel" BackgroundTransparent="True" Width="32" Height="32" Id="Up">
+      <Layer Id="Layer_33531529">
+        <Rectangle Bounds="3;8;25;21" StrokeBrush="Type:Solid;Colors:#0000;LineJoin:Round" FillBrush="Type:Solid;Colors:#FF5A555F;" Id="Rectangle_15443734" />
+        <Rectangle Bounds="5;4;10;8" StrokeBrush="Type:Solid;Colors:#0000;LineJoin:Round" FillBrush="Type:Solid;Colors:#FF5A555F;" Id="Rectangle_2543678" />
+        <Rectangle Bounds="3;13;25;3" StrokeBrush="Type:Solid;Colors:#0000;LineJoin:Round" Id="Rectangle_20946689" />
+        <Ellipse Center="15;25" Radius="11;5" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:PathGradient;Colors:#F777 #0000;LinearMode:Dual;Factors: 0 0;Positions: 0 1;WrapMode:Tile;PathFocusScale:0 0;OneColorPerVertex:True;" Matrix="1;0;0;1.300709;0;-10.02128" Id="Ellipse_29239072" />
+      </Layer>
+    </LayerDocument>
+    <LayerDocument InterpolationMode="Pixel" BackgroundTransparent="True" Width="32" Height="32" Id="Disabled">
+      <Layer Id="Layer_33531529">
+        <Rectangle Bounds="3;8;25;21" StrokeBrush="Type:Solid;Colors:#0000;LineJoin:Round" FillBrush="Type:Solid;Colors:#FF5A555F;" Id="Rectangle_15443734" />
+        <Rectangle Bounds="5;4;10;8" StrokeBrush="Type:Solid;Colors:#0000;LineJoin:Round" FillBrush="Type:Solid;Colors:#FF5A555F;" Id="Rectangle_2543678" />
+        <Rectangle Bounds="3;13;25;3" StrokeBrush="Type:Solid;Colors:#0000;LineJoin:Round" Id="Rectangle_20946689" />
+        <Ellipse Center="15;25" Radius="11;5" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:PathGradient;Colors:#F777 #0000;LinearMode:Dual;Factors: 0 0;Positions: 0 1;WrapMode:Tile;PathFocusScale:0 0;OneColorPerVertex:True;" Matrix="1;0;0;1.300709;0;-10.02128" Id="Ellipse_29239072" />
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

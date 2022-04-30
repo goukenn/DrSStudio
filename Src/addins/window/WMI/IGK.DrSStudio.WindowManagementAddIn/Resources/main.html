@@ -1,0 +1,62 @@
+﻿<div class="fit overflow-y-a">
+<div>
+DrSStudio WMI Manager
+</div>
+
+<div>
+Query : [func:getCurrentQuery]
+</div>
+
+
+<div class="igk-row">
+<div class="igk-col-lg-12-4">
+<div>
+<!-- class view -->
+<div class="igk-col" >
+[func:getClass]
+</div>
+
+
+ <div class="igk-col" >
+    <div  class="igk-title-5">[lang:title.subClass]</div>
+    [func:getDerivations]
+  </div>
+  
+<div class="igk-col" >
+<div  class="igk-title-5">[lang:title.subclasses]</div>
+[func:getSubclasses]
+</div>
+  
+<div class="igk-col" >
+  <div  class="igk-title-5">[lang:title.classProperty]</div>
+[func:getClassProperty]
+</div>
+
+
+  
+  <div class="igk-col" >
+    <div class="igk-title-5">[lang:title.classMethod]</div>
+    [func:getMethods]
+  </div>
+
+ 
+  <div class="igk-col" >
+    <div  class="igk-title-5">[lang:title.Related]</div>
+    [func:getRelated]
+  </div>
+  </div>
+</div>
+
+<div class="igk-col-lg-12-8">
+	<div id="instancedv" class="overflow-x-a" >		
+	</div>
+</div>
+ 
+ 
+</div>
+
+<div>
+	[func:getActions]
+</div>
+
+</div>

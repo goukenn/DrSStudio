@@ -1,0 +1,17 @@
+<!--This is a gkds DrSStudio file 9.1.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2014-->
+<gkds>
+  <Documents>
+    <LayerDocument FillBrush="Type:Solid;Colors:#FFFF;" BackgroundTransparent="True" Width="32" Height="32" Id="LayerDocument_6637125">
+      <Layer Id="Layer_52648047">
+        <Rectangle Bounds="1;1;29;29" StrokeBrush="Type:Solid;Colors:#0000;" SmoothingMode="None" Id="Rectangle_755606" />
+        <Rectangle Bounds="3;3;25;24" FillBrush="Type:Solid;Colors:#FFFF2300;" StrokeBrush="Type:Solid;Colors:#0000;" SmoothingMode="None" Id="Rectangle_21912589" />
+        <Path Closed="False" FillMode="Alternate" FillBrush="Type:Solid;Colors:#F000;" StrokeBrush="Type:Solid;Colors:#32939393;DashStyle:DashStyle [Solid];LineJoin:Round" Matrix="1,0,0,0,0,1,0,0,0,0,1,0,-1,7,0,1" Id="Path_53151504">
+          <PointTypes>0;1;1;1;1;1;1;1;1;1;1;129</PointTypes>
+          <Points>15.51499;20.94973 20.46474;15.99998 15.51499;11.05024 19.05052;7.514703 24.00027;12.46445 28.95002;7.514702 32.48555;11.05024 27.5358;15.99998 32.48555;20.94973 28.95002;24.48526 24.00027;19.53552 19.05052;24.48527</Points>
+        </Path>
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

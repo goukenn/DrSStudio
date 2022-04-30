@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--This is a gkds DrSStudio file 7.0.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--IGKDEV © 2008-2012-->
+<gkds>
+  <Project>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+  </Project>
+  <Documents>
+    <LayerDocument Id="LayerDocument_43589729" InterpolationMode="Pixel" Width="12" Height="12" BackgroundTransparent="True"> 
+      <Layer Id="Layer_27595900">
+        <Line StartPoint="3;9" EndPoint="9;3" StrokeBrush="Type:Solid;Colors:#FFFF;Width:2;LineJoin:Round" Id="Line_5628301" />
+        <Line StartPoint="3.353553;3.146444" EndPoint="9.353552;9.146443" StrokeBrush="Type:Solid;Colors:#FFFF;Width:2;LineJoin:Round" Id="Line_33263484" />
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

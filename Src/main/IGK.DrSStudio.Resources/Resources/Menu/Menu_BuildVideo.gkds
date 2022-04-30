@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--This is a gkds DrSStudio file 8.5.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2013-->
+<gkds>
+  <Project>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+    <FileName>D:\DRSStudio 8.4 Src\IGK.DrSStudio.Resources\Resources\Menu_BuildVideo.gkds</FileName>
+    <Resources>
+      <String Id="app_title" />
+    </Resources>
+  </Project>
+<Documents>
+  <LayerDocument InterpolationMode="Pixel" TextContrast="4" BackgroundTransparent="True" Width="32" Height="32" Id="LayerDocument_40959646"><Extensions /><Layer Id="Layer_32388806"><RoundRect RoundStyle="Outer" BottomRight="0;0" BottomLeft="0;0" TopRight="0;0" TopLeft="0;0" Bounds="1;3;30;25" StrokeBrush="Type:Solid;Colors:#0000;LineJoin:Round" FillBrush="Type:Solid;Colors:#F000;" Id="RoundRect_6615239"><Filters /></RoundRect><RoundRect RoundStyle="Outer" BottomRight="0;0" BottomLeft="0;0" TopRight="0;0" TopLeft="0;0" Bounds="7.000211;4;18;22" Id="RoundRect_876413"><Filters /></RoundRect><Rectangle Bounds="2;4;4;6" Matrix="1;0;0;1;0;8" Id="Rectangle_53461200"><Filters /></Rectangle><Rectangle Bounds="2;4;4;6" Id="Rectangle_18454688"><Filters /></Rectangle><Rectangle Bounds="2;4;4;6" Matrix="1;0;0;1;0;16" Id="Rectangle_51994188"><Filters /></Rectangle><Rectangle Bounds="2;4;4;6" Matrix="1;0;0;1;24;0" Id="Rectangle_38913510"><Filters /></Rectangle><Rectangle Bounds="2;4;4;6" Matrix="1;0;0;1;24;8" Id="Rectangle_24913918"><Filters /></Rectangle><Rectangle Bounds="2;4;4;6" Matrix="1;0;0;1;24;16" Id="Rectangle_43354028"><Filters /></Rectangle></Layer></LayerDocument>
+</Documents>
+</gkds>

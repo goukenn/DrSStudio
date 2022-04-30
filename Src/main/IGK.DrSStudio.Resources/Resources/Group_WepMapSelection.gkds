@@ -1,0 +1,20 @@
+<!--This is a gkds DrSStudio file 8.7.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2013-->
+<gkds>
+  <Project>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+    <FileName>group_image.gkds</FileName>
+    <Resources>
+      <String Id="app_title" />
+    </Resources>
+  </Project>
+  <Documents>
+    <LayerDocument Id="LayerDocument_65267959" PixelOffset="None" BackgroundTransparent="True" Width="32" Height="32">
+      <Layer Id="Layer_31901806">
+        <Circle Center="15;14" Radius="11.40175" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:LinearGradient;Colors:#FFD2FF00 #0000;LinearMode:DualBlend;Angle:32.19573;Factors: 0 0.5 1 0;Positions: 0 0.3214286 0.59375 1;" Matrix="1.201647;0;0;1.201647;-0.725574;-0.5239275" Id="Circle_58046372" />
+        <CustomPolygon FillMode="Alternate" Points="3;7 9;7 14;18 14;12 18;12 18;18 25;7 30;7 19;26 13;26" StrokeBrush="Type:Solid;Colors:#FF00BAFF;" FillBrush="Type:Solid;Colors:#FF0000A8;" Id="CustomPolygon_32905543" />
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{57F2BCA5-67D7-4836-A7D8-43869282E1C8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>IGK.DrSStudio.Drawing3D.FileBrowser</RootNamespace>
+    <AssemblyName>drs3DFileBrowser</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <StartupObject>
+    </StartupObject>
+    <ApplicationIcon>sfico.ico</ApplicationIcon>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
+    <DebugSymbols>true</DebugSymbols>
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>Bin\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <DocumentationFile>
+    </DocumentationFile>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>Bin\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Actions\FBAction.cs" />
+    <Compile Include="Actions\FileBrowser_SettingAction.cs" />
+    <Compile Include="Actions\IFBAction.cs" />
+    <Compile Include="Actions\_OpenFileAction.cs" />
+    <Compile Include="Actions\_SelectDirectory.cs" />
+    <Compile Include="Actions\_SetFullScreen.cs" />
+    <Compile Include="AddInInfo.cs" />
+    <Compile Include="AnimationModel\AnimationModelBase.cs" />
+    <Compile Include="AnimationModel\AnimModelEventArgs.cs" />
+    <Compile Include="AnimationModel\CubeAnimationModel.cs" />
+    <Compile Include="AnimationModel\I3DModel.cs" />
+    <Compile Include="AnimationModel\IAnimationModel.cs" />
+    <Compile Include="AnimationModel\ListViewAnimationModel.cs" />
+    <Compile Include="enuFBViewState.cs" />
+    <Compile Include="FBAddInTheChecker.cs" />
+    <Compile Include="FBApplication.cs" />
+    <Compile Include="FBProgram.cs" />
+    <Compile Include="FBConstant.cs" />
+    <Compile Include="IDirectoryBrowserItem.cs" />
+    <Compile Include="IDirectoryBrowserItemCollections.cs" />
+    <Compile Include="IFBDirectoryBrowserItemEnumerator.cs" />
+    <Compile Include="IDirectoryBrowserItemOwner.cs" />
+    <Compile Include="IFBAddressBar.cs" />
+    <Compile Include="IFBSurface.cs" />
+    <Compile Include="IFBDirectoryBrowser.cs" />
+    <Compile Include="IFileMainView.cs" />
+    <Compile Include="IFileMultifileView.cs" />
+    <Compile Include="IListOfFilesCollections.cs" />
+    <Compile Include="Menu\FBMenuBase.cs" />
+    <Compile Include="Menu\FB\FBAnimationBlendingModeMenu.cs" />
+    <Compile Include="Menu\FBSurfaceMenu.cs" />
+    <Compile Include="Menu\FB\FBRootMenu.cs" />
+    <Compile Include="Menu\Window\FBViewFileBrowserMenu.cs" />
+    <Compile Include="Native\User32.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Settings\FBSettingObject.cs" />
+    <Compile Include="Tools\FBViewControlTool.cs" />
+    <Compile Include="Utils\XFileUtils.cs" />
+    <Compile Include="WinUI\FBComputerBrowserItem.cs" />
+    <Compile Include="WinUI\FBDirectoryBrowserItem.cs" />
+    <Compile Include="WinUI\FBDirectoryBrowserItemEventArgs.cs" />
+    <Compile Include="WinUI\FBDisplaySurface.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WinUI\FBMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinUI\FBControlSurface.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WinUI\FBControlSurfaceMecanism.cs" />
+    <Compile Include="WinUI\FBToolBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WinUI\FileBrowserConfigFontDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinUI\FBRenderer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinUI\FileBrowserConfigFontDialog.resx">
+      <DependentUpon>FileBrowserConfigFontDialog.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sfico.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\fb_empty.gkds" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\core\IGK.ICore.WinCore\IGK.ICore.WinCore.csproj">
+      <Project>{68ab7706-a97f-4bf8-8d1f-26d69a6bfa0e}</Project>
+      <Name>IGK.ICore.WinCore</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\core\IGK.ICore\IGK.ICore.csproj">
+      <Project>{95e437a5-4a87-4fab-b15f-4a0fde8b7dcf}</Project>
+      <Name>IGK.ICore</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\main\IGK.DrSStudio.WinCore\IGK.DrSStudio.WinCore.csproj">
+      <Project>{74f6a53e-2948-41bc-a842-e036c6d96667}</Project>
+      <Name>IGK.DrSStudio.WinCore</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\OpenGLLib\IGK.GLLib4.1\IGK.GLLib.csproj">
+      <Project>{adb81747-5b27-4bc3-bddf-b5492d3568f6}</Project>
+      <Name>IGK.GLLib</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\OpenGLLib\IGK.OGLGame\IGK.OGLGame.csproj">
+      <Project>{c8c92fc2-fcea-4462-9d97-2f75d392c3f4}</Project>
+      <Name>IGK.OGLGame</Name>
+      <Private>False</Private>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ICore\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

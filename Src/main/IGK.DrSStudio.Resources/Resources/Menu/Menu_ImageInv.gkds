@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--This is a gkds DrSStudio file 7.0.a-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--IGKDEV © 2008-2012-->
+<gkds>
+  <Project>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+    <FileName>D:\DRSStudio2\IGK.DrSStudio.Resources\Resources\Menu_ImageInv.gkds</FileName>
+  </Project>
+  <Documents>
+    <LayerDocument InterpolationMode="Pixel" BackgroundColor="#F000" BackgroundTransparent="True" Width="16" Height="16" Id="LayerDocument_32343485">
+      <Layer Id="Layer_21951803">
+        <Circle Center="8;8" Radius="7.071068" FillBrush="Type:Solid;Colors:#F000;" Id="Circle_14862441" />
+        <Pie SweepAngle="0" StartAngle="0" Center="0;0" Radius="0;0" Id="Pie_10274474" />
+        <Pie SweepAngle="180" StartAngle="90" Center="8;8" Radius="0;0" Id="Pie_28458685" />
+        <Pie SweepAngle="180" StartAngle="90" Center="8;8" Radius="6;6" SmoothingMode="None" Id="Pie_48343141" />
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

@@ -1,0 +1,17 @@
+<!--This is a gkds ICore file 9.4.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2014-->
+<gkds>
+  <Project>
+    <TargetSurface>2DDrawingSurface</TargetSurface>
+  </Project>
+  <Documents>
+    <LayerDocument FillBrush="Type:Solid;Colors:#FFFF;" PixelOffset="HightQuality" BackgroundTransparent="True" Width="32" Height="32" Id="LayerDocument_37276176">
+      <Layer Id="Layer_6295501">
+        <Rectangle Bounds="14;1.97691;4;28.046" FillBrush="Type:Solid;Colors:#F000;" StrokeBrush="Type:Solid;Colors:#0000;Alignment:Inset;DashStyle:Solid;LineJoin:Round" SmoothingMode="None" Id="Rectangle_56207595" />
+        <Rectangle Bounds="3.113129;14;25.88687;4" FillBrush="Type:Solid;Colors:#F000;" StrokeBrush="Type:Solid;Colors:#0000;Alignment:Inset;DashStyle:Solid;LineJoin:Round" SmoothingMode="None" Id="Rectangle_54449053" />
+        <Rectangle Bounds="9.522967;9.946995;12.95406;12.10601" FillBrush="Type:Solid;Colors:#FFFFDE00;" StrokeBrush="Type:Solid;Colors:#FFFF;Alignment:Inset;DashStyle:Solid;LineJoin:Round" SmoothingMode="None" Id="Rectangle_49527525" />
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

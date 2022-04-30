@@ -1,0 +1,17 @@
+<!--This is a gkds DrSStudio file 9.1.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2014-->
+<gkds>
+  <Documents>
+    <LayerDocument FillBrush="Type:Solid;Colors:#FFFF;" BackgroundTransparent="True" Width="16" Height="16" Id="LayerDocument_64121926">
+      <Layer Id="Layer_51616312">
+        <Rectangle Bounds="13;1;2;13" FillBrush="Type:Solid;Colors:#F000;" StrokeBrush="Type:Solid;Colors:#0000;" SmoothingMode="None" Id="Rectangle_38934063" />
+        <Rectangle Bounds="1;1;2;13" FillBrush="Type:Solid;Colors:#F000;" StrokeBrush="Type:Solid;Colors:#0000;" SmoothingMode="None" Id="Rectangle_38934063" />
+        <Path Closed="True" FillMode="Alternate" FillBrush="Type:Solid;Colors:#F000;" StrokeBrush="Type:Solid;Colors:#16000000;Alignment:Inset;DashStyle:DashStyle [Solid];EndCap:ArrowAnchor;LineJoin:Round;StartCap:ArrowAnchor" Matrix="3.879438,0,0,0,0,3.844083,0,0,0,0,1,0,-16.5529,-10.50807,0,1" Id="Path_8772536">
+          <PointTypes>0;1;1;3;3;3;3;3;3;3;3;3;1;1;1;3;3;3;3;3;3;1;1;1;3;3;3;3;3;3;1;1;1;3;3;3;3;3;3;1;1;1;3;3;3;3;3;163</PointTypes>
+          <Points>5.938477;3.862793 6.478027;3.862793 6.434082;4.231445 6.424316;4.320963 6.403971;4.422688 6.373047;4.536621 6.434896;4.505696 6.475586;4.484538 6.495117;4.473145 6.563477;4.435709 6.61556;4.408854 6.651367;4.392578 6.990723;4.231445 7.15918;4.746582 6.783203;4.824707 6.714844;4.837728 6.613118;4.84668 6.478027;4.851563 6.569173;4.923177 6.641602;4.988281 6.695313;5.046875 6.949219;5.322754 6.509766;5.652344 6.329102;5.322754 6.30306;5.275553 6.260742;5.183594 6.202148;5.046875 6.138672;5.196614 6.096354;5.288574 6.075195;5.322754 5.89209;5.652344 5.44043;5.322754 5.713867;5.046875 5.790364;4.970377 5.865234;4.905273 5.938477;4.851563 5.863606;4.845052 5.765137;4.830403 5.643066;4.807617 5.264648;4.746582 5.44043;4.231445 5.779785;4.385254 5.815592;4.40153 5.904297;4.451985 6.045898;4.536621 6.014974;4.399902 5.995442;4.298177 5.987305;4.231445</Points>
+        </Path>
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

@@ -1,0 +1,14 @@
+<!--This is a gkds DrSStudio file 9.1.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2014-->
+<gkds>
+  <Documents>
+    <LayerDocument FillBrush="Type:Solid;Colors:#FFFF;" InterpolationMode="Bilinear" PixelOffset="None" BackgroundTransparent="True" Width="32" Height="32" Id="LayerDocument_49527525">
+      <Layer Id="Layer_31340138">
+        <Rectangle Bounds="0;0;32;31" FillBrush="Type:Solid;Colors:#FFBAFF00;" StrokeBrush="Type:Solid;Colors:#0000;" SmoothingMode="None" Id="Rectangle_6254019" />
+        <Line StrokeBrush="Type:Solid;Colors:#F000;Width:5;DashStyle:DashStyle [Solid];EndCap:ArrowAnchor;LineJoin:Round;StartCap:ArrowAnchor" EndPoint="29;30" StartPoint="3;2" Id="Line_22959034" />
+        <Line StrokeBrush="Type:Solid;Colors:#F000;Width:5;DashStyle:DashStyle [Solid];EndCap:ArrowAnchor;LineJoin:Round;StartCap:ArrowAnchor" EndPoint="29;30" StartPoint="3;2" Matrix="-4.371139E-08,1,0,0,-1,-4.371139E-08,0,0,0,0,1,0,31,-0.999999,0,1" Id="Line_22959034" />
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

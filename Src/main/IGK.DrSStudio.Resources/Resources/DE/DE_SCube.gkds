@@ -1,0 +1,21 @@
+<!--This is a gkds DrSStudio file 8.7.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2013-->
+<gkds>
+  <Project>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+    <FileName>D:\DRSStudio 8.4 Src\Src\core\IGK.DrSStudio.Resources\Resources\DE_Cylinder.gkds</FileName>
+    <Resources>
+      <String Id="app_title" />
+    </Resources>
+  </Project>
+  <Documents>
+    <LayerDocument BackgroundTransparent="True" Width="16" Height="16" Id="LayerDocument_64185571">
+      <Layer Id="Layer_37765596">
+        <CustomPolygon FillMode="Alternate" Points="2;5 9;2 14;4 7;7" StrokeBrush="Type:Solid;Colors:#FF5300FF;" FillBrush="Type:Solid;Colors:#FF00FF89;" Id="CustomPolygon_36727723" />
+        <CustomPolygon FillMode="Alternate" Points="2;5 2;12 7;15 7;7" StrokeBrush="Type:Solid;Colors:#FF5300FF;" FillBrush="Type:Solid;Colors:#FF00FF89;" Id="CustomPolygon_58471021" />
+        <CustomPolygon FillMode="Alternate" Points="7;15 14;12 14;4 7;7" StrokeBrush="Type:Solid;Colors:#FF5300FF;" FillBrush="Type:Solid;Colors:#FF00FF89;" Id="CustomPolygon_17938037" />
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

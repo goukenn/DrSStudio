@@ -1,0 +1,21 @@
+<!--This is a gkds DrSStudio file 8.7.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2013-->
+<gkds>
+  <Project>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+    <FileName>D:\DRSStudio 8.4 Src\Src\core\IGK.DrSStudio.Resources\Resources\DE_CrossRec.gkds</FileName>
+    <Resources>
+      <String Id="app_title" />
+    </Resources>
+  </Project>
+  <Documents>
+    <LayerDocument BackgroundTransparent="True" Width="16" Height="16" Id="LayerDocument_64185571">
+      <Layer Id="Layer_37765596">
+        <CustomPolygon FillMode="Alternate" Points="1;15 5;14 14;3 12;1 9;1 1;11" FillBrush="Type:LinearGradient;Colors:#FFFF10C4 #FF00FF3C;LinearMode:Dual;GammaCorrection:True;Factors: 0 1;Positions: 0 1;" Id="CustomPolygon_52992309" />
+        <CustomPolygon FillMode="Alternate" Points="1;15 1;12 4;14" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#F000;" Id="CustomPolygon_17059667" />
+        <CustomPolygon FillMode="Alternate" Points="1;15 5;14 14;3 12;1 9;1 1;11" FillBrush="Type:Solid;Colors:#0000;" Id="CustomPolygon_32985647" />
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

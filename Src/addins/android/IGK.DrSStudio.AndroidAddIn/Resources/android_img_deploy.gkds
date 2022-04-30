@@ -1,0 +1,13 @@
+<!--This is a gkds DrSStudio file 9.1.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2014-->
+<gkds>
+  <Documents>
+    <LayerDocument FillBrush="Type:Solid;Colors:#0000;" BackgroundTransparent="True" Width="32" Height="32" Id="LayerDocument_24573614">
+      <Layer Id="Layer_60164934">
+        <Circle Radius="15 12" Center="16;16" FillBrush="Type:Solid;Colors:#FFC0;" StrokeBrush="Type:Solid;Colors:#876731FF;" Id="Circle_26236028" />
+        <Polygon Tension="-1" Count="3" Radius="10" Center="16;16" FillBrush="Type:Solid;Colors:#FF00A7FF;" StrokeBrush="Type:Solid;Colors:#53000000;" ShadowProperty="Offset:1 1;IsClipped:False;ShadowBrush:[Type:Solid;Colors:#9AFFBA7E;]" AllowShadow="True" Id="Polygon_16137544" />
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--This is a gkds DrSStudio file 8.5.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2013-->
+<gkds>
+  <Project>
+    <SurfaceType>IConSurface</SurfaceType>
+    <FileName>D:\DRSStudio 8.4 Src\IGK.DrSStudio.Resources\Resources\GLGame.gkds</FileName>
+    <Resources>
+      <String Id="app_title" />
+    </Resources>
+  </Project>
+<Documents>
+  <LayerDocument InterpolationMode="Pixel" TextContrast="4" BackgroundTransparent="True" Width="256" Height="256" Id="LayerDocument_61855627"><Extensions /><Layer Id="Layer_25657427"><Spline FillMode="Alternate" Points="120.3333;135.5 168.3333;135.5 180.3333;148.5 202.3333;196.5 220.3333;202.5 241.3333;190.5 239.3333;160.5 227.3333;86.5 221.3333;66.5 208.3333;63.5 203.3333;61.5 195.3333;50.5 170.3333;52.5 164.3333;65.5 111.3333;66.5 97.33334;62.5 93.33334;53.5 84.33334;52.5 71.33334;53.5 66.33334;56.5 66.33334;58.5 63.33334;64.5 55.33334;66.5 44.33334;68.5 37.33334;78.5 34.33334;98.5 30.33334;169.5 32.33334;192.5 42.33334;199.5 67.33334;200.5 76.33334;197.5 79.33334;192.5 105.3333;144.5 113.3333;135.5" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#9C000000;" Matrix="1.13986;0;0;1.089457;-28.44557;-7.3834" Id="Spline_3217828"><Filters /></Spline><Spline FillMode="Alternate" Points="123;139 171;139 183;152 205;200 223;206 244;194 242;164 230;90 224;70 211;67 206;65 198;54 173;56 167;69 114;70 100;66 96;57 87;56 74;57 69;60 69;62 66;68 58;70 47;72 40;82 37;102 33;173 35;196 45;203 70;204 79;201 82;196 108;148 116;139" StrokeBrush="Type:Solid;Colors:#0000;" Matrix="1;0;0;1;-11.91666;0" Id="Spline_65998643"><Filters /></Spline></Layer></LayerDocument>
+</Documents>
+</gkds>

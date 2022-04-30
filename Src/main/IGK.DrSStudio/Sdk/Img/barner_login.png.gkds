@@ -1,0 +1,19 @@
+<!--This is a gkds ICore file 9.6.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2014-->
+<gkds>
+  <Project>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+    <FileName>D:\DEV\Demo\IGK.PreviewWebDocumentDemo\Sdk\Img\barner_login.png.gkds</FileName>
+  </Project>
+  <Documents>
+    <LayerDocument PixelOffset="None" BackgroundTransparent="True" Width="16" Height="16" Id="LayerDocument_24952549">
+      <Layer Id="Layer_31529247">
+        <Path Closed="True" StrokeBrush="Type:Solid;Colors:#0000;" Matrix="0.13,0,0,0,0,0.13,0,0,0,0,1,0,-0.1645508,-0.1235353,0,1" Id="char_57352">
+          <PointTypes>0;1;1;1;3;3;3;3;3;3;1;3;3;3;3;3;3;3;3;3;3;3;3;1;3;3;3;3;3;3;1;1;161</PointTypes>
+          <Points>16.65039;108.6426 16.65039;96.72591 49.98372;75.30924 49.98372;66.97591 47.92816;66.97591 46.02539;64.90647 44.27539;60.76758 42.52539;56.62869 41.65039;53.14258 41.65039;50.30925 41.65039;33.64258 41.65039;26.75369 44.09483;20.86481 48.98372;15.97591 53.87261;11.08703 59.76149;8.642578 66.65038;8.642578 73.53927;8.642578 79.42816;11.08703 84.31705;15.97591 89.20593;20.86481 91.65038;26.75369 91.65038;33.64258 91.65038;50.30925 91.65038;53.14258 90.77538;56.62869 89.02538;60.76758 87.27538;64.90647 85.3726;66.97591 83.31705;66.97591 83.31705;75.30924 116.6504;96.72591 116.6504;108.6426</Points>
+        </Path>
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

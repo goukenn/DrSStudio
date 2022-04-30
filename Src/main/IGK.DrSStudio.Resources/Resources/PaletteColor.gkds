@@ -1,0 +1,28 @@
+<!--This is a gkds DrSStudio file 9.2.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2014-->
+<gkds>
+  <Project>
+    <TargetSurface>PaletteEditorSurface</TargetSurface>
+  </Project>
+  <Documents>
+    <PaletteDocument FillBrush="Type:Solid;Colors:#FFFF;" Width="151" Height="76" Id="PaletteDocument_55624187">
+      <PaletteLayer GammaCorrection="0" Id="PaletteLayer_34669982">
+        <IGK.DrSStudio.Drawing2D.PaletteBounds Bounds="0;0;37.79527;37.79527" FillBrush="Type:Solid;Colors:#FFFF0083;" StrokeBrush="Type:Solid;Colors:#0000;" SmoothingMode="None" Id="_46209137" />
+        <IGK.DrSStudio.Drawing2D.PaletteBounds Bounds="37.79527;0;37.79527;37.79527" FillBrush="Type:Solid;Colors:#FFFFF000;" StrokeBrush="Type:Solid;Colors:#0000;" SmoothingMode="None" Id="_18800637" />
+        <IGK.DrSStudio.Drawing2D.PaletteBounds Bounds="75.59055;0;37.79527;37.79527" FillBrush="Type:Solid;Colors:#FFFFA800;" StrokeBrush="Type:Solid;Colors:#0000;" SmoothingMode="None" Id="_22175590" />
+        <IGK.DrSStudio.Drawing2D.PaletteBounds Bounds="113.3858;0;37.79527;37.79527" FillBrush="Type:Solid;Colors:#FF06;" StrokeBrush="Type:Solid;Colors:#0000;" SmoothingMode="None" Id="_53720765" />
+        <IGK.DrSStudio.Drawing2D.PaletteBounds Bounds="0;37.79527;75.59055;18.89764" FillBrush="Type:Solid;Colors:#FFCBCBCB;" StrokeBrush="Type:Solid;Colors:#0000;" SmoothingMode="None" Id="_33400676" />
+        <IGK.DrSStudio.Drawing2D.PaletteBounds Bounds="75.59055;37.79527;75.59055;18.89764" FillBrush="Type:Solid;Colors:#FFA8A8A8;" StrokeBrush="Type:Solid;Colors:#0000;" SmoothingMode="None" Id="_22945289" />
+        <IGK.DrSStudio.Drawing2D.PaletteBounds Bounds="0;56.69291;18.89764;18.89764" FillBrush="Type:Solid;Colors:#FFFFBF00;" StrokeBrush="Type:Solid;Colors:#0000;" SmoothingMode="None" Id="_11175350" />
+        <IGK.DrSStudio.Drawing2D.PaletteBounds Bounds="18.89764;56.69291;18.89764;18.89764" FillBrush="Type:Solid;Colors:#FFFBFF00;" StrokeBrush="Type:Solid;Colors:#0000;" SmoothingMode="None" Id="_32901691" />
+        <IGK.DrSStudio.Drawing2D.PaletteBounds Bounds="37.79527;56.69291;18.89764;18.89764" FillBrush="Type:Solid;Colors:#FFB2B2B2;" StrokeBrush="Type:Solid;Colors:#0000;" SmoothingMode="None" Id="_12863689" />
+        <IGK.DrSStudio.Drawing2D.PaletteBounds Bounds="56.69291;56.69291;18.89764;18.89764" FillBrush="Type:Solid;Colors:#FF6393ED;" StrokeBrush="Type:Solid;Colors:#0000;" SmoothingMode="None" Id="_28367136" />
+        <IGK.DrSStudio.Drawing2D.PaletteBounds Bounds="75.59055;56.69291;18.89764;18.89764" FillBrush="Type:Solid;Colors:#FFFF9600;" StrokeBrush="Type:Solid;Colors:#0000;" SmoothingMode="None" Id="_59739244" />
+        <IGK.DrSStudio.Drawing2D.PaletteBounds Bounds="94.48818;56.69291;18.89764;18.89764" FillBrush="Type:Solid;Colors:#FF84FF00;" StrokeBrush="Type:Solid;Colors:#0000;" SmoothingMode="None" Id="_2810970" />
+        <IGK.DrSStudio.Drawing2D.PaletteBounds Bounds="113.3858;56.69291;18.89764;18.89764" FillBrush="Type:Solid;Colors:#FF0083FF;" StrokeBrush="Type:Solid;Colors:#0000;" SmoothingMode="None" Id="_12684437" />
+        <IGK.DrSStudio.Drawing2D.PaletteBounds Bounds="132.2834;56.69291;18.89764;18.89764" FillBrush="Type:Solid;Colors:#FFFF4100;" StrokeBrush="Type:Solid;Colors:#0000;" SmoothingMode="None" Id="_15745308" />
+      </PaletteLayer>
+    </PaletteDocument>
+  </Documents>
+</gkds>

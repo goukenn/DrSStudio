@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--This is a gkds DrSStudio file 8.3.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2012-->
+<gkds>
+  <Project>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+    <FileName>D:\DRSStudio 7.b Src\IGK.DrSStudio.Resources\Resources\Btn_Clear.gkds</FileName>
+    <Resources />
+  </Project><Documents>
+  <LayerDocument Id="LayerDocument_15749564" PixelOffset="Default" Width="16" Height="16" BackgroundTransparent="True">
+    <Layer Id="Layer_21199332">
+      <DocumentBlock StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#0000;" Matrix="0.5;0;0;0.5;0;0" Id="DocumentBlock_61555452">
+        <LayerDocument Id="LayerDocument_5855185" PixelOffset="Default" Width="32" Height="32" BackgroundTransparent="True">
+          <Layer Id="Layer_19514581">
+            <CustomPolygon FillMode="Alternate" Points="3;15 23;15 20;30 6;30" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#FF554F4E;" Id="CustomPolygon_61527939" />
+            <Rectangle Bounds="2;3;22;4" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#FF554F4E;" Matrix="1;0;0;1;0;4" Id="Rectangle_17431642" />
+            <Rectangle Bounds="8;2;11;6" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#FF554F4E;" Matrix="1;0;0;1;-1;0" Id="Rectangle_54079510" />
+            <Path Closed="False" StrokeBrush="Type:Solid;Colors:#FFFF;LineJoin:Round" Matrix="1;0;0;1;2;1" Id="Path_38589306">
+              <Points>3;15 23;15 20;30 6;30 2;7 7;7 7;2 18;2 18;7 24;7 24;11 2;11</Points>
+              <PointTypes>0;1;1;129;0;1;1;1;1;1;1;129</PointTypes>
+            </Path>
+          </Layer>
+          <Layer Id="Layer_65310140">
+            <CustomPolygon FillMode="Alternate" Points="3;15 23;15 20;30 6;30" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#FF554F4E;" Matrix="0.729009;0;0;1;6.232792;0" Id="CustomPolygon_61527939" />
+            <Rectangle Bounds="2;3;22;4" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#FF554F4E;" Matrix="1.290909;0;0;1;-0.5818181;4" Id="Rectangle_17431642" />
+            <Rectangle Bounds="8;2;11;6" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#FF554F4E;" Matrix="1.697134;0;0;1;-6.577068;0" Id="Rectangle_54079510" />
+          </Layer>
+        </LayerDocument>
+      </DocumentBlock>
+    </Layer>
+  </LayerDocument>
+</Documents></gkds>

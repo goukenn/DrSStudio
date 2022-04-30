@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--This is a gkds DrSStudio file 8.3.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2012-->
+<gkds>
+  <Project>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+    <Resources>
+      <String Id="app_title"></String>
+    </Resources>
+  </Project>
+<Documents>
+  <LayerDocument InterpolationMode="Pixel" TextContrast="4" PixelOffset="None" BackgroundTransparent="True" Width="16" Height="16" Id="LayerDocument_63004825"><Extensions /><Layer Id="Layer_18089118"><Rectangle Bounds="4;1;7;13" StrokeBrush="Type:Solid;Colors:#FF393939;" SmoothingMode="None" Id="Rectangle_24238038"><Filters /></Rectangle><Rectangle Bounds="1;7;13;5" StrokeBrush="Type:Solid;Colors:#8C000000;DashStyle:Solid;LineJoin:MiterClipped;MiterLimit:4" FillBrush="Type:Solid;Colors:#F000;" SmoothingMode="None" Id="Rectangle_2125367"><Filters /></Rectangle><Rectangle Bounds="1;8;2;1" StrokeBrush="Type:Solid;Colors:#0000;" SmoothingMode="None" Id="Rectangle_8850595"><Filters /></Rectangle><Rectangle Bounds="4;8;2;1" StrokeBrush="Type:Solid;Colors:#0000;" SmoothingMode="None" Id="Rectangle_39451881"><Filters /></Rectangle></Layer></LayerDocument>
+</Documents>
+</gkds>

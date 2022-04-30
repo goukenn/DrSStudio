@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--This is a gkds DrSStudio file 8.5.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2013-->
+<gkds>
+  <Project>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+    <FileName>D:\DRSStudio 8.4 Src\IGK.DrSStudio.Resources\Resources\Menu_View.gkds</FileName>
+    <Resources>
+      <String Id="app_title" />
+    </Resources>
+  </Project>
+<Documents>
+  <LayerDocument InterpolationMode="Pixel" TextContrast="4" BackgroundTransparent="True" Width="16" Height="16" Id="LayerDocument_5188028"><Extensions /><Layer Id="Layer_41930155"><Spline Closed="True" FillMode="Alternate" Points="1;10 3;12 8;14 13;11 15;3 12;3 5;3" Id="Spline_41105540"><Filters /></Spline><Circle Center="8;8" Radius="1.414214;5" StrokeBrush="Type:Solid;Colors:#FF0232FF;" FillBrush="Type:Solid;Colors:#FF0090FF;" Id="Circle_54614430"><Filters /></Circle></Layer></LayerDocument>
+</Documents>
+</gkds>

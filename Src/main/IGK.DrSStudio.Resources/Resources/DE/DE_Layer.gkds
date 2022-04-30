@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--This is a gkds DrSStudio file 8.2.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2012-->
+<gkds>
+  <Project>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+    <FileName>D:\DRSStudio 7.b Src\IGK.DrSStudio.Resources\Resources\DE_Layer.gkds</FileName>
+    <Resources />
+  </Project><Documents>
+  <LayerDocument Id="LayerDocument_59503858" InterpolationMode="Hight" Width="32" Height="32" BackgroundTransparent="True">
+    <Layer Id="Layer_16475504">
+      <Polygon Count="4" Id="Polygon_58110273" Center="16.90627;19.75145" Radius="11.16376" StrokeBrush="Type:Solid;Colors:#FF303030;Width:4;DashStyle:Solid;LineJoin:Round" FillBrush="Type:Solid;Colors:#FFBDBDBD;" Matrix="1.258512;0;0;0.5324049;-4.540196;10.93615" />
+      <Polygon Count="4" Id="Polygon_44448017" Center="16.90627;19.75145" Radius="11.16376" StrokeBrush="Type:Solid;Colors:#FF303030;Width:4;DashStyle:Solid;LineJoin:Round" FillBrush="Type:Solid;Colors:#FFBDBDBD;" Matrix="1.258489;0;0;0.5323934;-4.540223;2.936116" />
+    </Layer>
+  </LayerDocument>
+</Documents></gkds>

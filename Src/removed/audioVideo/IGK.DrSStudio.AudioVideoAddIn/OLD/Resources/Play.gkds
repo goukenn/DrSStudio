@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--This is a gkds DrSStudio file 7.0.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--IGKDEV © 2008-2012-->
+<gkds>
+  <ProjectInfo>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+  </ProjectInfo>
+  <Documents>
+    <LayerDocument InterpolationMode="Pixel" BackgroundTransparent="True" Width="255" Height="255" Id="LayerDocument_39841734">
+      <Layer Id="Layer_30114564">
+        <Polygon Count="3" Id="Polygon_52568045" Center="116;127.5" Radius="92.0489" FillBrush="Type:Solid;Colors:#FF00A7FF;" />
+      </Layer>
+      <Layer Id="Layer_157689">
+        <Polygon Count="3" Id="Polygon_52568045" Center="116;127.5" Radius="92.0489" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#FF007DFF;" Matrix="0.8715933;0;0;0.8369225;15.71486;20.79238" />
+      </Layer>
+      <Layer Id="Layer_40295481" Clipped="#Polygon_52568045">
+        <Polygon Count="3" Id="Polygon_52568045" Center="116;127.5" Radius="92.0489" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#0000;" />
+        <Ellipse Center="81;73" Radius="78;44" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#85FFFFFF;" Id="Ellipse_55285718" />
+      </Layer>
+      <Layer Id="Layer_44461952">
+        <Polygon Count="3" Id="Polygon_52568045" Center="116;127.5" Radius="92.0489" StrokeBrush="Type:Solid;Colors:#F000;Width:3;LineJoin:Round" FillBrush="Type:Solid;Colors:#0000;" />
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

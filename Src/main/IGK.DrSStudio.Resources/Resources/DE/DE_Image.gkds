@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--This is a gkds DrSStudio file 7.0.a-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--IGKDEV © 2008-2012-->
+<gkds>
+  <Project>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+  </Project>
+  <Documents>
+    <LayerDocument InterpolationMode="Pixel" Width="32" Height="32" Id="LayerDocument_43489353">
+      <Layer Id="Layer_8235679">
+        <Rectangle Bounds="0;0;32;32" StrokeBrush="Type:Solid;Colors:#FFFF;" FillBrush="Type:Solid;Colors:#F000;" Id="Rectangle_20509607" />
+        <Rectangle Bounds="0;7;32;16" StrokeBrush="Type:Solid;Colors:#FFFF;" Id="Rectangle_33353742" />
+        <Rectangle Bounds="3;25;6;5" Matrix="1;0;0;1;0;-24" Id="Rectangle_15547868" />
+        <Rectangle Bounds="11;25;10;5" Matrix="1;0;0;1;0;-24" Id="Rectangle_3978488" />
+        <Rectangle Bounds="23;25;8;5" Matrix="1;0;0;1;0;-24" Id="Rectangle_57275157" />
+        <Rectangle Bounds="23;25;8;5" Id="Rectangle_60085586" />
+        <Rectangle Bounds="11;25;10;5" Id="Rectangle_13249010" />
+        <Rectangle Bounds="3;25;6;5" Id="Rectangle_55879315" />
+        <Rectangle Bounds="3;8;27;14" StrokeBrush="Type:Solid;Colors:#FFFF0024;" FillBrush="Type:LinearGradient;Colors:#FF00 #FFDEFF00 #FF4DFF40 #FF007DFF #FFF600FF #FFFFC600;LinearMode:MultiColor;Factors: 0 0 0 0 0 1;Positions: 0 0.1875 0.3482143 0.6026786 0.7678571 1;" Id="Rectangle_8276853" />
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

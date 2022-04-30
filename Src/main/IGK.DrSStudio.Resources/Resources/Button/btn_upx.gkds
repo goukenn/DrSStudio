@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--This is a gkds DrSStudio file 7.0.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--IGKDEV © 2008-2012-->
+<gkds>
+  <Project>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+  </Project>
+  <Documents>
+    <LayerDocument InterpolationMode="Pixel" BackgroundTransparent="True" Width="256" Height="256" Id="LayerDocument_35363977">
+      <Layer Id="Layer_66619090">
+        <CustomPolygon Points="63;44 110;26 146;81 191;26 224;68 180;118 222;181 178;207 142;156 99;205 64;177 117;117" StrokeBrush="Type:Solid;Colors:#A1FF8226;" FillBrush="Type:Solid;Colors:#FFFF0B00;" Matrix="0.6671471;0;0;0.6845571;69.55905;11.29667" Id="CustomPolygon_13291953" />
+        <Polygon Count="3" Angle="29.7448826" Id="Polygon_5502791" Center="59;57" Radius="32.24903" StrokeBrush="Type:Solid;Colors:#A1000000;" FillBrush="Type:Solid;Colors:#F000;" Matrix="1;0;0;1;-3;-1" />
+        <RoundRect RoundStyle="Outer" BottomRight="0;0" BottomLeft="0;0" TopRight="0;0" TopLeft="0;0" Bounds="46;68;27;150" StrokeBrush="Type:Solid;Colors:#A1000000;" FillBrush="Type:Solid;Colors:#F000;" Matrix="1;0;0;1;-3;-1" Id="RoundRect_63550892" />
+        <Polygon Count="3" Angle="29.7448826" Id="Polygon_48342074" Center="59;57" Radius="32.24903" StrokeBrush="Type:Solid;Colors:#FFFF521D;" FillBrush="Type:Solid;Colors:#FFFF3600;" Matrix="1;0;0;1;-10;-5" />
+        <RoundRect RoundStyle="Outer" BottomRight="0;0" BottomLeft="0;0" TopRight="0;0" TopLeft="0;0" Bounds="46;68;27;150" StrokeBrush="Type:Solid;Colors:#FFFF521D;" FillBrush="Type:Solid;Colors:#FFFF3600;" Matrix="1;0;0;1;-9;-5" Id="RoundRect_63185419" />
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

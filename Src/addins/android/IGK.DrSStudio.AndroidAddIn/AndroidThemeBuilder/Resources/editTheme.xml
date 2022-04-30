@@ -1,0 +1,34 @@
+﻿<div>
+  <script language="javascript" type="text/javascript" >
+    function updatePlateForm(select, q){
+    var s = external.ChangePlateform(select.value);
+    q.loadStringAsHtml(s);
+    }
+  </script>
+  <div class="igk-title-4">[lang:title.android.newTheme]</div>
+  <div style="padding-left:16px; padding-right:16px;">
+    <form action="." class="form-group" onsubmit="javascript:external.AndroidChangeThemeInfo(this.clName.value, this.clPlateform.value, this.clParent.value); return false;">
+      <div class="form-group">
+        <label for="clName">[lang:lb.clName]</label>
+        <input type="text" class="igk-form-control" id="clName" value="[imeth:GetThemeName]"/>
+      </div>
+      <div class="form-group">
+        <label for="clPlateform">[lang:lb.android.clPlatform]</label>
+        <select id="clPlateform" class="igk-form-control" onchange="javascript: updatePlateForm(this,$igk('#clParent'));" >
+          [imeth:GetPlateformList]
+        </select>
+      </div>
+      <div class="form-group" >
+        <label for="clParent">[lang:lb.clParent]</label>
+        <select id="clParent" class="igk-form-control" >
+          [imeth:GetParentList]
+        </select>
+      </div>
+      <div class="igk-hsep" />
+      <div class="alignc" style="margin-top:1em;">
+        <input type="submit" value="[lang:btn.valider]"  class="igk-btn igk-btn-default fitw"/>
+      </div>
+
+    </form>
+  </div>
+</div>

@@ -1,0 +1,14 @@
+<!--This is a gkds DrSStudio file 9.1.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2014-->
+<gkds>
+  <Documents>
+    <LayerDocument FillBrush="Type:Solid;Colors:#FFFF;" PixelOffset="Half" BackgroundTransparent="True" Width="32" Height="32" Id="LayerDocument_33487001">
+      <Layer Id="Layer_11182767">
+        <CustomPolygon Tension="0" EnableTension="False" Closed="False" FillMode="Alternate" Points="1;5 17;5 20;10 29;10 29;28 1;28" FillBrush="Type:LinearGradient;Colors:#FFFF9B00 #FFFFF000;LinearMode:Dual;GammaCorrection:True;Factors: 0 1;Positions: 0 1;" StrokeBrush="Type:Solid;Colors:#FFFF;LineJoin:Round;Alignment:Inset;DashStyle:Solid" SmoothingMode="None" Id="CustomPolygon_7355528" />
+        <Line StrokeBrush="Type:Solid;Colors:#FF0053FF;LineJoin:Round;Width:2;DashStyle:Solid" EndPoint="17;5" StartPoint="1;5" Id="Line_14841452" />
+        <Line StrokeBrush="Type:Solid;Colors:#FF0053FF;LineJoin:Round;Width:2;DashStyle:Solid" EndPoint="29;10" StartPoint="20;10" Id="Line_14841452" />
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

@@ -1,0 +1,17 @@
+<!--This is a gkds DrSStudio file 9.1.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2014-->
+<gkds>
+  <Documents>
+    <LayerDocument FillBrush="Type:Solid;Colors:#FFFF;" BackgroundTransparent="True" Width="16" Height="16" Id="LayerDocument_64121926">
+      <Layer Id="Layer_51616312">
+        <Group Matrix="-4.371139E-08,1,0,0,-1,-4.371139E-08,0,0,0,0,1,0,15,4.768372E-07,0,1" Id="Group_27051778">
+          <Rectangle Bounds="1;1;2;13" FillBrush="Type:Solid;Colors:#F000;" StrokeBrush="Type:Solid;Colors:#0000;" SmoothingMode="None" Id="Rectangle_38934063" />
+          <Rectangle Bounds="13;1;2;13" FillBrush="Type:Solid;Colors:#F000;" StrokeBrush="Type:Solid;Colors:#0000;" SmoothingMode="None" Id="Rectangle_38934063" />
+        </Group>
+        <Rectangle Bounds="11;3;3;10" FillBrush="Type:Solid;Colors:#C000;" StrokeBrush="Type:Solid;Colors:#0000;" SmoothingMode="None" Id="Rectangle_3786636" />
+        <Rectangle Bounds="2;4;3;8" FillBrush="Type:Solid;Colors:#C000;" StrokeBrush="Type:Solid;Colors:#0000;" SmoothingMode="None" Id="Rectangle_3786636" />
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

@@ -1,0 +1,379 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>Bin\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>Bin\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>Bin\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>Bin\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ProjectGuid>{949FBC13-7521-4CA7-938D-A16F15984375}</ProjectGuid>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>IGK.DrSStudio.Imaging</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyName>drs2DImagingAddIn</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddInfo.cs" />
+    <Compile Include="GlobalSuppressions.cs" />
+    <Compile Include="ImageGdiEffectAddIn\BitmapExtensions.cs" />
+    <Compile Include="ImageGdiEffectAddIn\EffectsInternal\BezierCurve.cs" />
+    <Compile Include="ImageGdiEffectAddIn\EffectsInternal\CurveAdjustmentValueRangeAttribute.cs" />
+    <Compile Include="ImageGdiEffectAddIn\EffectsInternal\HSLColor.cs" />
+    <Compile Include="ImageGdiEffectAddIn\EffectsInternal\HSLColorConverter.cs" />
+    <Compile Include="ImageGdiEffectAddIn\EffectsInternal\IAuxDataEffect.cs" />
+    <Compile Include="ImageGdiEffectAddIn\EffectsInternal\ILegacyEffectApply.cs" />
+    <Compile Include="ImageGdiEffectAddIn\EffectsInternal\LegacyBitmapBlur.cs" />
+    <Compile Include="ImageGdiEffectAddIn\EffectsInternal\LegacyBitmapPerPixelEffect.cs" />
+    <Compile Include="ImageGdiEffectAddIn\EffectsInternal\LegacyBitmapSharpen.cs" />
+    <Compile Include="ImageGdiEffectAddIn\Effects\BitmapExtensions.cs" />
+    <Compile Include="ImageGdiEffectAddIn\Effects\CurveAdjustment.cs" />
+    <Compile Include="ImageGdiEffectAddIn\Effects\CurveAdjustmentExtensions.cs" />
+    <Compile Include="ImageGdiEffectAddIn\Effects\CurveChannel.cs" />
+    <Compile Include="ImageGdiEffectAddIn\Effects\Effect.cs" />
+    <Compile Include="ImageGdiEffectAddIn\Effects\WindowGdiEffects\BlurEffect.cs" />
+    <Compile Include="ImageGdiEffectAddIn\Effects\WindowGdiEffects\BrightnessContrastEffect.cs" />
+    <Compile Include="ImageGdiEffectAddIn\Effects\WindowGdiEffects\ColorBalanceEffect.cs" />
+    <Compile Include="ImageGdiEffectAddIn\Effects\WindowGdiEffects\ColorCurveEffect.cs" />
+    <Compile Include="ImageGdiEffectAddIn\Effects\WindowGdiEffects\ColorLookupTableEffect.cs" />
+    <Compile Include="ImageGdiEffectAddIn\Effects\WindowGdiEffects\ColorMatrixEffect.cs" />
+    <Compile Include="ImageGdiEffectAddIn\Effects\WindowGdiEffects\HueSaturationLightnessEffect.cs" />
+    <Compile Include="ImageGdiEffectAddIn\Effects\WindowGdiEffects\LevelsEffect.cs" />
+    <Compile Include="ImageGdiEffectAddIn\Effects\WindowGdiEffects\RedEyeCorrectionEffect.cs" />
+    <Compile Include="ImageGdiEffectAddIn\Effects\WindowGdiEffects\SharpenEffect.cs" />
+    <Compile Include="ImageGdiEffectAddIn\Effects\WindowGdiEffects\TintEffect.cs" />
+    <Compile Include="ImageGdiEffectAddIn\Effects\EffectValidateException.cs" />
+    <Compile Include="ImageGdiEffectAddIn\Effects\GraphicsExtensions.cs" />
+    <Compile Include="ImageGdiEffectAddIn\Effects\IAuxDataEffectBGRA.cs" />
+    <Compile Include="ImageGdiEffectAddIn\Effects\IAuxDataEffectLSHA.cs" />
+    <Compile Include="ImageGdiEffectAddIn\Effects\ILegacyEffect.cs" />
+    <Compile Include="ImageGdiEffectAddIn\Effects\LegacyEffect.cs" />
+    <Compile Include="ImageGdiEffectAddIn\Effects\LUTTablesAuxDataEffect.cs" />
+    <Compile Include="ImageGdiEffectAddIn\Effects\LUTTablesAuxDataEffectBGRA.cs" />
+    <Compile Include="ImageGdiEffectAddIn\Effects\LUTTablesAuxDataEffectLSHA.cs" />
+    <Compile Include="ImageGdiEffectAddIn\Effects\LUTTablesLegacyAuxDataEffect.cs" />
+    <Compile Include="ImageGdiEffectAddIn\Effects\LUTTablesLegacyAuxDataEffectBGRA.cs" />
+    <Compile Include="ImageGdiEffectAddIn\Effects\LUTTablesLegacyAuxDataEffectLSHA.cs" />
+    <Compile Include="ImageGdiEffectAddIn\Extensions\BrushExtensions.cs" />
+    <Compile Include="ImageGdiEffectAddIn\Extensions\GraphicsExtensions.cs" />
+    <Compile Include="ImageGdiEffectAddIn\Extensions\ImageAttributesExtensions.cs" />
+    <Compile Include="ImageGdiEffectAddIn\Extensions\ImageExtensions.cs" />
+    <Compile Include="ImageGdiEffectAddIn\Extensions\IntPtrExtensions.cs" />
+    <Compile Include="ImageGdiEffectAddIn\Extensions\MatrixExtensions.cs" />
+    <Compile Include="ImageGdiEffectAddIn\Extensions\ObjectExtensions.cs" />
+    <Compile Include="ImageGdiEffectAddIn\Extensions\PenExtensions.cs" />
+    <Compile Include="ImageGdiEffectAddIn\Extensions\TypeExtensions.cs" />
+    <Compile Include="ImageGdiEffectAddIn\GdiConstant.cs" />
+    <Compile Include="ImageGdiEffectAddIn\GdiInfo.cs" />
+    <Compile Include="ImageGdiEffectAddIn\GdiNativeFunction.cs" />
+    <Compile Include="ImageGdiEffectAddIn\GdiPlus11NotAvailableException.cs" />
+    <Compile Include="ImageGdiEffectAddIn\HistogramFormat.cs" />
+    <Compile Include="ImageGdiEffectAddIn\HistogramFormatExtensions.cs" />
+    <Compile Include="ImageGdiEffectAddIn\Internal\BitmapPerPixelProcessing.cs" />
+    <Compile Include="ImageGdiEffectAddIn\Internal\HistogramFormatChannelCountAttribute.cs" />
+    <Compile Include="ImageGdiEffectAddIn\Menu\GdiBitmapEffectMenu.cs" />
+    <Compile Include="ImageGdiEffectAddIn\Menu\GdiBlurEffectMenu.cs" />
+    <Compile Include="ImageGdiEffectAddIn\Menu\GdiEffectMenu.cs" />
+    <Compile Include="ImageGdiEffectAddIn\Menu\GdiEffectMenuAttribute.cs" />
+    <Compile Include="ImageGdiEffectAddIn\Menu\GdiSharpenEffect.cs" />
+    <Compile Include="ImageGdiEffectAddIn\Menu\GdiTintEffectMenu.cs" />
+    <Compile Include="ImageGdiEffectAddIn\RegistratedEffect\GdiBlurFilter.cs" />
+    <Compile Include="ImageGdiEffectAddIn\RegistratedEffect\GdiFilterBase.cs" />
+    <Compile Include="ImageGdiEffectAddIn\RegistratedEffect\GdiSharpenFilter.cs" />
+    <Compile Include="ImageGdiEffectAddIn\RegistratedEffect\GdiTintFilter.cs" />
+    <Compile Include="ImageGifAddIn\Codec\GifDecoder.cs" />
+    <Compile Include="ImageGifAddIn\Codec\GifEncoder.cs" />
+    <Compile Include="ImageGifAddIn\GifFileDocument.cs" />
+    <Compile Include="ImageGifAddIn\GifFrameDocument.cs" />
+    <Compile Include="ImageGifAddIn\GifFrameLayer.cs" />
+    <Compile Include="ImageGifAddIn\GifImageHistogram.cs" />
+    <Compile Include="ImageGifAddIn\Gif\GifColor.cs" />
+    <Compile Include="ImageGifAddIn\Gif\GifConstant.cs" />
+    <Compile Include="ImageGifAddIn\Gif\GifDataChain.cs" />
+    <Compile Include="ImageGifAddIn\Gif\GifDataChainEntity.cs" />
+    <Compile Include="ImageGifAddIn\Gif\GifDataEntityBase.cs" />
+    <Compile Include="ImageGifAddIn\Gif\GifDataExtension.cs" />
+    <Compile Include="ImageGifAddIn\Gif\GifEntityCreator.cs" />
+    <Compile Include="ImageGifAddIn\Gif\GifFrameInfo.cs" />
+    <Compile Include="ImageGifAddIn\Gif\GifGlobalColorTable.cs" />
+    <Compile Include="ImageGifAddIn\Gif\GifHeader.cs" />
+    <Compile Include="ImageGifAddIn\Gif\GifLocalColorTable.cs" />
+    <Compile Include="ImageGifAddIn\Gif\GifScreenDescription.cs" />
+    <Compile Include="ImageGifAddIn\Gif\IGifExtension.cs" />
+    <Compile Include="ImageGifAddIn\IGifFrameObject.cs" />
+    <Compile Include="ImageGifAddIn\IGifFrameRenderer.cs" />
+    <Compile Include="ImageGifAddIn\Menu\File\NewGif.cs" />
+    <Compile Include="ImageGifAddIn\WinUI\GifFrameSurface.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ImageGifAddIn\WinUI\GifFrameView.cs" />
+    <Compile Include="ImageHueGrayScaleTransform\HueGrayScaleTransform.cs" />
+    <Compile Include="ImageHueGrayScaleTransform\Menu\Image\HueGrayScaletransformMenu.cs" />
+    <Compile Include="ImageHueGrayScaleTransform\Utils.cs" />
+    <Compile Include="ImageHueGrayScaleTransform\WinUI\enuHueGrayMode.cs" />
+    <Compile Include="ImageHueGrayScaleTransform\WinUI\XHueConfigControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ImageIconAddIn\API\CoreIconDefinition.cs" />
+    <Compile Include="ImageIconAddIn\API\IconAndCurAPI.cs" />
+    <Compile Include="ImageIconAddIn\API\Kernell.IconAndCur.cs" />
+    <Compile Include="ImageIconAddIn\API\ResourceInfo.cs" />
+    <Compile Include="ImageIconAddIn\Codec\CoreAniDecoder.cs" />
+    <Compile Include="ImageIconAddIn\Codec\CoreAniEncoder.cs" />
+    <Compile Include="ImageIconAddIn\Codec\CoreCursorDecoder.cs" />
+    <Compile Include="ImageIconAddIn\Codec\CoreCursorEncoder.cs" />
+    <Compile Include="ImageIconAddIn\Codec\CoreIconDecoder.cs" />
+    <Compile Include="ImageIconAddIn\Codec\CoreIconEncoder.cs" />
+    <Compile Include="ImageIconAddIn\CoreBitmapHeaderStruct.cs" />
+    <Compile Include="ImageIconAddIn\CoreIconDocument.cs" />
+    <Compile Include="ImageIconAddIn\CoreRGBAColor.cs" />
+    <Compile Include="ImageIconAddIn\enuCoreDocumentPixelFormat.cs" />
+    <Compile Include="ImageIconAddIn\IconConstant.cs" />
+    <Compile Include="ImageIconAddIn\IconLibInfo.cs" />
+    <Compile Include="ImageIconAddIn\Menu\IconExtractorMenu.cs" />
+    <Compile Include="ImageIconAddIn\Menu\NewIconMenu.cs" />
+    <Compile Include="ImageIconAddIn\Tools\WinUI\IconLibExplorerControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ImageIconAddIn\Tools\WinUI\IconLibExplorerControl.designer.cs">
+      <DependentUpon>IconLibExplorerControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ImageIconAddIn\VistaIconProject.cs" />
+    <Compile Include="ImageIconAddIn\WinUI\XAniSurface.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ImageIconAddIn\WinUI\XIconSurface.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ImageIconAddIn\XAniCursor.cs" />
+    <Compile Include="ImageIconAddIn\XAniDocument.cs" />
+    <Compile Include="ImageIconAddIn\XCursor.cs" />
+    <Compile Include="ImageIconAddIn\XIcon.cs" />
+    <Compile Include="ImageIconAddIn\XIconProject.cs" />
+    <Compile Include="ImageImagingAddIn\CoreConvolution.cs" />
+    <Compile Include="ImageImagingAddIn\CoreConvolutionCallBack.cs" />
+    <Compile Include="ImageImagingAddIn\CoreConvolutionParam.cs" />
+    <Compile Include="ImageImagingAddIn\CoreImageEffectAttribute.cs" />
+    <Compile Include="ImageImagingAddIn\Effects\Menu\BlendColorMenu.cs" />
+    <Compile Include="ImageImagingAddIn\Effects\NoiseEffect\enuNoiseType.cs" />
+    <Compile Include="ImageImagingAddIn\Effects\NoiseEffect\Menu\_NoiseEffect.cs" />
+    <Compile Include="ImageImagingAddIn\Effects\NoiseEffect\NoiseEffect.cs" />
+    <Compile Include="ImageImagingAddIn\Effects\UnaryPixelOp.cs" />
+    <Compile Include="ImageImagingAddIn\Effects\UnaryPixelOps.cs" />
+    <Compile Include="ImageImagingAddIn\enuCoreSelectionForm.cs" />
+    <Compile Include="ImageImagingAddIn\enuRegionOperation.cs" />
+    <Compile Include="ImageImagingAddIn\GDIAttribute\Menu\GdiConfigImage.cs" />
+    <Compile Include="ImageImagingAddIn\GDIAttribute\WinUI\XGdiConfigAttribute.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ImageImagingAddIn\GDIColorMatrix\Menu\_ColorMatrixMenu.cs" />
+    <Compile Include="ImageImagingAddIn\GDIColorMatrix\WinUI\XGdiMatrixControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ImageImagingAddIn\IBitmapEffect.cs" />
+    <Compile Include="ImageImagingAddIn\ICoreImageFilter.cs" />
+    <Compile Include="ImageImagingAddIn\IImagingEffect.cs" />
+    <Compile Include="ImageImagingAddIn\ImageEffectBase.cs" />
+    <Compile Include="ImageImagingAddIn\Menu\Artistics\_ArtisticBase.cs" />
+    <Compile Include="ImageImagingAddIn\Menu\Artistics\_CartoonFilter.cs" />
+    <Compile Include="ImageImagingAddIn\Menu\CustomConvolutionMenu.cs" />
+    <Compile Include="ImageImagingAddIn\Menu\Effect\AdjustlLevel.cs" />
+    <Compile Include="ImageImagingAddIn\Menu\Effect\_Desaturate.cs" />
+    <Compile Include="ImageImagingAddIn\Menu\_ConvolutionsMenu.cs" />
+    <Compile Include="ImageImagingAddIn\Menu\_DilateFilter.cs" />
+    <Compile Include="ImageImagingAddIn\Menu\_Effects.cs" />
+    <Compile Include="ImageImagingAddIn\Menu\_ErodeFilter.cs" />
+    <Compile Include="ImageImagingAddIn\Menu\_Filters.cs" />
+    <Compile Include="ImageImagingAddIn\Menu\_ZoomEffect.cs" />
+    <Compile Include="ImageImagingAddIn\WinUI\XCustomConvolutionControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ImageImagingAddIn\WorkingObjects\ImageBrushElement.cs" />
+    <Compile Include="ImageImagingAddIn\WorkingObjects\ImageCopyDocumentSelectionAsImage.cs" />
+    <Compile Include="ImageImagingAddIn\Mecanism\ImageMecanismBase.cs" />
+    <Compile Include="ImageImagingAddIn\WorkingObjects\ImagePotElement.cs" />
+    <Compile Include="ImageRotationAddIn\Menu\ImagingRotateImageMenu.cs" />
+    <Compile Include="ImageToolAddIn\ImagingColorInterval.cs" />
+    <Compile Include="ImageToolAddIn\enuCallbackType.cs" />
+    <Compile Include="ImageToolAddIn\enuRGBMode.cs" />
+    <Compile Include="ImageToolAddIn\ImagingIntervalOperatorProc.cs" />
+    <Compile Include="ImageToolAddIn\Menu\_ImageCourbeDeNiveau.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ImageToolAddIn\Menu\_ImageGrayLevelTool.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ImageToolAddIn\Menu\_ImageIntervalColorMenu.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ImageToolAddIn\Menu\_ImageIntervalColorHSLMenu.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ImageToolAddIn\Menu\_ImageRemapColorAdjustMenu.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ImageToolAddIn\Menu\_ImageScaleLuminanceSaturationMenu.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ImageToolAddIn\Menu\_ImageMatrixColorScaleMenu.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ImageToolAddIn\Menu\_ImageToleranceBWMenu.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ImageToolAddIn\Menu\_ImageToolsMenu.cs" />
+    <Compile Include="ImageToolAddIn\WinUI\UIXAdjustGrayLevel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ImageToolAddIn\WinUI\UIXAdjustHSLValue.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ImageToolAddIn\WinUI\UIXAdjustImageCurveLevel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ImageToolAddIn\WinUI\UIXColorScaleAdjust.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ImageToolAddIn\WinUI\UIXImageSurfaceConfigBase.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ImageToolAddIn\WinUI\UIXRemapColor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ImageToolAddIn\WinUI\UIXToleranceBW.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ImageToolAddIn\WinUI\UIXTransparencyIntervalle.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ImagingUtils.cs" />
+    <Compile Include="Menu\ImageInfoMenu.cs" />
+    <Compile Include="Menu\ImagePropertiesMenu.cs" />
+    <Compile Include="Menu\ImagingMenuBase.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tools\ImageToolBase.cs" />
+    <Compile Include="WorkingObject\Core2DDrawingImageItemAttribute.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ImageToolAddIn\IGK.DrSStudio.Drawing2D.ImageToolAddIn.csproj.user" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\core\IGK.ICore.Drawing2D\IGK.ICore.Drawing2D.csproj">
+      <Project>{29738416-cc50-4ad2-9353-b03fbeecdaf8}</Project>
+      <Name>IGK.ICore.Drawing2D</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\core\IGK.ICore.WinCore\IGK.ICore.WinCore.csproj">
+      <Project>{68ab7706-a97f-4bf8-8d1f-26d69a6bfa0e}</Project>
+      <Name>IGK.ICore.WinCore</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\core\IGK.ICore\IGK.ICore.csproj">
+      <Project>{95e437a5-4a87-4fab-b15f-4a0fde8b7dcf}</Project>
+      <Name>IGK.ICore</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\main\IGK.DrSStudio.WinCore\IGK.DrSStudio.WinCore.csproj">
+      <Project>{74f6a53e-2948-41bc-a842-e036c6d96667}</Project>
+      <Name>IGK.DrSStudio.WinCore</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\IGK.DrSStudio.Drawing2D.GUI\IGK.DrSStudio.Drawing2D.GUI.csproj">
+      <Project>{04adf5a1-c4db-484c-9dd8-02101d2e064c}</Project>
+      <Name>IGK.DrSStudio.Drawing2D.GUI</Name>
+      <Private>False</Private>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ImageHueGrayScaleTransform\WinUI\XHueConfigControl.resx">
+      <DependentUpon>XHueConfigControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImageIconAddIn\Tools\WinUI\IconLibExplorerControl.resx">
+      <DependentUpon>IconLibExplorerControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImageImagingAddIn\GDIAttribute\WinUI\XGdiConfigAttribute.resx">
+      <DependentUpon>XGdiConfigAttribute.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImageImagingAddIn\GDIColorMatrix\WinUI\XGdiMatrixControl.resx">
+      <DependentUpon>XGdiMatrixControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImageImagingAddIn\WinUI\XCustomConvolutionControl.resx">
+      <DependentUpon>XCustomConvolutionControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImageToolAddIn\WinUI\UIXAdjustHSLValue.resx">
+      <DependentUpon>UIXAdjustHSLValue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImageToolAddIn\WinUI\UIXRemapColor.resx">
+      <DependentUpon>UIXRemapColor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImageToolAddIn\WinUI\UIXTransparencyIntervalle.resx">
+      <DependentUpon>UIXTransparencyIntervalle.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

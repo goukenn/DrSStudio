@@ -1,0 +1,16 @@
+<!--This is a gkds ICore file 9.6.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2014-->
+<gkds>
+  <Project>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+    <FileName>D:\DEV\Demo\IGK.PreviewWebDocumentDemo\Sdk\Img\bg.jpg.gkds</FileName>
+  </Project>
+  <Documents>
+    <LayerDocument PixelOffset="None" Width="16" Height="16" Id="LayerDocument_12768940">
+      <Layer Id="Layer_59717449">
+        <Rectangle Bounds="0;0;16;16" FillBrush="Type:Hatch;Colors:#FF58B4FF #FF389FFF;HatchStyle:Percent20;" StrokeBrush="Type:Hatch;Colors:#0000 #0000;HatchStyle:Percent30;" SmoothingMode="None" Id="Rectangle_185365" />
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

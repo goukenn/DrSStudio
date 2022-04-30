@@ -1,0 +1,15 @@
+<!--This is a gkds ICore file 9.6.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2014-->
+<gkds>
+  <Project>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+  </Project>
+  <Documents>
+    <LayerDocument PixelOffset="None" Width="1024" Height="768" Id="LayerDocument_17195043">
+      <Layer Id="Layer_47278615">
+        <QRCode QrEncodeMode="Byte" QrCodeErrorCorrection="M" Text="http://www.igkdev.com" Size="548.9572" Location="165;100" Font="FontName:aharoni;Size:12;" Bounds="165;100;658;412" FillBrush="Type:Solid;Colors:#F000;" StrokeBrush="Type:Solid;Colors:#0000;" SmoothingMode="None" Id="igkdev_com" />
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

@@ -1,0 +1,17 @@
+<div class="overflow-y-a fith igk-parentscroll"  style="margin-bottom:0px;">
+<div class="posr igk-title-4 loc_t loc_r loc_l" style="background-color: #ade; color:#eee;">
+[lang:title.editablename]
+</div>
+<form method="POST" action=".">
+  <div class="form-group" style="padding-left:10px; padding-right:10px;">
+    <input type="text" name="clname" value="[imeth:getTableName]" class="igk-form-control"/>
+   </div>
+  <div  class="form-group" style="padding-left:10px; padding-right:10px;">
+    <textarea name="cldescription" class="igk-form-control">[imeth:getTableDescription]</textarea>
+  </div>
+  <div>
+    <input type="submit" value="[lang:btn.html.update]" class="igk-btn igk-btn-default"
+    onclick="javascript: ns_igk.invoke('UpdateData', {clTableName:this.form.clname.value, clDescription:this.form.cldescription.value}); return false;" />
+  </div>
+</form>
+</div>

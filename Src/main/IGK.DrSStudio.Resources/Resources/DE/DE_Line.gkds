@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--This is a gkds DrSStudio file 7.0.a-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--IGKDEV © 2008-2012-->
+<gkds>
+  <Project>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+  </Project>
+  <Documents>
+    <LayerDocument BackgroundTransparent="True" Width="16" Height="16" Id="LayerDocument_16151305">
+      <Layer Id="Layer_45705550">
+        <Line StartPoint="1;1" EndPoint="15;15" Id="Line_36575126" />
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

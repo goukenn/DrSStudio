@@ -1,0 +1,18 @@
+<!--This is a gkds ICore file 9.7.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2016-->
+<gkds>
+  <Project>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+    <Author>Charles A.D. BONDJE DOUE</Author>
+    <Creation>15-08-2016 09:34:22</Creation>
+    <Version>1.0</Version>
+  </Project>
+  <Documents>
+    <LayerDocument Id="LayerDocument_17487741" PixelOffset="None" BackgroundTransparent="True" Width="100" Height="100">
+      <Layer Id="Layer_54154984">
+        <CircleItem FillMode="Alternate" Radius="30.01666" ItemRadial="20.51828" Center="46;55" Angle="16.69924" FillBrush="Type:Solid;Colors:#F444;" StrokeBrush="Type:Solid;Colors:#0000;" Id="CircleItem_65124469" />
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

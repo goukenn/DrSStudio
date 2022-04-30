@@ -1,0 +1,15 @@
+<!--This is a gkds DrSStudio file 9.1.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2014-->
+<gkds>
+  <Documents>
+    <LayerDocument FillBrush="Type:Solid;Colors:#FFFF;" BackgroundTransparent="True" Width="16" Height="16" Id="LayerDocument_1201026">
+      <Layer Id="Layer_38603496">
+        <Circle Radius="4.472136" Center="5;5" FillBrush="Type:Solid;Colors:#7F7F7F7F;" StrokeBrush="Type:Solid;Colors:#FFF1F1F1;" Id="Circle_62928085" />
+        <Line StrokeBrush="Type:Solid;Colors:#FFC5C5C5;Width:2;DashStyle:Solid;LineJoin:Round" EndPoint="14;14" StartPoint="8;8" Id="Line_25844769" />
+        <Line StrokeBrush="Type:Solid;Colors:#F000;" EndPoint="3;7" StartPoint="3;3" Id="Line_7784474" />
+        <Line StrokeBrush="Type:Solid;Colors:#F000;" EndPoint="7;7" StartPoint="7;3" Id="Line_5611002" />
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

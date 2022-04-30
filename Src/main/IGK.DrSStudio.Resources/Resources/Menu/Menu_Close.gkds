@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--This is a gkds DrSStudio file 8.3.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2012-->
+<gkds>
+  <Project>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+    <Resources>
+      <String Id="app_title" />
+    </Resources>
+  </Project>
+<Documents>
+  <LayerDocument TextContrast="4" PixelOffset="None" BackgroundTransparent="True" Width="16" Height="16" Id="LayerDocument_40508783"><Extensions /><Layer Id="Layer_6086626"><Line StartPoint="3;3" EndPoint="12;13" StrokeBrush="Type:Solid;Colors:#FFFF2300;Width:2;DashStyle:Solid;LineJoin:Round" SmoothingMode="None" Id="Line_2475642"><Filters /></Line><Line StartPoint="13;3" EndPoint="3;13" StrokeBrush="Type:Solid;Colors:#FFFF2300;Width:2;DashStyle:Solid;LineJoin:Round" SmoothingMode="None" Id="Line_17949689"><Filters /></Line></Layer></LayerDocument>
+</Documents>
+</gkds>

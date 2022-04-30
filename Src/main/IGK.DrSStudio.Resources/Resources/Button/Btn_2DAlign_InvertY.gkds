@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--This is a gkds DrSStudio file 7.0.a-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--IGKDEV © 2008-2012-->
+<gkds>
+  <Project>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+  </Project>
+  <Documents>
+    <LayerDocument InterpolationMode="Pixel" BackgroundTransparent="True" Width="32" Height="32" Id="LayerDocument_37276176">
+      <Layer Id="Layer_6295501">
+        <Group Matrix="7.549789E-08;0.9999999;-1;7.549789E-08;32;-2.000002" Id="Group_58056065">
+          <CustomPolygon Points="4;25 16;25 16;3" StrokeBrush="Type:Solid;Colors:#FFFF1F0F;" FillBrush="Type:LinearGradient;Colors:#FFFF8D8B #FFFF7F76;LinearMode:Dual;Angle:239.0362;GammaCorrection:True;Factors: 0 1;Positions: 0 1;" Id="CustomPolygon_33353742" />
+          <CustomPolygon Points="30;25 20;25 19;3" StrokeBrush="Type:Solid;Colors:#FFFF1F0F;" FillBrush="Type:LinearGradient;Colors:#FFFF8D8B #FFFF7F76;LinearMode:Dual;Angle:239.0362;GammaCorrection:True;Factors: 0 1;Positions: 0 1;" Id="CustomPolygon_20509607" />
+        </Group>
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

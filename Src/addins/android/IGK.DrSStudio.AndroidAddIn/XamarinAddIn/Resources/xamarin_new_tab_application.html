@@ -1,0 +1,29 @@
+<div >
+<div class="form-group">
+  <label for="clPlateform" >[lang:lb.platform]</label> 
+  <select type="text"  id="clPlateform" class="form-control"  onchange="javascript: this.update_theme(this.value); return false;">  
+	[imeth:getinstalled_platforms]
+  </select>
+</div>
+
+<div class="form-group">
+  <label for="clMainTheme" >[lang:lb.theme]</label>
+  <select type="text"  id="clMainTheme" class="form-control"  onchange="javascript:this.form.load_properties('clMainTheme', this.value); return false;">   
+  </select>
+</div>
+<script language="javascript">
+   (function(q){
+	if (!q)
+		return;
+   var p = $igk(q).select("#clPlateform");
+   var t = $igk(q).select("#clMainTheme");
+   p.o.update_theme=function(){
+	this.form.load_properties('clPlatform', this.value);	
+	t.loadStringAsHtml(igk.ext.call("getThemes", this.value));
+   };
+
+	igk.ready(function(){ p.o.update_theme(); });
+   })($igk(igk.getParentScript()));
+
+</script>
+</div>

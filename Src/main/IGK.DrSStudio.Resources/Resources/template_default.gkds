@@ -1,0 +1,21 @@
+<!--This is a gkds DrSStudio file 9.2.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2014-->
+<gkds>
+  <Project>
+    <TargetSurface>2DDrawingSurface</TargetSurface>
+  </Project>
+  <Documents>
+    <LayerDocument FillBrush="Type:Solid;Colors:#FFFF;" Width="512" Height="512" Id="LayerDocument_57086342">
+      <Layer GammaCorrection="0" Id="Layer_23128738">
+        <Rectangle Bounds="0;0;512;512" FillBrush="Type:Solid;Colors:#FFC9CBC3;" StrokeBrush="Type:Solid;Colors:#FF1A45FF;" Id="Rectangle_14957265" />
+        <MapRectArea Bounds="0;0;0;0" Id="MapRectArea_36835441" />
+        <MapRectArea Bounds="0;0;0;0" Id="MapRectArea_32451512" />
+        <Rectangle Bounds="0;0;90;512" FillBrush="Type:Solid;Colors:#F07F;" StrokeBrush="Type:Solid;Colors:#0000;" SmoothingMode="None" Id="Rectangle_65235265" />
+      </Layer>
+      <Layer GammaCorrection="0" Id="Layer_43495465">
+        <RoundRect RoundStyle="Plus" BottomRight="96;111" BottomLeft="96;111" TopRight="96;111" TopLeft="96;111" Bounds="139;95;307;318" FillBrush="Type:Solid;Colors:#FF5CC915;" StrokeBrush="Type:Solid;Colors:#FF49B189;Width:8;DashStyle:Solid;LineJoin:Round" Id="RoundRect_20469238" />
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

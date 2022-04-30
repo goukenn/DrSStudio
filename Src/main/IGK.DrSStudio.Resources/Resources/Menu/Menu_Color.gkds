@@ -1,0 +1,12 @@
+<!--This is a gkds DrSStudio file 9.1.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2014-->
+<gkds>
+  <Documents>
+    <LayerDocument FillBrush="Type:Solid;Colors:#FFFF;" BackgroundTransparent="True" Width="16" Height="16" Id="LayerDocument_56221712">
+      <Layer Id="Layer_18882799">
+        <Polygon Tension="-1" Count="5" Angle="23.1985912" Radius="7.615773" Center="8;8" FillBrush="Type:PathGradient;Colors:#FFDDFFD2 #F07F #FFFF00A8 #FFC0 #FF00FF2F;LinearMode:MultiColor;Factors: 0 0 0 1;Positions: 0 0.2181426 0.6911447 1;WrapMode:Tile;PathFocusScale:0 0;OneColorPerVertex:True;" StrokeBrush="Type:Solid;Colors:#F000;Alignment:Inset;DashStyle:Solid;LineJoin:Round" Id="Polygon_54960307" />
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

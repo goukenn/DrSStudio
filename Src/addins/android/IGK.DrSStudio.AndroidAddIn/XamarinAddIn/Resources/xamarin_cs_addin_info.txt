@@ -1,0 +1,7 @@
+﻿[assembly:IGK.ICore.CoreAddIn(
+AddInTitle="[imeth:getAppName]",
+Version="1.0",
+AuthorName="[imeth:getAuthor]",
+AuthorContact="[imeth:getContact]",
+Date ="[imeth:getDateTime]"
+)]

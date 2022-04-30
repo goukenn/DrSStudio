@@ -1,0 +1,20 @@
+<!--This is a gkds DrSStudio file 8.7.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2013-->
+<gkds>
+  <Project>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+    <FileName>D:\DRSStudio 8.4 Src\Src\core\IGK.DrSStudio.Resources\Resources\DE_Cone.gkds</FileName>
+    <Resources>
+      <String Id="app_title" />
+    </Resources>
+  </Project>
+  <Documents>
+    <LayerDocument BackgroundTransparent="True" Width="16" Height="16" Id="LayerDocument_64185571">
+      <Layer Id="Layer_37765596">
+        <RoundRect BottomRight="3;3" BottomLeft="3;3" TopRight="3;3" TopLeft="3;3" Bounds="3.031252;2;9.968748;13" StrokeBrush="Type:Solid;Colors:#FF10;" Id="RoundRect_6637132" />
+        <Ellipse Center="8;3" Radius="5;2" StrokeBrush="Type:Solid;Colors:#FF10;" Id="Ellipse_11792931" />
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

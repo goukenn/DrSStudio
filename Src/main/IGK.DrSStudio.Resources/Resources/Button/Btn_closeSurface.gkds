@@ -1,0 +1,47 @@
+<!--This is a gkds DrSStudio file 9.1.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2014-->
+<gkds>
+  <Documents>
+    <LayerDocument FillBrush="Type:Solid;Colors:#FFFF;" BackgroundTransparent="True" Width="16" Height="16" Id="LayerDocument_5347880">
+      <Layer Id="Layer_19377847">
+        <Line StrokeBrush="Type:Solid;Colors:#FFFF007E;Width:4;DashStyle:Solid;LineJoin:Round" EndPoint="13;13" StartPoint="3;2" Id="Line_3714653" />
+        <Line StrokeBrush="Type:Solid;Colors:#FFFF007E;Width:4;DashStyle:Solid;LineJoin:Round" EndPoint="12;4" StartPoint="1;14" Matrix="1,0,0,0,0,1,0,0,0,0,1,0,2,-1,0,1" Id="Line_29012049" />
+        <Line StrokeBrush="Type:Solid;Colors:#FF05ADFF;Width:4;DashStyle:Solid;LineJoin:Round" EndPoint="13;13" StartPoint="3;2" Matrix="1,0,0,0,0,1,0,0,0,0,1,0,-1,0,0,1" Id="Line_3714653" />
+        <Line StrokeBrush="Type:Solid;Colors:#FF05ADFF;Width:4;DashStyle:Solid;LineJoin:Round" EndPoint="13;13" StartPoint="3;2" Matrix="-4.371139E-08,1,0,0,-1,-4.371139E-08,0,0,0,0,1,0,15,4.768372E-07,0,1" Id="Line_3714653" />
+      </Layer>
+    </LayerDocument>
+    <LayerDocument FillBrush="Type:Solid;Colors:#FFFF;" BackgroundTransparent="True" Width="16" Height="16" Id="LayerDocument_54850920">
+      <Layer Id="Layer_31180230">
+        <Line StrokeBrush="Type:Solid;Colors:#C1810000;Width:4;DashStyle:Solid;LineJoin:Round" EndPoint="13;13" StartPoint="3;2" Id="Line_3714653" />
+        <Line StrokeBrush="Type:Solid;Colors:#C15D0000;Width:4;DashStyle:Solid;LineJoin:Round" EndPoint="12;4" StartPoint="1;14" Matrix="1,0,0,0,0,1,0,0,0,0,1,0,2,-1,0,1" Id="Line_29012049" />
+        <Line StrokeBrush="Type:Solid;Colors:#FFFF2300;Width:4;DashStyle:Solid;LineJoin:Round" EndPoint="13;13" StartPoint="3;2" Matrix="1,0,0,0,0,1,0,0,0,0,1,0,-1,0,0,1" Id="Line_3714653" />
+        <Line StrokeBrush="Type:Solid;Colors:#FFFF1E00;Width:4;DashStyle:Solid;LineJoin:Round" EndPoint="13;13" StartPoint="3;2" Matrix="-4.371139E-08,1,0,0,-1,-4.371139E-08,0,0,0,0,1,0,15,4.768372E-07,0,1" Id="Line_3714653" />
+      </Layer>
+    </LayerDocument>
+    <LayerDocument FillBrush="Type:Solid;Colors:#FFFF;" BackgroundTransparent="True" Width="16" Height="16" Id="LayerDocument_44694185">
+      <Layer Id="Layer_39294294">
+        <Line StrokeBrush="Type:Solid;Colors:#FFFF007E;Width:4;DashStyle:Solid;LineJoin:Round" EndPoint="13;13" StartPoint="3;2" Id="Line_3714653" />
+        <Line StrokeBrush="Type:Solid;Colors:#FFFF007E;Width:4;DashStyle:Solid;LineJoin:Round" EndPoint="12;4" StartPoint="1;14" Matrix="1,0,0,0,0,1,0,0,0,0,1,0,2,-1,0,1" Id="Line_29012049" />
+        <Line StrokeBrush="Type:Solid;Colors:#FF05ADFF;Width:4;DashStyle:Solid;LineJoin:Round" EndPoint="13;13" StartPoint="3;2" Matrix="1,0,0,0,0,1,0,0,0,0,1,0,-1,0,0,1" Id="Line_3714653" />
+        <Line StrokeBrush="Type:Solid;Colors:#FF05ADFF;Width:4;DashStyle:Solid;LineJoin:Round" EndPoint="13;13" StartPoint="3;2" Matrix="-4.371139E-08,1,0,0,-1,-4.371139E-08,0,0,0,0,1,0,15,4.768372E-07,0,1" Id="Line_3714653" />
+      </Layer>
+    </LayerDocument>
+    <LayerDocument FillBrush="Type:Solid;Colors:#FFFF;" BackgroundTransparent="True" Width="16" Height="16" Id="LayerDocument_41450044">
+      <Layer Id="Layer_21271193">
+        <Line StrokeBrush="Type:Solid;Colors:#FFFF007E;Width:4;DashStyle:Solid;LineJoin:Round" EndPoint="13;13" StartPoint="3;2" Id="Line_3714653" />
+        <Line StrokeBrush="Type:Solid;Colors:#FFFF007E;Width:4;DashStyle:Solid;LineJoin:Round" EndPoint="12;4" StartPoint="1;14" Matrix="1,0,0,0,0,1,0,0,0,0,1,0,2,-1,0,1" Id="Line_29012049" />
+        <Line StrokeBrush="Type:Solid;Colors:#FF05ADFF;Width:4;DashStyle:Solid;LineJoin:Round" EndPoint="13;13" StartPoint="3;2" Matrix="1,0,0,0,0,1,0,0,0,0,1,0,-1,0,0,1" Id="Line_3714653" />
+        <Line StrokeBrush="Type:Solid;Colors:#FF05ADFF;Width:4;DashStyle:Solid;LineJoin:Round" EndPoint="13;13" StartPoint="3;2" Matrix="-4.371139E-08,1,0,0,-1,-4.371139E-08,0,0,0,0,1,0,15,4.768372E-07,0,1" Id="Line_3714653" />
+      </Layer>
+    </LayerDocument>
+    <LayerDocument FillBrush="Type:Solid;Colors:#FFFF;" BackgroundTransparent="True" Width="16" Height="16" Id="LayerDocument_5954362">
+      <Layer Id="Layer_13635405">
+        <Line StrokeBrush="Type:Solid;Colors:#FFFF007E;Width:4;DashStyle:Solid;LineJoin:Round" EndPoint="13;13" StartPoint="3;2" Id="Line_3714653" />
+        <Line StrokeBrush="Type:Solid;Colors:#FFFF007E;Width:4;DashStyle:Solid;LineJoin:Round" EndPoint="12;4" StartPoint="1;14" Matrix="1,0,0,0,0,1,0,0,0,0,1,0,2,-1,0,1" Id="Line_29012049" />
+        <Line StrokeBrush="Type:Solid;Colors:#FF626262;Width:4;DashStyle:Solid;LineJoin:Round" EndPoint="13;13" StartPoint="3;2" Matrix="1,0,0,0,0,1,0,0,0,0,1,0,-1,0,0,1" Id="Line_3714653" />
+        <Line StrokeBrush="Type:Solid;Colors:#FF626262;Width:4;DashStyle:Solid;LineJoin:Round" EndPoint="13;13" StartPoint="3;2" Matrix="-4.371139E-08,1,0,0,-1,-4.371139E-08,0,0,0,0,1,0,15,4.768372E-07,0,1" Id="Line_3714653" />
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

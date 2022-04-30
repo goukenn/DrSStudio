@@ -1,0 +1,19 @@
+<!--This is a gkds ICore file 9.6.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2014-->
+<gkds>
+  <Project>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+    <Author>Charles A.D. BONDJE DOUE</Author>
+    <Creation>26-12-2014 09:29:07</Creation>
+    <Version>1.0</Version>
+  </Project>
+  <Documents>
+    <LayerDocument BackgroundTransparent="True" Width="32" Height="32" Id="LayerDocument_61448077">
+      <Layer Id="Layer_56524657">
+        <RoundRect BottomRight="3;3" BottomLeft="3;3" TopRight="3;3" TopLeft="3;3" Bounds="2;2;28;28" FillBrush="Type:Solid;Colors:#FFB3B3B3;" StrokeBrush="Type:Solid;Colors:#FFFF;" Id="RoundRect_30900279" />
+        <RoundRect BottomRight="3;3" BottomLeft="3;3" TopRight="3;3" TopLeft="3;3" Bounds="2;2;28;28" FillBrush="Type:Solid;Colors:#0000;" StrokeBrush="Type:Solid;Colors:#F000;DashStyle:Dash;LineJoin:Round" Id="RoundRect_30900279" />
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

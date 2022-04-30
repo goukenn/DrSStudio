@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B3C51A62-D216-4A33-AA51-81B56084702F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>IGK.DrSStudio.Drawing3D.OpenGL</RootNamespace>
+    <AssemblyName>drsOglAddIn</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
+    <DebugSymbols>true</DebugSymbols>
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>Bin\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>Bin\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddInDrawing2D\Codec\BitmapSpriteBatchGraphicsView.cs" />
+    <Compile Include="AddInDrawing2D\IGKOGL2DDrawingResourcesManager.cs" />
+    <Compile Include="AddInDrawing2D\IGKOGL2DDefinition.cs" />
+    <Compile Include="AddInDrawing2D\IGKOGL2DDrawingBrushManager.cs" />
+    <Compile Include="AddInDrawing2D\Codec\IGKD3DRasterBitmapEncoder.cs" />
+    <Compile Include="AddInDrawing2D\IGKOGL2DDrawingExtensions.cs" />
+    <Compile Include="AddInDrawing2D\IGKOGL2DTessalationRenderer.cs" />
+    <Compile Include="AddInDrawing2D\IIGKOGL2DDrawingDeviceVisitor.cs" />
+    <Compile Include="AddInDrawing2D\IIGKOGL2DGraphicsSetting.cs" />
+    <Compile Include="AddInDrawing2D\RoundRectangleVisitDemo.cs" />
+    <Compile Include="AddInDrawing2D\Template\IGKOGL2DTemplates.cs" />
+    <Compile Include="AddInDrawing2D\Tools\InitCoreToolBase.cs" />
+    <Compile Include="AddInDrawing2D\IGKOGL2DDrawingDeviceVisitor.cs" />
+    <Compile Include="AddInDrawing2D\WinUI\IGKOGL2DDrawingSurface.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AddInDrawing2D\WinUI\IGKOGL2DPathRenderer.cs" />
+    <Compile Include="AddInDrawing2D\WorkingObjects\IGKOGL2DDiskElement.cs" />
+    <Compile Include="AddInDrawing2D\WorkingObjects\IGKOGL2DConeElement.cs" />
+    <Compile Include="AddInDrawing2D\WorkingObjects\IGKOGL2DCylinderElement.cs" />
+    <Compile Include="AddInDrawing2D\WorkingObjects\IGKOGL2DTorusElement.cs" />
+    <Compile Include="AddInDrawing2D\WorkingObjects\IGKOGL2DTeapotElement.cs" />
+    <Compile Include="AddInDrawing2D\WorkingObjects\IGKOGL2DSphereElement.cs" />
+    <Compile Include="AddInDrawing2D\WorkingObjects\IGKOGL2DCubeElement.cs" />
+    <Compile Include="AddInDrawing2D\WorkingObjects\IGKOGL2DItemAttribute.cs" />
+    <Compile Include="AddInDrawing2D\WorkingObjects\IGKOGL2DWorkingObjectBase.cs" />
+    <Compile Include="AddInDrawing2D\WorkingObjects\IGKOGLGraphicsSetting.cs" />
+    <Compile Include="AddInDrawing2D\WorkingObjects\IIGKOGL2DWorkingObject.cs" />
+    <Compile Include="AddInDrawing2D\OGLImageKeys.cs" />
+    <Compile Include="AddInDrawing2D\WorkingObjects\Text\IGKOGLTextElement.cs" />
+    <Compile Include="AddInDrawing2D\WorkingObjects\Text\IIGKOGL3DTextElement.cs" />
+    <Compile Include="AddInInfo.cs" />
+    <Compile Include="enumGLUTObjectType.cs" />
+    <Compile Include="enuOGLCameraOrientation.cs" />
+    <Compile Include="enuOGLCameraProjection.cs" />
+    <Compile Include="enuOGLCameraType.cs" />
+    <Compile Include="enuOGLPropertyChangedType.cs" />
+    <Compile Include="enuOGLRenderingMode.cs" />
+    <Compile Include="enuOGLResourcesType.cs" />
+    <Compile Include="IGKOGLWinCoreRendering.cs" />
+    <Compile Include="Menu\Help\WinUI\UIXGLInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Menu\File\GLNewSurface.cs" />
+    <Compile Include="Menu\GLMenuBase.cs" />
+    <Compile Include="Menu\Help\OGLInfoMenu.cs" />
+    <Compile Include="Native.cs" />
+    <Compile Include="OGLCameraUtility.cs" />
+    <Compile Include="OGLCheckingType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="OGLConstant.cs" />
+    <Compile Include="OGLExtension.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Templates\IGKD3DDrawingTemplates.cs" />
+    <Compile Include="WinUI\IGKD3DOGLSurface.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WorkingObjects\IGKD3DOGLConstant.cs" />
+    <Compile Include="WorkingObjects\IGKD3DOGLDocument.cs" />
+    <Compile Include="WorkingObjects\IGKD3DOGLDrawableObjectBase.cs" />
+    <Compile Include="WorkingObjects\IGKD3DOGLElement.cs" />
+    <Compile Include="WorkingObjects\IGKD3DOGLElementBase.cs" />
+    <Compile Include="WorkingObjects\IGKD3DOGLRectangle.cs" />
+    <Compile Include="WorkingObjects\IGKD3DOGLWorkingDrawableAttribute.cs" />
+    <Compile Include="WorkingObjects\IGKD3DOGLWorkingObjectAttribute.cs" />
+    <EmbeddedResource Include="Menu\Help\WinUI\UIXGLInfo.resx">
+      <DependentUpon>UIXGLInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Resources\d2dWOpenGL_template.gkds" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\core\IGK.ICore.Drawing2D\IGK.ICore.Drawing2D.csproj">
+      <Project>{29738416-cc50-4ad2-9353-b03fbeecdaf8}</Project>
+      <Name>IGK.ICore.Drawing2D</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\core\IGK.ICore.WinCore\IGK.ICore.WinCore.csproj">
+      <Project>{68ab7706-a97f-4bf8-8d1f-26d69a6bfa0e}</Project>
+      <Name>IGK.ICore.WinCore</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\core\IGK.ICore\IGK.ICore.csproj">
+      <Project>{95e437a5-4a87-4fab-b15f-4a0fde8b7dcf}</Project>
+      <Name>IGK.ICore</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\main\IGK.DrSStudio.WinCore\IGK.DrSStudio.WinCore.csproj">
+      <Project>{74f6a53e-2948-41bc-a842-e036c6d96667}</Project>
+      <Name>IGK.DrSStudio.WinCore</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\OpenGLLib\IGK.GLLib4.1\IGK.GLLib.csproj">
+      <Project>{adb81747-5b27-4bc3-bddf-b5492d3568f6}</Project>
+      <Name>IGK.GLLib</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\OpenGLLib\IGK.OGLGame\IGK.OGLGame.csproj">
+      <Project>{c8c92fc2-fcea-4462-9d97-2f75d392c3f4}</Project>
+      <Name>IGK.OGLGame</Name>
+      <Private>False</Private>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="AddInDrawing2D\ContextMenu\" />
+    <Folder Include="AddInDrawing2D\Menu\" />
+    <Folder Include="AddInDrawing2D\WorkingObjects\GLUT\" />
+    <Folder Include="AddInDrawing2D\WorkingObjects\Standard\" />
+    <Folder Include="ContextMenu\" />
+    <Folder Include="Setting\" />
+    <Folder Include="WorkingObjects\Text\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

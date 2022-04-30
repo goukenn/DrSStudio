@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--This is a gkds DrSStudio file 7.0.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--IGKDEV © 2008-2012-->
+<gkds>
+  <Project>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+  </Project>
+  <Documents>
+    <LayerDocument InterpolationMode="Pixel" BackgroundTransparent="True" Width="32" Height="32" Id="LayerDocument_59418880">
+      <Layer Id="Layer_31906251">
+        <Code39Element Font="FontName:Aharoni;Style:Bold;Size:12;" Model="Code39" Value="B" Bounds="1;10;30;12" FillBrush="Type:Solid;Colors:#F000;" Id="Code39Element_6716988" />
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

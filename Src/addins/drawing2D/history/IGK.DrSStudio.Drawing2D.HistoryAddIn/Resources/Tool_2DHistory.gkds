@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--This is a gkds DrSStudio file 8.0.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2012-->
+<gkds>
+  <Project>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+  </Project>
+  <Documents>
+    <LayerDocument InterpolationMode="Pixel" BackgroundTransparent="True" Width="32" Height="32" Id="LayerDocument_41416580">
+      <Layer Id="Layer_43383421">
+        <CustomPolygon FillMode="Alternate" Points="5;28 5;4 10;4 10;14 21;14 21;3 26;3 26;28 20;28 20;19 14;19 14;28" StrokeBrush="Type:Solid;Colors:#FF3E3E3E;DashStyle:Solid;LineJoin:Round" FillBrush="Type:Solid;Colors:#FFFF805E;" ShadowProperty="Color:#C000; Offset:2 2;" AllowShadow="True" Id="CustomPolygon_32893656" />
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

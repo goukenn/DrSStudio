@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--This is a gkds DrSStudio file 8.0.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2012-->
+<gkds>
+  <Project>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+  </Project>
+  <Documents>
+    <LayerDocument InterpolationMode="Pixel" BackgroundTransparent="True" Width="32" Height="32" Id="LayerDocument_4626412">
+      <Layer Id="Layer_62378941">
+        <Arc SweepAngle="360" StartAngle="45" Center="8;8" Radius="0;0" Id="Arc_412923" />
+        <Path Closed="False" FillMode="Winding" StrokeBrush="Type:Solid;Colors:#FF262626;" FillBrush="Type:Solid;Colors:#FFFF000B;" Matrix="1;0;0;1;3;3" Id="Path_30990975">
+          <Points>2;2 16;2 16;15 2;15 10;9 24;9 24;22 10;22</Points>
+          <PointTypes>0;1;1;129;0;1;1;129</PointTypes>
+        </Path>
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

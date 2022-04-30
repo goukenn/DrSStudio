@@ -1,0 +1,22 @@
+<!--This is a gkds DrSStudio file 8.7.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2013-->
+<gkds>
+  <Project>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+    <FileName>D:\DRSStudio 8.4 Src\Src\core\IGK.DrSStudio.Resources\Resources\generate.gkds</FileName>
+    <Resources>
+      <String Id="app_title" />
+    </Resources>
+  </Project>
+  <Documents>
+    <LayerDocument BackgroundTransparent="True" Width="32" Height="32" Id="LayerDocument_47777670">
+      <Layer Id="Layer_4903758">
+        <Path Closed="False" StrokeBrush="Type:Solid;Colors:#FFFF7800;DashStyle:Solid;LineJoin:Round" FillBrush="Type:LinearGradient;Colors:#FFFFEB0D #FFFFBA00;LinearMode:Dual;Angle:58.44861;GammaCorrection:True;Factors: 0 1;Positions: 0 1;" ShadowProperty="Color:#9E000000; Offset:2 2;BrushMode:Solid;IsClipped:False;" AllowShadow="True" Id="Path_51309765">
+          <Points>27.31371;16 27.31371;17.98597 26.79094;19.93695 25.79796;21.65685 27.0227;22.36396 25.90559;24.29885 24.29885;25.90559 22.36396;27.0227 21.65685;25.79796 19.93695;26.79094 17.98597;27.31371 16;27.31371 16;28.72792 13.76579;28.72792 11.57093;28.13981 9.636042;27.02271 10.34315;25.79796 8.623246;24.80497 7.195028;23.37675 6.202042;21.65685 4.977297;22.36396 3.860188;20.42908 3.272078;18.23422 3.272077;16 4.686291;16.00001 4.68629;14.01403 5.209053;12.06305 6.202038;10.34315 4.977288;9.63605 6.094395;7.701159 7.701139;6.094411 9.636027;4.977301 10.34313;6.202047 12.06303;5.20906 14.01401;4.686294 15.99998;4.686291 15.99998;3.272077 18.2342;3.272074 20.42905;3.860181 22.36395;4.977287 21.65684;6.202032 23.37674;7.195014 24.80496;8.62323 25.79795;10.34313 27.0227;9.636025 28.1398;11.57091 28.72792;13.76577 28.72792;15.99998 27.31371;15.99999 27.31371;16 27.31371;16 27.31371;16 22.40312;16 22.40312;19.53635 19.53635;22.40312 16;22.40312 12.46365;22.40312 9.596875;19.53635 9.596875;16 9.596875;12.46365 12.46365;9.596875 16;9.596875 19.53635;9.596875 22.40312;12.46365 22.40312;16</Points>
+          <PointTypes>0;3;3;3;1;3;3;3;1;3;3;3;1;3;3;3;1;3;3;3;1;3;3;3;1;3;3;3;1;3;3;3;1;3;3;3;1;3;3;3;1;3;3;3;1;3;3;3;1;3;3;131;0;3;3;3;3;3;3;3;3;3;3;3;131</PointTypes>
+        </Path>
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

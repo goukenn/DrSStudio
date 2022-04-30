@@ -1,0 +1,17 @@
+﻿<igk_android_project type="IGKApp">
+  <Files>
+    <File Name="MainActivity.cs" BuildMode="Compile">xamarin_cs_main_activity</File>
+    <File Name="SplashScreenActivity.cs" BuildMode="Compile">xamarin_cs_splashscreen_activity</File>
+    <File Name="App.cs" BuildMode="Compile">xamarin_cs_app</File>
+    <File Name="AddInInfo.cs" BuildMode="Compile">xamarin_cs_addin_info</File>
+    
+    
+    <File Name="Lang\fr.resources" NoPrefix="true"></File>
+    <File Name="Resources\values\Strings.xml" NoPrefix="true" BuildMode="AndroidResource">xamarin_xml_string</File>
+    <File Name="Resources\values\style_splashscreen.xml" NoPrefix="true" BuildMode="AndroidResource">xamarin_xml_style_splashscreen</File>
+    <File Name="Resources\layout\main.axml" NoPrefix="true" BuildMode="AndroidResource">xamarin_xaml_main_layout</File>
+    <File Name="Resources\layout\splashscreen.axml" BuildMode="AndroidResource" NoPrefix="true">xamarin_xaml_splashcreen_layout</File>
+    <File Name="Resources\drawable\app_icon.png" NoPrefix="true" NoEval="true" BuildMode="AndroidResource">xamarin_app_icon</File>
+	<File Name="Resources\drawable\splashscreen.png" NoPrefix="true" NoEval="true" BuildMode="AndroidResource">xamarin_app_splashscreen</File>
+  </Files>
+</igk_android_project>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--This is a gkds DrSStudio file 8.3.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2012-->
+<gkds>
+  <Project>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+    <Resources>
+      <Bitmap Id="resBitmap">iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwgAADsIBFShKgAAAADxJREFUWEftzqERADAIALHOgmH/CekCGA6BiXjzKi8ialNmrgIAAAAAAAC4B3RzUoeaBAAAAAAAAHAMiPrBuLJMa1MlLgAAAABJRU5ErkJggg==</Bitmap>
+    </Resources>
+  </Project>
+<Documents>
+  <LayerDocument InterpolationMode="Pixel" TextContrast="4" BackgroundTransparent="True" Width="1366" Height="768" Id="LayerDocument_38320647"><Extensions /><Layer Id="Layer_56250508"><Rectangle Bounds="0.0002314197;1.000175;1366.006;768.0028" FillBrush="Type:LinearGradient;Colors:#FF005AFF #FF1D87FF;LinearMode:Dual;Angle:90;WrapMode:TileFlipXY;GammaCorrection:True;Factors: 0 1;Positions: 0 1;" Id="Rectangle_20372872"><Filters /></Rectangle></Layer><Layer Id="Layer_14737053"><QRCode Text="HTTP://WWW.IGKDEV.BE/AUTHOR" Size="140.427917" Location="1217;617" StrokeBrush="Type:Solid;Colors:#0000;" SmoothingMode="None" Id="QRCode_54963049"><Filters /></QRCode></Layer></LayerDocument>
+</Documents>
+</gkds>

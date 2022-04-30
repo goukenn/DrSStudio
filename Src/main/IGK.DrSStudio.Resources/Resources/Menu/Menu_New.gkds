@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--This is a gkds DrSStudio file 8.3.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2012-->
+<gkds>
+  <Project>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+    <Resources>
+      <String Id="app_title" />
+    </Resources>
+  </Project>
+<Documents>
+  <LayerDocument Id="LayerDocument_66486462" PixelOffset="None" TextContrast="4" Width="16" Height="16" BackgroundTransparent="True"><Extensions /><Layer Id="Layer_26652737"><CustomPolygon FillMode="Alternate" Points="1;2 7;2 7;5 15;5 15;15 1;15" StrokeBrush="Type:Solid;Colors:#FF007986;DashStyle:Solid;MiterLimit:4" FillBrush="Type:LinearGradient;Colors:#F000 #F000;LinearMode:Dual;WrapMode:TileFlipXY;GammaCorrection:True;Factors: 0 1;Positions: 0 1;" SmoothingMode="None" Id="CustomPolygon_21951803"><Filters /></CustomPolygon></Layer></LayerDocument>
+</Documents>
+</gkds>

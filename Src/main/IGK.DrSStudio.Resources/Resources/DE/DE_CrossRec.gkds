@@ -1,0 +1,22 @@
+<!--This is a gkds DrSStudio file 8.7.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2013-->
+<gkds>
+  <Project>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+    <FileName>D:\DRSStudio 8.4 Src\Src\core\IGK.DrSStudio.Resources\Resources\DE_SCube.gkds</FileName>
+    <Resources>
+      <String Id="app_title" />
+    </Resources>
+  </Project>
+  <Documents>
+    <LayerDocument BackgroundTransparent="True" Width="16" Height="16" Id="LayerDocument_64185571">
+      <Layer Id="Layer_37765596">
+        <Path Closed="False" Id="Path_51096568">
+          <Points>2;2 14;2 14;14 2;14 8;2 8;14 2;8 14;8</Points>
+          <PointTypes>0;1;1;129;0;129;0;129</PointTypes>
+        </Path>
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

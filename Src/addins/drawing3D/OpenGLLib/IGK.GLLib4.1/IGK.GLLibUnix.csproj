@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7C54DDB1-2490-421A-8D58-B985EA98E63A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>IGK.GLLib</RootNamespace>
+    <AssemblyName>IGK.GLLibUnix</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SignAssembly>false</SignAssembly>
+    <AssemblyOriginatorKeyFile>igk.gllib.pfx</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
+    <DebugSymbols>true</DebugSymbols>
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;OS_LINUX</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>TRACE;OS_LINUX</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="enuGLBoolean.cs" />
+    <Compile Include="enuGLClear.cs" />
+    <Compile Include="enuGLError.cs" />
+    <Compile Include="enuGLLightColor.cs" />
+    <Compile Include="enuGLMatrixMode.cs" />
+    <Compile Include="enuGLPixelMode.cs" />
+    <Compile Include="enuGLPixelFormat.cs" />
+    <Compile Include="enuGLPrimitives.cs" />
+    <Compile Include="enuGLUTessCallback.cs" />
+    <Compile Include="enuGLUTessWindingRule.cs" />
+    <Compile Include="Enumerations.cs" />
+    <Compile Include="glew.4.0.cs" />
+    <Compile Include="GLUtils.cs" />
+    <Compile Include="WinApi\Gdi32Lib.cs" />
+    <Compile Include="glew.4.0.partial.cs" />
+    <Compile Include="GLException.cs" />
+    <Compile Include="enuGLFlags.cs" />
+    <Compile Include="enuGLPlane.cs" />
+    <Compile Include="GLVersion.cs" />
+    <Compile Include="OGLFont.cs" />
+    <Compile Include="Pointers\GLDoublePointer.cs" />
+    <Compile Include="Pointers\PDouble.cs" />
+    <Compile Include="Pointers\Pfloat.cs" />
+    <Compile Include="Pointers\PInt4.cs" />
+    <Compile Include="Pointers\PUbyte.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs" />
+    <Compile Include="WGL.cs" />
+    <Compile Include="wglew3.0.cs" />
+    <Compile Include="WinApi\GLU.cs" />
+    <Compile Include="WinApi\GLUT.cs" />
+    <Compile Include="WinApi\User32Lib.cs" />
+    <Compile Include="GLConstant.cs" />
+    <Compile Include="Linux\XGL.cs" />
+    <Compile Include="Linux\XFont.cs" />
+    <Compile Include="Linux\XLib.cs" />
+    <Compile Include="Linux\enuXGLProperty.cs" />
+    <Compile Include="Linux\enuXGLPropertyBIT.cs" />
+    <Compile Include="Linux\enuXGLType.cs" />
+    <Compile Include="IGLGraphicDevice.cs" />
+    <Compile Include="GLWindowDevice.cs" />
+    <Compile Include="Linux\GLLinuxDevice.cs" />
+    <Compile Include="ISpriteFontInfo.cs" />
+    <Compile Include="SpriteFontInfo.cs" />
+    <Compile Include="Data\GLColor3f.cs" />
+    <Compile Include="Data\GLColor4f.cs" />
+    <Compile Include="Data\GLMatrix4x4f.cs" />
+    <Compile Include="Data\GLVector4f.cs" />
+    <Compile Include="Data\pos2d.cs" />
+    <Compile Include="Data\pos3d.cs" />
+    <Compile Include="Data\vect2f.cs" />
+    <Compile Include="Data\vect3f.cs" />
+    <Compile Include="Data\vect4f.cs" />
+    <Compile Include="Data\vectd.cs" />
+    <Compile Include="Data\vecTypeConverter.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Doc\RunDOC.txt" />
+    <Content Include="GLU32.dll" />
+    <Content Include="glut32.dll" />
+    <Content Include="OSMESA32.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="WinUI\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

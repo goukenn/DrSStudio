@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--This is a gkds DrSStudio file 7.0.a-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--IGKDEV © 2008-2012-->
+<gkds>
+  <Project>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+  </Project>
+  <Documents>
+    <LayerDocument InterpolationMode="Pixel" Width="256" Height="256" BackgroundTransparent="True" Id="LayerDocument_51563209">
+      <Layer Id="Layer_38835879">
+        <CustomPolygon Points="54;203 79;62 191;82 152;198" StrokeBrush="Type:Solid;Colors:#FFFF0B00;Width:14;LineJoin:Round" FillBrush="Type:LinearGradient;Colors:#FFFF6DF6 #FFFFF000;LinearMode:Dual;Angle:75.37913;GammaCorrection:True;Factors: 0 1;Positions: 0 1;" Id="CustomPolygon_51214893" />
+        <Circle Center="29;43" Radius="23.32381" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#FFFFF000;" Id="Circle_64586381" />
+        <Circle Center="42;217" Radius="24.18677" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#FFFFF000;" Id="Circle_47455141" />
+        <Circle Center="217;47" Radius="19.79899" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#FFFFF000;" Id="Circle_9082473" />
+        <Circle Center="169;214" Radius="26.90725" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#FFFFF000;" Id="Circle_17159989" />
+        <Line StartPoint="29;43" EndPoint="41;214" StrokeBrush="Type:Solid;Colors:#FFFFF000;Width:14;LineJoin:Round" Id="Line_40126407" />
+        <Line StartPoint="218;45" EndPoint="168;217" StrokeBrush="Type:Solid;Colors:#FFFFF000;Width:8;LineJoin:Round" Id="Line_31791731" />
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

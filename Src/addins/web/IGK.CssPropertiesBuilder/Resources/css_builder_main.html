@@ -1,0 +1,75 @@
+﻿<div class="fitw fith overflow-y-a igk-poweredviewer igk-scrollparent" > 
+
+<div class="posfix igk-title-4 loc_t loc_r loc_l" id="barner" style="background-color: #ade; color:#eee; z-index:10" igk-js-fix-loc-scroll-width="1">
+Balafon Css builder
+</div>
+
+
+	<div class="igk-col-12-2 igk-col-sm-12-5 alignt fith no-padding no-margin" style="overflow:hidden;" >
+		<div class="properties"> Properties</div>
+		<div class="properties"> 
+            <input type ="text" id="searchkey" class="igk-form-control" igk-js-eval-init="if (typeof(cssbuilder) !='undefined') cssbuilder.initsearch()" />
+        </div>
+		<ul class="no-margin no-padding overflow-y-a" id="ops" style="height:auto; margin:0px; border:1px solid #aaa;" >
+			[imeth:GetCss]
+		</ul>	  
+	</div>
+	 
+	 <div class="fith  igk-col-12-10 igk-col-sm-12-7 alignt" >
+		<div class="disptable fitw fith" >
+		<div class="disptabc alignm alignc fitw fith">
+			<div id="preview" style="font-size:2em;" contenteditable="true">Your message</div>		
+		</div>
+		</div>
+	</div>	
+	<div class="disptable cleartab clearb" ></div>
+<div id="actionbar" class="igk-action-bar igk-pull-right posfix loc_b loc_l loc_r" style="z-index:10" igk-js-fix-loc-scroll-width="1" >
+    <span class="sr-only">Tables actions</span>
+    <input type="button"  value="[lang:btn.save]" class="igk-btn igk-btn-default" onclick="javascript: ns_igk.ext.call('Save', cssbuilder.getStyleData()); return false; " />    
+  </div>  
+  
+  
+ <script language="javascript" type="text/javascript">
+ igk.system.createNS("cssbuilder",{
+	initsearch: function(){
+		var q = $igk("#searchkey").first();
+		q.reg_event('keyup', function(){
+            var o = q.o.value;
+            if (o)
+			cssbuilder.searchProperty(o.toLowerCase());
+		});
+		q.setCss({"border":'1px solid rgb(187, 187, 187)'});
+	}
+
+ });
+
+(function(){
+var q = igk.getParentScript();
+var b = null;
+var ab = null;
+var ops = null;
+function __setup()
+{
+	$igk(q).setCss(
+	{
+		paddingTop: b.getHeight()+"px",
+		paddingBottom: ab.getHeight()+"px"
+	}
+	);
+	ops.setCss({height: ($igk(ops.o.parentNode).getHeight() - ops.getTop())+"px"});
+
+}
+ igk.ready(function(){
+ b = $igk('#barner').getItemAt(0);
+ ab = $igk('#actionbar').getItemAt(0);
+ ops =  $igk("#ops").getItemAt(0);
+	igk.winui.reg_event(window, 'resize', function(){
+		__setup();
+	});
+	__setup();
+ });
+ })();
+
+
+ </script>
+</div>

@@ -1,0 +1,17 @@
+<!--This is a gkds ICore file 9.4.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2014-->
+<gkds>
+  <Project>
+    <TargetSurface>2DDrawingSurface</TargetSurface>
+  </Project>
+  <Documents>
+    <LayerDocument FillBrush="Type:Solid;Colors:#FFFF;" BackgroundTransparent="True" Width="48" Height="48" Id="LayerDocument_61518569">
+      <Layer Id="Layer_20343418">
+        <Circle Radius="8.602325" Center="24;24" FillBrush="Type:Solid;Colors:#C9000000;" StrokeBrush="Type:Solid;Colors:#FFFF;Width:5;DashStyle:Solid;LineJoin:Round" Id="Circle_6253981" />
+        <Line StrokeBrush="Type:Solid;Colors:#F000;Width:5;DashStyle:Solid;LineJoin:Round" EndPoint="45;3" StartPoint="3;44" Id="Line_14427626" />
+        <Line StrokeBrush="Type:Solid;Colors:#F000;Width:5;DashStyle:Solid;LineJoin:Round" EndPoint="45;44" StartPoint="3;3" Id="Line_33781203" />
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

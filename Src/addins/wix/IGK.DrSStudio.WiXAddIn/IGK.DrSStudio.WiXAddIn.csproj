@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4D880FAE-7BCD-42A6-8644-1AD492DF6FBB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>IGK.DrSStudio.WiXAddIn</RootNamespace>
+    <AssemblyName>drsWixAddIn</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>Bin\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>Bin\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>Bin\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>Bin\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\core\IGK.ICore.WinCore\IGK.ICore.WinCore.csproj">
+      <Project>{68ab7706-a97f-4bf8-8d1f-26d69a6bfa0e}</Project>
+      <Name>IGK.ICore.WinCore</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\core\IGK.ICore\IGK.ICore.csproj">
+      <Project>{95e437a5-4a87-4fab-b15f-4a0fde8b7dcf}</Project>
+      <Name>IGK.ICore</Name>
+      <Private>False</Private>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="IGK.DrSStudio.WinCore">
+      <HintPath>..\..\..\main\IGK.DrSStudio.WinCore\Bin\x86\Debug\IGK.DrSStudio.WinCore.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\..\..\core\IGK.ICore.WinCore\Native\enuWindowMessage.cs">
+      <Link>Native\enuWindowMessage.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\core\IGK.ICore.WinCore\Native\Gdi32.lib.cs">
+      <Link>Native\Gdi32.lib.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\core\IGK.ICore.WinCore\Native\IconInfo.cs">
+      <Link>Native\IconInfo.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\core\IGK.ICore.WinCore\Native\PrintAPI.cs">
+      <Link>Native\PrintAPI.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\core\IGK.ICore.WinCore\Native\User32.lib.cs">
+      <Link>Native\User32.lib.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\core\IGK.ICore.WinCore\Native\UXTheme.lib.cs">
+      <Link>Native\UXTheme.lib.cs</Link>
+    </Compile>
+    <Compile Include="AddInInfo.cs" />
+    <Compile Include="Codec\FileCodecAttribute.cs" />
+    <Compile Include="Codec\WiXFileDecoder.cs" />
+    <Compile Include="Codec\WiXFileEncoder.cs" />
+    <Compile Include="enuWiXFileType.cs" />
+    <Compile Include="enuWiXRegistryAction.cs" />
+    <Compile Include="enuWiXRemoveFolderOn.cs" />
+    <Compile Include="IWiXProjectExtension.cs" />
+    <Compile Include="IWiXValue.cs" />
+    <Compile Include="Menu\File\WiXDrSStudioInstaller.cs" />
+    <Compile Include="Menu\File\_NewDrSStudioInstallerDemoMenu.cs" />
+    <Compile Include="Menu\File\New\_WiXMsiProject.cs" />
+    <Compile Include="Menu\WiX\NewWixGenerator.cs" />
+    <Compile Include="Menu\WiX\_WiXGenerateWixObjMenu.cs" />
+    <Compile Include="Menu\WiX\Variable\_WiXClearVariables.cs" />
+    <Compile Include="Menu\WiX\Variable\_WiXAddVariables.cs" />
+    <Compile Include="Menu\WiX\_WixLoadFilesFromFolderMenu.cs" />
+    <Compile Include="WiXCreateFolder.cs" />
+    <Compile Include="WiXMatchEvaluator.cs" />
+    <Compile Include="WiXPermission.cs" />
+    <Compile Include="WiXPermissionUtilEx.cs" />
+    <Compile Include="WiXProjectVariableCollections.cs" />
+    <Compile Include="WiXProjectVariables.cs" />
+    <Compile Include="WiXPropertyRef.cs" />
+    <Compile Include="WinUI\WiXNewConditionControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WiXCDATAValueAttribute.cs" />
+    <Compile Include="WiXCondition.cs" />
+    <Compile Include="Menu\WiXMenuBase.cs" />
+    <Compile Include="Menu\WiX\_WixAddDirectory.cs" />
+    <Compile Include="Menu\WiX\_WiXAddFilesMenu.cs" />
+    <Compile Include="Menu\WiX\_WiXAddShorcut.cs" />
+    <Compile Include="Menu\WiX\_WiXGenerate.cs" />
+    <Compile Include="Menu\WiX\_WiXMenu.cs" />
+    <Compile Include="Settings\WiXInstallerSetting.cs" />
+    <Compile Include="Tools\WiXDragDropManagerTool.cs" />
+    <Compile Include="Tools\WiXToolBase.cs" />
+    <Compile Include="WinUI\IWixShortcutInfo.cs" />
+    <Compile Include="WinUI\WiXCategoryControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WinUI\WiXConfigControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WinUI\WiXNewDirectoryControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WinUI\WiXNewShortcutControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WinUI\WiXSurface.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WiXProjectWriter.cs" />
+    <Compile Include="WiXCustomAction.cs" />
+    <Compile Include="WiXDirectoryName.cs" />
+    <Compile Include="WiXIcon.cs" />
+    <Compile Include="Menu\File\_NewDrSStudioInstaller.cs" />
+    <Compile Include="WiXDocument.cs" />
+    <Compile Include="WiXFileEntry.cs" />
+    <Compile Include="Menu\File\New\_newWiXFile.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="WiXAttributeAttribute.cs" />
+    <Compile Include="WiXComponentRef.cs" />
+    <Compile Include="WiXConstant.cs" />
+    <Compile Include="WinUI\WiXMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinUI\WiXMainForm.Designer.cs">
+      <DependentUpon>WiXMainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WiXDirectory.cs" />
+    <Compile Include="WiXDirectoryComponent.cs" />
+    <Compile Include="WiXDisplayNameAttribte.cs" />
+    <Compile Include="WiXElementAttribute.cs" />
+    <Compile Include="WiXFeature.cs" />
+    <Compile Include="WiXFeatureEntry.cs" />
+    <Compile Include="WiXGuidAttribute.cs" />
+    <Compile Include="WiXInitializer.cs" />
+    <Compile Include="WiXMedia.cs" />
+    <Compile Include="WiXModule.cs" />
+    <Compile Include="WiXModuleDocument.cs" />
+    <Compile Include="WiXProject.cs" />
+    <Compile Include="WiXProjectFileCollectionEventArgs.cs" />
+    <Compile Include="WiXProjectFile.cs" />
+    <Compile Include="WiXProjectGuidConverter.cs" />
+    <Compile Include="WiXProjectGuidEditor.cs" />
+    <Compile Include="WiXProjectVersionConverter.cs" />
+    <Compile Include="WiXProperty.cs" />
+    <Compile Include="WiXPropertyName.cs" />
+    <Compile Include="WiXPublish.cs" />
+    <Compile Include="WiXRegistryKey.cs" />
+    <Compile Include="WiXRegistryValue.cs" />
+    <Compile Include="WiXRemoveFolder.cs" />
+    <Compile Include="WiXSelectLicenceFileEditor.cs" />
+    <Compile Include="WiXShortCut.cs" />
+    <Compile Include="WiXStringElement.cs" />
+    <Compile Include="WiXUI.cs" />
+    <Compile Include="WiXUIDialogName.cs" />
+    <Compile Include="WiXUIRef.cs" />
+    <Compile Include="WiXUtility.cs" />
+    <Compile Include="WiXUtils.cs" />
+    <Compile Include="WiXVariable.cs" />
+    <Compile Include="WiXWriter.cs" />
+    <Compile Include="WiXProductDocument.cs" />
+    <Compile Include="WiXEntry.cs" />
+    <Compile Include="WiXPackage.cs" />
+    <Compile Include="WiXYesOrNoValue.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinUI\WiXNewDirectoryControl.resx">
+      <DependentUpon>WiXNewDirectoryControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinUI\WiXNewShortcutControl.resx">
+      <DependentUpon>WiXNewShortcutControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinUI\WiXSurface.resx">
+      <DependentUpon>WiXSurface.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Documents\document.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Actions\" />
+    <Folder Include="ContextMenu\" />
+    <Folder Include="Lang\" />
+    <Folder Include="WorkingObject\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

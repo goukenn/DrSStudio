@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--This is a gkds DrSStudio file 7.0.a-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--IGKDEV © 2008-2012-->
+<gkds>
+  <Project>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+  </Project>
+  <Documents>
+    <LayerDocument InterpolationMode="Pixel" Width="16" Height="16" Id="LayerDocument_58739981">
+      <Layer Id="Layer_23696490">
+        <DocumentBlock Matrix="0.5;0;0;0.5;0;0" Id="DocumentBlock_50410935">
+          <LayerDocument InterpolationMode="Pixel" Width="32" Height="32" Id="LayerDocument_38547184">
+            <Layer Id="Layer_64832787">
+              <Rectangle Bounds="-3.814697E-06;-1.907349E-06;32;32" StrokeBrush="Type:Solid;Colors:#F777;Width:2;LineJoin:Round" FillBrush="Type:LinearGradient;Colors:#FFFDFF7E #FFD6F1FF;LinearMode:Dual;Angle:218.3333;WrapMode:TileFlipXY;GammaCorrection:True;Factors: 0 1;Positions: 0 1;" Id="Rectangle_43902125" />
+              <Rectangle Bounds="0;-9.536743E-07;9;32" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#FF91ADFF;" Id="Rectangle_5583861" />
+              <Polygon Count="3" Angle="60.2551155" Center="22;15" Radius="8.062258" StrokeBrush="Type:Solid;Colors:#FF3E8C3E;" FillBrush="Type:Solid;Colors:#FF75E460;" Id="Polygon_57263796" />
+            </Layer>
+          </LayerDocument>
+        </DocumentBlock>
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--This is a gkds DrSStudio file 7.0.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--IGKDEV © 2008-2012-->
+<gkds>
+  <Project>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+  </Project>
+  <Documents>
+    <LayerDocument InterpolationMode="Pixel" BackgroundTransparent="True" Width="32" Height="32" Id="LayerDocument_36965117">
+      <Layer Id="Layer_61034388">
+        <Group Matrix="-0.9999999;1.509958E-07;-1.509958E-07;-1;36.99999;25" Id="Group_14297594">
+          <Rectangle Bounds="20;9;2;20" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#FF0041FF;" Id="Rectangle_6104808" />
+          <Polygon Count="3" Angle="30.9637585" Center="22;6" Radius="5.830952" StrokeBrush="Type:Solid;Colors:#FF00C0FF;" FillBrush="Type:Solid;Colors:#FF2A61FF;" Matrix="1;0;0;1;-1;2" Id="Polygon_18473557" />
+        </Group>
+        <Group Matrix="7.549789E-08;0.9999999;-1;7.549789E-08;32.5;20.5" Id="Group_47034031">
+          <Rectangle Bounds="15;5;2;22" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#F000;" Matrix="0.9999999;-1.192093E-07;1.192093E-07;0.9999999;-10.00001;-1.907349E-06" Id="Rectangle_5988092" />
+          <RoundRect RoundStyle="Outer" BottomRight="0;0" BottomLeft="0;0" TopRight="0;0" TopLeft="0;0" Bounds="13;1;7;6" Matrix="0.9999999;-1.192093E-07;1.192093E-07;0.9999999;-10.5;0.999998" Id="RoundRect_31897715" />
+          <RoundRect RoundStyle="Outer" BottomRight="0;0" BottomLeft="0;0" TopRight="0;0" TopLeft="0;0" Bounds="13;1;7;6" Matrix="0.9999999;-1.192093E-07;1.192093E-07;0.9999999;-10.49999;23" Id="RoundRect_55879315" />
+        </Group>
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

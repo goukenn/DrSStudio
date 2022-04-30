@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{031B2775-9101-4E0B-AAB0-37005E13A145}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>IGK.DrSStudio.Web</RootNamespace>
+    <AssemblyName>drsWebSolution</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>Bin\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>Bin\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>Bin\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>Bin\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddInInfo.cs" />
+    <Compile Include="Codec\WebSolutionDecoder.cs" />
+    <Compile Include="Codec\WebSolutionEncoder.cs" />
+    <Compile Include="CompareItem.cs" />
+    <Compile Include="Menu\Web\WebApiInitMenu.cs" />
+    <Compile Include="Menu\Web\WebBuildMenu.cs" />
+    <Compile Include="Menu\Tools\WebSolutionExtractLib.cs" />
+    <Compile Include="Menu\WebSolutionMenu.cs" />
+    <Compile Include="Menu\WebSolutionMenuBase.cs" />
+    <Compile Include="Menu\Web\WebGetLangKeyXmlFormatMenu.cs" />
+    <Compile Include="Menu\Web\WebAddControllerMenu.cs" />
+    <Compile Include="Menu\Web\WebOpenInWebBrowserMenu.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Settings\WebSolutionSetting.cs" />
+    <Compile Include="Settings\WebSolutionSettingAttribute.cs" />
+    <Compile Include="Templates\WebSolutionConfigType.cs" />
+    <Compile Include="Templates\WebSolutionProjectTemplate.cs" />
+    <Compile Include="WebSolutionCategoryItem.cs" />
+    <Compile Include="WebSolutionCategory\WebDesignerCategory.cs" />
+    <Compile Include="WebSolutionCategory\WebLanguageCategory.cs" />
+    <Compile Include="WebSolutionCategory\WebBrowserDesignCategory.cs" />
+    <Compile Include="WebSolutionCategory\WebGeneralCategory.cs" />
+    <Compile Include="WebSolutionCategory\WebStyleCategory.cs" />
+    <Compile Include="WebSolutionConstant.cs" />
+    <Compile Include="WebSolutionFile.cs" />
+    <Compile Include="WebSolutionFolder.cs" />
+    <Compile Include="WebSolutionItem.cs" />
+    <Compile Include="WebSolutionItemBase.cs" />
+    <Compile Include="WebSolutionItemComparer.cs" />
+    <Compile Include="WebSolutionServerManager.cs" />
+    <Compile Include="WebSolutionUtility.cs" />
+    <Compile Include="WebSolutionWizzard\WebSolutionWizzard.cs" />
+    <Compile Include="WebWorlutionWorkingObjectVisitor.cs" />
+    <Compile Include="WinUI\WebSolutionBrowserDesignSurface.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WinUI\WebSolutionDesignerSurface.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WinUI\WebSolutionItemSurface.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WebSolutionPackage.cs" />
+    <Compile Include="WebSolutionSolution.cs" />
+    <Compile Include="WinUI\WebSolutionScreenInfo.cs" />
+    <Compile Include="WinUI\WebSolutionScreenInfos.cs" />
+    <Compile Include="WinUI\WebSolutionScriptingObject.cs" />
+    <Compile Include="WinUI\WebSolutionSurface.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WinUI\WebSolutionSurfaceBase.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WinUI\WebSolutionWizzardUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WorkingObjects\WebControllerItem.cs" />
+    <Compile Include="WorkingObjects\WebSolutionController.cs" />
+    <Compile Include="WorkingObjects\WebSolutionDocument.cs" />
+    <Compile Include="WorkingObjects\WebSolutionItemAttribute.cs" />
+    <Compile Include="WorkingObjects\WebSolutionWorkingObject.cs" />
+    <Compile Include="WorkingObjects\WebSolutionDocumentLayer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\core\IGK.ICore.Drawing2D\IGK.ICore.Drawing2D.csproj">
+      <Project>{29738416-cc50-4ad2-9353-b03fbeecdaf8}</Project>
+      <Name>IGK.ICore.Drawing2D</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\core\IGK.ICore.WinCore\IGK.ICore.WinCore.csproj">
+      <Project>{68ab7706-a97f-4bf8-8d1f-26d69a6bfa0e}</Project>
+      <Name>IGK.ICore.WinCore</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\main\IGK.DrSStudio.WinCoreDesign\IGK.DrSStudio.WinCoreDesign.csproj">
+      <Project>{497fad28-de18-40d3-af73-2ec1f9303b6b}</Project>
+      <Name>IGK.DrSStudio.WinCoreDesign</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\main\IGK.DrSStudio.WinCore\IGK.DrSStudio.WinCore.csproj">
+      <Project>{74f6a53e-2948-41bc-a842-e036c6d96667}</Project>
+      <Name>IGK.DrSStudio.WinCore</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\core\IGK.ICore\IGK.ICore.csproj">
+      <Project>{95e437a5-4a87-4fab-b15f-4a0fde8b7dcf}</Project>
+      <Name>IGK.ICore</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\drawing2D\adv\IGK.DrSStudio.Drawing2D.AdvElementAddIn\IGK.DrSStudio.Drawing2D.AdvElementAddIn.csproj">
+      <Project>{98d1db21-0d85-4e45-b423-4a72ae965713}</Project>
+      <Name>IGK.DrSStudio.Drawing2D.AdvElementAddIn</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\drawing2D\IGK.DrSStudio.Drawing2D.GUI\IGK.DrSStudio.Drawing2D.GUI.csproj">
+      <Project>{04adf5a1-c4db-484c-9dd8-02101d2e064c}</Project>
+      <Name>IGK.DrSStudio.Drawing2D.GUI</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\editor\IGK.DrSStudio.TextCodeEditorAddIn\IGK.DrSStudio.TextCodeEditorAddIn.csproj">
+      <Project>{67805d0c-c478-4567-82d7-9f3735100ddb}</Project>
+      <Name>IGK.DrSStudio.TextCodeEditorAddIn</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\phpServer\IGK.DrSStudio.Net\IGK.DrSStudio.Net.csproj">
+      <Project>{39df73fe-c05d-4e41-bf27-c5ac826fb166}</Project>
+      <Name>IGK.DrSStudio.Net</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\phpServer\IGK.Net.PhpServer\IGK.Net.PhpServer.csproj">
+      <Project>{2f32026d-c0b6-4b43-bb1e-47a23177de13}</Project>
+      <Name>IGK.Net.PhpServer</Name>
+      <Private>False</Private>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ContextMenu\" />
+    <Folder Include="Menu\File\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinUI\WebSolutionBrowserDesignSurface.resx">
+      <DependentUpon>WebSolutionBrowserDesignSurface.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinUI\WebSolutionDesignerSurface.resx">
+      <DependentUpon>WebSolutionDesignerSurface.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinUI\WebSolutionSurface.resx">
+      <DependentUpon>WebSolutionSurface.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinUI\WebSolutionWizzardUserControl.resx">
+      <DependentUpon>WebSolutionWizzardUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Lib\iGKWeb.zip" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

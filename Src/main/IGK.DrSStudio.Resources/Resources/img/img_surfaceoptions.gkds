@@ -1,0 +1,32 @@
+<!--This is a gkds DrSStudio file 9.1.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2014-->
+<gkds>
+  <Documents>
+    <LayerDocument FillBrush="Type:Solid;Colors:#FFFF;" BackgroundTransparent="True" Width="16" Height="16" Id="LayerDocument_60552080">
+      <Layer Id="Layer_50432147">
+        <CustomPolygon Tension="0" EnableTension="False" Closed="False" FillMode="Alternate" Points="1;8 8;15 15;8" FillBrush="Type:Solid;Colors:#7F000000;" StrokeBrush="Type:Solid;Colors:#F000;DashStyle:Solid;LineJoin:Round" Id="CustomPolygon_42497935" />
+      </Layer>
+    </LayerDocument>
+    <LayerDocument FillBrush="Type:Solid;Colors:#FFFF;" BackgroundTransparent="True" Width="16" Height="16" Id="LayerDocument_58225715">
+      <Layer Id="Layer_57430473">
+        <CustomPolygon Tension="0" EnableTension="False" Closed="False" FillMode="Alternate" Points="1;8 8;15 15;8" FillBrush="Type:Solid;Colors:#7FC3FF6F;" StrokeBrush="Type:Solid;Colors:#F000;DashStyle:Solid;LineJoin:Round" Id="CustomPolygon_42497935" />
+      </Layer>
+    </LayerDocument>
+    <LayerDocument FillBrush="Type:Solid;Colors:#FFFF;" BackgroundTransparent="True" Width="16" Height="16" Id="LayerDocument_22618790">
+      <Layer Id="Layer_12078813">
+        <CustomPolygon Tension="0" EnableTension="False" Closed="False" FillMode="Alternate" Points="1;8 8;15 15;8" FillBrush="Type:Solid;Colors:#7F000000;" StrokeBrush="Type:Solid;Colors:#F000;DashStyle:Solid;LineJoin:Round" Id="CustomPolygon_42497935" />
+      </Layer>
+    </LayerDocument>
+    <LayerDocument FillBrush="Type:Solid;Colors:#FFFF;" BackgroundTransparent="True" Width="16" Height="16" Id="LayerDocument_40558962">
+      <Layer Id="Layer_3224487">
+        <CustomPolygon Tension="0" EnableTension="False" Closed="False" FillMode="Alternate" Points="1;8 8;15 15;8" FillBrush="Type:Solid;Colors:#7F000000;" StrokeBrush="Type:Solid;Colors:#F000;DashStyle:Solid;LineJoin:Round" Id="CustomPolygon_42497935" />
+      </Layer>
+    </LayerDocument>
+    <LayerDocument FillBrush="Type:Solid;Colors:#FFFF;" BackgroundTransparent="True" Width="16" Height="16" Id="LayerDocument_8014248">
+      <Layer Id="Layer_64970087">
+        <CustomPolygon Tension="0" EnableTension="False" Closed="False" FillMode="Alternate" Points="1;8 8;15 15;8" FillBrush="Type:Solid;Colors:#7F000000;" StrokeBrush="Type:Solid;Colors:#F000;DashStyle:Solid;LineJoin:Round" Id="CustomPolygon_42497935" />
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

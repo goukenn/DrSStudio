@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--This is a gkds DrSStudio file 8.5.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2013-->
+<gkds>
+  <Project>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+    <FileName>D:\DRSStudio 8.4 Src\Bin\Debug\Empty.gkds</FileName>
+    <Resources>
+      <String Id="app_title" />
+    </Resources>
+  </Project>
+<Documents>
+  <LayerDocument BackgroundTransparent="True" Width="16" Height="16" Id="LayerDocument_11720648"><Extensions /><Layer Id="Layer_23644654"><DocumentBlock StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#0000;" Matrix="0.5;0;0;0.5;0;0" Id="DocumentBlock_55004114"><Filters /><LayerDocument BackgroundTransparent="True" Width="32" Height="32" Id="LayerDocument_65563627"><Extensions /><Layer Id="Layer_39958284"><DocumentBlock StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#0000;" Matrix="0.6666667;0;0;0.6666667;0;0" Id="DocumentBlock_20091457"><Filters /><LayerDocument BackgroundTransparent="True" Width="48" Height="48" Id="LayerDocument_51662874"><Extensions /><Layer Id="Layer_64427587"><RoundRect BottomRight="0;0" BottomLeft="0;0" TopRight="0;0" TopLeft="0;0" Bounds="4;5;24;25" StrokeBrush="Type:Solid;Colors:#FF434343;" FillBrush="Type:Solid;Colors:#FF0F0F0F;" Id="RoundRect_11391950"><Filters /></RoundRect><Rectangle Bounds="6;23;19;2" StrokeBrush="Type:Solid;Colors:#0000;" Id="Rectangle_28459842"><Filters /></Rectangle><RoundRect BottomRight="0;0" BottomLeft="0;0" TopRight="0;0" TopLeft="0;0" Bounds="19;19;26;25" StrokeBrush="Type:Solid;Colors:#FF434343;" FillBrush="Type:Solid;Colors:#FF0F0F0F;" Id="RoundRect_53387204"><Filters /></RoundRect><Rectangle Bounds="6;23;19;2" StrokeBrush="Type:Solid;Colors:#0000;" Matrix="1;0;0;1;0;-8" Id="Rectangle_28634777"><Filters /></Rectangle><Rectangle Bounds="6;23;19;2" StrokeBrush="Type:Solid;Colors:#0000;" Matrix="1;0;0;1;0;-15" Id="Rectangle_1890988"><Filters /></Rectangle><Rectangle Bounds="6;23;19;2" StrokeBrush="Type:Solid;Colors:#0000;" Matrix="1;0;0;1;16;1" Id="Rectangle_48241422"><Filters /></Rectangle><Rectangle Bounds="6;23;19;2" StrokeBrush="Type:Solid;Colors:#0000;" Matrix="1;0;0;1;16;8" Id="Rectangle_57045597"><Filters /></Rectangle><Rectangle Bounds="6;23;19;2" StrokeBrush="Type:Solid;Colors:#0000;" Matrix="1;0;0;1;16;15" Id="Rectangle_57229392"><Filters /></Rectangle></Layer></LayerDocument></DocumentBlock></Layer></LayerDocument></DocumentBlock></Layer></LayerDocument>
+</Documents>
+</gkds>

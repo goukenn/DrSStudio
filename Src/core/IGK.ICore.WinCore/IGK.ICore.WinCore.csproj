@@ -1,0 +1,404 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{68AB7706-A97F-4BF8-8D1F-26D69A6BFA0E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>IGK.ICore.WinCore</RootNamespace>
+    <AssemblyName>IGK.ICore.WinCore</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>drsstudio2021.pfx</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'DebugDev|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\DebugDev\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'DebugDev|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\DebugDev\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.mshtml, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Toolkit.Win32.UI.Controls, Version=4.0.0.0, Culture=neutral, PublicKeyToken=4aff67a105548ee2, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Microsoft.Toolkit.Win32.UI.Controls.4.0.1\lib\net462\Microsoft.Toolkit.Win32.UI.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ComponentModel\ColorfTypeEditor.cs" />
+    <Compile Include="ComponentModel\Design\InitializationAttribute.cs" />
+    <Compile Include="ComponentModel\LayerTransparencyKeyTypeConverter.cs" />
+    <Compile Include="ComponentModel\Vector2dArrayConverter.cs" />
+    <Compile Include="ComponentModel\Vector2iConverter.cs" />
+    <Compile Include="ComponentModel\WinCoreColorfTypeConverter.cs" />
+    <Compile Include="ComponentModel\WinCoreFontTypeConverter.cs" />
+    <Compile Include="ComponentModel\WinCoreInt32TypeConverter.cs" />
+    <Compile Include="ComponentModel\WinCoreMatrixTypeConverter.cs" />
+    <Compile Include="ComponentModel\WinCoreRectanglefTypeConverter.cs" />
+    <Compile Include="ComponentModel\WinCoreSingleTypeConverter.cs" />
+    <Compile Include="ComponentModel\WinCoreVector2fArrrayConverter.cs" />
+    <Compile Include="ComponentModel\WinCoreVector2fTypeConverter.cs" />
+    <Compile Include="Configuration\CoreConfigurableObjectParametertItem.cs" />
+    <Compile Include="Configuration\CoreParameterConfigCollections.cs" />
+    <Compile Include="Configuration\CoreParameterControl.cs" />
+    <Compile Include="Configuration\CoreParameterGroup.cs" />
+    <Compile Include="Configuration\CoreParameterGroupDataItem.cs" />
+    <Compile Include="Configuration\CoreParameterGroupEnumItem.cs" />
+    <Compile Include="Configuration\CoreParameterGroupItem.cs" />
+    <Compile Include="Configuration\CoreParameterStatus.cs" />
+    <Compile Include="Configuration\CoreParameterTab.cs" />
+    <Compile Include="Configuration\CoreParameterTabGroup.cs" />
+    <Compile Include="Configuration\CoreParameterTrackbar.cs" />
+    <Compile Include="CoreAddIn.cs" />
+    <Compile Include="ICoreBrushBuilder.cs" />
+    <Compile Include="ICorePathBrushGenerator.cs" />
+    <Compile Include="Native\enuWindowMessage.cs" />
+    <Compile Include="Native\Gdi32.lib.cs" />
+    <Compile Include="Native\IconInfo.cs" />
+    <Compile Include="Native\PrintAPI.cs" />
+    <Compile Include="Native\User32.lib.cs" />
+    <Compile Include="Native\UXTheme.lib.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="RenderNonClientAreaNonClientAreaEventArgs.cs" />
+    <Compile Include="Settings\DesignerServiceSetting.cs" />
+    <Compile Include="Tools\WinCoreTool.cs" />
+    <Compile Include="Web\WinCoreWebExtensions.cs" />
+    <Compile Include="Web\WinCoreWebServer.cs" />
+    <Compile Include="WinCoreBrushesNames.cs" />
+    <Compile Include="WinCoreBrushes.cs" />
+    <Compile Include="WinCoreClipBoard.cs" />
+    <Compile Include="WinCoreConstant.cs" />
+    <Compile Include="WinCoreDesigner.cs" />
+    <Compile Include="WinCoreGdiPlusExtensions.cs" />
+    <Compile Include="WinCoreGraphicsPath.cs" />
+    <Compile Include="WinCoreGraphicsPathUtils.cs" />
+    <Compile Include="WinCoreMenuMessageFilter.cs" />
+    <Compile Include="Dispatch\WinCoreControlDispatcher.cs" />
+    <Compile Include="Dispatch\WinCoreDispatcherInfo.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tools\WinCoreRegistryRendererSaveTool.cs" />
+    <Compile Include="WinCoreApplication.cs" />
+    <Compile Include="WinCoreBitmap.cs" />
+    <Compile Include="WinCoreBitmapData.cs" />
+    <Compile Include="WinCoreBitmapDeviceVisitor.cs" />
+    <Compile Include="WinCoreBitmapOperation.cs" />
+    <Compile Include="WinCoreBrushRegister.cs" />
+    <Compile Include="WinCoreControlManager.cs" />
+    <Compile Include="WinCoreDefaultApp.cs" />
+    <Compile Include="WinCoreExtensions.cs" />
+    <Compile Include="WinCoreFont.cs" />
+    <Compile Include="WinCoreFontInfo.cs" />
+    <Compile Include="WinCoreMessageFilter.cs" />
+    <Compile Include="WinCoreResourceManager.cs" />
+    <Compile Include="Caret\Caret.cs" />
+    <Compile Include="Caret\CaretManager.cs" />
+    <Compile Include="Caret\IWinCoreCaretManager.cs" />
+    <Compile Include="WinCoreScreenInfo.cs" />
+    <Compile Include="WinCoreService.cs" />
+    <Compile Include="WinCoreStringFormats.cs" />
+    <Compile Include="WinUI\ColorPicker\IGKXCircleColorSelector.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WinUI\ColorPicker\IGKXDualColorTrackBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WinUI\ColorPicker\UIXCoreColorPicker.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WinUI\Controls\AttributeEditor\AttributeValueChangedEventArgs.cs" />
+    <Compile Include="WinUI\Controls\AttributeEditor\AttributeValueRenderer.cs" />
+    <Compile Include="WinUI\Controls\AttributeEditor\enuDropDowtype.cs" />
+    <Compile Include="WinUI\Controls\AttributeEditor\IAttributeEditorLoader.cs" />
+    <Compile Include="WinUI\Controls\AttributeEditor\IAttributeEditorStoreListener.cs" />
+    <Compile Include="WinUI\Controls\AttributeEditor\IGKXAttributeEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WinUI\Controls\AttributeEditor\IGKXAttributeEditorThemes.cs" />
+    <Compile Include="CoreLogConsole.cs" />
+    <Compile Include="WinUI\Controls\CoreXmlHtmlOptions.cs" />
+    <Compile Include="WinUI\Controls\enuCheckState.cs" />
+    <Compile Include="WinUI\Controls\IGKXCheckBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WinUI\Controls\IGKXComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WinUI\Controls\IGKXComboBoxItem.cs" />
+    <Compile Include="WinUI\Controls\IGKXContextMenuItem.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WinUI\Controls\IGKXLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WinUI\Controls\IGKXListBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WinUI\Controls\IGKXNumericTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WinUI\Controls\IGKXPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WinUI\Controls\IGKXPictureBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WinUI\Controls\IGKXRuleLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WinUI\Controls\IGKXSplitter.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WinUI\Controls\IGKXTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WinUI\Controls\IGKXTextBoxHost.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WinUI\Controls\IGKXTextView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WinUI\Controls\IGKXButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WinUI\Controls\IGKXControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WinUI\Controls\IGKXDocumentViewer.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WinUI\Controls\IGKXToolConfigControlBase.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WinUI\Controls\IGKXToolHostedControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WinUI\Controls\IGKXToolStrip.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WinUI\Controls\IGKXToolStripButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WinUI\Controls\IGKXToolStripCoreToolHost.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WinUI\Controls\IGKXToolStripMenuItem.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WinUI\Controls\IGKXTrackbar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WinUI\Controls\IGKXWebBrowserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WinUI\Controls\IGKXWebBrowserControlHost.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WinUI\Controls\IGKXWinCoreStatus.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WinUI\Controls\IGKXWinCoreWorkingFileManagerSurface.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WinUI\Controls\IIGKWebBrowserHostListener.cs" />
+    <Compile Include="WinUI\Controls\IWebBrowserHost.cs" />
+    <Compile Include="WinUI\Controls\IWebBrowserHostStreamResolver.cs" />
+    <Compile Include="WinUI\Controls\IXCheckProperty.cs" />
+    <Compile Include="WinUI\Controls\IXComboBoxDisplayListener.cs" />
+    <Compile Include="WinUI\Controls\IXComboBoxMatchListener.cs" />
+    <Compile Include="WinUI\Controls\ScrollBars\IGKXHorizontalScrollBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WinUI\Controls\ScrollBars\IGKXScrollBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WinUI\Controls\IGKXUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WinUI\Controls\ScrollBars\IGKXVerticalScrollBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WinUI\Controls\IGKXWinCoreWorkingSurface.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WinUI\Controls\Rules\IGKXHRule.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WinUI\Controls\Rules\IGKXRuleBase.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WinUI\Controls\Rules\IGKXVRule.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WinUI\Controls\StatusControl\IGKXWinCoreStatusItemBase.cs" />
+    <Compile Include="WinUI\Controls\StatusControl\IGKXWinCoreStatusProgressBar.cs" />
+    <Compile Include="WinUI\Controls\StatusControl\IGKXWinCoreStatusTextItem.cs" />
+    <Compile Include="WinCoreUtility.cs" />
+    <Compile Include="WinUI\Controls\IGKWebBrowserControlHost.cs" />
+    <Compile Include="WinUI\Controls\ToolkitWebBrowserHost.cs" />
+    <Compile Include="WinUI\Controls\XCheckBoxHost.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WinUI\Controls\XComboBoxHost.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WinUI\Controls\XControlHost.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WinUI\Controls\XToolStripMenuItemSeparator.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WinUI\Controls\XToolStripRenderer.cs" />
+    <Compile Include="WinUI\CorePrefilterKeyHandler.cs" />
+    <Compile Include="WinUI\ExpenderBox\enuExpenderGroupState.cs" />
+    <Compile Include="WinUI\ExpenderBox\IGKXExpenderBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WinUI\ExpenderBox\IGKXExpenderBoxGroup.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WinUI\ExpenderBox\IGKXExpenderBoxGroupItem.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WinUI\ExpenderBox\IGKXExpenderBoxItem.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WinUI\ExpenderBox\IGKXExpenderBoxRenderer.cs" />
+    <Compile Include="WinUI\IGKXWinCoreMenu.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WinUI\IGKXWinCoreMenuItem.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WinUI\UIXConfigControlBase.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WinUI\WinCoreControlRenderer.cs" />
+    <Compile Include="WinUI\WindowsExtensions.cs" />
+    <Compile Include="WinUI\XForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinUI\XFormDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="XWinCoreContextMenuRenderer.cs" />
+    <Compile Include="XWinCoreMenuRenderer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\IGK.ICore\IGK.ICore.csproj">
+      <Project>{95e437a5-4a87-4fab-b15f-4a0fde8b7dcf}</Project>
+      <Name>IGK.ICore</Name>
+      <Private>False</Private>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="drsstudio.2013.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinUI\ColorPicker\UIXCoreColorPicker.resx">
+      <DependentUpon>UIXCoreColorPicker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinUI\Controls\IGKXPictureBox.resx">
+      <DependentUpon>IGKXPictureBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinUI\UIXConfigControlBase.resx">
+      <DependentUpon>UIXConfigControlBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinUI\XFormDialog.resx">
+      <DependentUpon>XFormDialog.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="drsstudio2021.pfx" />
+    <None Include="packages.config" />
+    <None Include="Resources\content.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

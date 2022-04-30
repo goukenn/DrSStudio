@@ -1,0 +1,6 @@
+﻿<assembly>
+  <description>Use to generate WIX Package</description>
+  <update>
+    <item>authorized folder creation permission</item>
+  </update>
+</assembly>

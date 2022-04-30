@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--This is a gkds DrSStudio file 7.0.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--IGKDEV © 2008-2012-->
+<gkds>
+  <Project>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+    <FileName>D:\DRSStudio 7 Src\IGK.DrSStudio.Resources\Resources\Menu_DASH.gkds</FileName>
+  </Project>
+  <Documents>
+    <LayerDocument InterpolationMode="Pixel" Width="32" Height="32" Id="LayerDocument_16937023">
+      <Layer Id="Layer_12734538">
+         <Rectangle Bounds="0;0;16;16" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#FF878785;" Id="Rectangle_5644743" SmoothingMode="None"/>
+         <Rectangle Bounds="16;16;16;16" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#FF878785;" Id="Rectangle_30735974" SmoothingMode="None" />
+        <Rectangle Bounds="0;0;32;32" StrokeBrush="Type:Solid;Colors:#FF878785;Alignment:Inset;LineJoin:Round" FillBrush="Type:Solid;Colors:#0000;" SmoothingMode="None" Id="Rectangle_4447463" />
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

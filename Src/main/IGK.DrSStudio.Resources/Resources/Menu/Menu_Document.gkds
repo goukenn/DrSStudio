@@ -1,0 +1,19 @@
+<!--This is a gkds ICore file 9.7.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2016-->
+<gkds>
+  <Project>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+    <FileName>D:\DRSStudio 9.0 Src\Src\main\IGK.DrSStudio.Resources\Resources\Menu\Menu_Document.gkds</FileName>
+  </Project>
+  <Documents>
+    <LayerDocument Id="LayerDocument_38254280" PixelOffset="None" BackgroundTransparent="True" Width="100" Height="100">
+      <Layer Id="Layer_35558649">
+        <Path Closed="True" FillBrush="Type:Solid;Colors:#F444;" StrokeBrush="Type:Solid;Colors:#0000;" Id="Path_14016516">
+          <PointTypes>0;1;1;1;1;129;0;1;1;129</PointTypes>
+          <Points>4.5;13 43.5;13 43.5;26 95.5;26 95.5;87 4.5;87 11;33 91;33 91;37 11;37</Points>
+        </Path>
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

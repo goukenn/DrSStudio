@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--This is a gkds DrSStudio file 7.0.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--IGKDEV © 2008-2012-->
+<gkds>
+  <ProjectInfo>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+    <FileName>C:\Users\IGKBondje\Desktop\PlayPause.gkds</FileName>
+  </ProjectInfo>
+  <Documents>
+    <LayerDocument InterpolationMode="Pixel" BackgroundTransparent="True" Width="255" Height="255" Id="LayerDocument_23499931">
+      <Layer Id="Layer_17909221">
+        <Rectangle Bound="39;46;184;165" StrokeBrush="Type:Solid;Colors:#F000;Width:5;LineJoin:Round" FillBrush="Type:Solid;Colors:#FF26C4FF;" Matrix="1;0;0;1;-3.5;-1" Id="Rectangle_35352872" />
+      </Layer>
+      <Layer Id="Layer_39605540" Clipped="#Rectangle_35352872">
+        <Rectangle Bound="39;46;184;165" StrokeBrush="Type:Solid;Colors:#F000;Width:5;LineJoin:Round" FillBrush="Type:Solid;Colors:#FF26C4FF;" Matrix="1;0;0;1;-3.5;-1" Id="Rectangle_35352872" />
+        <Ellipse Center="17;32" Radius="277;117" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#8EFFFFFF;" Id="Ellipse_18718879" />
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

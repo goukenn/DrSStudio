@@ -1,0 +1,29 @@
+<!--This is a gkds DrSStudio file 9.2.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2014-->
+<gkds>
+  <Project>
+    <TargetSurface>2DDrawingSurface</TargetSurface>
+  </Project>
+  <Documents>
+    <LayerDocument FillBrush="Type:Solid;Colors:#FFFF;" BackgroundTransparent="True" Width="32" Height="32" Id="LayerDocument_8560647">
+      <Layer GammaCorrection="0" Id="Layer_52900593">
+        <Group Matrix="0.7786397,0,0,0,0,0.7322367,0,0,0,0,1,0,0.7213764,2.973502,0,1" Id="Group_11390706">
+          <Circle Radius="8.485281" Center="17;16" FillBrush="Type:Solid;Colors:#F000;" Id="Circle_64792330" />
+          <Rectangle Bounds="18;21;14;4" Matrix="0.7071068,0.7071068,0,0,-0.7071068,0.7071068,0,0,0,0,1,0,22.58579,-10.52691,0,1" Id="Rectangle_36267244" FillBrush="Type:Solid;Colors:#F000;" />
+          <Rectangle Bounds="11;13;12;6" StrokeBrush="Type:Solid;Colors:#FF008AFF;" Id="Rectangle_36512221" />
+        </Group>
+        <Group Id="Group_9831669">
+          <Line StrokeBrush="Type:Solid;Colors:#F000;Width:2;DashStyle:Solid;LineJoin:Round" EndPoint="18;2" StartPoint="3;2" SmoothingMode="None" Id="Line_27976347" />
+          <Line StrokeBrush="Type:Solid;Colors:#F000;Width:2;DashStyle:Solid;LineJoin:Round" EndPoint="3;15" StartPoint="3;1" SmoothingMode="None" Id="Line_27976347" />
+        </Group>
+        <Group Matrix="-1,-8.742278E-08,0,0,8.742278E-08,-1,0,0,0,0,1,0,32,31,0,1" Id="Group_9831669">
+          <Line StrokeBrush="Type:Solid;Colors:#F000;Width:2;DashStyle:Solid;LineJoin:Round" EndPoint="18;2" StartPoint="3;2" SmoothingMode="None" Id="Line_27976347" />
+          <Line StrokeBrush="Type:Solid;Colors:#F000;Width:2;DashStyle:Solid;LineJoin:Round" EndPoint="3;15" StartPoint="3;1" SmoothingMode="None" Id="Line_27976347" />
+        </Group>
+        <Circle Radius="3.605551" Center="26;5" FillBrush="Type:Solid;Colors:#F000;" Id="Circle_43005500" />
+        <Circle Radius="3.605551" Center="26;5" FillBrush="Type:Solid;Colors:#F000;" Matrix="1,0,0,0,0,1,0,0,0,0,1,0,-21,21,0,1" Id="Circle_43005500" />
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

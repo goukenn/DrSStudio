@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--This is a gkds DrSStudio file 7.0.a-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--IGKDEV © 2008-2012-->
+<gkds>
+  <Project>
+    <SurfaceType>ButtonSurface</SurfaceType>
+  </Project>
+  <Documents>
+    <LayerDocument InterpolationMode="Pixel" BackgroundTransparent="True" Width="32" Height="32" Id="Normal">
+      <Layer Id="Layer_25417714">
+        <CustomPolygon Points="5;4 27;4 27;12 14;12 14;27 5;27" StrokeBrush="Type:Solid;Colors:#7FFF;" FillBrush="Type:Solid;Colors:#F000;" Id="CustomPolygon_14571419" />
+      </Layer>
+    </LayerDocument>
+    <LayerDocument InterpolationMode="Pixel" BackgroundTransparent="True" Width="32" Height="32" Id="Over">
+      <Layer Id="Layer_25417714">
+        <CustomPolygon Points="5;4 27;4 27;12 14;12 14;27 5;27" StrokeBrush="Type:Solid;Colors:#7FFF;" FillBrush="Type:Solid;Colors:#F01F;" Id="CustomPolygon_14571419" />
+      </Layer>
+    </LayerDocument>
+    <LayerDocument InterpolationMode="Pixel" BackgroundTransparent="True" Width="32" Height="32" Id="Down">
+      <Layer Id="Layer_25417714">
+        <CustomPolygon Points="5;4 27;4 27;12 14;12 14;27 5;27" StrokeBrush="Type:Solid;Colors:#7FFF;" FillBrush="Type:Solid;Colors:#FFFFBA00;" Id="CustomPolygon_14571419" />
+      </Layer>
+    </LayerDocument>
+    <LayerDocument InterpolationMode="Pixel" BackgroundTransparent="True" Width="32" Height="32" Id="Up">
+      <Layer Id="Layer_25417714">
+        <CustomPolygon Points="5;4 27;4 27;12 14;12 14;27 5;27" StrokeBrush="Type:Solid;Colors:#7FFF;" FillBrush="Type:Solid;Colors:#F000;" Id="CustomPolygon_14571419" />
+      </Layer>
+    </LayerDocument>
+    <LayerDocument InterpolationMode="Pixel" BackgroundTransparent="True" Width="32" Height="32" Id="Disabled">
+      <Layer Id="Layer_25417714">
+        <CustomPolygon Points="5;4 27;4 27;12 14;12 14;27 5;27" StrokeBrush="Type:Solid;Colors:#7FFF;" FillBrush="Type:Solid;Colors:#FFA1A1A1;" Id="CustomPolygon_14571419" />
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

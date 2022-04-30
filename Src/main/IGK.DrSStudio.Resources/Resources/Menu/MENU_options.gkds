@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--This is a gkds DrSStudio file 8.5.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2013-->
+<gkds>
+  <Project>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+    <FileName>D:\DRSStudio 8.4 Src\bin\Debug\Empty.gkds</FileName>
+    <Resources>
+      <String Id="app_title" />
+    </Resources>
+  </Project>
+<Documents>
+  <LayerDocument Id="LayerDocument_19288011" SmoothingMode="AntiAliazed" InterpolationMode="HightQualityBilinear" PixelOffset="None" TextContrast="4" BackgroundTransparent="True" Width="512" Height="512"><Extensions /><Layer Id="Layer_45761190"><Path Closed="False" StrokeBrush="Type:Solid;Colors:#F000;Width:8;DashStyle:Solid;LineJoin:Round" FillBrush="Type:Solid;Colors:#FF6D0A24;" Id="Path_9736198"><Points>427.9471;263.0826 427.9471;305.7247 412.158;346.8566 383.6248;378.5459 420.9377;412.1425 394.7723;441.2023 361.4184;462.8625 324.2285;474.9463 308.713;427.1942 268.158;440.3714 224.1601;438.0656 185.2046;420.7214 164.7825;466.5901 129.0595;450.6852 98.15247;425.6572 75.16788;394.0216 115.7881;364.5092 90.72373;330.011 79.32059;287.454 83.77789;245.0455 33.8435;239.7971 37.93095;200.9076 52.18322;163.7792 75.16779;132.1436 115.7881;161.656 140.8525;127.1578 177.8028;103.162 219.5131;94.29614 209.074;45.18388 247.3232;37.05375 287.0386;39.13514 324.2285;51.21884 308.7128;98.97083 349.2679;112.1479 383.5076;139.8747 404.8287;176.8038 448.3114;151.6992 467.8633;185.564 478.1565;223.9788 478.1565;263.0825 319.7809;256 319.7809;291.2252 291.2252;319.7809 256;319.7809 220.7748;319.7809 192.2191;291.2252 192.2191;256 192.2191;220.7748 220.7748;192.2191 256;192.2191 291.2252;192.2191 319.7809;220.7748 319.7809;256</Points><PointTypes>0;3;3;3;1;3;3;3;1;3;3;3;1;3;3;3;1;3;3;3;1;3;3;3;1;3;3;3;1;3;3;3;1;3;3;3;1;3;3;131;0;3;3;3;3;3;3;3;3;3;3;3;131</PointTypes><Filters /></Path></Layer></LayerDocument>
+</Documents>
+</gkds>

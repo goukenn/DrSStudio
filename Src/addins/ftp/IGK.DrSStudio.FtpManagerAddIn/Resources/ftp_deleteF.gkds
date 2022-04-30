@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--This is a gkds DrSStudio file 8.4.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2012-->
+<gkds>
+  <Project>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+    <FileName>D:\DRSStudio 8.4 Src\bin\Debug\Empty.gkds</FileName>
+    <Resources>
+      <String Id="app_title" />
+    </Resources>
+  </Project>
+<Documents>
+  <LayerDocument Id="LayerDocument_14043265" PixelOffset="None" TextContrast="4" Width="32" Height="32" BackgroundTransparent="True"><Extensions /><Layer Id="Layer_51332827"><Line StartPoint="5;5" EndPoint="26;27" StrokeBrush="Type:Solid;Colors:#FFFF2900;Width:5;DashStyle:Solid;LineJoin:Round" SmoothingMode="None" Id="Line_17624242"><Filters /></Line><Line StartPoint="26;5" EndPoint="5;27" StrokeBrush="Type:Solid;Colors:#FFFF2900;Width:5;DashStyle:Solid;LineJoin:Round" SmoothingMode="None" Id="Line_14446622"><Filters /></Line><Line StartPoint="5;5" EndPoint="26;27" StrokeBrush="Type:Solid;Colors:#FFC90000;Width:3;DashStyle:Solid;LineJoin:Round" SmoothingMode="None" Id="Line_1682085"><Filters /></Line><Line StartPoint="26;5" EndPoint="5;27" StrokeBrush="Type:Solid;Colors:#FFC90000;Width:3;DashStyle:Solid;LineJoin:Round" SmoothingMode="None" Id="Line_35498323"><Filters /></Line></Layer></LayerDocument>
+</Documents>
+</gkds>

@@ -1,0 +1,18 @@
+<!--This is a gkds DrSStudio file 9.2.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2014-->
+<gkds>
+  <Project>
+    <TargetSurface>2DDrawingSurface</TargetSurface>
+  </Project>
+  <Documents>
+    <LayerDocument ClipView="True" FillBrush="Type:Solid;Colors:#FFFF;" InterpolationMode="Hight" BackgroundTransparent="True" Width="22" Height="22" Id="LayerDocument_23338315">
+      <Layer GammaCorrection="0" Id="Layer_4500131">
+        <CustomPolygon Tension="0" EnableTension="False" Closed="False" FillMode="Alternate" Points="2;4 2;19 20;19 20;8 13;8 10;4" FillBrush="Type:Solid;Colors:#F000;" StrokeBrush="Type:Solid;Colors:#FFFF;Width:2;DashStyle:Solid;LineJoin:Round" Id="CustomPolygon_10424875" />
+        <MapRectArea Bounds="0;0;0;0" Id="MapRectArea_14689447" />
+        <CustomPolygon Tension="0" EnableTension="False" Closed="False" FillMode="Alternate" Points="2;9 13;9 10;4 2;4" StrokeBrush="Type:Solid;Colors:#0000;" Id="CustomPolygon_52250932" />
+        <Rectangle Bounds="3;5;6;2" FillBrush="Type:Solid;Colors:#F000;" StrokeBrush="Type:Solid;Colors:#0000;" Id="Rectangle_20488756" />
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

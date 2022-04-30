@@ -1,0 +1,22 @@
+<!--This is a gkds ICore file 9.7.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2016-->
+<gkds>
+  <Project>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+    <Author>Charles A.D. BONDJE DOUE</Author>
+    <Creation>14-08-2016 19:44:09</Creation>
+    <Version>1.0</Version>
+  </Project>
+  <Documents>
+    <LayerDocument Id="LayerDocument_46538687" PixelOffset="None" BackgroundTransparent="True" Width="100" Height="100">
+      <Layer Id="Layer_57052855">
+        <CustomPolygon Tension="0" EnableTension="False" Closed="False" FillMode="Alternate" StrokeBrush="Transparent" FillBrush="#F444" Points="6;6 37;6 37;15 14;15 14;39 6;39" Id="CustomPolygon_47435770" />
+        <CustomPolygon Tension="0" EnableTension="False" Closed="False" FillMode="Alternate" StrokeBrush="Transparent" FillBrush="#F444" Points="95;6 64;6 64;15 87;15 87;39 95;39" Id="CustomPolygon_47435770" />
+        <CustomPolygon Tension="0" EnableTension="False" Closed="False" FillMode="Alternate" StrokeBrush="Transparent" FillBrush="#F444" Points="7;92 38;92 38;83 15;83 15;59 7;59" Id="CustomPolygon_47435770" />
+        <CustomPolygon Tension="0" EnableTension="False" Closed="False" FillMode="Alternate" StrokeBrush="Transparent" FillBrush="#F444" Points="95;93 64;93 64;84 87;84 87;60 95;60" Id="CustomPolygon_47435770" />
+        <Rectangle Bounds="26;61;48;10" Id="Rectangle_29929040" StrokeBrush="Transparent" FillBrush="#F444" />
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

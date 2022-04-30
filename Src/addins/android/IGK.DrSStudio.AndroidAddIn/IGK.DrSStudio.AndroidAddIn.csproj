@@ -1,0 +1,498 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6DCABE5C-40FE-4F53-A5E3-C01D4A060406}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>IGK.DrSStudio.Android</RootNamespace>
+    <AssemblyName>drsAndroid</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <NoWarn>IDE0017,IDE1006</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>Bin\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>Bin\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Actions\AndroidDebugAction.cs" />
+    <Compile Include="Actions\AndroidDeployApp.cs" />
+    <Compile Include="Actions\AndroidDeployDebugAction.cs" />
+    <Compile Include="Actions\ManifestEditorActions\AndroidManifestActions.cs" />
+    <Compile Include="Actions\AndroidRebootDevice.cs" />
+    <Compile Include="AddInInfo.cs" />
+    <Compile Include="AndroidConstant.cs" />
+    <Compile Include="AndroidDemo.cs" />
+    <Compile Include="AndroidEnvironmentLoadingingCompleteCallBack.cs" />
+    <Compile Include="AndroidExtensions.cs" />
+    <Compile Include="AndroidHDpiResourceContainer.cs" />
+    <Compile Include="AndroidIconLayer.cs" />
+    <Compile Include="AndroidImageResources.cs" />
+    <Compile Include="AndroidLayoutDesigner\AndroidPhoneDeviceTemplate.cs" />
+    <Compile Include="AndroidLayoutDesigner\WinUI\AndroidLayoutEditorSurface.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AndroidMenuBuilder\AndroidMenu.cs" />
+    <Compile Include="AndroidMenuBuilder\AndroidMenuBuilder.cs" />
+    <Compile Include="AndroidMenuBuilder\AndroidMenuBuilderConstant.cs" />
+    <Compile Include="AndroidMenuBuilder\Codec\AndroidMenuBuilderDecoder.cs" />
+    <Compile Include="AndroidMenuBuilder\IAndroidBuilderSurface.cs" />
+    <Compile Include="AndroidMenuBuilder\Menu\AndroidBuilderClearAllMenu.cs" />
+    <Compile Include="AndroidMenuBuilder\Menu\AndroidBuilderMenuBase.cs" />
+    <Compile Include="AndroidMenuBuilder\Menu\AndroidBuildRootMenu.cs" />
+    <Compile Include="AndroidMenuBuilder\Menu\AndroidBuilderMenuAttribute.cs" />
+    <Compile Include="AndroidMenuBuilder\Menu\File\NewAndroidMenu.cs" />
+    <Compile Include="AndroidMenuBuilder\Menu\Tools\AndroidMenuBuilderMenu.cs" />
+    <Compile Include="AndroidMenuBuilder\WinUI\AndroidMenuBuilderPanelControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AndroidMenuBuilder\WinUI\AndroidMenuBuilderSurface.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AndroidMenuBuilder\WinUI\AndroidMenuBuilderDesignSurface.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AndroidMenuBuilder\WinUI\AndroidMenuBuilderViewDataAdapter.cs" />
+    <Compile Include="AndroidMipmap\AndroidMipmapConfig.cs" />
+    <Compile Include="AndroidMipmap\Menu\AndroidMipmapExportAsMipmapItem.cs" />
+    <Compile Include="AndroidMipmap\ThemeDeclaration.cs" />
+    <Compile Include="AndroidMipmap\WinUI\AndroidMipmapSurface.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AndroidResourceEditor\Menu\ARENewAndroidResourceMenu.cs" />
+    <Compile Include="AndroidSystemManager.cs" />
+    <Compile Include="AndroidThemeBuilder\Actions\AndroidEditThemeInfoAction.cs" />
+    <Compile Include="AndroidThemeBuilder\ATBInvacationScriptManager.cs" />
+    <Compile Include="AndroidThemeBuilder\Codec\ATBOpenThemeFileDecodec.cs" />
+    <Compile Include="AndroidThemeBuilder\Templates\ATBTemplates.cs" />
+    <Compile Include="AndroidThemeBuilder\Tools\AddItemStyles.cs" />
+    <Compile Include="AndroidThemeBuilder\WinUI\AndroidThemeFileEditorScripting.cs" />
+    <Compile Include="AndroidThemeBuilder\WinUI\AndroidThemeFileEditorSurface.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\AndroidIcon\Menu\ExportAsAndroidIconMenu.cs" />
+    <Compile Include="Entities\AndroidAttrs.cs" />
+    <Compile Include="Entities\AndroidAttrsFormat.cs" />
+    <Compile Include="Entities\AndroidEntityColor.cs" />
+    <Compile Include="AndroidImageKeys.cs" />
+    <Compile Include="GlobalSuppressions.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\AndroidMenuResource.cs" />
+    <Compile Include="Resources\AndroidItemResource.cs" />
+    <Compile Include="Resources\AndroidResourceItemBase.cs" />
+    <Compile Include="AndroidMenuBuilder\WinUI\AndroidResourcesSelectionMecanism.cs" />
+    <Compile Include="AndroidMenuBuilder\WinUI\enuChangedType.cs" />
+    <Compile Include="AndroidMenuBuilder\WinUI\IAndroidResourceViewAdapter.cs" />
+    <Compile Include="AndroidMenuBuilder\WinUI\IAndroidResourceViewAdapterListener.cs" />
+    <Compile Include="AndroidMenuBuilder\WinUI\AndroidMenuItemViewAdapter.cs" />
+    <Compile Include="AndroidResourceBuilder.cs" />
+    <Compile Include="AndroidThemeBuilder\Tools\AndroidThemeEditorManagerTool.cs" />
+    <Compile Include="AndroidResourceEditor\Codec\AndroidResourceFileDecoder.cs" />
+    <Compile Include="Drawing2D\Android2DWorkingObjectAttribute.cs" />
+    <Compile Include="Drawing2D\NinePatch\AndroidNinePatchElement.cs" />
+    <Compile Include="Drawing2D\NinePatch\Menu\SaveFileAsNinePatchMenu.cs" />
+    <Compile Include="Drawing2D\NinePatch\Tools\NinePathManagerTool.cs" />
+    <Compile Include="Entities\AndroidEntityNameValueItem.cs" />
+    <Compile Include="AndroidThemeBuilder\ATBTheme.cs" />
+    <Compile Include="AndroidThemeBuilder\ATBThemeFile.cs" />
+    <Compile Include="AndroidThemeBuilder\Menu\NewAndroidThemeFileEditorMenu.cs" />
+    <Compile Include="AndroidThemeBuilder\Menu\OpenAndroidThemeFileMenu.cs" />
+    <Compile Include="AndroidVersion.cs" />
+    <Compile Include="CodeCompletion\AndroidCodeCompletionBase.cs" />
+    <Compile Include="CodeCompletion\AndroidManifestCompletionData.cs" />
+    <Compile Include="Codec\AndroidManifestDecoder.cs" />
+    <Compile Include="ContextMenu\AndroidHelpContextMenu.cs" />
+    <Compile Include="Entities\AndroidPlatformEntitiesAttribute.cs" />
+    <Compile Include="Entities\AndroidEntities.cs" />
+    <Compile Include="Entities\AndroidTheme.cs" />
+    <Compile Include="Entities\enuAndroidAttributeType.cs" />
+    <Compile Include="IO\AndroidResourceSaver.cs" />
+    <Compile Include="JAVA\JAVAClass.cs" />
+    <Compile Include="JAVA\JAVACodeItem.cs" />
+    <Compile Include="JAVA\JAVAPackage.cs" />
+    <Compile Include="Menu\Tools\AndroidExportToDrawableMenu.cs" />
+    <Compile Include="Menu\Tools\AndroidToolMenu.cs" />
+    <Compile Include="Sdk\Menu\AndroidPlateFormExplorerMenu.cs" />
+    <Compile Include="Resources\enuAndroidResourceType.cs" />
+    <Compile Include="Sdk\AndroidAttributeItem.cs" />
+    <Compile Include="Sdk\AndroidSdkExtensions.cs" />
+    <Compile Include="Sdk\AndroidSdkItemBase.cs" />
+    <Compile Include="Sdk\AndroidSdkTemplateFile.cs" />
+    <Compile Include="Sdk\AndroidSdkTheme.cs" />
+    <Compile Include="Sdk\IAndroidSdkItem.cs" />
+    <Compile Include="Tools\AndroidBuildTool\Menu\AndroidViewMenuAttribute.cs" />
+    <Compile Include="Tools\AndroidFontTool\AndroidFontTool.cs" />
+    <Compile Include="Tools\AndroidSystemManagerTool.cs" />
+    <Compile Include="Tools\AndroidTargetAttributeDefinitionTool\AndroidAttributeDefinition.cs" />
+    <Compile Include="Tools\AndroidTargetAttributeDefinitionTool\AndroidAttributeDefinitionTool.cs" />
+    <Compile Include="Tools\AndroidTargetAttributeDefinitionTool\AndroidAttributeEnumValue.cs" />
+    <Compile Include="Tools\AndroidTargetManagerTool\AndroidTargetManagerResourceDirectory.cs" />
+    <Compile Include="Tools\AndroidTargetManagerTool\AndroidTargetManagerResourceItem.cs" />
+    <Compile Include="Tools\AndroidTargetManagerTool\AndroidTargetManagerTool.cs" />
+    <Compile Include="Tools\AndroidTargetManagerTool\enuAndroidManagerResourceType.cs" />
+    <Compile Include="Android9BatchPicture.cs" />
+    <Compile Include="Actions\ManifestEditorActions\AndroidIntellisenceAction.cs" />
+    <Compile Include="Web\AndroidWebUtils.cs" />
+    <Compile Include="Web\AndroidWinUIEditor.cs" />
+    <Compile Include="Web\GetSourceProperties.cs" />
+    <Compile Include="WinUI\Android9BatchPicturePreviewerSurface.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WinUI\AndroidActivityEditorSurface.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AndroidResourceEditor\WinUI\AndroidResourceEditorSurfaceBase.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Sdk\WinUI\AndroidSdkManagerSurface.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Sdk\WinUI\AndroidSdkScriptManager.cs" />
+    <Compile Include="WinUI\AndroidWidgetControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Sdk\AndroidSdkWidgets.cs" />
+    <Compile Include="WinUI\AndroidWidgetExplorer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WinUI\Dialog\PickFolderNameDialog.cs" />
+    <Compile Include="WinUI\IAndroidResourceItemSelectedListener.cs" />
+    <Compile Include="WorkingObjects\AndroidButton.cs" />
+    <Compile Include="WorkingObjects\AndroidGUIObjectAttribute.cs" />
+    <Compile Include="WorkingObjects\AndroidLayout.cs" />
+    <Compile Include="AndroidLayoutResourceContainer.cs" />
+    <Compile Include="AndroidLayoutVisitor.cs" />
+    <Compile Include="AndroidLDpiResourceContainer.cs" />
+    <Compile Include="WorkingObjects\Layout\AndroidLinearLayout.cs" />
+    <Compile Include="AndroidMDpiResourceContainer.cs" />
+    <Compile Include="AndroidPictureResourceContainerBase.cs" />
+    <Compile Include="AndroidSolutionBinaryFolder.cs" />
+    <Compile Include="AndroidSolutionFile.cs" />
+    <Compile Include="AndroidSolutionFolder.cs" />
+    <Compile Include="AndroidSolutionItem.cs" />
+    <Compile Include="AndroidResourceContainerBase.cs" />
+    <Compile Include="AndroidIconDocument.cs" />
+    <Compile Include="AndroidManifest.cs" />
+    <Compile Include="AndroidProject.cs" />
+    <Compile Include="AndroidResourceFactory.cs" />
+    <Compile Include="AndroidResourceItem.cs" />
+    <Compile Include="AndroidProjectManager.cs" />
+    <Compile Include="AndroidSolutionItemOpener.cs" />
+    <Compile Include="AndroidSolutionJScriptFile.cs" />
+    <Compile Include="AndroidSolutionManifest.cs" />
+    <Compile Include="AndroidSolutionPackage.cs" />
+    <Compile Include="AndroidSolutionResFolder.cs" />
+    <Compile Include="AndroidStringResourceContainer.cs" />
+    <Compile Include="AndroidSurfaceAttribute.cs" />
+    <Compile Include="AndroidTargetInfo.cs" />
+    <Compile Include="AndroidUtils.cs" />
+    <Compile Include="AndroidValueType.cs" />
+    <Compile Include="AndroidXHDpiResourceContainer.cs" />
+    <Compile Include="AndroidObjectAttribute.cs" />
+    <Compile Include="Actions\AndroidActionBase.cs" />
+    <Compile Include="Actions\AndroidBuildAction.cs" />
+    <Compile Include="AndroiProjectWizard.cs" />
+    <Compile Include="CodeCompletion\AndroidJavaCompletionData.cs" />
+    <Compile Include="Codec\AndroidProjectFileDecoder.cs" />
+    <Compile Include="enuAndroidCompilationMode.cs" />
+    <Compile Include="enuAndroidMessageType.cs" />
+    <Compile Include="enuAndroidResourceType.cs" />
+    <Compile Include="IAndroidAttribute.cs" />
+    <Compile Include="IAndroidCompiler.cs" />
+    <Compile Include="IAndroidItem.cs" />
+    <Compile Include="IAndroidLayout.cs" />
+    <Compile Include="IAndroidManifest.cs" />
+    <Compile Include="IAndroidSolution.cs" />
+    <Compile Include="IAndroidSolutionGenerator.cs" />
+    <Compile Include="IAndroidSolutionInstaller.cs" />
+    <Compile Include="IAndroidReportMessage.cs" />
+    <Compile Include="IAndroidReportMessageCollections.cs" />
+    <Compile Include="IAndroidResouceContainer.cs" />
+    <Compile Include="IAndroidResourceCollections.cs" />
+    <Compile Include="IAndroidResourceContainer.cs" />
+    <Compile Include="IAndroidResourceFile.cs" />
+    <Compile Include="IAndroidResourceItem.cs" />
+    <Compile Include="IAndroidXMLFile.cs" />
+    <Compile Include="Menu\AndroidMenuBase.cs" />
+    <Compile Include="Menu\Android\AndroidAdv.cs" />
+    <Compile Include="Menu\Android\AndroidBuildSolutionMenu.cs" />
+    <Compile Include="Menu\AndroidChildMenuAttribute.cs" />
+    <Compile Include="Menu\Android\AndroidRootMenu.cs" />
+    <Compile Include="Menu\File\NewAndroid.cs" />
+    <Compile Include="Menu\File\NewAndroidIcon.cs" />
+    <Compile Include="Menu\File\NewAndroidInterface.cs" />
+    <Compile Include="Menu\File\NewAndroidProject.cs" />
+    <Compile Include="Menu\File\NewAndroidManifestFile.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Settings\AndroidSetting.cs" />
+    <Compile Include="Settings\AndroidSettingAttribute.cs" />
+    <Compile Include="AndroidLayoutDocument.cs" />
+    <Compile Include="Templates\AndroidTemplates.cs" />
+    <Compile Include="Tools\AndroidAdbTool.cs" />
+    <Compile Include="Tools\AndroidBuildTools.cs" />
+    <Compile Include="Tools\AndroidBuildTool\Menu\ViewAndroidBuildTool.cs" />
+    <Compile Include="Tools\AndroidDeviceManagerTool\AndroidDeviceManagerTool.cs" />
+    <Compile Include="Tools\AndroidDeviceManagerTool\WinUI\AndroidDeviceManagerGUI.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Tools\AndroidSDKManagerTool\Actions\AndroidRunSDKManager.cs" />
+    <Compile Include="Tools\AndroidSDKManagerTool\AndroidSdkManagerTool.cs" />
+    <Compile Include="Tools\AndroidSolutionTool.cs" />
+    <Compile Include="Tools\AndroidTool.cs" />
+    <Compile Include="Tools\AndroidToolBase.cs" />
+    <Compile Include="Tools\AndroidBuildTool\WinUI\AndroidBuildToolGUI.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Tools\AndroidToolManager.cs" />
+    <Compile Include="Tools\AndroidADVManagerTool\Actions\AndroidRunADVManager.cs" />
+    <Compile Include="Tools\AndroidADVManagerTool\AndroidAdvManagerTool.cs" />
+    <Compile Include="WinUI\AndroidCodeFileBuilder.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WinUI\AndroidGroupAttribute.cs" />
+    <Compile Include="WinUI\AndroidJavaFileCodeBuilder.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WinUI\AndroidLayoutDesignSurface.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WorkingObjects\AndroidLayoutItem.cs" />
+    <Compile Include="WorkingObjects\Layout\enuAndroidOrientation.cs" />
+    <Compile Include="WorkingObjects\Standard\AndroidSelectionElement.cs" />
+    <Compile Include="WinUI\AndroidToolElement.cs" />
+    <Compile Include="WinUI\AndroidToolMecanismBase.cs" />
+    <Compile Include="WinUI\IAndroidSolutionSurface.cs" />
+    <Compile Include="WinUI\WizardPage\AndroidAppPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WinUI\AndroidAppIconSurface.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WinUI\AndroidManifestEditorSurface.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WinUI\AndroidProjectEditorSurface.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AndroidResourceEditor\WinUI\AndroidResourceEditorSurface.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WinUI\AndroidSurfaceBase.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WinUI\AndroidWizardGUI.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <EmbeddedResource Include="AndroidMenuBuilder\WinUI\AndroidMenuBuilderPanelControl.resx">
+      <DependentUpon>AndroidMenuBuilderPanelControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tools\AndroidDeviceManagerTool\WinUI\AndroidDeviceManagerGUI.resx">
+      <DependentUpon>AndroidDeviceManagerGUI.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinUI\AndroidJavaFileCodeBuilder.resx">
+      <DependentUpon>AndroidJavaFileCodeBuilder.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinUI\AndroidLayoutDesignSurface.resx">
+      <DependentUpon>AndroidLayoutDesignSurface.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinUI\AndroidManifestEditorSurface.resx">
+      <DependentUpon>AndroidManifestEditorSurface.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinUI\AndroidProjectEditorSurface.resx">
+      <DependentUpon>AndroidProjectEditorSurface.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AndroidResourceEditor\WinUI\AndroidResourceEditorSurface.resx">
+      <DependentUpon>AndroidResourceEditorSurface.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sdk\WinUI\AndroidSdkManagerSurface.resx">
+      <DependentUpon>AndroidSdkManagerSurface.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinUI\AndroidWidgetControl.resx">
+      <DependentUpon>AndroidWidgetControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinUI\AndroidWizardGUI.resx">
+      <DependentUpon>AndroidWizardGUI.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinUI\WizardPage\AndroidAppPage.resx">
+      <DependentUpon>AndroidAppPage.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="AndroidMenuBuilder\Resources\android_bullet_menu_Item.gkds" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Resources\android_btn_browse.gkds" />
+    <None Include="Resources\android_device_kitkat.gkds" />
+    <None Include="Resources\android_img_folder.gkds" />
+    <None Include="Resources\android_img_jsfile.gkds" />
+    <None Include="Resources\android_img_package.gkds" />
+    <None Include="Resources\android_img_virtualdevicemanager.gkds" />
+    <None Include="Resources\android_manifest_attr.gkds" />
+    <None Include="Resources\android_manifest_properties.gkds" />
+    <None Include="Resources\app_android.gkds" />
+    <None Include="Resources\app_android_release.gkds" />
+    <None Include="Resources\android_img_buildandrun.gkds" />
+    <None Include="Resources\android_img_debug.gkds" />
+    <None Include="Resources\android_img_debugandrun.gkds" />
+    <None Include="Resources\android_img_poweroff.gkds" />
+    <None Include="Resources\android_img_deploy.gkds" />
+    <None Include="Resources\android_img_manifest.gkds" />
+    <None Include="Resources\android_img_sdkmanager.gkds" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="AndroidThemeBuilder\Menu\Edit\" />
+    <Folder Include="AndroidThemeBuilder\Menu\Tools\" />
+    <Folder Include="Tools\AndroidADVManagerTool\ContextMenu\" />
+    <Folder Include="Tools\AndroidADVManagerTool\Menu\" />
+    <Folder Include="Tools\AndroidADVManagerTool\WinUI\" />
+    <Folder Include="Tools\AndroidSDKManagerTool\ContextMenu\" />
+    <Folder Include="Tools\AndroidSDKManagerTool\Menu\" />
+    <Folder Include="Tools\AndroidSDKManagerTool\WinUI\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\core\IGK.ICore.Drawing2D\IGK.ICore.Drawing2D.csproj">
+      <Project>{29738416-cc50-4ad2-9353-b03fbeecdaf8}</Project>
+      <Name>IGK.ICore.Drawing2D</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\core\IGK.ICore.WinCore\IGK.ICore.WinCore.csproj">
+      <Project>{68ab7706-a97f-4bf8-8d1f-26d69a6bfa0e}</Project>
+      <Name>IGK.ICore.WinCore</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\core\IGK.ICore\IGK.ICore.csproj">
+      <Project>{95e437a5-4a87-4fab-b15f-4a0fde8b7dcf}</Project>
+      <Name>IGK.ICore</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\lib\ICSharpCode.AvalonEdit\ICSharpCode.AvalonEdit.csproj">
+      <Project>{6C55B776-26D4-4DB3-A6AB-87E783B2F3D1}</Project>
+      <Name>ICSharpCode.AvalonEdit</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\drawing2D\text\IGK.DrSStudio.Drawing2D.TextRoundBulletAddIn\IGK.DrSStudio.Drawing2D.TextRoundBulletAddIn.csproj">
+      <Project>{DB8A3575-72D6-41B8-AE53-0DAD85CA194B}</Project>
+      <Name>IGK.DrSStudio.Drawing2D.TextRoundBulletAddIn</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Documentations\raw.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Documentations\nowidgetraw.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AndroidThemeBuilder\Resources\editTheme.xml" />
+    <Content Include="AndroidThemeBuilder\Resources\FileEditor.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Sdk\Resources\android_sdk_theme_view.html" />
+    <Content Include="AndroidThemeBuilder\Resources\newThemeEditor.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Resource Include="Resources\android.css">
+      <CustomToolNamespace>android</CustomToolNamespace>
+    </Resource>
+    <Content Include="AndroidMenuBuilder\Resources\android_new_android_menu_form.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Resource Include="Resources\android.versions.xml">
+      <SubType>Designer</SubType>
+      <CustomToolNamespace>android</CustomToolNamespace>
+    </Resource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,28 @@
+﻿using System;
+using Android.App;
+using Android.Content;
+using Android.Runtime;
+using Android.Views;
+using Android.Widget;
+using Android.OS;
+using IGK.ICore;
+using IGK.ICore.Android;
+using IGK.ICore.Android.WinUI;
+[imeth:getUsings]
+
+namespace [imeth:getDefaultNS]
+{
+	[Activity (Label = "@string/app_title", 
+	MainLauncher = false , 
+	Theme=[imeth:getMainTheme],
+	Icon = "@drawable/app_icon")]
+	public class [imeth:getClassName] : AndroidActivity
+	{
+		[imeth:getclassdef]
+		protected override void OnCreate (Bundle bundle)
+		{
+			base.OnCreate (bundle);
+			//init your view
+		}
+	}
+}

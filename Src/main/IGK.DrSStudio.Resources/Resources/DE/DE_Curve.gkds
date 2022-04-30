@@ -1,0 +1,19 @@
+<!--This is a gkds DrSStudio file 8.7.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2013-->
+<gkds>
+  <Project>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+    <FileName>C:\Program Files (x86)\IGKDEV\DrSStudio\8.0\Empty.gkds</FileName>
+    <Resources>
+      <String Id="app_title" />
+    </Resources>
+  </Project>
+  <Documents>
+    <LayerDocument BackgroundTransparent="True" Width="16" Height="16" Id="LayerDocument_64185571">
+      <Layer Id="Layer_37765596">
+        <Bezier Closed="False" Points="2;14 8;12 3;1 8;1 14;1 10;14 15;14" StrokeBrush="Type:Solid;Colors:#FFFF0012;Width:2;DashStyle:Solid;LineJoin:Round" Matrix="1;0;0;0.8918269;0;1.514423" Id="Bezier_63095329" />
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

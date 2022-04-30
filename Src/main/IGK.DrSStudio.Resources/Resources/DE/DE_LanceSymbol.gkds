@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--This is a gkds DrSStudio file 8.4.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2012-->
+<gkds>
+  <Project>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+    <FileName>D:\DRSStudio 8.4 Src\bin\Debug\Empty.gkds</FileName>
+    <Resources>
+      <String Id="app_title" />
+    </Resources>
+  </Project>
+<Documents>
+  <LayerDocument InterpolationMode="Pixel" TextContrast="4" BackgroundTransparent="True" Width="16" Height="16" Id="LayerDocument_6305680"><Extensions /><Layer Id="Layer_23879440"><LanceSymbol BottomX="2" TopX="2" Size="2" Bounds="2;4;12;9" StrokeBrush="Type:Solid;Colors:#FF002AFF;DashStyle:Solid;LineJoin:Round" FillBrush="Type:Solid;Colors:#FFFF7E00;" Id="LanceSymbol_6453827"><Filters /></LanceSymbol></Layer></LayerDocument>
+</Documents>
+</gkds>

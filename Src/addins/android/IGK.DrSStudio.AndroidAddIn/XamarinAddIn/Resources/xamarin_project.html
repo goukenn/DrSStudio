@@ -1,0 +1,183 @@
+<div  class="fitw fith overflow-y-a igk-parentscroll">
+
+<div class="igk-title-4 posfix loc_t loc_l loc_r trans-all-200ms" igk-js-fix-width="#lwidth"  style="background-color:#012277; color:white; z-index:100;" id="dialog_title">
+ Xamarin Android Project
+</div>
+
+<div igk-js-fix-height="#dialog_title">
+<!-- this div will fit the height of dialog_title" -->
+</div>
+
+<div id="lwidth"  style="height:1px; width:auto;" ></div>
+
+
+<form onsubmit="javascript: this.create_project(); return false;" class="igk-col" style="padding-left:padding-right" >
+
+<div class="igk-row" >
+<div class="igk-col-lg-12-3 alignt"  >
+<div class="igk-title-5">[lang:title.globalsetting]</div>
+<div class="form-group">
+  <input type="text" value="[imeth:getfilename]" id="clName" class="form-control" />  
+</div>
+
+<div class="form-group">
+	<label for="clOutputFolder">[lang:lb.outputFolder]</label>
+	<div class="input-group">
+		<input type="text" value="[imeth:getoutputFolder]" id="clOutputFolder" class="form-control" ></input>
+		<span class="input-group-btn"><button class="btn igk-btn igk-btn-defaul igk-btn igk-btn-default" onclick="javascript: this.form.clOutputFolder.value = ns_igk.ext.call('pickFolder',this.form.clOutputFolder.value); return false;">...</button></span>
+	</div>
+</div>
+<div class="form-group">
+	<label for="clPrefix">[lang:lb.prefix]</label>	
+	<input type="text" id="clPrefix" class="form-control" value="[imeth:getPrefix]" ></input>			
+</div>
+<div class="form-group">
+	<label for="clDefaultNS">[lang:lb.clDefaultNS]</label>	
+	<input type="text" id="clDefaultNS" class="form-control" value="[imeth:getNS]" ></input>			
+</div>
+<div class="form-group">
+<label for="clAppTitle">[lang:lb.clAppTitle]</label>
+<input type="text" id="clAppTitle" class="form-control" value="[imeth:getAppTitle]" ></input>
+</div>
+  
+ <div class="form-group">
+<input type="checkbox" id="clOverrideExisting" class="-clinput -clcheckbox" value="1" checked="true"><label for="clOverrideExisting">[lang:lb.xamarin.project.overrideexisting]</label></input>
+</div>
+  
+  
+</div>
+
+<div class="igk-col-lg-12-9 alignt">
+	  <div class="igk-title-5">[lang:title.androidsetting]</div>
+	  <div igk-tip="android-tab">
+		<ul class="igk-horizontal-menu">
+			<li class="igk-active"><a href="#" android-menu-target="application" >Application</a></li>
+			<li class=""><a href="#" android-menu-target="manifest" >Manifest</a></li>
+			<li class=""><a href="#" android-menu-target="permission" >Permission</a>
+      </li>
+		</ul>
+	  </div>
+	  <div igk-tip="android-tab-content" id="#menu-tab-content" class="igk-tab-content android-tab-content">		
+	  </div>
+</div>
+
+</div>
+
+<div 
+class="posfix loc_b dispb" 
+id="tab_button" igk-js-fix-loc-scroll-width="1" 
+style="z-index: 100; background-color:#ddd; min-height:48px; display:block; left:0px; right:0px; padding-top:8px; padding-right:8px; padding-bottom:8px;">
+<input type="submit" value="[lang:btn.ok]" class="igk-btn igk-btn-default floatr" />
+<input type="button" value="[lang:btn.cancel]" class="igk-btn igk-btn-default floatr"  style="margin-right:8px;" onclick="javascript: $ns_igk.ext.call('cancel',''); return false;"/>
+<input type="button" id="btn_build" value="[lang:btn.build]" class="igk-btn igk-btn-default floatr"  style="margin-right:8px;" onclick="javascript: $ns_igk.ext.call('build',''); return false;"/>
+</div>
+<div igk-js-fix-height="#tab_button">
+<!-- this div will fit the height of option bar" -->
+</div>
+
+
+<script language="javascript">
+  (function(){
+  var q = igk.getParentScriptByTagName("form");
+
+  if (!q)
+	return;
+  
+	q.androidproject = new function()
+	{
+	  //private object
+	  //public project
+	  igk.appendProperties(this, {
+	  clName: "",
+	  clOutputFolder:'',
+	  clPlatformTarget:'',
+	  clPrefix:'',
+	  clDefaultNS: '',
+	  clAppTitle:'',
+    clMainTheme:'',
+	  clOverrideExisting:'',
+	  toString:function(){
+			return "igk.android.project";
+		},
+	  toJSon: function(){
+			return igk.JSON.convertToString(this);
+		}
+	});
+  
+	};
+	
+	
+  function update_tab(s){
+  var t = igk.ext.call('navigate',s);
+  $igk("#menu-tab-content").setHtml(t, true);
+  };
+  
+
+  
+  q.create_project = function(){
+  //base setting properties
+  for(var i in this.androidproject)
+  {
+    if (typeof(q[i])!= 'undefined' && (q[i].type!='undefined'))
+    {
+		switch(q[i].type)
+		{
+			case "checkbox":
+			case "radio":
+				if (q[i].checked)
+					this.androidproject[i]	= q[i].value;
+				else 
+					this.androidproject[i] = '';
+				break;
+			default:			
+				this.androidproject[i]	= q[i].value;
+				break;
+		}
+    }
+  }
+  /*this.androidproject.clName	= q.clName.value;
+  this.androidproject.clOutputFolder	= q.clOutputFolder.value;
+  this.androidproject.clPrefix = q.clPrefix.value;
+  this.androidproject.clDefaultNS = q.clDefaultNS.value;
+  this.androidproject.clAppTitle = q.cl*/
+
+  var s = this.androidproject.toJSon();
+  igk.ext.call('createproject', s);
+  
+  };
+  
+  q.load_properties = function(n, s){
+	if (this.androidproject)
+		this.androidproject[n] = s;
+  };
+	
+	
+  igk.ready(function (){
+  update_tab("application"); 
+
+  
+  /*$igk(q.parentNode).setCss({
+  "marginBottom":$igk("#tab_button").getHeight()+2+"px",
+  "paddingTop":$igk("#dialog_title").getHeight()+"px"
+  });
+  */
+  
+  });
+  
+
+
+  igk.ctrl.registerAttribManager("android-menu-target", {desc:"register android menu targets"});
+  igk.ctrl.bindAttribManager("android-menu-target", function(){
+  var s =  this.getAttribute("android-menu-target");
+
+  this.o.onclick = function(){
+  update_tab(s);
+  return false;
+  };
+  });
+
+  })();
+
+</script>
+</form>
+</div>

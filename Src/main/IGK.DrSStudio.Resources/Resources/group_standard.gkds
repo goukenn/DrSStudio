@@ -1,0 +1,22 @@
+<!--This is a gkds DrSStudio file 8.7.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2013-->
+<gkds>
+  <Project>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+    <FileName>Empty.gkds</FileName>
+    <Resources>
+      <String Id="app_title" />
+    </Resources>
+  </Project>
+  <Documents>
+    <LayerDocument BackgroundTransparent="True" Width="32" Height="32" Id="LayerDocument_65267959">
+      <Layer Id="Layer_31901806">
+        <Group Matrix="0.7071068;0.7071067;-0.7071067;0.7071068;16.70711;-6.334524" Id="Group_48351982">
+          <CustomPolygon FillMode="Alternate" Points="13;4 13;13 19;13 19;4 23;10 23;15 18;19 18;30 14;30 14;19 9;15 9;10" StrokeBrush="Type:Solid;Colors:#FF343434;Width:2;DashStyle:Solid;LineJoin:Round" Id="CustomPolygon_62738076" />
+          <CustomPolygon FillMode="Alternate" Points="13;4 13;13 19;13 19;4 23;10 23;15 18;19 18;30 14;30 14;19 9;15 9;10" StrokeBrush="Type:Solid;Colors:#0000;Width:2;DashStyle:Solid;LineJoin:Round" FillBrush="Type:LinearGradient;Colors:#F000 #FFFF;LinearMode:DualBlend;Angle:32.19573;Factors: 0 0.5 1 0;Positions: 0 0.3214286 0.59375 1;" Id="CustomPolygon_55468551" />
+        </Group>
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

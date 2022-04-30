@@ -1,0 +1,22 @@
+<!--This is a gkds DrSStudio file 8.7.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2013-->
+<gkds>
+  <Project>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+    <FileName>Group_component.gkds</FileName>
+    <Resources>
+      <String Id="app_title"></String>
+    </Resources>
+  </Project>
+  <Documents>
+    <LayerDocument BackgroundTransparent="True" Width="32" Height="32" Id="LayerDocument_66709761">
+      <Layer Id="Layer_47523828">
+        <Bolt OffsetAngle="0" StartAngle="0" OuterAngle="20" InnerAngle="20" Rounded="False" EnableTension="False" Tension="0" FillMode="Alternate" OuterRadius="13.45362;13.45362" InnerRadius="10.63015;10.63015" Center="16;14" StrokeBrush="Type:Solid;Colors:#F000;DashStyle:Solid;LineJoin:Round" FillBrush="Type:Solid;Colors:#0000;" Id="Bolt_33468901" />
+        <Circle Center="16;14" Radius="4.24264" FillBrush="Type:Solid;Colors:#0000;" Id="Circle_45543957" />
+        <CustomPolygon FillMode="Alternate" Points="1;12 7;28 20;30 17;17" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#F000;" Matrix="1.052632;0;0;0.9791667;-1.052632;0.624999" Id="CustomPolygon_10115229" />
+        <CustomPolygon FillMode="Alternate" Points="6;17 8;22 14;23 13;19" Id="CustomPolygon_51636600" />
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

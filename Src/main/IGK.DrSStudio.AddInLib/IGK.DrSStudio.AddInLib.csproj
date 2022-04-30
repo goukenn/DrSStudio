@@ -1,0 +1,372 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\..\..\Bin\$(Platform)\$(Configuration)\AddIn\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>..\..\..\Bin\$(Platform)\$(Configuration)\AddIn\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\..\..\Bin\$(Platform)\$(Configuration)\AddIn\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>..\..\..\Bin\$(Platform)\$(Configuration)\AddIn\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <ProjectGuid>{E4710914-22CA-4A41-8B6D-30909384EC10}</ProjectGuid>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'DebugDev|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\DebugDev\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'DebugDev|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\DebugDev\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\addins\android\IGK.DrSStudio.AndroidAddIn\IGK.DrSStudio.AndroidAddIn.csproj">
+      <Project>{6dcabe5c-40fe-4f53-a5e3-c01d4a060406}</Project>
+      <Name>IGK.DrSStudio.AndroidAddIn</Name>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\addins\balafon\IGK.DrSStudio.BalafonAddIn\IGK.DrSStudio.BalafonAddIn.csproj">
+      <Project>{6573f898-15fd-4a25-912e-d24f63a22ee7}</Project>
+      <Name>IGK.DrSStudio.BalafonAddIn</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\addins\balafon\IGK.DRSStudio.BalafonViewDesignerAddIn\IGK.DrSStudio.BalafonViewDesignerAddIn.csproj">
+      <Project>{229fbdc0-42f8-4a85-86df-5d54a148a832}</Project>
+      <Name>IGK.DrSStudio.BalafonViewDesignerAddIn</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\addins\canon\IGK.DrSStudio.CanonFile\IGK.DrSStudio.CanonFile.csproj">
+      <Project>{e8f7b32a-a461-4c03-abc6-d2e7dea7c9e2}</Project>
+      <Name>IGK.DrSStudio.CanonFile</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\addins\collada\IGK.DrSStudio.ColladaEngine\IGK.DrSStudio.ColladaEngine.csproj">
+      <Project>{1627061c-acb7-42fc-8c51-b971556e77ea}</Project>
+      <Name>IGK.DrSStudio.ColladaEngine</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\addins\drawing2D\adv\IGK.DrSStudio.Drawing2D.AdvElementAddIn\IGK.DrSStudio.Drawing2D.AdvElementAddIn.csproj">
+      <Project>{98d1db21-0d85-4e45-b423-4a72ae965713}</Project>
+      <Name>IGK.DrSStudio.Drawing2D.AdvElementAddIn</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\addins\drawing2D\animation\IGK.DrSStudio.Drawing2D.AnimationAddIn\IGK.DrSStudio.Drawing2D.AnimationAddIn.csproj">
+      <Project>{6c609efd-905e-4aa1-b685-2db967b0b2fc}</Project>
+      <Name>IGK.DrSStudio.Drawing2D.AnimationAddIn</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\addins\drawing2D\cdcover\IGK.DrSStudio.CDCoverAddIn\IGK.DrSStudio.CDCoverAddIn.csproj">
+      <Project>{e6f626bc-2d3d-453c-a81a-0684f114d99b}</Project>
+      <Name>IGK.DrSStudio.CDCoverAddIn</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\addins\drawing2D\chart\IGK.DrSStudio.Drawing2D.ChartAddIn\IGK.DrSStudio.Drawing2D.ChartAddIn.csproj">
+      <Project>{a79e9b32-fda2-4e93-99e9-3ee2894c7861}</Project>
+      <Name>IGK.DrSStudio.Drawing2D.ChartAddIn</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\addins\drawing2D\codebar\IGK.DrSStudio.CodeBarGenAddIn\IGK.DrSStudio.CodeBarGenAddIn.csproj">
+      <Project>{7a31126a-f46b-4e01-88a5-211922b08220}</Project>
+      <Name>IGK.DrSStudio.CodeBarGenAddIn</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\addins\drawing2D\codebar\IGK.DrSStudio.QRCodeLib\IGK.QRCodeLib.csproj">
+      <Project>{61936c7d-291d-42aa-b60a-36bc1b669edf}</Project>
+      <Name>IGK.QRCodeLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\addins\drawing2D\cvcard\IGK.DrSStudio.CVaddin\IGK.DrSStudio.CVAddIn.csproj">
+      <Project>{8694d095-c9c2-4f3d-99ef-471cf196efd7}</Project>
+      <Name>IGK.DrSStudio.CVAddIn</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\addins\drawing2D\extensions\IGK.DrSStudio.Drawing2D.BoxAddIn\IGK.DrSStudio.Drawing2D.BoxAddIn.csproj">
+      <Project>{e18102ca-6d95-4699-a250-854c1a47c79d}</Project>
+      <Name>IGK.DrSStudio.Drawing2D.BoxAddIn</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\addins\drawing2D\history\IGK.DrSStudio.Drawing2D.HistoryAddIn\IGK.DrSStudio.Drawing2D.HistoryAddIn.csproj">
+      <Project>{ea089ffe-07c0-4f2e-8470-094cb4030c11}</Project>
+      <Name>IGK.DrSStudio.Drawing2D.HistoryAddIn</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\addins\drawing2D\IGK.DrSStudio.Drawing2D.GUI\IGK.DrSStudio.Drawing2D.GUI.csproj">
+      <Project>{04adf5a1-c4db-484c-9dd8-02101d2e064c}</Project>
+      <Name>IGK.DrSStudio.Drawing2D.GUI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\addins\drawing2D\Imaging\IGK.DrSStudio.ImagingAddIn\IGK.DrSStudio.ImagingAddIn.csproj">
+      <Project>{949fbc13-7521-4ca7-938d-a16f15984375}</Project>
+      <Name>IGK.DrSStudio.ImagingAddIn</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\addins\drawing2D\mangastuff\IGK.DrSStudio.MangaStuffAddIn\IGK.DrSStudio.MangaStuffAddIn.csproj">
+      <Project>{97bbf7cf-00dc-46be-a3be-9e92b6d2a158}</Project>
+      <Name>IGK.DrSStudio.MangaStuffAddIn</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\addins\drawing2D\services\IGK.ICore.FitterService\IGK.ICore.FitterService.csproj">
+      <Project>{50a674e8-db08-41a0-bf82-091d0d496f1f}</Project>
+      <Name>IGK.ICore.FitterService</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\addins\drawing2D\surfaces\Bitmap8ppSurfaceAddin\Bitmap8BppSurfaceAddin.csproj">
+      <Project>{ec447e05-8613-458b-a638-980f2c3c55b2}</Project>
+      <Name>Bitmap8BppSurfaceAddin</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\addins\drawing2D\symboleditor\IGK.DrSStudio.SymbolEditorAddIn\IGK.DrSStudio.SymbolEditorAddIn.csproj">
+      <Project>{ac1041dd-dc91-4def-b4df-7bc59b0950cd}</Project>
+      <Name>IGK.DrSStudio.SymbolEditorAddIn</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\addins\drawing2D\text\IGK.DrSStudio.Drawing2D.TextAddIn\IGK.DrSStudio.Drawing2D.TextAddIn.csproj">
+      <Project>{332424c1-9760-4ea4-8152-91680258ce27}</Project>
+      <Name>IGK.DrSStudio.Drawing2D.TextAddIn</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\addins\drawing2D\text\IGK.DrSStudio.Drawing2D.TextRoundBulletAddIn\IGK.DrSStudio.Drawing2D.TextRoundBulletAddIn.csproj">
+      <Project>{db8a3575-72d6-41b8-ae53-0dad85ca194b}</Project>
+      <Name>IGK.DrSStudio.Drawing2D.TextRoundBulletAddIn</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\addins\drawing2D\tools\IGK.DrSStudio.Drawing2D.Tools\IGK.DrSStudio.Drawing2D.Tools.csproj">
+      <Project>{2e3ba55c-b825-4833-b4d8-9d91025a03cd}</Project>
+      <Name>IGK.DrSStudio.Drawing2D.Tools</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\addins\drawing3D\IGK.DrSStudio.Drawing3D.OpenGL3DAddIn\IGK.DrSStudio.Drawing3D.OpenGL3DAddIn.csproj">
+      <Project>{b3c51a62-d216-4a33-aa51-81b56084702f}</Project>
+      <Name>IGK.DrSStudio.Drawing3D.OpenGL3DAddIn</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\addins\drawing3D\IGK.DrSStudio.OGLGameAddIn\IGK.DrSStudio.OGLGameAddIn.csproj">
+      <Project>{05d4f3d1-48c3-4b39-bdf6-e716f2e994a5}</Project>
+      <Name>IGK.DrSStudio.OGLGameAddIn</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\addins\drawing3D\IGK.DrSStudio.OpenGLPictureEditorAddIn\IGK.DrSStudio.OpenGLPictureEditorAddIn.csproj">
+      <Project>{d2e4eea0-b5d9-4f92-ada5-61861bc4ff1d}</Project>
+      <Name>IGK.DrSStudio.OpenGLPictureEditorAddIn</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\addins\editor\IGK.DrSStudio.FontEditorAddIn\IGK.DrSStudio.FontEditorAddIn.csproj">
+      <Project>{7899d060-1fdd-458e-bca9-2385c49253ce}</Project>
+      <Name>IGK.DrSStudio.FontEditorAddIn</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\addins\editor\IGK.DrSStudio.SkinEditorAddin\IGK.DrSStudio.SkinEditorAddIn.csproj">
+      <Project>{8175faad-a067-4f4a-a50b-ba76f4e72acb}</Project>
+      <Name>IGK.DrSStudio.SkinEditorAddIn</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\addins\editor\IGK.DrSStudio.TextCodeEditorAddIn\IGK.DrSStudio.TextCodeEditorAddIn.csproj">
+      <Project>{67805d0c-c478-4567-82d7-9f3735100ddb}</Project>
+      <Name>IGK.DrSStudio.TextCodeEditorAddIn</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\addins\editor\IGK.DrSStudio.XMLEditorAddIn\IGK.DrSStudio.XMLEditorAddIn.csproj">
+      <Project>{4e185c5b-d064-42cb-9b3c-446161241090}</Project>
+      <Name>IGK.DrSStudio.XMLEditorAddIn</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\addins\editor\IGK.ICore.ThemeEditor\IGK.ICore.ThemeEditor.csproj">
+      <Project>{ff7da376-b277-4877-b839-94793c7145e0}</Project>
+      <Name>IGK.ICore.ThemeEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\addins\ext\code\IGK.DrSStudio.CodeUtilityAddIn\IGK.DrSStudio.CodeUtilityAddIn.csproj">
+      <Project>{fe40cb0c-ba25-4ba1-81e9-2c178a251fc3}</Project>
+      <Name>IGK.DrSStudio.CodeUtilityAddIn</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\addins\ext\uml\IGK.DrSStudio.UMLAddIn\IGK.DrSStudio.UMLAddIn.csproj">
+      <Project>{f7fc4778-0d3b-4d67-8b3c-88ea16a50db6}</Project>
+      <Name>IGK.DrSStudio.UMLAddIn</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\addins\ftp\IGK.DrSStudio.FtpManagerAddIn\IGK.DrSStudio.FtpManagerAddIn.csproj">
+      <Project>{4fa1c2c6-165d-4d2a-a6e4-0dd54ac566be}</Project>
+      <Name>IGK.DrSStudio.FtpManagerAddIn</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\addins\help\IGK.DrSStudio.HelpManagerAddIn\IGK.DrSStudio.HelpManagerAddIn.csproj">
+      <Project>{4b15d430-94f4-4633-b803-d7be909e129b}</Project>
+      <Name>IGK.DrSStudio.HelpManagerAddIn</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\addins\pdf\IGK.DrSStudio.PDFAddIn\IGK.DrSStudio.PDFAddIn.csproj">
+      <Project>{87e76832-be16-43c8-b944-660ad079925a}</Project>
+      <Name>IGK.DrSStudio.PDFAddIn</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\addins\phpServer\IGK.DrSStudio.Net\IGK.DrSStudio.Net.csproj">
+      <Project>{39df73fe-c05d-4e41-bf27-c5ac826fb166}</Project>
+      <Name>IGK.DrSStudio.Net</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\addins\phpServer\IGK.Net.PhpServer\IGK.Net.PhpServer.csproj">
+      <Project>{2f32026d-c0b6-4b43-bb1e-47a23177de13}</Project>
+      <Name>IGK.Net.PhpServer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\addins\svg\IGK.DrSStudio.SVGAddIn\IGK.DrSStudio.SVGAddIn.csproj">
+      <Project>{c3479dcb-3b78-438d-83b5-2269be3e38a8}</Project>
+      <Name>IGK.DrSStudio.SVGAddIn</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\addins\utils\IGK.ICore.DebugTools\IGK.ICore.DebugTool.csproj">
+      <Project>{34b2fd5b-dc30-44e5-b228-36c39cd92380}</Project>
+      <Name>IGK.ICore.DebugTool</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\addins\utils\IGK.ICore.DocumentationGeneratorAddIn\IGK.ICore.DocumentationGeneratorAddIn.csproj">
+      <Project>{baf01a2f-1926-4883-9b7a-205961687bc5}</Project>
+      <Name>IGK.ICore.DocumentationGeneratorAddIn</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\addins\video\IGK.DrSStudio.AudioVideo.VideoSequenceBuilderAddIn\IGK.DrSStudio.AudioVideo.VideoSequenceBuilderAddIn.csproj">
+      <Project>{80b77429-405c-475a-9e5f-54ae8065a16a}</Project>
+      <Name>IGK.DrSStudio.AudioVideo.VideoSequenceBuilderAddIn</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\addins\video\IGK.DrSStudio.AudioVideo\IGK.DrSStudio.AudioVideo.csproj">
+      <Project>{e54816eb-2148-42e6-a3d4-ec0ef9144de5}</Project>
+      <Name>IGK.DrSStudio.AudioVideo</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\addins\webgl\IGK.DrSStudio.WebGLGameBuilderAddIn\IGK.DrSStudio.WebGLGameBuilderAddIn.csproj">
+      <Project>{0e9a13c2-60e0-46b0-8bb8-c1c74c83a7b1}</Project>
+      <Name>IGK.DrSStudio.WebGLGameBuilderAddIn</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\addins\web\IGK.DrSStudio.WebAddIn\IGK.DrSStudio.WebAddIn.csproj">
+      <Project>{fed9ca28-f50e-4560-a74a-4a96d4212c6a}</Project>
+      <Name>IGK.DrSStudio.WebAddIn</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\addins\web\IGK.DrSStudio.WebCssEditorAddIn\IGK.DrSStudio.WebCssEditorAddIn.csproj">
+      <Project>{02796e34-972c-49f2-98aa-5eccd1c94ff3}</Project>
+      <Name>IGK.DrSStudio.WebCssEditorAddIn</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\addins\web\IGK.DrSStudio.WebMapBuilderAddIn\IGK.DrSStudio.WebMapBuilderAddIn.csproj">
+      <Project>{f0e863ae-39ea-48e4-808a-7da6ff55b77b}</Project>
+      <Name>IGK.DrSStudio.WebMapBuilderAddIn</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\addins\web\IGK.DrSStudio.WebPaletteBuilderAddIn\IGK.DrSStudio.WebPaletteBuilderAddIn.csproj">
+      <Project>{95a547e6-8e03-4947-a2ef-c439abd15dd4}</Project>
+      <Name>IGK.DrSStudio.WebPaletteBuilderAddIn</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\addins\web\IGK.DrSStudio.WebProjectAddIn\IGK.DrSStudio.WebProjectAddIn.csproj">
+      <Project>{c7ac612f-cbdd-450f-96cf-c1688bcc3cbd}</Project>
+      <Name>IGK.DrSStudio.WebProjectAddIn</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\addins\web\IGK.DrSStudio.WebSolutionAddIn\IGK.DrSStudio.WebSolutionAddIn.csproj">
+      <Project>{031b2775-9101-4e0b-aab0-37005e13a145}</Project>
+      <Name>IGK.DrSStudio.WebSolutionAddIn</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\addins\Win10\Tools\IGK.Win10.Tools\IGK.Win10.Tools.csproj">
+      <Project>{2d27053e-f6fa-4fad-b394-0898aab442d7}</Project>
+      <Name>IGK.Win10.Tools</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\addins\window\VisualStudio\IGK.DrSStudio.VisualStudioToolAddIn\IGK.DrSStudio.VisualStudioAddIn.csproj">
+      <Project>{6e743762-2f43-4811-9f12-81fd86343ad5}</Project>
+      <Name>IGK.DrSStudio.VisualStudioAddIn</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\addins\window\VisualStudio\IGK.VSLib\IGK.VSLib.csproj">
+      <Project>{0a130e89-cfde-46ee-8657-59c5d9ed66cc}</Project>
+      <Name>IGK.VSLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\addins\window\WMI\IGK.DrSStudio.WindowManagementAddIn\IGK.DrSStudio.WindowManagementAddIn.csproj">
+      <Project>{6a906ab9-bce7-443d-b7d8-976a2e097afc}</Project>
+      <Name>IGK.DrSStudio.WindowManagementAddIn</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\addins\wix\IGK.DrSStudio.WiXAddIn\IGK.DrSStudio.WiXAddIn.csproj">
+      <Project>{4d880fae-7bcd-42a6-8644-1ad492df6fbb}</Project>
+      <Name>IGK.DrSStudio.WiXAddIn</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\addins\wpf\IGK.DrSStudio.WPFSurfaceAddIn\IGK.DrSStudio.WPFSurfaceAddIn.csproj">
+      <Project>{95be1e40-ef12-4191-bc56-b234f0159622}</Project>
+      <Name>IGK.DrSStudio.WPFSurfaceAddIn</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\addins\wpf\IGK.DrSStudio.Wpf\IGK.DrSStudio.Wpf.csproj">
+      <Project>{706e3c83-49fc-4b6b-96e1-6f4d94c3d40d}</Project>
+      <Name>IGK.DrSStudio.Wpf</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\addins\wsdl\IGK.DrSStudio.WsdlAddIn\IGK.DrSStudio.WsdlAddIn.csproj">
+      <Project>{0aa37dd2-6c3c-4090-adf1-f0cbe4a9c524}</Project>
+      <Name>IGK.DrSStudio.WsdlAddIn</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\addins\zip\IGK.DrSStudio.ZipReader.csproj">
+      <Project>{74871d30-16cc-4854-bd9d-fc1058036248}</Project>
+      <Name>IGK.DrSStudio.ZipReader</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\removed\IGK.DrSStudio.Drawing2D.RubanAddIn\IGK.DrSStudio.Drawing2D.RubanAddIn.csproj">
+      <Project>{08334d66-8757-4ab2-b264-283baff55e18}</Project>
+      <Name>IGK.DrSStudio.Drawing2D.RubanAddIn</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\removed\IGK.DrSStudio.WireAddIn\IGK.DrSStudio.Drawing2D.WireAddIn.csproj">
+      <Project>{25a5a20c-9fc6-4e3e-a783-fe46b027bc8d}</Project>
+      <Name>IGK.DrSStudio.Drawing2D.WireAddIn</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\addins\tools\IGK.DrSStudio.ButtonManagerAddIn\IGK.DrSStudio.ButtonManagerAddIn.csproj">
+      <Project>{019500e1-6803-4836-b144-33a2f12144cc}</Project>
+      <Name>IGK.DrSStudio.ButtonManagerAddIn</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\addins\tools\IGK.DrSStudio.CommandWindowAddIn\IGK.DrSStudio.CommandWindowAddIn.csproj">
+      <Project>{b4e94719-49b2-4913-9d1d-c21fd7e63d69}</Project>
+      <Name>IGK.DrSStudio.CommandWindowAddIn</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\addins\tools\IGK.DrSStudio.ExportToNotificationFileAddIn\IGK.DrSStudio.ExportToNotificationFileAddIn.csproj">
+      <Project>{becbf3da-44c1-42f4-83ae-441d4bd657bb}</Project>
+      <Name>IGK.DrSStudio.ExportToNotificationFileAddIn</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\addins\tools\IGK.DrSStudio.FontToolSelectorAddIn\IGK.DrSStudio.FontToolSelectorAddIn.csproj">
+      <Project>{f46cdc37-4e81-45d5-85de-d0d69a3f7aba}</Project>
+      <Name>IGK.DrSStudio.FontToolSelectorAddIn</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\addins\tools\IGK.DrSStudio.GlobalToolsAddIn\IGK.DrSStudio.GlobalToolsAddIn.csproj">
+      <Project>{45b60880-eb96-48df-99db-607361f74a56}</Project>
+      <Name>IGK.DrSStudio.GlobalToolsAddIn</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\addins\tools\IGK.DrSStudio.PropertyWindowAddIn\IGK.DrSStudio.PropertyWindowAddIn.csproj">
+      <Project>{d516bdda-bb29-4f05-8abc-bc27016a0263}</Project>
+      <Name>IGK.DrSStudio.PropertyWindowAddIn</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\addins\tools\IGK.DrSStudio.ResourceContainerExplorerAddIn\IGK.DrSStudio.ResourceContainerExplorerAddIn.csproj">
+      <Project>{7e1bfe10-2650-4998-bace-17d4e763b89d}</Project>
+      <Name>IGK.DrSStudio.ResourceContainerExplorerAddIn</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\addins\tools\IGK.DrSStudio.ResourcesManager\IGK.DrSStudio.ResourcesManagerAddIn.csproj">
+      <Project>{6138a205-4ff8-48f3-a2f5-ac49f612afed}</Project>
+      <Name>IGK.DrSStudio.ResourcesManagerAddIn</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\addins\tools\IGK.DrSStudio.ScriptBuilderAddIn\IGK.DrSStudio.ScriptBuilderAddIn.csproj">
+      <Project>{a60dc93a-1f68-4549-a15c-26b06c2f9688}</Project>
+      <Name>IGK.DrSStudio.ScriptBuilderAddIn</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="readme.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

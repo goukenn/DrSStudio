@@ -1,0 +1,6 @@
+﻿<?xml version="1.0"?>
+<assembly name="drsAVAddIn" namespace="IGK.DrSStudio.AudioVideo">
+  <description>
+    assembly used to play/record/extract avi data
+  </description>
+</assembly>

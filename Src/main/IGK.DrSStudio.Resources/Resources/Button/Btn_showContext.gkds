@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--This is a gkds DrSStudio file 8.0.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2012-->
+<gkds>
+  <Project>
+    <SurfaceType>ButtonSurface</SurfaceType>
+  </Project>
+  <Documents>
+    <LayerDocument InterpolationMode="Pixel" BackgroundTransparent="True" Width="16" Height="16" Id="Normal">
+      <Layer Id="Layer_47406368">
+        <Rectangle Bounds="1;3;14;3" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#F000;" SmoothingMode="None" Matrix="1;0;0;1;0;-2" Id="Rectangle_61515057" />
+        <CustomPolygon FillMode="Alternate" Points="1;7 15;7 8;15" StrokeBrush="Type:Solid;Colors:#F000;LineJoin:Round" FillBrush="Type:Solid;Colors:#F000;" SmoothingMode="None" Id="CustomPolygon_39055747" />
+      </Layer>
+    </LayerDocument>
+    <LayerDocument InterpolationMode="Pixel" BackgroundTransparent="True" Width="16" Height="16" Id="Over">
+      <Layer Id="Layer_47406368">
+        <Rectangle Bounds="1;3;14;3" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#F000;" SmoothingMode="None" Matrix="1;0;0;1;0;-2" Id="Rectangle_61515057" />
+        <CustomPolygon FillMode="Alternate" Points="1;7 15;7 8;15" StrokeBrush="Type:Solid;Colors:#F000;LineJoin:Round" FillBrush="Type:Solid;Colors:#FFE5FFEB;" SmoothingMode="None" Id="CustomPolygon_39055747" />
+      </Layer>
+    </LayerDocument>
+    <LayerDocument InterpolationMode="Pixel" BackgroundTransparent="True" Width="16" Height="16" Id="Down">
+      <Layer Id="Layer_47406368">
+        <Rectangle Bounds="1;3;14;3" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#F000;" SmoothingMode="None" Matrix="1;0;0;1;0;-2" Id="Rectangle_61515057" />
+        <CustomPolygon FillMode="Alternate" Points="1;7 15;7 8;15" StrokeBrush="Type:Solid;Colors:#F000;LineJoin:Round" FillBrush="Type:Solid;Colors:#FF0096FF;" SmoothingMode="None" Id="CustomPolygon_39055747" />
+      </Layer>
+    </LayerDocument>
+    <LayerDocument InterpolationMode="Pixel" BackgroundTransparent="True" Width="16" Height="16" Id="Up">
+      <Layer Id="Layer_47406368">
+        <Rectangle Bounds="1;3;14;3" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#F000;" SmoothingMode="None" Matrix="1;0;0;1;0;-2" Id="Rectangle_61515057" />
+        <CustomPolygon FillMode="Alternate" Points="1;7 15;7 8;15" StrokeBrush="Type:Solid;Colors:#F000;LineJoin:Round" FillBrush="Type:Solid;Colors:#F000;" SmoothingMode="None" Id="CustomPolygon_39055747" />
+      </Layer>
+    </LayerDocument>
+    <LayerDocument InterpolationMode="Pixel" BackgroundTransparent="True" Width="16" Height="16" Id="Disabled">
+      <Layer Id="Layer_47406368">
+        <Rectangle Bounds="1;3;14;3" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#F000;" SmoothingMode="None" Matrix="1;0;0;1;0;-2" Id="Rectangle_61515057" />
+        <CustomPolygon FillMode="Alternate" Points="1;7 15;7 8;15" StrokeBrush="Type:Solid;Colors:#F000;LineJoin:Round" FillBrush="Type:Solid;Colors:#FF7B7B7B;" SmoothingMode="None" Id="CustomPolygon_39055747" />
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

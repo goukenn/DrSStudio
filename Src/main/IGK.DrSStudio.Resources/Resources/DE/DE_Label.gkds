@@ -1,0 +1,22 @@
+<!--This is a gkds DrSStudio file 8.7.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2013-->
+<gkds>
+  <Project>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+    <FileName>D:\DRSStudio 8.4 Src\Src\core\IGK.DrSStudio.Resources\Resources\DE_Condition.gkds</FileName>
+    <Resources>
+      <String Id="app_title" />
+    </Resources>
+  </Project>
+  <Documents>
+    <LayerDocument BackgroundTransparent="True" Width="16" Height="16" Id="LayerDocument_64185571">
+      <Layer Id="Layer_37765596">
+        <Path Closed="False" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#FF0053FF;" ShadowProperty="Color:#B8000000; Offset:1 1;BrushMode:Solid;IsClipped:False;" AllowShadow="True" SmoothingMode="None" Id="Path_66378670">
+          <Points>2;14 2;2 6;2 6;11 13;11 13;14</Points>
+          <PointTypes>0;1;1;1;1;161</PointTypes>
+        </Path>
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

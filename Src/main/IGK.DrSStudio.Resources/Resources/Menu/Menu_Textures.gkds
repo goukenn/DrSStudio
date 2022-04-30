@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--This is a gkds DrSStudio file 8.5.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2013-->
+<gkds>
+  <Project>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+    <FileName>D:\DRSStudio 8.4 Src\IGK.DrSStudio.Resources\Resources\Menu_Textures.gkds</FileName>
+    <Resources>
+      <String Id="app_title" />
+    </Resources>
+  </Project>
+<Documents>
+  <LayerDocument InterpolationMode="HightQualityBilinear" TextContrast="4" BackgroundTransparent="True" Width="256" Height="256" Id="LayerDocument_8497642"><Extensions /><Layer Id="Layer_45105026"><Rectangle Bounds="4;8;248;239" StrokeBrush="Type:Solid;Colors:#0000;Width:5;DashStyle:Solid;LineJoin:Round" FillBrush="Type:Solid;Colors:#FF2B2B2B;" Id="Rectangle_16819100"><Filters /></Rectangle><Rectangle Bounds="19;24;218;144" StrokeBrush="Type:Solid;Colors:#FF000089;Width:5;DashStyle:Solid;LineJoin:Round" FillBrush="Type:LinearGradient;Colors:#FFFFDE00 #FFFF3C00;LinearMode:Dual;Angle:90;WrapMode:TileFlipXY;GammaCorrection:True;Factors: 0 1;Positions: 0 1;" Id="Rectangle_52002238"><Filters /></Rectangle></Layer><Layer Id="Layer_7206260" Clipped="#Rectangle_52002238"><CustomPolygon FillMode="Alternate" Points="45;172 141;45 183;90 216;60 242;93 245;193" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#FF001BAF;" Id="CustomPolygon_62489398"><Filters /></CustomPolygon><Rectangle Bounds="19;24;218;144" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#0000;" Id="Rectangle_52002238"><Filters /></Rectangle><CustomPolygon FillMode="Alternate" Points="13;172 64;87 128;182" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#FF0037E3;" Id="CustomPolygon_7654972"><Filters /></CustomPolygon><Polygon Angle="-78.69007" Center="60;178" Radius="40.79216" StrokeBrush="Type:Solid;Colors:#FFFF;" FillBrush="Type:Solid;Colors:#FF52B8FF;" Id="Polygon_20667596"><Filters /></Polygon></Layer></LayerDocument>
+</Documents>
+</gkds>

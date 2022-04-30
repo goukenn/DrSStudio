@@ -1,0 +1,82 @@
+<div style="background-color:#fafafa; color:#888; margin: auto;" class="drs-startpage igk-body-box  fit overflow-y-a igk-powered-viewer igk-parentscroll"
+ igk-node-disable-selection="1">
+	<div class="igk-col igk-col-12-2 fith floatl presentation no-overflow no-padding no-margin">
+		<div>
+			<span class="dispib posr" style="left:10px; top:12px;">igkdev</span>
+			<div class="igk-title-4">DrSStudio</div>
+		</div>
+	</div>
+	<div class="igk-col igk-col-12-10 fith floatl no-padding no-margin" style="background-color: #333;">
+		<div>
+			<div class="igk-panel">
+				<div class="igk-title">[lang:title.whatnew]</div>
+				<div>[imeth:getNews]</div>
+			</div>
+			<div class="igk-panel">
+				<div>Multimedia content - creator</div>
+				<div class="igk-row">
+					<div class="igk-col-lg-12-3 no-overflow">
+						<ul>
+							<li igk-data-row-binding="1">
+								<div>
+									<div class="igk-tl">[lang:title.recent]</div>
+									<div>
+										<ul>
+											[func:getRecentData]
+										</ul>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="igk-col-lg-12-3">
+						<ul>
+							<li>
+								<div style="padding-bottom:10px;">
+									<div class="igk-tl">[lang:title.Project]</div>
+									<div>
+										<ul>
+											<li><a href="#" onclick="javascript:ns_igk.invoke('create', ''); ">[lang:title.newProject]</a></li>
+											[func:getModelProject]
+										</ul>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div style="padding-bottom:10px;">
+									<div class="igk-tl">[lang:title.Drawing2D.project]</div>
+									<div>
+										<ul>
+											<li><a href="#" onclick="javascript:ns_igk.invoke('create', '2DDrawingSurface'); ">[lang:title.drawin2D]</a>
+
+
+											</li>
+											[func:getModelData]
+										</ul>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="igk-panel">
+				<div>Version : [func:getVersion] </div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div class="posab" style="z-index:200; background-color:indigo; bottom:0px; right:0px;">
+	
+		<input class="igk-btn" name="btn.website" 
+		id="btn.website"
+		value="[lang:lb.gotowebsite]" 
+		type="button" 
+		style="color:black" 
+		onclick="javascript:ns_igk.invoke('opensite');" />
+	
+</div> 
+<script language="javascript"  type="text/javascript">	 
+</script>

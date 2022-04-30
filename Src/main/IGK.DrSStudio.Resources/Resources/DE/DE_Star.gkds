@@ -1,0 +1,18 @@
+<!--This is a gkds DrSStudio file 9.2.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2014-->
+<gkds>
+  <Project>
+    <TargetSurface>2DDrawingSurface</TargetSurface>
+  </Project>
+  <Documents>
+    <LayerDocument FillBrush="Type:Solid;Colors:#FFFF;" BackgroundTransparent="True" Width="16" Height="16" Id="LayerDocument_57658313">
+      <Layer GammaCorrection="0" Id="Layer_38041845">
+        <Path Closed="True" FillMode="Alternate" FillBrush="Type:Solid;Colors:#FF0083FF;" StrokeBrush="Type:Solid;Colors:#93000000;DashCap:Triangle;LineJoin:Round" Id="Path_37069420">
+          <PointTypes>0;1;1;1;1;1;1;1;1;1;129</PointTypes>
+          <Points>11.94298;13.42705 8;11 4.057017;13.42705 5.146831;8.927051 1.620119;5.927051 6.236644;5.572949 8.000001;1.291796 9.763356;5.572949 14.37988;5.927052 10.85317;8.927052 11.94298;13.42705</Points>
+        </Path>
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

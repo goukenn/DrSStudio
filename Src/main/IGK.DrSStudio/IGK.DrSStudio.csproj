@@ -1,0 +1,649 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{765E6E5B-DB0C-4FC9-A837-08CC1BC1DF65}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>IGK.DrSStudio</RootNamespace>
+    <AssemblyName>DrS</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publier\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\..\..\Bin\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>..\..\..\Bin\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\..\..\Bin\x86\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>..\..\..\Bin\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>drsstudio.app.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>drsstudio2021.pfx</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'DebugDev|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\DebugDev\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'DebugDev|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\..\..\Bin\x86\DebugDev\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug_dev|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug_dev\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug_dev|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug_dev\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'dev|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\dev\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'dev|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\dev\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\System.Buffers.4.5.0\lib\netstandard2.0\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Caching" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Presentation" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\..\core\IGK.ICore.WinCore\Native\enuWindowMessage.cs">
+      <Link>Native\enuWindowMessage.cs</Link>
+    </Compile>
+    <Compile Include="..\..\core\IGK.ICore.WinCore\Native\Gdi32.lib.cs">
+      <Link>Native\Gdi32.lib.cs</Link>
+    </Compile>
+    <Compile Include="..\..\core\IGK.ICore.WinCore\Native\IconInfo.cs">
+      <Link>Native\IconInfo.cs</Link>
+    </Compile>
+    <Compile Include="..\..\core\IGK.ICore.WinCore\Native\PrintAPI.cs">
+      <Link>Native\PrintAPI.cs</Link>
+    </Compile>
+    <Compile Include="..\..\core\IGK.ICore.WinCore\Native\User32.lib.cs">
+      <Link>Native\User32.lib.cs</Link>
+    </Compile>
+    <Compile Include="..\..\core\IGK.ICore.WinCore\Native\UXTheme.lib.cs">
+      <Link>Native\UXTheme.lib.cs</Link>
+    </Compile>
+    <Compile Include="Actions\GlobalApplicationMessageFilter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="App.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Codec\LibZGkdsEncoder.cs" />
+    <Compile Include="ContextMenu\CloseAllButCurrentSurfaceContextMenu.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ContextMenu\CloseAllSurfaceContextMenu.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ContextMenu\CloseCurrenSurfaceContextMenu.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ContextMenu\OpenContainerFolderContextMenu.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ContextMenu\SaveCurrentSurfaceContextMenu.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ContextMenu\SurfaceContainerContextMenu.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CoreAddIn.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DrSSConstants.cs" />
+    <Compile Include="DrSStudioResourceManager.cs" />
+    <Compile Include="DrSStudioStartSurface\WinUI\DrSStartScriptProfile.cs" />
+    <Compile Include="GlobalSuppressions.cs" />
+    <Compile Include="Menu\CoreEditableMenuBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Menu\CorePrintSurfaceMenu.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Menu\CoreSaveSurfaceMenu.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Menu\CoreShowContextMenuAction.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Menu\Demo\DemoMenuBase.cs" />
+    <Compile Include="Menu\Edit\CreateFromClipboard.cs" />
+    <Compile Include="Menu\Edit\EditableSystemMenu.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Menu\Edit\EditAddMenu.cs" />
+    <Compile Include="Menu\Edit\UndoableMenucAction.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Menu\Edit\_Copy.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Menu\Edit\_Cut.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Menu\Edit\_Edit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Menu\Edit\_PasteMenu.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Menu\Edit\_Redo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Menu\Edit\_Undo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Menu\File\CloseSolutionMenu.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Menu\File\New\_FileNewMenu.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Menu\File\New\_FileNewProjectMenu.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Menu\File\SwitchEnvironmentMenu.cs" />
+    <Compile Include="Menu\File\_CloseAllButNotThecurrentSurfaceMenu.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Menu\File\_CloseSurfaceMenu.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Menu\File\_FileMenu.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Menu\File\_FileExportToMenu.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Menu\File\_FileRenameMenu.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Menu\File\_OpenMenu.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Menu\File\_Print.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Menu\File\_PrintPreview.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Menu\File\_Quit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Menu\File\_RefreshSurfaceMenu.cs" />
+    <Compile Include="Menu\File\_RestartApplicationMenu.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Menu\File\_SaveMenu.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Menu\File\_SaveAllSufaces.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Menu\File\_SaveAsMenu.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Menu\File\_SaveSolutionMenu.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Menu\File\_SaveSolutionAs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Menu\Help\OnlineCommunityMenu.cs" />
+    <Compile Include="Menu\Help\_About.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Menu\Help\_Help.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Menu\MainFormDisposition\MainForm_Docking.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Menu\MainFormDisposition\MainForm_DockToDown.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Menu\MainFormDisposition\MainForm_DockToLeft.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Menu\MainFormDisposition\MainForm_DockToRight.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Menu\MainFormDisposition\MainForm_DockToUp.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Menu\MainFormDisposition\MainForm_Maximize.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Menu\MainFormDisposition\MainForm_Reduce.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Menu\MainFormDisposition\MainForm_WindowKey.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Menu\ProcessManager\ExportContextMenuListMenu.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Menu\ProcessManager\ExportMenuListMenu.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Menu\ProcessManager\ProcessManagerMenu.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Menu\Project\CoreProjectMenu.cs" />
+    <Compile Include="Menu\ShowSystemCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Menu\TogglePageViewBackward.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Menu\TogglePaveViewForward.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Menu\Tools\_ChangeSkinsMenu.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Menu\Tools\_OptionsAndSettingMenu.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Menu\Tools\_ResetSkinMenu.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Menu\Tools\_ToolsMenu.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Menu\View\RefreshStartPageMenu.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Menu\View\_View.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Menu\View\_ViewRulesMenu.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Menu\View\_ViewScrollMenu.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DrSStudioStartSurface\Menu\_ViewStartPageMenu.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Menu\View\_ViewToggleFullScreen.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Menu\View\_ViewToolBar.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Menu\Window\WindowMenu.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Menu\_RestartApplication.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Program.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Settings\DrSStudioMenuFontSetting.cs" />
+    <Compile Include="Settings\DrSStudioSetting.cs" />
+    <Compile Include="Tools\Custom2DSurfaceObjectCreator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Tools\DrSStudioToolBase.cs" />
+    <Compile Include="Tools\DrSStudioToolAttribute.cs" />
+    <Compile Include="Tools\EnvironmentToolManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Tools\StartDocumentManagerTool.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Tools\ToolManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\CommonDialog\FileNamePicker.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\CommonDialog\FolderNamePicker.cs" />
+    <Compile Include="WinUI\CommonDialog\SaveFileAsDialog.cs" />
+    <Compile Include="WinUI\DispatcherInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DrSStudioStartSurface\WinUI\DrSStartSurface.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WinUI\DrSStudioApplicationSettingSurface.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WinUI\DrSStudioButton.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\DrSStudioColorDialog.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\DrSStudioCommonDialog.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\DrSStudioConfirmDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinUI\DrSStudioDialogToolRenderer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\DrSStudioFontDialog.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\DrSStudioJobDialog.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\DrSStudioLayoutManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\DrSStudioMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinUI\DrSStudioMainFormCaptionbar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WinUI\DrSStudioMessageBox.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\DrSStudioNotifyBoxScriptProfile.cs" />
+    <Compile Include="WinUI\DrSStudioOpenFileDialog.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\DrsStudioSaveDialog.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\DrSStudioSplashScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinUI\DrSStudioSplashScreen.designer.cs">
+      <DependentUpon>DrSStudioSplashScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinUI\DrSStudioWaitDialog.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\DrSStudioWebBrowserShortcutKeysHandler.cs" />
+    <Compile Include="WinUI\DrSStudioWorkbench.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\DrSStudioWorkbenchGUIRenderer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\DrSStudioWorkbenchToolRenderer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\DrSStudioWebBrowserDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinUI\LayerDispatcher.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\DrSStudioNotifyBoxForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="DrSStudioStartSurface\WinUI\DrSStartSurface.resx">
+      <DependentUpon>DrSStartSurface.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinUI\DrSStudioMainForm.resx">
+      <DependentUpon>DrSStudioMainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinUI\DrSStudioNotifyBoxForm.resx">
+      <DependentUpon>DrSStudioNotifyBoxForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinUI\DrSStudioSplashScreen.resx">
+      <DependentUpon>DrSStudioSplashScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="App1.config" />
+    <None Include="drsstudio.2013.pfx" />
+    <None Include="drsstudio2021.pfx" />
+    <None Include="Fonts\hieros-0926.ttf" />
+    <None Include="packages.config" />
+    <None Include="Sdk\Img\barner_devcenter.jpg.gkds" />
+    <None Include="Sdk\Img\barner_devcenter.png.gkds" />
+    <None Include="Sdk\Img\barner_forum.png.gkds" />
+    <None Include="Sdk\Img\barner_login.png.gkds" />
+    <None Include="Sdk\Img\barner_support.png.gkds" />
+    <None Include="Sdk\Img\bg.jpg.gkds" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\core\IGK.ICore.Drawing2D\IGK.ICore.Drawing2D.csproj">
+      <Project>{29738416-cc50-4ad2-9353-b03fbeecdaf8}</Project>
+      <Name>IGK.ICore.Drawing2D</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\core\IGK.ICore.WebSdk\IGK.ICore.WebSdk.csproj">
+      <Project>{986a7450-d1de-44ce-ba9a-584224df925c}</Project>
+      <Name>IGK.ICore.WebSdk</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\core\IGK.ICore.WinCore\IGK.ICore.WinCore.csproj">
+      <Project>{68ab7706-a97f-4bf8-8d1f-26d69a6bfa0e}</Project>
+      <Name>IGK.ICore.WinCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\core\IGK.ICore\IGK.ICore.csproj">
+      <Project>{95e437a5-4a87-4fab-b15f-4a0fde8b7dcf}</Project>
+      <Name>IGK.ICore</Name>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\IGK.DrSStudio.AddInLib\IGK.DrSStudio.AddInLib.csproj">
+      <Project>{e4710914-22ca-4a41-8b6d-30909384ec10}</Project>
+      <Name>IGK.DrSStudio.AddInLib</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\IGK.DrSStudio.Lib\IGK.DrSStudio.Lib.csproj">
+      <Project>{da58cdd4-8f22-40e2-a688-2b1cd2c08f11}</Project>
+      <Name>IGK.DrSStudio.Lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\IGK.DrSStudio.Resources\IGK.DrSStudio.Resources.csproj">
+      <Project>{b853567a-d430-4937-84ea-2694a227f258}</Project>
+      <Name>IGK.DrSStudio.Resources</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\IGK.DrSStudio.WinCoreDesign\IGK.DrSStudio.WinCoreDesign.csproj">
+      <Project>{497fad28-de18-40d3-af73-2ec1f9303b6b}</Project>
+      <Name>IGK.DrSStudio.WinCoreDesign</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\IGK.DrSStudio.WinCore\IGK.DrSStudio.WinCore.csproj">
+      <Project>{74f6a53e-2948-41bc-a842-e036c6d96667}</Project>
+      <Name>IGK.DrSStudio.WinCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\IGK.DrSStudio.WinUI.LayoutDocking\IGK.DrSStudio.WinUI.LayoutDocking.csproj">
+      <Project>{02cf39e9-e988-4c12-ba78-f2633fa153a7}</Project>
+      <Name>IGK.DrSStudio.WinUI.LayoutDocking</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 et x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="drsstudio.app.ico" />
+    <Content Include="Icons\drsico.ico" />
+    <Content Include="Icons\Windows.ico" />
+    <Resource Include="Resources\notify_box.js" />
+    <Resource Include="Resources\drs_startpage.html" />
+    <Resource Include="Resources\drs_startpage.css" />
+    <Content Include="Sdk\Img\barner_devcenter.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sdk\Img\barner_devcenter.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sdk\Img\barner_forum.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sdk\Img\barner_login.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sdk\Img\barner_support.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sdk\Img\bg.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sdk\Scripts\drs.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sdk\Styles\drs.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>erase LibChecker.dll
+rem erase IGK.DrSStudio.Lib.dll</PostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

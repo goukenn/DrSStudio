@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--This is a gkds DrSStudio file 7.0.a-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--IGKDEV © 2008-2012-->
+<gkds>
+  <Project>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+  </Project>
+  <Documents>
+    <LayerDocument BackgroundTransparent="True" Width="16" Height="16" Id="LayerDocument_4724298">
+      <Layer Id="Layer_38643946">
+        <Arc Closed="False" SweepAngle="270" StartAngle="45" Center="8;8" Radius="5;5" StrokeBrush="Type:Solid;Colors:#FFD030FF;Width:2;LineJoin:Round" FillBrush="Type:Solid;Colors:#A6FFFC47;" Id="Arc_28828555" />
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

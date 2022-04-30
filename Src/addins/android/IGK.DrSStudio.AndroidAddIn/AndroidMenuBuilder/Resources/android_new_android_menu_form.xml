@@ -1,0 +1,36 @@
+﻿<form method="POST" class="alignc igk-pad-4" action="." onsubmit="if (window.external){ window.external.create_menu(this.clTitle.value, this.clFolder.value); return false;}">
+  <div class="igk-android-menu-title igk-title-4">[lang:title.android.menu]</div>
+  <div class="alignl form-group">
+    <ul>
+      <li>
+	  <label for="clTitle" class="fitw" >[lang:lb.Name]</label>
+      <input type="text" value="" igk-hint="name" id="clTitle" class="fitw form-control"/>        
+      </li>
+      <li>
+        <label for="clTitle" class="fitw" >[lang:lb.OutFolder]</label>
+        <div class="input-group">
+          <input type="text" value="" igk-hint="name" id="clFolder" class="fitw form-control"/>
+          <span class="input-group-btn"  >
+            <button class="btn btn-default" type="button" onclick="javascript:pickfolder(this.form); return false;" >...</button>
+          </span>
+        </div>
+      </li>
+    </ul>
+	<div>
+    <input type="submit" value="[lang:btn.android.createmenu]" class="fitw igk-btn igk-btn-default" />	
+	</div>
+  </div> 
+  <div class="igk-android-footer"></div>
+  <script language="javascript" type="text/javascript">
+    var frm = window.igk.getParentScript();   
+    
+    if(window.external){
+      frm.clFolder.value = window.external.getOutputFolder();
+    }
+    function pickfolder(frm){
+    if( window.external){
+      frm.clFolder.value = window.external.pickFolder(frm.clFolder.value);
+    }
+    }
+  </script>
+</form>

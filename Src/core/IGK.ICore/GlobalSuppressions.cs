@@ -1,0 +1,27 @@
+﻿// This file is used by Code Analysis to maintain SuppressMessage
+// attributes that are applied to this project.
+// Project-level suppressions either have no target or are given
+// a specific target and scoped to a namespace, type, member, etc.
+
+using System.Diagnostics.CodeAnalysis;
+
+[assembly: SuppressMessage("Style", "IDE0059:Unnecessary assignment of a value", Justification = "<Pending>", Scope = "member", Target = "~M:IGK.ICore.CoreMathOperation.Align(IGK.ICore.Rectanglef,IGK.ICore.Rectanglef,IGK.ICore.Drawing2D.enuCore2DAlignElement)~IGK.ICore.Rectanglef")]
+[assembly: SuppressMessage("Style", "IDE0059:Unnecessary assignment of a value", Justification = "<Pending>", Scope = "member", Target = "~M:IGK.ICore.CoreMathOperation.AlignCircle(IGK.ICore.ICoreAlignmentCircle,IGK.ICore.Drawing2D.enuCore2DAlignElement,IGK.ICore.Rectanglef,System.Single@,System.Single@)")]
+[assembly: SuppressMessage("Style", "IDE0054:Use compound assignment", Justification = "<Pending>", Scope = "member", Target = "~M:IGK.ICore.CoreMathOperation.ApplyZoom(IGK.ICore.Rectanglef,System.Single,System.Single,System.Single,System.Single)~IGK.ICore.Rectanglef")]
+[assembly: SuppressMessage("Style", "IDE0059:Unnecessary assignment of a value", Justification = "<Pending>", Scope = "member", Target = "~M:IGK.ICore.CoreMathOperation.GetAnglePoint(IGK.ICore.Vector2f,IGK.ICore.Vector2f,System.Single)~IGK.ICore.Vector2f")]
+[assembly: SuppressMessage("CodeQuality", "IDE0051:Remove unused private members", Justification = "<Pending>", Scope = "member", Target = "~M:IGK.ICore.CoreMathOperation.GetFactorLocation(IGK.ICore.Vector2f,System.Single,System.Single,System.Single,System.Single)~IGK.ICore.Vector2f")]
+[assembly: SuppressMessage("Style", "IDE0059:Unnecessary assignment of a value", Justification = "<Pending>", Scope = "member", Target = "~M:IGK.ICore.CoreMathOperation.GetGlobalBounds(IGK.ICore.Drawing2D.ICoreWorkingBoundResult[])~IGK.ICore.Rectanglef")]
+[assembly: SuppressMessage("Style", "IDE0059:Unnecessary assignment of a value", Justification = "<Pending>", Scope = "member", Target = "~M:IGK.ICore.CoreMathOperation.GetGlobalVector2i(IGK.ICore.Vector2f[])~IGK.ICore.Vector2f[]")]
+[assembly: SuppressMessage("Style", "IDE0059:Unnecessary assignment of a value", Justification = "<Pending>", Scope = "member", Target = "~M:IGK.ICore.CoreMathOperation.GetIntersection(IGK.ICore.Vector2f,IGK.ICore.Vector2f,IGK.ICore.Vector2f,IGK.ICore.Vector2f,System.Boolean,IGK.ICore.Vector2f@)~System.Boolean")]
+[assembly: SuppressMessage("Style", "IDE0059:Unnecessary assignment of a value", Justification = "<Pending>", Scope = "member", Target = "~M:IGK.ICore.CoreMathOperation.GetProportionalRectangle(IGK.ICore.Rectanglef,IGK.ICore.Rectanglef)~IGK.ICore.Rectanglef")]
+[assembly: SuppressMessage("Style", "IDE0059:Unnecessary assignment of a value", Justification = "<Pending>", Scope = "member", Target = "~M:IGK.ICore.CoreMathOperation.MultMatrix(System.Single[],System.Single[],System.Int32,System.Int32)~System.Single[]")]
+[assembly: SuppressMessage("Style", "IDE0059:Unnecessary assignment of a value", Justification = "<Pending>", Scope = "member", Target = "~M:IGK.ICore.Drawing2D.SelectionElement.Mecanism.CancelMoving")]
+[assembly: SuppressMessage("CodeQuality", "IDE0051:Remove unused private members", Justification = "<Pending>", Scope = "member", Target = "~M:IGK.ICore.Drawing2D.SelectionElement.Mecanism.CheckOne(IGK.ICore.Vector2f)")]
+[assembly: SuppressMessage("Style", "IDE0059:Unnecessary assignment of a value", Justification = "<Pending>", Scope = "member", Target = "~M:IGK.ICore.Drawing2D.SelectionElement.Mecanism.Move(IGK.ICore.Vector2f,System.Boolean)")]
+[assembly: SuppressMessage("Style", "IDE0019:Use pattern matching", Justification = "<Pending>", Scope = "member", Target = "~M:IGK.ICore.Drawing2D.SelectionElement.Mecanism.OnElementPropertyChanged(IGK.ICore.CoreWorkingObjectPropertyChangedEventArgs)")]
+[assembly: SuppressMessage("Style", "IDE0059:Unnecessary assignment of a value", Justification = "<Pending>", Scope = "member", Target = "~M:IGK.ICore.Drawing2D.SelectionElement.Mecanism.OnMouseClick(IGK.ICore.WinUI.CoreMouseEventArgs)")]
+[assembly: SuppressMessage("CodeQuality", "IDE0051:Remove unused private members", Justification = "<Pending>", Scope = "member", Target = "~M:IGK.ICore.Drawing2D.SelectionElement.Mecanism.SelectSingleElement(IGK.ICore.Vector2f)")]
+[assembly: SuppressMessage("Style", "IDE0059:Unnecessary assignment of a value", Justification = "<Pending>", Scope = "member", Target = "~M:IGK.ICore.Drawing2D.SelectionElement.Mecanism.SetUpPoint(IGK.ICore.Vector2f)")]
+[assembly: SuppressMessage("Style", "IDE0059:Unnecessary assignment of a value", Justification = "<Pending>", Scope = "member", Target = "~M:IGK.ICore.Drawing2D.SelectionElement.Mecanism.UpdateDiagonalResizing(IGK.ICore.WinUI.CoreMouseEventArgs,System.Boolean)")]
+[assembly: SuppressMessage("Style", "IDE0059:Unnecessary assignment of a value", Justification = "<Pending>", Scope = "member", Target = "~M:IGK.ICore.Drawing2D.SelectionElement.Mecanism.UpdateInflate(IGK.ICore.WinUI.CoreMouseEventArgs,System.Boolean)")]
+[assembly: SuppressMessage("Style", "IDE0059:Unnecessary assignment of a value", Justification = "<Pending>", Scope = "member", Target = "~M:IGK.ICore.Drawing2D.SelectionElement.Mecanism.UpdateResize(IGK.ICore.WinUI.CoreMouseEventArgs,System.Boolean)")]

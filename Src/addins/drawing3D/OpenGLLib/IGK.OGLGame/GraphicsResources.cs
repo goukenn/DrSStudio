@@ -1,0 +1,76 @@
+
+
+
+using IGK.ICore;
+/*
+IGKDEV @ 2008-2016
+Project : IGK 
+author: C.A.D . BONDJE DOUE
+site: http://www.igkdev.be
+file: GraphicsResources.cs
+THIS FILE IS A PART OF IGK Library FOR DRSSTUDION APPLICATION.
+Read license.text
+THIS SOFTWARE IS PROVIDED "AS IS" AND WITHOUT ANY EXPRESS OR
+IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+PURPOSE.
+*/
+/*
+IGKDEV @ 2008-2016
+author: C.A.D . BONDJE DOUE
+file:GraphicsResources.cs
+*/
+/* 
+-------------------------------------------------------------------
+Company: IGK-DEV
+Author : C.A.D. BONDJE DOUE
+SITE : http://www.igkdev.be
+Application : DrSStudio
+powered by IGK - DEV &copy; 2008-2012
+THIS FILE IS A PART OF THE DRSSTUDIO APPLICATION. SEE "License.txt"
+FOR MORE INFORMATION ABOUT THE LICENSE
+------------------------------------------------------------------- 
+*/
+/* 
+-------------------------------------------------------------
+This file is part of iGK-DEV-DrawingStudio
+-------------------------------------------------------------
+-------------------------------------------------------------
+-------------------------------------------------------------
+view license file in Documentation folder to get more info
+Copyright (c) 2008-2010 
+Author  : Charles A.D. BONDJE DOUE 
+mail : bondje.doue@hotmail.com
+-------------------------------------------------------------
+-------------------------------------------------------------
+*/
+using System;
+using System.Collections.Generic;
+using System.Text;
+namespace IGK.OGLGame.Graphics
+{
+    /// <summary>
+    /// represent the graphics Resources
+    /// </summary>
+    public abstract class GraphicsResources: IDisposable, IGraphicResource
+    {
+        private OGLGraphicsDevice m_graphicsDevice;
+        private string m_name;
+        //PROPERTIES
+        public OGLGraphicsDevice GraphicsDevice { get { return this.m_graphicsDevice; } }
+        public string Name { get { return this.m_name; } }
+        public abstract string ResourceType { get; }
+        protected GraphicsResources(OGLGraphicsDevice device, string name)
+        {
+            this.m_graphicsDevice = device;
+            this.m_name = name;
+        }
+        #region IDisposable Members
+        public virtual void Dispose()
+        {
+        }
+        #endregion
+        public abstract void DrawTo(SpriteBatch spriteBatch, Vector2f location, Colorf color);
+    }
+}
+

@@ -1,0 +1,7 @@
+﻿<addin>
+
+<name>drsPicEditorAddin</name>
+<description>
+Cet library est utiliser pour réaliser des opérations d'image sur un surface on a ainsi la vue avant et après modification
+</description>
+</addin>

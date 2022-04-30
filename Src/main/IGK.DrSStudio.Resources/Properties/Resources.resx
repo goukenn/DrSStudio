@@ -1,0 +1,1099 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="anim_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\anim.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="app_palette_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\app_palette.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="backMost_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\backmost.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Btn_2DAlign_Bottom_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\button\btn_2dalign_bottom.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Btn_2DAlign_BottomLeft_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\button\btn_2dalign_bottomleft.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Btn_2DAlign_BottomMiddle_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\button\btn_2dalign_bottommiddle.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Btn_2DAlign_BottomRight_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\button\btn_2dalign_bottomright.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Btn_2DAlign_Center_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\button\btn_2dalign_center.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Btn_2DAlign_CenterHorizontal_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\button\btn_2dalign_centerhorizontal.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Btn_2DAlign_CenterVertical_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\button\btn_2dalign_centervertical.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Btn_2DAlign_InvertX_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\button\btn_2dalign_invertx.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Btn_2DAlign_InvertY_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\button\btn_2dalign_inverty.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Btn_2DAlign_Left_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\button\btn_2dalign_left.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Btn_2DAlign_MiddleLeft_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\button\btn_2dalign_middleleft.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Btn_2DAlign_MiddleRight_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\button\btn_2dalign_middleright.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Btn_2DAlign_Right_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\button\btn_2dalign_right.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Btn_2DAlign_Top_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\button\btn_2dalign_top.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Btn_2DAlign_TopLeft_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\button\btn_2dalign_topleft.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Btn_2DAlign_TopMiddle_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\button\btn_2dalign_topmiddle.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Btn_2DAlign_TopRight_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\button\btn_2dalign_topright.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Btn_2DDock_DockDown_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\button\btn_2ddock_dockdown.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Btn_2DDock_DockFill_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\button\btn_2ddock_dockfill.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Btn_2DDock_DockLeft_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\button\btn_2ddock_dockleft.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Btn_2DDock_DockLeftAndRight_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\button\btn_2ddock_dockleftandright.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Btn_2DDock_DockRight_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\button\btn_2ddock_dockright.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Btn_2DDock_DockUp_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\button\btn_2ddock_dockup.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Btn_2DDock_DockUpAndDown_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\button\btn_2ddock_dockupanddown.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_2DSizeTransform_SameHeight_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\button\btn_2dsizetransform_sameheight.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_2DSizeTransform_SameWidth_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\button\btn_2dsizetransform_samewidth.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_alignCenter_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\button\btn_aligncenter.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_alignLeft_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\button\btn_alignleft.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_alignRight_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\button\btn_alignright.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_Bold_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\button\btn_bold.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Btn_Clear_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\button\btn_clear.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Btn_ClearColor_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\button\btn_clearcolor.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Btn_Close_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\button\btn_close.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_closeDialog_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\button\btn_closedialog.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Btn_closeSurface_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\button\btn_closesurface.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_close_cs_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\button\btn_close_cs.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_Downdocument_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\button\btn_downdocument.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Btn_Edit_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\button\btn_edit.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_far_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\button\btn_far.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Btn_folder_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\button\btn_folder.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_fullscreen_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\button\btn_fullscreen.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Btn_GoDown_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\button\btn_godown.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_Italic_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\button\btn_italic.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Btn_Maximize_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\button\btn_maximize.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Btn_MitterClipped_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\button\btn_mitterclipped.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_near_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\button\btn_near.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Btn_PenAlignCenter_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\button\btn_penaligncenter.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Btn_PenAlignInset_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\button\btn_penaligninset.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Btn_PenMitter_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\button\btn_penmitter.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Btn_PenMitterBevel_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\button\btn_penmitterbevel.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Btn_PenMitterRound_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\button\btn_penmitterround.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_PickCenter_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\button\btn_pickcenter.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_PickColor_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\button\btn_pickcolor.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_planex_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\button\btn_planex.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_planey_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\button\btn_planey.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_planez_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\button\btn_planez.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Btn_Reduce_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\button\btn_reduce.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_refresh_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\button\btn_refresh.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_remove_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\button\btn_remove.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Btn_Settings_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\button\btn_settings.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Btn_showContext_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\button\btn_showcontext.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Btn_Solutions_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\button\btn_solutions.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_StrikeOut_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\button\btn_strikeout.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_UnderLine_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\button\btn_underline.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Btn_Undock_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\button\btn_undock.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_Updocument_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\button\btn_updocument.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_upx_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\button\btn_upx.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_upy_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\button\btn_upy.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_upz_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\button\btn_upz.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_zoomnormal_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\button\btn_zoomnormal.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_zoomnormalcenter_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\button\btn_zoomnormalcenter.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_zoomstretch_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\button\btn_zoomstretch.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_zoomzoomcenter_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\button\btn_zoomzoomcenter.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_zoomzoomnormal_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\button\btn_zoomzoomnormal.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button_120x24_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\button\button_120x24.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CMenu_BringBack_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\cmenu_bringback.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CMenu_BringFront_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\cmenu_bringfront.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="compositingSourceCopy_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\compositingsourcecopy.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="compositingSourceOver_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\compositingsourceover.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Cross_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\cross.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="c_trackCursor_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\c_trackcursor.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Dash_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\dash.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Default_projectKey_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\default_projectkey.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DE_AnimRotate_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\de\de_animrotate.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DE_Arc_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\de\de_arc.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DE_Bezier_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\de\de_bezier.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DE_Bolt_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\de\de_bolt.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DE_Box_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\de\de_box.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="de_cam_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\de\de_cam.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DE_Canvas_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\de\de_canvas.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DE_Cardinoide_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\de\de_cardinoide.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DE_Circle_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\de\de_circle.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DE_Condition_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\de\de_condition.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DE_Cone_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\de\de_cone.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DE_Contour_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\de\de_contour.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DE_CornerLine_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\de\de_cornerline.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="de_cropcircle_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\de\de_cropcircle.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DE_CropDocumentSelection_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\de\de_cropdocumentselection.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DE_CrossRec_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\de\de_crossrec.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DE_Cube_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\de\de_cube.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DE_Curve_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\de\de_curve.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DE_CustomPolygon_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\de\de_custompolygon.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DE_Cylinder_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\de\de_cylinder.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DE_Damier_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\de\de_damier.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DE_Default_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\de\de_default.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DE_DeformPath_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\de\de_deformpath.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DE_DeformPicture_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\de\de_deformpicture.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DE_DocumentBlock_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\de\de_documentblock.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DE_Ellipse_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\de\de_ellipse.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DE_EllipseBullet_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\de\de_ellipsebullet.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DE_Event_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\de\de_event.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DE_Fan_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\de\de_fan.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DE_Fleche_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\de\de_fleche.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DE_Grid_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\de\de_grid.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DE_GridBox_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\de\de_gridbox.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="de_gridelement_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\de\de_gridelement.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DE_Group_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\de\de_group.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DE_HexaItem_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\de\de_hexaitem.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DE_Image_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\de\de_image.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DE_Label_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\de\de_label.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DE_LanceSymbol_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\de\de_lancesymbol.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DE_Layer_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\de\de_layer.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DE_Line_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\de\de_line.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DE_Lines_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\de\de_lines.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DE_MangaRoundBullet_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\de\de_mangaroundbullet.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DE_MangaSci_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\de\de_mangasci.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DE_MultiCircleItem_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\de\de_multicircleitem.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DE_OPE_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\de\de_ope.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DE_Path_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\de\de_path.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DE_Pentacle_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\de\de_pentacle.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DE_Pentacle2_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\de\de_pentacle2.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DE_Pie_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\de\de_pie.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DE_Pinceau_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\de\de_pinceau.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DE_Plume_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\de\de_plume.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DE_Polygon_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\de\de_polygon.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DE_Pot_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\de\de_pot.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DE_QRCode_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\de\de_qrcode.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DE_QuadricDeform_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\de\de_quadricdeform.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DE_Rectangle_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\de\de_rectangle.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DE_RoundRect_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\de\de_roundrect.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DE_RTFZone_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\de\de_rtfzone.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DE_Ruban_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\de\de_ruban.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DE_SCube_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\de\de_scube.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DE_SelectAndShare_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\de\de_selectandshare.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DE_SelectCopy_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\de\de_selectcopy.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DE_Selection_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\de\de_selection.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DE_Sin_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\de\de_sin.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DE_Sphere_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\de\de_sphere.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DE_Spiral_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\de\de_spiral.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DE_Spline_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\de\de_spline.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DE_Star_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\de\de_star.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DE_Stylus_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\de\de_stylus.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DE_Table_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\de\de_table.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DE_Teapot_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\de\de_teapot.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DE_Text_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\de\de_text.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DE_TextBox_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\de\de_textbox.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DE_TextCircle_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\de\de_textcircle.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DE_Torus_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\de\de_torus.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DE_TubeLine_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\de\de_tubeline.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DE_UMLGroup_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\de\de_umlgroup.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DE_UmlRelation_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\de\de_umlrelation.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DE_ViewBox_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\de\de_viewbox.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DE_WidenPath_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\de\de_widenpath.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DE_WireBezierElement_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\de\de_wirebezierelement.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="directory_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\directory.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Disp_CustomHorizontalSpacing_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\disp_customhorizontalspacing.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Disp_CustomVerticalSpacing_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\disp_customverticalspacing.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Disp_DecreaseHSpacing_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\disp_decreasehspacing.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Disp_DecreaseVerticalSpacing_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\disp_decreaseverticalspacing.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Disp_IncreaseHSpacing_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\disp_increasehspacing.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Disp_IncreaseVerticalSpacing_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\disp_increaseverticalspacing.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Disp_SameHorizontalSpacing_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\disp_samehorizontalspacing.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Disp_SameVerticalSpacing_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\disp_sameverticalspacing.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DockingForm_DockBOTTOM_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\dockingform_dockbottom.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DockingForm_DockLEFT_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\dockingform_dockleft.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DockingForm_DockRIGHT_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\dockingform_dockright.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="drop_element_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\drop_element.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DRS_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\drs.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DrsLogo_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\drslogo.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="EmptyColor_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\emptycolor.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="file_shortcut_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\file_shortcut.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="generate_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\generate.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GLGame_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\glgame.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GLGame1_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\glgame.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Group_component_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\group_component.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="group_image_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\group_image.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Group_Ordinogramme_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\group_ordinogramme.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="group_Selection_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\group_selection.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="group_standard_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\group_standard.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="group_WebMapElement_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\group_webmapelement.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Group_WepMapSelection_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\group_wepmapselection.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="HGidGet_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\hgidget.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="HGidGet_LeftArraw_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\hgidget_leftarraw.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="HGidGet_RightArraw_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\hgidget_rightarraw.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="hscrollnext_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\hscrollnext.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="hscrollprev_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\hscrollprev.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="igkdev_about_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\igkdev_about.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="img_csv_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\img\img_csv.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="img_dash_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\img\img_dash.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="IMG_FILLMODE_ALTERNATE_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\img\img_fillmode_alternate.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="IMG_FILLMODE_WIDING_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\img\img_fillmode_widing.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="img_folder_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\img\img_folder.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="IMG_MOVEDOWN_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\img\img_movedown.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="IMG_MOVEUP_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\img\img_moveup.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="img_php_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\img\img_php.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="IMG_SMOTHING_ANTIALIZED_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\img\img_smothing_antialized.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="IMG_SMOTHING_NONE_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\img\img_smothing_none.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="img_surfaceoptions_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\img\img_surfaceoptions.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MainformBackground_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\mainformbackground.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Menu_About_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\menu\menu_about.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Menu_Add_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\menu\menu_add.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Menu_BGColor_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\menu\menu_bgcolor.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Menu_BringBack_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\menu\menu_bringback.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Menu_BringDown_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\menu\menu_bringdown.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Menu_BringTop_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\menu\menu_bringtop.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Menu_BringUp_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\menu\menu_bringup.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Menu_BuildVideo_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\menu\menu_buildvideo.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Menu_Button_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\menu\menu_button.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Menu_Clear_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\menu\menu_clear.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Menu_Clear2_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\menu\menu_clear2.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Menu_Close_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\menu\menu_close.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Menu_Color_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\menu\menu_color.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Menu_Copy_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\menu\menu_copy.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Menu_Cut_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\menu\menu_cut.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Menu_DASH_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\menu\menu_dash.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="menu_delete_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\menu\menu_delete.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Menu_Document_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\menu\menu_document.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="menu_duplicate_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\menu\menu_duplicate.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Menu_DuplicateDocument_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\menu\menu_duplicatedocument.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Menu_File_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\menu\menu_file.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="menu_fitSize_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\menu\menu_fitsize.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MENU_GDI_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\menu\menu_gdi.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Menu_GrayLevel_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\menu\menu_graylevel.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Menu_Grid_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\menu\menu_grid.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Menu_Histogram_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\menu\menu_histogram.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Menu_History_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\menu\menu_history.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Menu_IconWindows_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\menu\menu_iconwindows.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Menu_ImageCurveAdjust_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\menu\menu_imagecurveadjust.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Menu_ImageInv_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\menu\menu_imageinv.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Menu_ImageTools_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\menu\menu_imagetools.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Menu_IntervalColorMenu_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\menu\menu_intervalcolormenu.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Menu_Joint_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\menu\menu_joint.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Menu_LayerExplorer_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\menu\menu_layerexplorer.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Menu_Layers_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\menu\menu_layers.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="menu_layer_view_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\menu\menu_layer_view.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="menu_light_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\menu\menu_light.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Menu_Mail_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\menu\menu_mail.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="menu_matColor_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\menu\menu_matcolor.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Menu_New_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\menu\menu_new.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Menu_NewDrsProj_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\menu\menu_newdrsproj.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Menu_Open_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\menu\menu_open.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MENU_options_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\menu\menu_options.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Menu_Paste_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\menu\menu_paste.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Menu_PLUS_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\menu\menu_plus.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Menu_Police_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\menu\menu_police.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Menu_Presentation_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\menu\menu_presentation.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Menu_Print_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\menu\menu_print.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Menu_Redo_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\menu\menu_redo.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Menu_ReplaceColor_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\menu\menu_replacecolor.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Menu_RotateLeft_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\menu\menu_rotateleft.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Menu_RotateRight_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\menu\menu_rotateright.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Menu_Rule_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\menu\menu_rule.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Menu_Save_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\menu\menu_save.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Menu_SaveAS_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\menu\menu_saveas.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Menu_ScaleClMatrix_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\menu\menu_scaleclmatrix.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Menu_SolutionEx_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\menu\menu_solutionex.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Menu_StartPage_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\menu\menu_startpage.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Menu_Textures_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\menu\menu_textures.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MENU_Tools_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\menu\menu_tools.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Menu_Undo_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\menu\menu_undo.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Menu_View_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\menu\menu_view.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Menu_Zoom_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\menu\menu_zoom.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Menu_ZoomFit_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\menu\menu_zoomfit.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="menu_zoom_s_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\menu\menu_zoom_s.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MSBX_Error_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\msbx_error.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MSBX_Info_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\msbx_info.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MSBX_Message_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\msbx_message.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="navigation_btn_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\navigation_btn.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Police_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\police.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SplashScreen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\splashscreen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="template_cdcover_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\template_cdcover.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="template_cv_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\template_cv.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="template_default_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\template_default.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="template_item_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\template_item.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Toggle_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\toggle.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Tool_Brush_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\tool_brush.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tool_global_solution_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\tool_global_solution.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tool_layer_explorer_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\tool_layer_explorer.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tool_layer_view_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\tool_layer_view.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tool_property_window_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\tool_property_window.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="topMost_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\topmost.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VGidGet_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\vgidget.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VGidGet_DownArraw_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\vgidget_downarraw.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VGidGet_UpArraw_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\vgidget_uparraw.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ViewColor_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\viewcolor.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="vscrollbottom_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\vscrollbottom.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="vscrolltop_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\vscrolltop.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Windows_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\windows.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WINUI_LD_Btn_Close_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\winui_ld_btn_close.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PaletteColor_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PaletteColor.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="navigation_btn_nextv_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\navigation_btn_nextv.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="menu_move_back_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menu_move_back.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="menu_move_up_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menu_move_up.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tool_cw_view_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tool_cw_view.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="menu_move_begin_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menu_move_begin.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="menu_move_end_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menu_move_end.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DE_MarginSelection_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DE\DE_MarginSelection.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_save_brush_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Button\btn_save_brush.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_toogle_brush_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Button\btn_toogle_brush.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_zoom_NormalCenter_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\button\btn_zoom_normalcenter.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_zoom_normal_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\button\btn_zoom_normal.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_zoom_Stretch_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\button\btn_zoom_stretch.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_zoom_ZoomCenter_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\button\btn_zoom_zoomcenter.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_zoom_ZoomNormal_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\button\btn_zoom_zoomnormal.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="de_linearbrush_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DE\de_linearbrush.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="de_radialbrush_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DE\de_radialbrush.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="de_dashedgrid_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\de\de_dashedgrid.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="de_rings_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DE\de_rings.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Menu_other_tools_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Menu\menu_other_tools.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="menu_tool_exec_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Menu\menu_tool_exec.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Menu_view_scroll_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Menu\Menu_view_scroll.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="menu_property_window_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Menu\menu_property_window.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DE_Quadratic_gkds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DE\DE_Quadratic.gkds;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

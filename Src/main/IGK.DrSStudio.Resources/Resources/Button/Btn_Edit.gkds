@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--This is a gkds DrSStudio file 7.0.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--IGKDEV © 2008-2012-->
+<gkds>
+  <Project>
+    <SurfaceType>ButtonSurface</SurfaceType>
+  </Project>
+  <Documents>
+    <LayerDocument InterpolationMode="Pixel" BackgroundTransparent="True" Width="16" Height="16" Id="Normal">
+      <Layer Id="Layer_39869926">
+        <CustomPolygon FillMode="Alternate" Points="1;15 5;14 15;4 12;1 2;11" StrokeBrush="Type:Solid;Colors:#FF0000A8;LineJoin:Round" FillBrush="Type:Solid;Colors:#FFAD00FF;" Id="CustomPolygon_45407009" />
+        <CustomPolygon FillMode="Alternate" Points="1;15 5;14 15;4 12;1 2;11" StrokeBrush="Type:Solid;Colors:#0000;LineJoin:Round" FillBrush="Type:LinearGradient;Colors:#F000 #FF1229FF #FFFF;LinearMode:MultiColor;Angle:233.2858;WrapMode:TileFlipXY;GammaCorrection:True;Factors: 0 0 1;Positions: 0 0.4955357 1;" Id="CustomPolygon_46242629" />
+        <CustomPolygon FillMode="Alternate" Points="1;15 5;14 2;11" StrokeBrush="Type:Solid;Colors:#0000;LineJoin:Round" FillBrush="Type:Solid;Colors:#FCCC;" Id="CustomPolygon_1696202" />
+      </Layer>
+    </LayerDocument>
+    <LayerDocument InterpolationMode="Pixel" BackgroundTransparent="True" Width="16" Height="16" Id="Over">
+      <Layer Id="Layer_39869926">
+        <CustomPolygon FillMode="Alternate" Points="1;15 5;14 15;4 12;1 2;11" StrokeBrush="Type:Solid;Colors:#FF0000A8;LineJoin:Round" FillBrush="Type:Solid;Colors:#FFAD00FF;" Id="CustomPolygon_45407009" />
+        <CustomPolygon FillMode="Alternate" Points="1;15 5;14 15;4 12;1 2;11" StrokeBrush="Type:Solid;Colors:#0000;LineJoin:Round" FillBrush="Type:LinearGradient;Colors:#FFF0FF00 #FFFF5900 #FFFF;LinearMode:MultiColor;Angle:233.2858;WrapMode:TileFlipXY;GammaCorrection:True;Factors: 0 0 1;Positions: 0 0.4955357 1;" Id="CustomPolygon_46242629" />
+        <CustomPolygon FillMode="Alternate" Points="1;15 5;14 2;11" StrokeBrush="Type:Solid;Colors:#0000;LineJoin:Round" FillBrush="Type:Solid;Colors:#FCCC;" Id="CustomPolygon_1696202" />
+      </Layer>
+    </LayerDocument>
+    <LayerDocument InterpolationMode="Pixel" BackgroundTransparent="True" Width="16" Height="16" Id="Down">
+      <Layer Id="Layer_39869926">
+        <CustomPolygon FillMode="Alternate" Points="1;15 5;14 15;4 12;1 2;11" StrokeBrush="Type:Solid;Colors:#FF0000A8;LineJoin:Round" FillBrush="Type:Solid;Colors:#FFAD00FF;" Id="CustomPolygon_45407009" />
+        <CustomPolygon FillMode="Alternate" Points="1;15 5;14 15;4 12;1 2;11" StrokeBrush="Type:Solid;Colors:#0000;LineJoin:Round" FillBrush="Type:LinearGradient;Colors:#F000 #FFFBFF00 #FFFF;LinearMode:MultiColor;Angle:233.2858;WrapMode:TileFlipXY;GammaCorrection:True;Factors: 0 0 1;Positions: 0 0.4955357 1;" Id="CustomPolygon_46242629" />
+        <CustomPolygon FillMode="Alternate" Points="1;15 5;14 2;11" StrokeBrush="Type:Solid;Colors:#0000;LineJoin:Round" FillBrush="Type:Solid;Colors:#FCCC;" Id="CustomPolygon_1696202" />
+      </Layer>
+    </LayerDocument>
+    <LayerDocument InterpolationMode="Pixel" BackgroundTransparent="True" Width="16" Height="16" Id="Up">
+      <Layer Id="Layer_39869926">
+        <CustomPolygon FillMode="Alternate" Points="1;15 5;14 15;4 12;1 2;11" StrokeBrush="Type:Solid;Colors:#FF0000A8;LineJoin:Round" FillBrush="Type:Solid;Colors:#FFAD00FF;" Id="CustomPolygon_45407009" />
+        <CustomPolygon FillMode="Alternate" Points="1;15 5;14 15;4 12;1 2;11" StrokeBrush="Type:Solid;Colors:#0000;LineJoin:Round" FillBrush="Type:LinearGradient;Colors:#F000 #FF1229FF #FFFF;LinearMode:MultiColor;Angle:233.2858;WrapMode:TileFlipXY;GammaCorrection:True;Factors: 0 0 1;Positions: 0 0.4955357 1;" Id="CustomPolygon_46242629" />
+        <CustomPolygon FillMode="Alternate" Points="1;15 5;14 2;11" StrokeBrush="Type:Solid;Colors:#0000;LineJoin:Round" FillBrush="Type:Solid;Colors:#FCCC;" Id="CustomPolygon_1696202" />
+      </Layer>
+    </LayerDocument>
+    <LayerDocument InterpolationMode="Pixel" BackgroundTransparent="True" Width="16" Height="16" Id="Disabled">
+      <Layer Id="Layer_39869926">
+        <CustomPolygon FillMode="Alternate" Points="1;15 5;14 15;4 12;1 2;11" StrokeBrush="Type:Solid;Colors:#FF0000A8;LineJoin:Round" FillBrush="Type:Solid;Colors:#FFAD00FF;" Id="CustomPolygon_45407009" />
+        <CustomPolygon FillMode="Alternate" Points="1;15 5;14 15;4 12;1 2;11" StrokeBrush="Type:Solid;Colors:#0000;LineJoin:Round" FillBrush="Type:LinearGradient;Colors:#F000 #FF425970 #FFFF;LinearMode:MultiColor;Angle:233.2858;WrapMode:TileFlipXY;GammaCorrection:True;Factors: 0 0 1;Positions: 0 0.4955357 1;" Id="CustomPolygon_46242629" />
+        <CustomPolygon FillMode="Alternate" Points="1;15 5;14 2;11" StrokeBrush="Type:Solid;Colors:#0000;LineJoin:Round" FillBrush="Type:Solid;Colors:#FCCC;" Id="CustomPolygon_1696202" />
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

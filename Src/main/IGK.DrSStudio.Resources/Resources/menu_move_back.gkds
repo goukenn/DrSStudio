@@ -1,0 +1,16 @@
+<!--This is a gkds ICore file 9.4.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2014-->
+<gkds>
+  <Project>
+    <TargetSurface>2DDrawingSurface</TargetSurface>
+  </Project>
+  <Documents>
+    <LayerDocument FillBrush="Type:Solid;Colors:#FFFF;" BackgroundTransparent="True" Width="32" Height="32" Id="LayerDocument_23854341">
+      <Layer Id="Layer_13903822">
+        <Rectangle Bounds="6.5;7.5;19;17" FillBrush="Type:Solid;Colors:#FFFF68EF;" StrokeBrush="Type:Solid;Colors:#0000;" Id="Rectangle_53132534" />
+        <Rectangle Bounds="1;10;30;11" FillBrush="Type:Solid;Colors:#FF737373;" StrokeBrush="Type:Solid;Colors:#0000;" SmoothingMode="None" Id="Rectangle_14973706" />
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

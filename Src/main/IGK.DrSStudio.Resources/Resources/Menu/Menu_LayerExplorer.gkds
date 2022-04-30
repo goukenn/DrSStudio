@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--This is a gkds DrSStudio file 8.2.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2012-->
+<gkds>
+  <Project>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+    <FileName>D:\DRSStudio 7.b Src\IGK.DrSStudio.Resources\Resources\Menu_LayerExplorer.gkds</FileName>
+    <Resources />
+  </Project><Documents>
+  <LayerDocument InterpolationMode="Pixel" BackgroundTransparent="True" Width="32" Height="32" Id="LayerDocument_47499194">
+    <Layer Id="Layer_23099530">
+      <Polygon Count="4" Center="16.90627;19.75145" Radius="11.16376" StrokeBrush="Type:Solid;Colors:#FF303030;Width:4;DashStyle:Solid;LineJoin:Round" FillBrush="Type:Solid;Colors:#FFBDBDBD;" Matrix="1.258512;0;0;0.5324049;-5.540196;8.93615" Id="Polygon_58110273" />
+      <Polygon Count="4" Center="16.90627;19.75145" Radius="11.16376" StrokeBrush="Type:Solid;Colors:#FF303030;Width:4;DashStyle:Solid;LineJoin:Round" FillBrush="Type:Solid;Colors:#FFBDBDBD;" Matrix="1.258489;0;0;0.5323934;-5.540223;0.936116" Id="Polygon_44448017" />
+      <RoundRect RoundStyle="Plus" BottomRight="5;5" BottomLeft="5;5" TopRight="5;5" TopLeft="5;5" Bounds="15;15;15;16" StrokeBrush="Type:Solid;Colors:#FF4C4C4C;DashStyle:Solid;LineJoin:Round" FillBrush="Type:LinearGradient;Colors:#FF52FF24 #FF053700;LinearMode:Dual;Angle:30.32361;WrapMode:TileFlipXY;GammaCorrection:True;Factors: 0 1;Positions: 0 1;" Id="RoundRect_46060210" />
+    </Layer>
+  </LayerDocument>
+</Documents></gkds>

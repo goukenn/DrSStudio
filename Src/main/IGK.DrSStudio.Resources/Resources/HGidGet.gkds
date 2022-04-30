@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--This is a gkds DrSStudio file 8.4.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2012-->
+<gkds>
+  <Project>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+    <Resources />
+  </Project>
+<Documents>
+  <LayerDocument Id="LayerDocument_61515057" InterpolationMode="Pixel" TextContrast="4" Width="16" Height="16" BackgroundTransparent="True"><Extensions /><Layer Id="Layer_39055747"><Rectangle Bounds="0;0;16;16" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#FF676767;" Id="Rectangle_55595606"><Filters /></Rectangle><Rectangle Bounds="7;-1;0;0" Id="Rectangle_10412671"><Filters /></Rectangle></Layer></LayerDocument>
+  <LayerDocument Id="LayerDocument_46569201" InterpolationMode="Pixel" TextContrast="4" Width="16" Height="16" BackgroundTransparent="True"><Extensions /><Layer Id="Layer_39055747"><Rectangle Bounds="7;-1;0;0" Id="Rectangle_10412671"><Filters /></Rectangle><Rectangle Bounds="0;0;16;16" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#FF989898;" Id="Rectangle_55595606"><Filters /></Rectangle></Layer></LayerDocument>
+  <LayerDocument Id="LayerDocument_37198815" InterpolationMode="Pixel" TextContrast="4" Width="16" Height="16" BackgroundTransparent="True"><Extensions /><Layer Id="Layer_39055747"><Rectangle Bounds="7;-1;0;0" Id="Rectangle_10412671"><Filters /></Rectangle><Rectangle Bounds="0;0;16;16" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#FF4C4C4C;" Id="Rectangle_55595606"><Filters /></Rectangle></Layer></LayerDocument>
+  <LayerDocument Id="LayerDocument_39957690" InterpolationMode="Pixel" TextContrast="4" Width="16" Height="16" BackgroundTransparent="True"><Extensions /><Layer Id="Layer_39055747"><Rectangle Bounds="7;-1;0;0" Id="Rectangle_10412671"><Filters /></Rectangle><Rectangle Bounds="0;0;16;16" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#FF676767;" Id="Rectangle_55595606"><Filters /></Rectangle></Layer></LayerDocument>
+  <LayerDocument Id="LayerDocument_62995852" InterpolationMode="Pixel" TextContrast="4" Width="16" Height="16" BackgroundTransparent="True"><Extensions /><Layer Id="Layer_39055747"><Rectangle Bounds="7;-1;0;0" Id="Rectangle_10412671"><Filters /></Rectangle><Rectangle Bounds="0;0;16;16" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#F000;" Id="Rectangle_55595606"><Filters /></Rectangle></Layer></LayerDocument>
+</Documents>
+</gkds>

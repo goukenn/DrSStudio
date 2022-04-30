@@ -1,0 +1,27 @@
+<!--This is a gkds DrSStudio file 8.7.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2013-->
+<gkds>
+  <Project>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+    <FileName>Empty.gkds</FileName>
+    <Resources>
+      <String Id="app_title" />
+    </Resources>
+  </Project>
+  <Documents>
+    <LayerDocument BackgroundTransparent="True" Width="32" Height="32" Id="LayerDocument_36091393">
+      <Layer Id="Layer_41446915">
+        <CustomPolygon FillMode="Alternate" Points="2;29 4;17 22;1 30;10 14;27" Id="CustomPolygon_17897398" />
+        <Line StartPoint="17;5" EndPoint="26;14" Id="Line_48208017" />
+        <Line StartPoint="4;17" EndPoint="11;18" Id="Line_64572289" />
+        <Line StartPoint="11;18" EndPoint="21;9" Id="Line_5127550" />
+        <Line StartPoint="11;18" EndPoint="11;22" Id="Line_20059495" />
+        <Line StartPoint="11;22" EndPoint="14;23" Id="Line_5467100" />
+        <Line StartPoint="14;23" EndPoint="24;12" Id="Line_25831841" />
+        <Line StartPoint="13;27" EndPoint="14;23" Id="Line_36488123" />
+        <CustomPolygon FillMode="Alternate" Points="2;29 3;24 9;28" FillBrush="Type:Solid;Colors:#F000;" Id="CustomPolygon_16318316" />
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

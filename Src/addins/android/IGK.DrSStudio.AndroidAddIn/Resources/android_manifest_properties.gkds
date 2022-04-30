@@ -1,0 +1,15 @@
+<!--This is a gkds DrSStudio file 9.2.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2014-->
+<gkds>
+  <Documents>
+    <LayerDocument FillBrush="Type:Solid;Colors:#FFFF;" BackgroundTransparent="True" Width="32" Height="32" Id="LayerDocument_16409095">
+      <Layer GammaCorrection="0" Id="Layer_23207269">
+        <Path Closed="True" FillMode="Alternate" FillBrush="Type:Solid;Colors:#FF686868;" StrokeBrush="Type:Solid;Colors:#0000;" Id="Path_42033166">
+          <PointTypes>0;1;1;1;1;1;161;0;1;1;1;1;1;161</PointTypes>
+          <Points>15.03562;10.25454 15.03562;11.06074 8.5656;15.27544 15.03562;19.60239 15.03562;21.74546 6.381714;15.94897 6.381714;15.81631 16.96438;21.74546 16.96438;20.93926 23.4344;16.72456 16.96438;12.39761 16.96438;10.25454 25.61829;16.05103 25.61829;16.18369</Points>
+        </Path>
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

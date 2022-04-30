@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--This is a gkds DrSStudio file 8.5.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2013-->
+<gkds>
+  <Project>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+    <FileName>D:\DRSStudio 8.4 Src\IGK.DrSStudio.Resources\Resources\Menu_Presentation.gkds</FileName>
+    <Resources>
+      <String Id="app_title" />
+    </Resources>
+  </Project>
+<Documents>
+  <LayerDocument Id="LayerDocument_26243711" InterpolationMode="Pixel" PixelOffset="None" TextContrast="4" BackgroundTransparent="True" Width="32" Height="32"><Extensions /><Layer Id="Layer_57362552"><RoundRect RoundStyle="Outer" BottomRight="0;0" BottomLeft="0;0" TopRight="0;0" TopLeft="0;0" Bounds="1;1;30;30" StrokeBrush="Type:Solid;Colors:#0000;Width:2;LineJoin:Round" FillBrush="Type:Solid;Colors:#FF696969;" Matrix="0.9333333;0;0;0.9333333;1.066667;1.066667" Id="RoundRect_39869926"><Filters /></RoundRect><RoundRect RoundStyle="Outer" BottomRight="0;0" BottomLeft="0;0" TopRight="0;0" TopLeft="0;0" Bounds="2;2;28;8" StrokeBrush="Type:Solid;Colors:#0000;Width:2;LineJoin:Round" FillBrush="Type:Solid;Colors:#F000;" Id="RoundRect_46471022"><Filters /></RoundRect><Polygon Angle="60.2551155" Center="17;20" Radius="8.062258" StrokeBrush="Type:Solid;Colors:#FFFF;Width:2;LineJoin:Round" FillBrush="Type:PathGradient;Colors:#0000 #FFFF5300 #FFEA00FF #FF00FF1E #FF0041FF #FFFFD800 #FF78FF00;LinearMode:MultiColor;Factors: 0 0 0 0 0 1;Positions: 0 0.1701031 0.314433 0.4484536 0.7628866 1;WrapMode:Tile;PathFocusScale:0 0;OneColorPerVertex:True;" Id="Polygon_59157740"><Filters /></Polygon></Layer></LayerDocument>
+</Documents>
+</gkds>

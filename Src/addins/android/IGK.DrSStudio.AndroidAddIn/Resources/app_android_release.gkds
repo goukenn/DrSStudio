@@ -1,0 +1,52 @@
+<!--This is a gkds DrSStudio file 9.1.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2014-->
+<gkds>
+  <Documents>
+    <LayerDocument FillBrush="Type:Solid;Colors:#FFFF;" BackgroundTransparent="True" Width="256" Height="256" Id="LayerDocument_24573614">
+      <Layer Id="Layer_60164934">
+        <Rectangle Bounds="68;88;125;105" FillBrush="Type:Solid;Colors:#FF264C00;" StrokeBrush="Type:Solid;Colors:#0000;" Matrix="1,0,0,0,0,1,0,0,0,0,1,0,3.5,6,0,1" Id="Rectangle_61612288" />
+        <Path Closed="False" FillMode="Alternate" FillBrush="Type:Solid;Colors:#FF90FF00;" StrokeBrush="Type:Solid;Colors:#0000;" Matrix="1,0,0,0,0,1,0,0,0,0,1,0,6,6,0,1" Id="Path_7621801">
+          <PointTypes>0;3;3;3;3;3;3;0;3;3;3;3;3;3;3;3;3;3;3;131;0;3;3;3;3;3;3;3;3;3;3;3;131</PointTypes>
+          <Points>65.00913;69.00004 74.39795;34.20609 110.2152;13.61117 145.0091;22.99998 167.4133;29.04555 184.9213;46.53476 190.9909;68.93251 118.8995;43 118.8995;48.46734 114.4673;52.89949 109;52.89949 103.5326;52.89949 99.10049;48.46734 99.10049;43 99.10049;37.53266 103.5326;33.1005 109;33.1005 114.4673;33.1005 118.8995;37.53266 118.8995;43 156.8995;44 156.8995;49.46734 152.4673;53.89949 147;53.89949 141.5326;53.89949 137.1005;49.46734 137.1005;44 137.1005;38.53266 141.5326;34.1005 147;34.1005 152.4673;34.1005 156.8995;38.53266 156.8995;44</Points>
+        </Path>
+        <Line StrokeBrush="Type:Solid;Colors:#FF264C00;Width:8;DashStyle:Solid;LineJoin:Round" EndPoint="70;16" StartPoint="99;44" Id="Line_1302286" />
+        <Line StrokeBrush="Type:Solid;Colors:#FF264C00;Width:8;DashStyle:Solid;LineJoin:Round" EndPoint="201;23" StartPoint="174;47" Id="Line_1912315" />
+        <Rectangle Bounds="83;184;28;55" FillBrush="Type:Solid;Colors:#FF264C00;" StrokeBrush="Type:Solid;Colors:#0000;" Matrix="1,0,0,0,0,1,0,0,0,0,1,0,6,6,0,1" Id="Rectangle_34243860" />
+        <Rectangle Bounds="33;87;22;63" FillBrush="Type:Solid;Colors:#FF264C00;" StrokeBrush="Type:Solid;Colors:#0000;" Matrix="1,0,0,0,0,1,0,0,0,0,1,0,-6,8,0,1" Id="Rectangle_2985252" />
+        <Rectangle Bounds="33;87;22;63" FillBrush="Type:Solid;Colors:#FF264C00;" StrokeBrush="Type:Solid;Colors:#0000;" Matrix="1,0,0,0,0,1,0,0,0,0,1,0,192,11,0,1" Id="Rectangle_64073776" />
+        <Rectangle Bounds="83;184;28;55" FillBrush="Type:Solid;Colors:#FF264C00;" StrokeBrush="Type:Solid;Colors:#0000;" Matrix="1,0,0,0,0,1,0,0,0,0,1,0,65,8,0,1" Id="Rectangle_64374463" />
+        <Rectangle Bounds="68;88;125;105" FillBrush="Type:Solid;Colors:#FF92B83E;" StrokeBrush="Type:Solid;Colors:#0000;" Matrix="1,0,0,0,0,1,0,0,0,0,1,0,-2.5,0,0,1" Id="Rectangle_4196251" />
+        <Path Closed="False" FillMode="Alternate" FillBrush="Type:Solid;Colors:#FF92B83E;" StrokeBrush="Type:Solid;Colors:#0000;" Id="Path_37859745">
+          <PointTypes>0;3;3;3;3;3;3;0;3;3;3;3;3;3;3;3;3;3;3;131;0;3;3;3;3;3;3;3;3;3;3;3;131</PointTypes>
+          <Points>65.00913;69.00004 74.39795;34.20609 110.2152;13.61117 145.0091;22.99998 167.4133;29.04555 184.9213;46.53476 190.9909;68.93251 118.8995;43 118.8995;48.46734 114.4673;52.89949 109;52.89949 103.5326;52.89949 99.10049;48.46734 99.10049;43 99.10049;37.53266 103.5326;33.1005 109;33.1005 114.4673;33.1005 118.8995;37.53266 118.8995;43 156.8995;44 156.8995;49.46734 152.4673;53.89949 147;53.89949 141.5326;53.89949 137.1005;49.46734 137.1005;44 137.1005;38.53266 141.5326;34.1005 147;34.1005 152.4673;34.1005 156.8995;38.53266 156.8995;44</Points>
+        </Path>
+        <Line StrokeBrush="Type:Solid;Colors:#FF92B83E;Width:8;DashStyle:Solid;LineJoin:Round" EndPoint="64;10" StartPoint="93;38" Id="Line_10521833" />
+        <Line StrokeBrush="Type:Solid;Colors:#FF92B83E;Width:8;DashStyle:Solid;LineJoin:Round" EndPoint="195;17" StartPoint="168;41" Id="Line_62873622" />
+        <Rectangle Bounds="83;184;28;55" FillBrush="Type:Solid;Colors:#FF92B83E;" StrokeBrush="Type:Solid;Colors:#0000;" Id="Rectangle_27026687" />
+        <Rectangle Bounds="33;87;22;63" FillBrush="Type:Solid;Colors:#FF92B83E;" StrokeBrush="Type:Solid;Colors:#0000;" Matrix="1,0,0,0,0,1,0,0,0,0,1,0,-12,2,0,1" Id="Rectangle_64126199" />
+        <Rectangle Bounds="33;87;22;63" FillBrush="Type:Solid;Colors:#FF92B83E;" StrokeBrush="Type:Solid;Colors:#0000;" Matrix="1,0,0,0,0,1,0,0,0,0,1,0,186,5,0,1" Id="Rectangle_31314693" />
+        <Rectangle Bounds="83;184;28;55" FillBrush="Type:Solid;Colors:#FF92B83E;" StrokeBrush="Type:Solid;Colors:#0000;" Matrix="1,0,0,0,0,1,0,0,0,0,1,0,59,2,0,1" Id="Rectangle_40107051" />
+      </Layer>
+      <Layer Id="Layer_18026435">
+        <Path Closed="False" FillMode="Alternate" FillBrush="Type:Solid;Colors:#FFFF002A;" StrokeBrush="Type:Solid;Colors:#0000;" Matrix="1,0,0,0,0,1,0,0,0,0,1,0,6,6,0,1" Id="Path_7621801">
+          <PointTypes>0;3;3;3;3;3;3;0;3;3;3;3;3;3;3;3;3;3;3;131;0;3;3;3;3;3;3;3;3;3;3;3;131</PointTypes>
+          <Points>65.00913;69.00004 74.39795;34.20609 110.2152;13.61117 145.0091;22.99998 167.4133;29.04555 184.9213;46.53476 190.9909;68.93251 118.8995;43 118.8995;48.46734 114.4673;52.89949 109;52.89949 103.5326;52.89949 99.10049;48.46734 99.10049;43 99.10049;37.53266 103.5326;33.1005 109;33.1005 114.4673;33.1005 118.8995;37.53266 118.8995;43 156.8995;44 156.8995;49.46734 152.4673;53.89949 147;53.89949 141.5326;53.89949 137.1005;49.46734 137.1005;44 137.1005;38.53266 141.5326;34.1005 147;34.1005 152.4673;34.1005 156.8995;38.53266 156.8995;44</Points>
+        </Path>
+        <Line StrokeBrush="Type:Solid;Colors:#FF8AFF00;" EndPoint="70;16" StartPoint="99;44" Id="Line_1302286" />
+        <Line StrokeBrush="Type:Solid;Colors:#0000;" EndPoint="201;23" StartPoint="174;47" Id="Line_1912315" />
+        <Rectangle Bounds="68;88;125;105" FillBrush="Type:Solid;Colors:#FFFF002A;" StrokeBrush="Type:Solid;Colors:#0000;" Matrix="1,0,0,0,0,1,0,0,0,0,1,0,-2.5,0,0,1" Id="Rectangle_4196251" />
+        <Path Closed="False" FillMode="Alternate" FillBrush="Type:Solid;Colors:#FFFF0030;" StrokeBrush="Type:Solid;Colors:#FFFF3600;" Id="Path_37859745">
+          <PointTypes>0;3;3;3;3;3;3;0;3;3;3;3;3;3;3;3;3;3;3;131;0;3;3;3;3;3;3;3;3;3;3;3;131</PointTypes>
+          <Points>65.00913;69.00004 74.39795;34.20609 110.2152;13.61117 145.0091;22.99998 167.4133;29.04555 184.9213;46.53476 190.9909;68.93251 118.8995;43 118.8995;48.46734 114.4673;52.89949 109;52.89949 103.5326;52.89949 99.10049;48.46734 99.10049;43 99.10049;37.53266 103.5326;33.1005 109;33.1005 114.4673;33.1005 118.8995;37.53266 118.8995;43 156.8995;44 156.8995;49.46734 152.4673;53.89949 147;53.89949 141.5326;53.89949 137.1005;49.46734 137.1005;44 137.1005;38.53266 141.5326;34.1005 147;34.1005 152.4673;34.1005 156.8995;38.53266 156.8995;44</Points>
+        </Path>
+        <Line StrokeBrush="Type:Solid;Colors:#0000;" EndPoint="64;10" StartPoint="93;38" Id="Line_10521833" />
+        <Line StrokeBrush="Type:Solid;Colors:#FFFFF000;" EndPoint="195;17" StartPoint="168;41" Id="Line_62873622" />
+        <Rectangle Bounds="83;184;28;55" FillBrush="Type:Solid;Colors:#FFFF001E;" StrokeBrush="Type:Solid;Colors:#0000;" Id="Rectangle_27026687" />
+        <Rectangle Bounds="33;87;22;63" FillBrush="Type:Solid;Colors:#FFFF002A;" StrokeBrush="Type:Solid;Colors:#0000;" Matrix="1,0,0,0,0,1,0,0,0,0,1,0,-12,2,0,1" Id="Rectangle_64126199" />
+        <Rectangle Bounds="33;87;22;63" FillBrush="Type:Solid;Colors:#FFFF0030;" StrokeBrush="Type:Solid;Colors:#0000;" Matrix="1,0,0,0,0,1,0,0,0,0,1,0,186,5,0,1" Id="Rectangle_31314693" />
+        <Rectangle Bounds="83;184;28;55" FillBrush="Type:Solid;Colors:#FFFF002A;" StrokeBrush="Type:Solid;Colors:#0000;" Matrix="1,0,0,0,0,1,0,0,0,0,1,0,59,2,0,1" Id="Rectangle_40107051" />
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

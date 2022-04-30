@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--This is a gkds DrSStudio file 8.5.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2013-->
+<gkds>
+  <Project>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+    <FileName>D:\DRSStudio 8.4 Src\Src\core\IGK.DrSStudio.Resources\Resources\Cross.gkds</FileName>
+    <Resources>
+      <String Id="app_title"></String>
+    </Resources>
+  </Project>
+<Documents>
+  <LayerDocument InterpolationMode="Pixel" TextContrast="4" SmoothingMode="AntiAliazed" PixelOffset="None" BackgroundTransparent="True" Width="32" Height="32" Id="LayerDocument_20896153"><Extensions /><Layer Id="Layer_6300498"><Rectangle Bounds="14.5;10;3;13" StrokeBrush="Type:Solid;Colors:#0000;" SmoothingMode="None" Id="Rectangle_6879244"><Filters /></Rectangle><Rectangle Bounds="10;14.5;13;3" StrokeBrush="Type:Solid;Colors:#0000;" SmoothingMode="None" Id="Rectangle_14270075"><Filters /></Rectangle></Layer><Layer Id="Layer_56388444"><Line StartPoint="16;21" EndPoint="16;11" SmoothingMode="None" Id="Line_36443375"><Filters /></Line><Line StartPoint="11;16" EndPoint="21;16" SmoothingMode="None" Id="Line_24447068"><Filters /></Line></Layer></LayerDocument>
+</Documents>
+</gkds>

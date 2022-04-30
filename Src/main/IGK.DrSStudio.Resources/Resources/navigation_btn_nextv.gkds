@@ -1,0 +1,40 @@
+<!--This is a gkds DrSStudio file 9.3.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2014-->
+<gkds>
+  <Project>
+    <TargetSurface>ButtonSurface</TargetSurface>
+  </Project>
+  <Documents>
+    <LayerDocument FillBrush="Type:Solid;Colors:#FFFF;" BackgroundTransparent="True" Width="32" Height="16" Id="LayerDocument_47874094">
+      <Layer GammaCorrection="0" Id="Layer_59277561">
+        <Rectangle Bounds="0;0;32;16" FillBrush="Type:Solid;Colors:#FFFF2900;" StrokeBrush="Type:Solid;Colors:#0000;DashStyle:Solid;LineJoin:Round" Id="Rectangle_60991673" />
+        <CustomPolygon Tension="0" EnableTension="False" Closed="False" FillMode="Alternate" Points="7;10 12;2 17;10" StrokeBrush="Type:Solid;Colors:#0000;LineJoin:Round" Matrix="-1,0,0,0,0,-1,0,0,0,0,1,0,24,14,0,1" Id="CustomPolygon_30099723" />
+      </Layer>
+    </LayerDocument>
+    <LayerDocument FillBrush="Type:Solid;Colors:#FFFF;" BackgroundTransparent="True" Width="32" Height="16" Id="LayerDocument_47874094">
+      <Layer GammaCorrection="0" Id="Layer_59277561">
+        <Rectangle Bounds="0;0;32;16" FillBrush="Type:Solid;Colors:#FFFF8F66;" StrokeBrush="Type:Solid;Colors:#FFFF;Alignment:Inset;DashStyle:Solid;LineJoin:Round" SmoothingMode="None" Id="Rectangle_60991673" />
+        <CustomPolygon Tension="0" EnableTension="False" Closed="False" FillMode="Alternate" Points="7;10 12;2 17;10" StrokeBrush="Type:Solid;Colors:#0000;LineJoin:Round" Matrix="-1,0,0,0,0,-1,0,0,0,0,1,0,24,14,0,1" Id="CustomPolygon_30099723" />
+      </Layer>
+    </LayerDocument>
+    <LayerDocument FillBrush="Type:Solid;Colors:#FFFF;" BackgroundTransparent="True" Width="32" Height="16" Id="LayerDocument_47874094">
+      <Layer GammaCorrection="0" Id="Layer_59277561">
+        <Rectangle Bounds="0;0;32;16" FillBrush="Type:Solid;Colors:#FFFF2900;" StrokeBrush="Type:Solid;Colors:#0000;DashStyle:Solid;LineJoin:Round" Id="Rectangle_60991673" />
+        <CustomPolygon Tension="0" EnableTension="False" Closed="False" FillMode="Alternate" Points="7;10 12;2 17;10" StrokeBrush="Type:Solid;Colors:#0000;LineJoin:Round" Matrix="-1,0,0,0,0,-1,0,0,0,0,1,0,24,14,0,1" Id="CustomPolygon_30099723" />
+      </Layer>
+    </LayerDocument>
+    <LayerDocument FillBrush="Type:Solid;Colors:#FFFF;" BackgroundTransparent="True" Width="32" Height="16" Id="LayerDocument_47874094">
+      <Layer GammaCorrection="0" Id="Layer_59277561">
+        <Rectangle Bounds="0;0;32;16" FillBrush="Type:Solid;Colors:#FFFF2900;" StrokeBrush="Type:Solid;Colors:#0000;DashStyle:Solid;LineJoin:Round" Id="Rectangle_60991673" />
+        <CustomPolygon Tension="0" EnableTension="False" Closed="False" FillMode="Alternate" Points="7;10 12;2 17;10" StrokeBrush="Type:Solid;Colors:#0000;LineJoin:Round" Matrix="-1,0,0,0,0,-1,0,0,0,0,1,0,24,14,0,1" Id="CustomPolygon_30099723" />
+      </Layer>
+    </LayerDocument>
+    <LayerDocument FillBrush="Type:Solid;Colors:#FFFF;" BackgroundTransparent="True" Width="32" Height="16" Id="LayerDocument_47874094">
+      <Layer GammaCorrection="0" Id="Layer_59277561">
+        <Rectangle Bounds="0;0;32;16" FillBrush="Type:Solid;Colors:#FF6A6A6A;" StrokeBrush="Type:Solid;Colors:#0000;DashStyle:Solid;LineJoin:Round" Id="Rectangle_60991673" />
+        <CustomPolygon Tension="0" EnableTension="False" Closed="False" FillMode="Alternate" Points="7;10 12;2 17;10" StrokeBrush="Type:Solid;Colors:#0000;LineJoin:Round" Matrix="-1,0,0,0,0,-1,0,0,0,0,1,0,24,14,0,1" Id="CustomPolygon_30099723" />
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

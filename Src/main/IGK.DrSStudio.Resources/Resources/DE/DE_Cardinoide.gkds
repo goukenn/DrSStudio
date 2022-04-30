@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--This is a gkds DrSStudio file 7.0.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--IGKDEV © 2008-2012-->
+<gkds>
+  <Project>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+  </Project>
+  <Documents>
+    <LayerDocument InterpolationMode="Pixel" BackgroundTransparent="True" Width="32" Height="32" Id="LayerDocument_60015654">
+      <Layer Id="Layer_16941648">
+        <Cardinoide StepAngle="0" Angle="51.3401947" Center="15;16" Radius="6.403124" StrokeBrush="Type:Solid;Colors:#9300ADFF;" FillBrush="Type:Solid;Colors:#FF3405FF;" Id="Cardinoide_40414371" />
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

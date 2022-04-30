@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--This is a gkds DrSStudio file 7.0.a-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--IGKDEV © 2008-2012-->
+<gkds>
+  <Project>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+  </Project>
+  <Documents>
+    <LayerDocument InterpolationMode="Hight" Width="256" Height="256" BackgroundTransparent="True" Id="LayerDocument_51563209">
+      <Layer Id="Layer_38835879">
+        <Rectangle Bounds="25;22;207;205" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#FFFFF000;" Id="Rectangle_20178385" />
+        <Rectangle Bounds="51;45;153;158" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#FFFF3000;" Id="Rectangle_22921974" />
+        <Rectangle Bounds="74;114;114;19" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#FF589A79;" Id="Rectangle_56063192" />
+        <CustomPolygon Points="92;112 111;62 150;94" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#FF589A79;" Id="CustomPolygon_64411521" />
+        <CustomPolygon Points="121;79 149;43 168;63 130;88" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#FF589A79;" Id="CustomPolygon_36788702" />
+        <CustomPolygon Points="81;153 109;201 121;178 151;201 175;146 156;141 143;173 121;154 111;170 90;146" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#FF589A79;" Id="CustomPolygon_54337345" />
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

@@ -1,0 +1,20 @@
+<!--This is a gkds DrSStudio file 8.7.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2013-->
+<gkds>
+  <Project>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+    <FileName>D:\DRSStudio 8.4 Src\Src\core\IGK.DrSStudio.Resources\Resources\DE_UmlRelation.gkds</FileName>
+    <Resources>
+      <String Id="app_title" />
+    </Resources>
+  </Project>
+  <Documents>
+    <LayerDocument BackgroundTransparent="True" Width="16" Height="16" Id="LayerDocument_64185571">
+      <Layer Id="Layer_37765596">
+        <Circle Model="Square" Center="8;8" Radius="4.472136" StrokeBrush="Type:Solid;Colors:#FF989898;" FillBrush="Type:Solid;Colors:#FF9500FF;" SmoothingMode="None" Matrix="0.7071067;-0.7071068;0.7071068;0.7071067;-3.313708;8" Id="Circle_26107082" />
+        <Rectangle Bounds="5;7;6;2" StrokeBrush="Type:Solid;Colors:#0000;" Id="Rectangle_11338899" />
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{80B77429-405C-475A-9E5F-54AE8065A16A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>IGK.DrSStudio.AudioVideo</RootNamespace>
+    <AssemblyName>drsAVSeqBuilderAddIn</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>Bin\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>Bin\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>Bin\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>Bin\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AVISequenceBase.cs" />
+    <Compile Include="AVISequenceBuilder.cs" />
+    <Compile Include="AVISequenceConstant.cs" />
+    <Compile Include="AVISequenceExtension.cs" />
+    <Compile Include="AVISequenceFormats.cs" />
+    <Compile Include="AVISequenceSolutionGenerator.cs" />
+    <Compile Include="AVISequenceVideoStream.cs" />
+    <Compile Include="AVISequenceChain.cs" />
+    <Compile Include="Dependency\VideoSequenceDependentProperties.cs" />
+    <Compile Include="enuAviSequenceSplitJoinMethod.cs" />
+    <Compile Include="enuAVISequenceVideoFormat.cs" />
+    <Compile Include="FX\AVISequenceFXInvertColor.cs" />
+    <Compile Include="FX\AVISequenceFXBase.cs" />
+    <Compile Include="FX\IAVISequenceFX.cs" />
+    <Compile Include="IAVISequence.cs" />
+    <Compile Include="IAVISequenceChain.cs" />
+    <Compile Include="IAVISequenceCollections.cs" />
+    <Compile Include="IAVISequenceProjectItem.cs" />
+    <Compile Include="IAVISequenceRenderItem.cs" />
+    <Compile Include="IAVISequenceVideoFormat.cs" />
+    <Compile Include="IAVISequenceUpdateItem.cs" />
+    <Compile Include="IAVISequenceUpdateInfo.cs" />
+    <Compile Include="IAVISequenceProject.cs" />
+    <Compile Include="AVISequenceUpdateInfo.cs" />
+    <Compile Include="IAVIVideoSequence.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tools\AVIVideoSequenceDocumentExplorer\AVIVideoSequenceDocumentExplorerTool.cs" />
+    <Compile Include="Tools\AVIVideoSequenceDocumentExplorer\Menu\AVISequenceViewSequenceExplorerToolMenu.cs" />
+    <Compile Include="Tools\AVIVideoSequenceDocumentExplorer\WinUI\UIDocumentVideoSequencePropertyExplorer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Transitions\IAVISequenceTransition.cs" />
+    <Compile Include="WinUI\AVISequenceTitlePane.cs" />
+    <Compile Include="WinUI\AVISequenceViewer.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WinUI\AVISequenceViewerRenderer.cs" />
+    <Compile Include="WinUI\IAVISequenceViewer.cs" />
+    <Compile Include="Xml\AVISequenceProject.cs" />
+    <Compile Include="Xml\AVISequenceItemBase.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\api\IGK.AVIAPI\IGK.AVIApi.csproj">
+      <Project>{ad373d94-ac10-4b33-88f7-e9ad4bb93850}</Project>
+      <Name>IGK.AVIApi</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\core\IGK.ICore.Drawing2D\IGK.ICore.Drawing2D.csproj">
+      <Project>{29738416-cc50-4ad2-9353-b03fbeecdaf8}</Project>
+      <Name>IGK.ICore.Drawing2D</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\core\IGK.ICore.WinCore\IGK.ICore.WinCore.csproj">
+      <Project>{68ab7706-a97f-4bf8-8d1f-26d69a6bfa0e}</Project>
+      <Name>IGK.ICore.WinCore</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\core\IGK.ICore\IGK.ICore.csproj">
+      <Project>{95e437a5-4a87-4fab-b15f-4a0fde8b7dcf}</Project>
+      <Name>IGK.ICore</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\IGK.DrSStudio.AudioVideo\IGK.DrSStudio.AudioVideo.csproj">
+      <Project>{e54816eb-2148-42e6-a3d4-ec0ef9144de5}</Project>
+      <Name>IGK.DrSStudio.AudioVideo</Name>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>False</Private>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ContextMenu\" />
+    <Folder Include="Menu\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Tools\AVIVideoSequenceDocumentExplorer\WinUI\UIDocumentVideoSequencePropertyExplorer.resx">
+      <DependentUpon>UIDocumentVideoSequencePropertyExplorer.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

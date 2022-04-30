@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--This is a gkds DrSStudio file 7.0.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--IGKDEV © 2008-2012-->
+<gkds>
+  <Project>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+  </Project>
+  <Documents>
+    <LayerDocument InterpolationMode="Pixel" Width="32" Height="32" Id="LayerDocument_22405262">
+      <Layer Id="Layer_21869034">
+        <EllipseBullet DeftPoint="28.41134;29" StartAngle="65" SweepAngle="340.746033" FillMode="Winding" Bounds="1.999992;2.999999;26.41135;26" StrokeBrush="Type:Solid;Colors:#FFCB41FF;LineJoin:Round" FillBrush="Type:Solid;Colors:#FFB4B4B4;" Id="EllipseBullet_20773082" />
+        <Arc SweepAngle="116.565048" StartAngle="161.565048" Center="16;17" Radius="9.486833;9.486833" StrokeBrush="Type:Solid;Colors:#FFFF;Width:5;EndCap:Round;LineJoin:Round;StartCap:Round" FillBrush="Type:Solid;Colors:#0000;" Id="Arc_1473467" />
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

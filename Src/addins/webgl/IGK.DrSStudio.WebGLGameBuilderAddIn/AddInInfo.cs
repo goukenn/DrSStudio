@@ -1,0 +1,2 @@
+﻿
+[assembly: IGK.ICore.CoreAddIn()]

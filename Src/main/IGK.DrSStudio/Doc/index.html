@@ -1,0 +1,142 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html class="fitw fith">
+  <head>
+    <title id="page_title">DRSStudio Start Page</title>
+    <link type="text/css" rel="stylesheet" href="Styles/ie.css" ></link>
+    <link type="text/css" rel="stylesheet" href="../Sdk/lib/bootstrap/css/bootstrap.min.css"></link>
+    <link type="text/css" rel="stylesheet" href="../Sdk/Styles/icore.css"></link>
+    <script type="text/javascript" language ="javascript" src="Scripts/igk.js"></script>
+    <script type="text/javascript" language ="javascript" src="Scripts/drs.js"></script>
+    <script type="text/javascript" language="javascript" >
+      function showAtStartupChanged(value){
+  
+      if(window.external && window.external.showAtStartupChanged)
+        window.external.showAtStartupChanged(value);
+      return;
+      }
+    </script>
+    <style type="text/css">
+      a{
+      color: darkblue;
+      }
+      .mainbody{
+      font-size:0.8em;
+      position:relative;
+      height:100%;
+      }
+      .div_powered{
+      position: fixed;
+      right:0px;
+      bottom:0px;
+      }
+      .div_left{
+      width: 230px;
+      border-right: 1px solid darkgray;
+      display:table-cell;
+      background-color: #4D4D70;
+      color:#cdcdcd;
+      padding: 3px;
+      vertical-align:top;
+      }
+      .div_content{
+      overflow-y:scroll;
+      height:100%;
+      padding: 32px
+      display:table-cell;
+      }
+      .div_mainbody{
+      margin:0px;
+      padding:0px;
+      display:table;
+      height:100%;
+      width:100%;
+      background-color: #F3F3F3;
+      }
+      .hline{
+      height:1px;
+      border-bottom: 1px black solid;
+      margin-bottom:16px;
+      background-color:white;
+      }
+      .div_mainmenu li{
+      display:inline-block;
+      width: 150px;
+      background-color: #4D4D4D;
+      color:white;
+      height:32px;
+      line-height:32px;
+      text-align:center;
+      }
+      .div_btn_selected{
+      background-color: orange;
+      display:absolute;
+      height:4px;
+      }
+
+      .drs-margin-r-16{
+      margin : 16px;
+      padding: 16px;
+      }
+    </style>
+  </head>
+  <body class="fitw fith">
+    
+	<div class="div_mainbody">
+	<div class="div_left drs-margin-r-16">
+		 <div class="main_title" id="main_title" >
+            DRAWING SOFT STUDIO 2014<span style="vertical-align:top;font-size:0.5em">&#174;</span>
+          </div>
+		 <div class="hline"></div>
+
+    <form method="POST" class="dispab loc_b">
+      <div class="form-group" >
+        <input type="checkbox" id="lbshowAtStartup" value="showAtStartup" checked="1" onchange="javascript:showAtStartupChanged(this.checked);"/>
+        <label for ="lbshowAtStartup" >[lang:showAtStartUp]</label>
+      </div>
+    </form>
+	</div>
+	<div class="div_content">	
+    <form method="POST">
+      <div class="dispb fitw">Projects
+        <div class="form-group" >
+          <div id="project_channel" class="col-sm-4" >
+            <!-- channel frame -->
+            <div >Drawing 2D</div>          
+            <img src="R/img/drawing_channel.png" />
+            <div class="col-sm-12">
+              <ul>
+                <li>CV</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br class="clear" style="clear:both;"/>
+        
+      <div class="dispb">
+        <div class="col-sm-4">
+          <div>Video channel</div>
+          <img src="R/img/video_channel.png" />
+        </div>
+        <div id="video_channel" class="col-sm-4">
+          <!-- channel frame -->
+          <ul>
+            <li>
+              <a href="http://www.youtube.com?q=websolution">How TO Create A Web solution</a>
+            </li>
+            <li>
+              <a href="http://www.youtube.com?q=websolution">Create Animation</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </form>
+
+    <div class="div_powered" >
+      powered by <a href="http://www.igkdev.be" >igkdev</a>@2008-2014
+    </div>
+  </div>
+
+	</div>
+  </body>
+</html>

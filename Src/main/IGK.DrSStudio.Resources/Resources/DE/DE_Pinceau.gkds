@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--This is a gkds DrSStudio file 7.0.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--IGKDEV © 2008-2012-->
+<gkds>
+  <Project>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+  </Project>
+  <Documents>
+    <LayerDocument InterpolationMode="Pixel" Width="32" Height="32" BackgroundTransparent="True" Id="LayerDocument_59418880">
+      <Layer Id="Layer_61963160">
+        <Group Matrix="0.1350211;0;0;0.1212121;-2.970464;-0.6060606" Id="Group_27670824">
+          <Spline Closed="True" Tension="0" Points="159;191 118;166 114;160 128;146 228;21 248;4 259;10 251;35 172;166 172;184" StrokeBrush="Type:LinearGradient;Colors:#F000 #FAAA;LinearMode:Dual;GammaCorrection:True;Factors: 0 1;Positions: 0 1;Width:2;LineJoin:Round" FillBrush="Type:LinearGradient;Colors:#FF73FF27 #FFFFBF5C;LinearMode:Dual;Angle:218.418;GammaCorrection:True;Factors: 0 1;Positions: 0 1;" Matrix="0.942396;0;0;0.9541609;9.293854;7.892788" Id="Spline_24640964" />
+          <CustomPolygon Points="126;166 241;14 248;13 133;166" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#FFFF007E;" Id="CustomPolygon_41214540" />
+          <CustomPolygon Points="147;177 250;18 251;25 153;184" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#FFFF007E;" Id="CustomPolygon_418590" />
+          <Spline Closed="True" Tension="0" Points="33;269 121;250 167;190 162;185 114;157 71;173 56;253" FillBrush="Type:Solid;Colors:#F000;" Id="Spline_61700530" />
+          <Spline Closed="True" Tension="0" Points="85;168 108;164 91;174 73;191" Id="Spline_62884923" />
+        </Group>
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

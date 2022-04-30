@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--This is a gkds DrSStudio file 8.5.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2013-->
+<gkds>
+  <Project>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+    <FileName>D:\DRSStudio 8.4 Src\IGK.DrSStudio.Resources\Resources\Disp_SameVerticalSpacing.gkds</FileName>
+    <Resources>
+      <String Id="app_title" />
+    </Resources>
+  </Project>
+<Documents>
+  <LayerDocument InterpolationMode="Pixel" TextContrast="4" BackgroundTransparent="True" Width="32" Height="32" Id="LayerDocument_36965117"><Extensions /><Layer Id="Layer_61034388"><Rectangle Bounds="15;5;2;22" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#F000;" Id="Rectangle_5988092"><Filters /></Rectangle><RoundRect BottomRight="0;0" BottomLeft="0;0" TopRight="0;0" TopLeft="0;0" Bounds="13;1;7;6" Matrix="1;0;0;1;-0.4999981;1" Id="RoundRect_31897715"><Filters /></RoundRect><RoundRect RoundStyle="Outer" BottomRight="0;0" BottomLeft="0;0" TopRight="0;0" TopLeft="0;0" Bounds="2;14;29;7" StrokeBrush="Type:Solid;Colors:#FFFFA200;" FillBrush="Type:Solid;Colors:#FFFF3600;" Matrix="1;0;0;1;-0.4999981;-1.499998" Id="RoundRect_60085586"><Filters /></RoundRect><RoundRect BottomRight="0;0" BottomLeft="0;0" TopRight="0;0" TopLeft="0;0" Bounds="13;1;7;6" Matrix="1;0;0;1;-0.4999838;23" Id="RoundRect_55879315"><Filters /></RoundRect></Layer></LayerDocument>
+</Documents>
+</gkds>

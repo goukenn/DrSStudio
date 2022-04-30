@@ -1,0 +1,18 @@
+<!--This is a gkds ICore file 9.6.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2014-->
+<gkds>
+  <Project>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+    <FileName>D:\DRSStudio 9.0 Src\Src\main\IGK.DrSStudio.Resources\Resources\Dash.gkds</FileName>
+  </Project>
+  <Documents>
+    <LayerDocument PixelOffset="None" Width="16" Height="16" Id="LayerDocument_29935342">
+      <Layer Id="Layer_9799029">
+        <Rectangle Bounds="0;0;16;16" FillBrush="Type:Solid;Colors:#FDDD;" StrokeBrush="Type:Solid;Colors:#0000;" SmoothingMode="None" Id="Rectangle_27257686" />
+        <Rectangle Bounds="0;0;8;8" FillBrush="Type:Solid;Colors:#FFE8E8E6;" StrokeBrush="Type:Solid;Colors:#0000;" SmoothingMode="None" Id="Rectangle_40246616" />
+        <Rectangle Bounds="8;8;8;8" FillBrush="Type:Solid;Colors:#FFE8E8E6;" StrokeBrush="Type:Solid;Colors:#0000;" SmoothingMode="None" Id="Rectangle_26301185" />
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

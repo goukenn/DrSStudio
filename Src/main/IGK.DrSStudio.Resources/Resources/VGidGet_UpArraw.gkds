@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--This is a gkds DrSStudio file 8.5.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2013-->
+<gkds>
+  <Project>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+    <FileName>D:\DRSStudio 8.4 Src\IGK.DrSStudio.Resources\Resources\VGidGet_UpArraw.gkds</FileName>
+    <Resources>
+      <String Id="app_title"></String>
+    </Resources>
+  </Project>
+<Documents>
+  <LayerDocument Id="LayerDocument_61515057" InterpolationMode="Pixel" TextContrast="4" BackgroundTransparent="True" Width="16" Height="16"><Extensions /><Layer Id="Layer_39055747"><Rectangle Bounds="7;-1;0;0" Id="Rectangle_10412671"><Filters /></Rectangle><Rectangle Bounds="0;0;16;16" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:LinearGradient;Colors:#FFBFB5B6 #FF8E8E8E;LinearMode:Dual;WrapMode:TileFlipXY;Factors: 0 1;Positions: 0 1;" Id="Rectangle_55595606"><Filters /></Rectangle><Polygon Count="3" Angle="-90" Center="8;7" Radius="5" StrokeBrush="Type:Solid;Colors:#FFFF;DashStyle:Solid;MiterLimit:4" Id="Polygon_27126390"><Filters /></Polygon></Layer></LayerDocument>
+  <LayerDocument Id="LayerDocument_31824182" InterpolationMode="Pixel" TextContrast="4" Width="16" Height="16"><Extensions /><Layer Id="Layer_39055747"><Rectangle Bounds="0;0;16;16" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#FF1E90FF;" Id="Rectangle_55595606"><Filters /></Rectangle><Polygon Count="3" Angle="-90" Center="8;7" Radius="5" StrokeBrush="Type:Solid;Colors:#FFFF;DashStyle:Solid;MiterLimit:4" Id="Polygon_27126390"><Filters /></Polygon><Polygon Count="3" Angle="-90" Center="8;7" Radius="5" StrokeBrush="Type:Solid;Colors:#FFFF;DashStyle:Solid;MiterLimit:4" Id="Polygon_43084004"><Filters /></Polygon><Polygon Count="3" Angle="-90" Center="8;7" Radius="5" StrokeBrush="Type:Solid;Colors:#FFFF;DashStyle:Solid;MiterLimit:4" Id="Polygon_41476564"><Filters /></Polygon><Polygon Count="3" Angle="-90" Center="8;7" Radius="5" StrokeBrush="Type:Solid;Colors:#FFFF;DashStyle:Solid;MiterLimit:4" Id="Polygon_61969681"><Filters /></Polygon></Layer></LayerDocument>
+  <LayerDocument Id="LayerDocument_50486046" InterpolationMode="Pixel" TextContrast="4" Width="16" Height="16"><Extensions /><Layer Id="Layer_39055747"><Rectangle Bounds="7;-1;0;0" Id="Rectangle_10412671"><Filters /></Rectangle><Rectangle Bounds="0;0;16;16" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:LinearGradient;Colors:#FFBFB5B6 #FF8E8E8E;LinearMode:Dual;WrapMode:TileFlipXY;Factors: 0 1;Positions: 0 1;" Id="Rectangle_55595606"><Filters /></Rectangle><Polygon Count="3" Angle="-90" Center="8;7" Radius="5" StrokeBrush="Type:Solid;Colors:#FFFF;DashStyle:Solid;MiterLimit:4" Id="Polygon_27126390"><Filters /></Polygon></Layer></LayerDocument>
+  <LayerDocument Id="LayerDocument_54809190" InterpolationMode="Pixel" TextContrast="4" Width="16" Height="16"><Extensions /><Layer Id="Layer_39055747"><Rectangle Bounds="7;-1;0;0" Id="Rectangle_10412671"><Filters /></Rectangle><Rectangle Bounds="0;0;16;16" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:LinearGradient;Colors:#FFBFB5B6 #FF8E8E8E;LinearMode:Dual;WrapMode:TileFlipXY;Factors: 0 1;Positions: 0 1;" Id="Rectangle_55595606"><Filters /></Rectangle><Polygon Count="3" Angle="-90" Center="8;7" Radius="5" StrokeBrush="Type:Solid;Colors:#FFFF;DashStyle:Solid;MiterLimit:4" Id="Polygon_27126390"><Filters /></Polygon></Layer></LayerDocument>
+  <LayerDocument Id="LayerDocument_45962651" InterpolationMode="Pixel" TextContrast="4" Width="16" Height="16"><Extensions /><Layer Id="Layer_39055747"><Rectangle Bounds="0;0;16;16" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:LinearGradient;Colors:#FFBFB5B6 #FF8E8E8E;LinearMode:Dual;WrapMode:TileFlipXY;Factors: 0 1;Positions: 0 1;" Id="Rectangle_55595606"><Filters /></Rectangle><Polygon Count="3" Angle="-90" Center="8;7" Radius="5" StrokeBrush="Type:Solid;Colors:#FFFF;DashStyle:Solid;MiterLimit:4" Id="Polygon_27126390"><Filters /></Polygon></Layer></LayerDocument>
+</Documents>
+</gkds>

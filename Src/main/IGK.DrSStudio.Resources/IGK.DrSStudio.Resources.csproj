@@ -1,0 +1,527 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B853567A-D430-4937-84EA-2694A227F258}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>IGK.DrSStudio.Resources</RootNamespace>
+    <AssemblyName>IGK.DrSStudio.Resources</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
+    <DebugSymbols>true</DebugSymbols>
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>drsstudio2021.pfx</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>Bin\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>Bin\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'DebugDev|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\DebugDev\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'DebugDev|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\DebugDev\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug_dev|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug_dev\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug_dev|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug_dev\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'dev|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\dev\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'dev|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\dev\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddInInfo.cs" />
+    <Compile Include="Keys.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="R.cs" />
+    <EmbeddedResource Include="Lang\fr.resources" />
+    <None Include="drsstudio.2013.pfx" />
+    <None Include="drsstudio2021.pfx" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Resources\app_palette.gkds" />
+    <None Include="Resources\backMost.gkds" />
+    <None Include="Resources\Button\Btn_2DAlign_Bottom.gkds" />
+    <None Include="Resources\Button\Btn_2DAlign_BottomMiddle.gkds" />
+    <None Include="Resources\Button\Btn_2DAlign_BottomLeft.gkds" />
+    <None Include="Resources\Button\Btn_2DAlign_BottomRight.gkds" />
+    <None Include="Resources\Button\Btn_2DAlign_Center.gkds" />
+    <None Include="Resources\Button\Btn_2DAlign_CenterHorizontal.gkds" />
+    <None Include="Resources\Button\Btn_2DAlign_CenterVertical.gkds" />
+    <None Include="Resources\Button\Btn_2DAlign_InvertX.gkds" />
+    <None Include="Resources\Button\Btn_2DAlign_InvertY.gkds" />
+    <None Include="Resources\Button\Btn_2DAlign_Left.gkds" />
+    <None Include="Resources\Button\Btn_2DAlign_MiddleLeft.gkds" />
+    <None Include="Resources\Button\Btn_2DAlign_MiddleRight.gkds" />
+    <None Include="Resources\Button\Btn_2DAlign_Right.gkds" />
+    <None Include="Resources\Button\Btn_2DAlign_Top.gkds" />
+    <None Include="Resources\Button\Btn_2DAlign_TopMiddle.gkds" />
+    <None Include="Resources\Button\Btn_2DAlign_TopLeft.gkds" />
+    <None Include="Resources\Button\Btn_2DAlign_TopRight.gkds" />
+    <None Include="Resources\Button\Btn_2DDock_DockDown.gkds" />
+    <None Include="Resources\Button\Btn_2DDock_DockFill.gkds" />
+    <None Include="Resources\Button\Btn_2DDock_DockLeft.gkds" />
+    <None Include="Resources\Button\Btn_2DDock_DockLeftAndRight.gkds" />
+    <None Include="Resources\Button\Btn_2DDock_DockRight.gkds" />
+    <None Include="Resources\Button\Btn_2DDock_DockUp.gkds" />
+    <None Include="Resources\Button\Btn_2DDock_DockUpAndDown.gkds" />
+    <None Include="Resources\Button\btn_2DSizeTransform_SameHeight.gkds" />
+    <None Include="Resources\Button\btn_2DSizeTransform_SameWidth.gkds" />
+    <None Include="Resources\Button\btn_alignCenter.gkds" />
+    <None Include="Resources\Button\btn_alignLeft.gkds" />
+    <None Include="Resources\Button\btn_alignRight.gkds" />
+    <None Include="Resources\Button\btn_Bold.gkds" />
+    <None Include="Resources\Button\Btn_ClearColor.gkds" />
+    <None Include="Resources\Button\Btn_Close.gkds" />
+    <None Include="Resources\Button\btn_closeDialog.gkds" />
+    <None Include="Resources\Button\Btn_closeSurface.gkds" />
+    <None Include="Resources\Button\btn_fullscreen.gkds" />
+    <None Include="Resources\Button\Btn_GoDown.gkds" />
+    <None Include="Resources\Button\btn_Italic.gkds" />
+    <None Include="Resources\Button\Btn_Maximize.gkds" />
+    <None Include="Resources\Button\Btn_MitterClipped.gkds" />
+    <None Include="Resources\Button\Btn_PenAlignCenter.gkds" />
+    <None Include="Resources\Button\Btn_PenAlignInset.gkds" />
+    <None Include="Resources\Button\Btn_PenMitter.gkds" />
+    <None Include="Resources\Button\Btn_PenMitterBevel.gkds" />
+    <None Include="Resources\Button\Btn_PenMitterRound.gkds" />
+    <None Include="Resources\Button\btn_PickCenter.gkds" />
+    <None Include="Resources\Button\btn_PickColor.gkds" />
+    <None Include="Resources\Button\Btn_Reduce.gkds" />
+    <None Include="Resources\Button\btn_refresh.gkds" />
+    <None Include="Resources\Button\btn_save_brush.gkds" />
+    <None Include="Resources\Button\Btn_showContext.gkds" />
+    <None Include="Resources\Button\btn_StrikeOut.gkds" />
+    <None Include="Resources\Button\btn_toogle_brush.gkds" />
+    <None Include="Resources\Button\btn_zoomnormal.gkds" />
+    <None Include="Resources\Button\btn_zoomnormalcenter.gkds" />
+    <None Include="Resources\Button\btn_zoomstretch.gkds" />
+    <None Include="Resources\Button\btn_zoomzoomcenter.gkds" />
+    <None Include="Resources\Button\btn_zoomzoomnormal.gkds" />
+    <None Include="Resources\Button\btn_zoom_normal.gkds" />
+    <None Include="Resources\Button\btn_zoom_NormalCenter.gkds" />
+    <None Include="Resources\Button\btn_zoom_Stretch.gkds" />
+    <None Include="Resources\Button\btn_zoom_ZoomCenter.gkds" />
+    <None Include="Resources\Button\btn_zoom_ZoomNormal.gkds" />
+    <None Include="Resources\Button\button_120x24.gkds" />
+    <None Include="Resources\DE\de_cropcircle.gkds" />
+    <None Include="Resources\DE\DE_GridBox.gkds" />
+    <None Include="Resources\DE\de_gridelement.gkds" />
+    <None Include="Resources\DE\de_linearbrush.gkds" />
+    <None Include="Resources\DE\DE_MarginSelection.gkds" />
+    <None Include="Resources\DE\DE_Quadratic.gkds" />
+    <None Include="Resources\DE\de_radialbrush.gkds" />
+    <None Include="Resources\DE\de_rings.gkds" />
+    <None Include="Resources\igkdev_about.gkds" />
+    <None Include="Resources\img\img_csv.gkds" />
+    <None Include="Resources\img\img_folder.gkds" />
+    <None Include="Resources\img\img_php.gkds" />
+    <None Include="Resources\img\img_surfaceoptions.gkds" />
+    <None Include="Resources\img\img_dash.gkds" />
+    <None Include="Resources\Menu\Menu_Clear2.gkds" />
+    <None Include="Resources\Menu\menu_delete.gkds" />
+    <None Include="Resources\Menu\menu_duplicate.gkds" />
+    <None Include="Resources\Menu\menu_fitSize.gkds" />
+    <None Include="Resources\Menu\menu_layer_view.gkds" />
+    <None Include="Resources\Menu\menu_other_tools.gkds" />
+    <None Include="Resources\Menu\menu_property_window.gkds" />
+    <None Include="Resources\Menu\menu_tool_exec.gkds" />
+    <None Include="Resources\Menu\Menu_view_scroll.gkds" />
+    <None Include="Resources\Menu\menu_zoom_s.gkds" />
+    <None Include="Resources\menu_move_back.gkds" />
+    <None Include="Resources\menu_move_begin.gkds" />
+    <None Include="Resources\menu_move_end.gkds" />
+    <None Include="Resources\menu_move_up.gkds" />
+    <None Include="Resources\navigation_btn_nextv.gkds" />
+    <None Include="Resources\PaletteColor.gkds" />
+    <None Include="Resources\template_cdcover.gkds" />
+    <None Include="Resources\template_cv.gkds" />
+    <None Include="Resources\template_default.gkds" />
+    <None Include="Resources\Button\btn_UnderLine.gkds" />
+    <None Include="Resources\Button\Btn_Undock.gkds" />
+    <None Include="Resources\compositingSourceCopy.gkds" />
+    <None Include="Resources\compositingSourceOver.gkds" />
+    <None Include="Resources\Cross.gkds" />
+    <None Include="Resources\Dash.gkds" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Default_projectKey.gkds" />
+    <None Include="Resources\DE\DE_Arc.gkds" />
+    <None Include="Resources\DE\DE_Bezier.gkds" />
+    <None Include="Resources\DE\DE_Bolt.gkds" />
+    <None Include="Resources\DE\DE_Box.gkds" />
+    <None Include="Resources\DE\DE_Canvas.gkds" />
+    <None Include="Resources\DE\DE_Circle.gkds" />
+    <None Include="Resources\DE\DE_Condition.gkds" />
+    <None Include="Resources\DE\DE_Cone.gkds" />
+    <None Include="Resources\DE\DE_Contour.gkds" />
+    <None Include="Resources\DE\DE_CornerLine.gkds" />
+    <None Include="Resources\DE\DE_CropDocumentSelection.gkds" />
+    <None Include="Resources\DE\DE_CrossRec.gkds" />
+    <None Include="Resources\DE\DE_Curve.gkds" />
+    <None Include="Resources\DE\DE_CustomPolygon.gkds" />
+    <None Include="Resources\DE\DE_Cylinder.gkds" />
+    <None Include="Resources\DE\DE_Damier.gkds" />
+    <None Include="Resources\DE\DE_DashedGrid.gkds" />
+    <None Include="Resources\DE\DE_DeformPath.gkds" />
+    <None Include="Resources\DE\DE_Ellipse.gkds" />
+    <None Include="Resources\DE\DE_Fleche.gkds" />
+    <None Include="Resources\DE\DE_Grid.gkds" />
+    <None Include="Resources\DE\DE_HexaItem.gkds" />
+    <None Include="Resources\DE\DE_Image.gkds" />
+    <None Include="Resources\DE\DE_Label.gkds" />
+    <None Include="Resources\DE\DE_LanceSymbol.gkds" />
+    <None Include="Resources\DE\DE_Layer.gkds" />
+    <None Include="Resources\DE\DE_Line.gkds" />
+    <None Include="Resources\DE\DE_MultiCircleItem.gkds" />
+    <None Include="Resources\DE\DE_OPE.gkds" />
+    <None Include="Resources\DE\DE_Pentacle.gkds" />
+    <None Include="Resources\DE\DE_Pentacle2.gkds" />
+    <None Include="Resources\DE\DE_Pie.gkds" />
+    <None Include="Resources\DE\DE_Pinceau.gkds" />
+    <None Include="Resources\DE\DE_Plume.gkds" />
+    <None Include="Resources\DE\DE_Polygon.gkds" />
+    <None Include="Resources\DE\DE_Pot.gkds" />
+    <None Include="Resources\DE\DE_QRCode.gkds" />
+    <None Include="Resources\DE\DE_QuadricDeform.gkds" />
+    <None Include="Resources\DE\DE_Rectangle.gkds" />
+    <None Include="Resources\DE\DE_RoundRect.gkds" />
+    <None Include="Resources\DE\DE_Ruban.gkds" />
+    <None Include="Resources\DE\DE_SCube.gkds" />
+    <None Include="Resources\DE\DE_SelectAndShare.gkds" />
+    <None Include="Resources\DE\DE_SelectCopy.gkds" />
+    <None Include="Resources\DE\DE_Selection.gkds" />
+    <None Include="Resources\DE\DE_Spiral.gkds" />
+    <None Include="Resources\DE\DE_Spline.gkds" />
+    <None Include="Resources\DE\DE_Star.gkds" />
+    <None Include="Resources\DE\DE_Stylus.gkds" />
+    <None Include="Resources\DE\DE_Text.gkds" />
+    <None Include="Resources\DE\DE_TextBox.gkds" />
+    <None Include="Resources\DE\DE_TextCircle.gkds" />
+    <None Include="Resources\DE\DE_TubeLine.gkds" />
+    <None Include="Resources\DE\DE_UMLGroup.gkds" />
+    <None Include="Resources\DE\DE_UmlRelation.gkds" />
+    <None Include="Resources\DE\DE_ViewBox.gkds" />
+    <None Include="Resources\DE\DE_WidenPath.gkds" />
+    <None Include="Resources\DE\DE_WireBezierElement.gkds" />
+    <None Include="Resources\DockingForm_DockBOTTOM.gkds" />
+    <None Include="Resources\DockingForm_DockLEFT.gkds" />
+    <None Include="Resources\DockingForm_DockRIGHT.gkds" />
+    <None Include="Resources\DrsLogo.gkds" />
+    <None Include="Resources\EmptyColor.gkds" />
+    <None Include="Resources\file_shortcut.gkds" />
+    <None Include="Resources\generate.gkds" />
+    <None Include="Resources\Group_component.gkds" />
+    <None Include="Resources\group_image.gkds" />
+    <None Include="Resources\Group_Ordinogramme.gkds" />
+    <None Include="Resources\group_Selection.gkds" />
+    <None Include="Resources\group_standard.gkds" />
+    <None Include="Resources\group_WebMapElement.gkds" />
+    <None Include="Resources\Group_WepMapSelection.gkds" />
+    <None Include="Resources\HGidGet.gkds" />
+    <None Include="Resources\HGidGet_LeftArraw.gkds" />
+    <None Include="Resources\HGidGet_RightArraw.gkds" />
+    <None Include="Resources\hscrollnext.gkds" />
+    <None Include="Resources\hscrollprev.gkds" />
+    <None Include="Resources\img\IMG_MOVEDOWN.gkds" />
+    <None Include="Resources\img\IMG_MOVEUP.gkds" />
+    <None Include="Resources\Menu\Menu_About.gkds" />
+    <None Include="Resources\Menu\Menu_Add.gkds" />
+    <None Include="Resources\Menu\Menu_BGColor.gkds" />
+    <None Include="Resources\Menu\Menu_BringBack.gkds" />
+    <None Include="Resources\Menu\Menu_BringDown.gkds" />
+    <None Include="Resources\Menu\Menu_BringTop.gkds" />
+    <None Include="Resources\Menu\Menu_BringUp.gkds" />
+    <None Include="Resources\Menu\Menu_Clear.gkds" />
+    <None Include="Resources\Menu\Menu_Close.gkds" />
+    <None Include="Resources\Menu\Menu_Color.gkds" />
+    <None Include="Resources\Menu\Menu_Copy.gkds" />
+    <None Include="Resources\Menu\Menu_Cut.gkds" />
+    <None Include="Resources\Menu\Menu_DASH.gkds" />
+    <None Include="Resources\Menu\Menu_Document.gkds" />
+    <None Include="Resources\Menu\Menu_DuplicateDocument.gkds" />
+    <None Include="Resources\Menu\Menu_File.gkds" />
+    <None Include="Resources\Menu\MENU_GDI.gkds" />
+    <None Include="Resources\Menu\Menu_GrayLevel.gkds" />
+    <None Include="Resources\Menu\Menu_Grid.gkds" />
+    <None Include="Resources\Menu\Menu_IconWindows.gkds" />
+    <None Include="Resources\Menu\Menu_ImageCurveAdjust.gkds" />
+    <None Include="Resources\Menu\Menu_ImageInv.gkds" />
+    <None Include="Resources\Menu\Menu_ImageTools.gkds" />
+    <None Include="Resources\Menu\Menu_IntervalColorMenu.gkds" />
+    <None Include="Resources\Menu\Menu_Joint.gkds" />
+    <None Include="Resources\Menu\Menu_Mail.gkds" />
+    <None Include="Resources\Menu\Menu_New.gkds" />
+    <None Include="Resources\Menu\Menu_NewDrsProj.gkds" />
+    <None Include="Resources\Menu\Menu_Open.gkds" />
+    <None Include="Resources\Menu\MENU_options.gkds" />
+    <None Include="Resources\Menu\Menu_Paste.gkds" />
+    <None Include="Resources\Menu\Menu_PLUS.gkds" />
+    <None Include="Resources\Menu\Menu_Print.gkds" />
+    <None Include="Resources\Menu\Menu_ReplaceColor.gkds" />
+    <None Include="Resources\Menu\Menu_RotateLeft.gkds" />
+    <None Include="Resources\Menu\Menu_RotateRight.gkds" />
+    <None Include="Resources\Menu\Menu_Rule.gkds" />
+    <None Include="Resources\Menu\Menu_Save.gkds" />
+    <None Include="Resources\Menu\Menu_SaveAS.gkds" />
+    <None Include="Resources\Menu\Menu_ScaleClMatrix.gkds" />
+    <None Include="Resources\Menu\Menu_StartPage.gkds" />
+    <None Include="Resources\Menu\MENU_Tools.gkds" />
+    <None Include="Resources\Menu\Menu_View.gkds" />
+    <None Include="Resources\Menu\Menu_Zoom.gkds" />
+    <None Include="Resources\Menu\Menu_ZoomFit.gkds" />
+    <None Include="Resources\MSBX_Error.gkds" />
+    <None Include="Resources\MSBX_Info.gkds" />
+    <None Include="Resources\MSBX_Message.gkds" />
+    <None Include="Resources\Police.gkds" />
+    <None Include="Resources\template_item.gkds" />
+    <None Include="Resources\Toggle.gkds" />
+    <None Include="Resources\tool_cw_view.gkds" />
+    <None Include="Resources\tool_global_solution.gkds" />
+    <None Include="Resources\tool_layer_explorer.gkds" />
+    <None Include="Resources\tool_layer_view.gkds" />
+    <None Include="Resources\tool_property_window.gkds" />
+    <None Include="Resources\topMost.gkds" />
+    <None Include="Resources\VGidGet.gkds" />
+    <None Include="Resources\VGidGet_DownArraw.gkds" />
+    <None Include="Resources\VGidGet_UpArraw.gkds" />
+    <None Include="Resources\ViewColor.gkds" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Resources\vscrollbottom.gkds" />
+    <None Include="Resources\vscrolltop.gkds" />
+    <None Include="Resources\WINUI_LD_Btn_Close.gkds" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anim.gkds" />
+    <None Include="Resources\Button\Btn_Clear.gkds" />
+    <None Include="Resources\Button\btn_close_cs.gkds" />
+    <None Include="Resources\Button\btn_Downdocument.gkds" />
+    <None Include="Resources\Button\Btn_Edit.gkds" />
+    <None Include="Resources\Button\btn_far.gkds" />
+    <None Include="Resources\Button\Btn_folder.gkds" />
+    <None Include="Resources\Button\btn_near.gkds" />
+    <None Include="Resources\Button\btn_planex.gkds" />
+    <None Include="Resources\Button\btn_planey.gkds" />
+    <None Include="Resources\Button\btn_planez.gkds" />
+    <None Include="Resources\Button\btn_remove.gkds" />
+    <None Include="Resources\Button\Btn_Settings.gkds" />
+    <None Include="Resources\Button\Btn_Solutions.gkds" />
+    <None Include="Resources\Button\btn_Updocument.gkds" />
+    <None Include="Resources\Button\btn_upx.gkds" />
+    <None Include="Resources\Button\btn_upy.gkds" />
+    <None Include="Resources\Button\btn_upz.gkds" />
+    <None Include="Resources\CMenu_BringBack.gkds" />
+    <None Include="Resources\CMenu_BringFront.gkds" />
+    <None Include="Resources\c_trackCursor.gkds" />
+    <None Include="Resources\DE\DE_AnimRotate.gkds" />
+    <None Include="Resources\DE\de_cam.gkds" />
+    <None Include="Resources\DE\DE_Cardinoide.gkds" />
+    <None Include="Resources\DE\DE_Cube.gkds" />
+    <None Include="Resources\DE\DE_Default.gkds" />
+    <None Include="Resources\DE\DE_DeformPicture.gkds" />
+    <None Include="Resources\DE\DE_DocumentBlock.gkds" />
+    <None Include="Resources\DE\DE_EllipseBullet.gkds" />
+    <None Include="Resources\DE\DE_Event.gkds" />
+    <None Include="Resources\DE\DE_Fan.gkds" />
+    <None Include="Resources\DE\DE_Group.gkds" />
+    <None Include="Resources\DE\DE_Lines.gkds" />
+    <None Include="Resources\DE\DE_MangaRoundBullet.gkds" />
+    <None Include="Resources\DE\DE_MangaSci.gkds" />
+    <None Include="Resources\DE\DE_Path.gkds" />
+    <None Include="Resources\DE\DE_RTFZone.gkds" />
+    <None Include="Resources\DE\DE_Sin.gkds" />
+    <None Include="Resources\DE\DE_Sphere.gkds" />
+    <None Include="Resources\DE\DE_Table.gkds" />
+    <None Include="Resources\DE\DE_Teapot.gkds" />
+    <None Include="Resources\DE\DE_Torus.gkds" />
+    <None Include="Resources\directory.gkds" />
+    <None Include="Resources\Disp_CustomHorizontalSpacing.gkds" />
+    <None Include="Resources\Disp_CustomVerticalSpacing.gkds" />
+    <None Include="Resources\Disp_DecreaseHSpacing.gkds" />
+    <None Include="Resources\Disp_DecreaseVerticalSpacing.gkds" />
+    <None Include="Resources\Disp_IncreaseHSpacing.gkds" />
+    <None Include="Resources\Disp_IncreaseVerticalSpacing.gkds" />
+    <None Include="Resources\Disp_SameHorizontalSpacing.gkds" />
+    <None Include="Resources\Disp_SameVerticalSpacing.gkds" />
+    <None Include="Resources\drop_element.gkds" />
+    <None Include="Resources\DRS.ico" />
+    <None Include="Resources\GLGame.gkds" />
+    <None Include="Resources\img\IMG_FILLMODE_ALTERNATE.gkds" />
+    <None Include="Resources\img\IMG_FILLMODE_WIDING.gkds" />
+    <None Include="Resources\img\IMG_SMOTHING_ANTIALIZED.gkds" />
+    <None Include="Resources\img\IMG_SMOTHING_NONE.gkds" />
+    <None Include="Resources\MainformBackground.gkds" />
+    <None Include="Resources\Menu\Menu_BuildVideo.gkds" />
+    <None Include="Resources\Menu\Menu_Button.gkds" />
+    <None Include="Resources\Menu\Menu_Histogram.gkds" />
+    <None Include="Resources\Menu\Menu_History.gkds" />
+    <None Include="Resources\Menu\Menu_LayerExplorer.gkds" />
+    <None Include="Resources\Menu\Menu_Layers.gkds" />
+    <None Include="Resources\Menu\menu_light.gkds" />
+    <None Include="Resources\Menu\menu_matColor.gkds" />
+    <None Include="Resources\Menu\Menu_Police.gkds" />
+    <None Include="Resources\Menu\Menu_Presentation.gkds" />
+    <None Include="Resources\Menu\Menu_Redo.gkds" />
+    <None Include="Resources\Menu\Menu_SolutionEx.gkds" />
+    <None Include="Resources\Menu\Menu_Textures.gkds" />
+    <None Include="Resources\Menu\Menu_Undo.gkds" />
+    <None Include="Resources\navigation_btn.gkds" />
+    <None Include="Resources\Tool_Brush.gkds" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GLGame.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Windows.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\splashscreen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\core\IGK.ICore\IGK.ICore.csproj">
+      <Project>{95e437a5-4a87-4fab-b15f-4a0fde8b7dcf}</Project>
+      <Name>IGK.ICore</Name>
+      <Private>False</Private>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\Dialog\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

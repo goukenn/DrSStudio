@@ -1,0 +1,32 @@
+OGLGame 
+Development Documentation
+
+
+Crée un classe qui étend la logique du GLGame. Implémenter y votre game logic. Exemple de template
+
+
+ internal class DemoGame : GLGame
+    {
+        public DemoGame()
+        {
+        }
+
+        protected override void LoadContent()
+        {
+        }
+
+        protected override void Render(GLGameTime gameTime)
+        {
+            GraphicsDevice.Clear (Colorf.FromFloat(0.2f));
+
+            GraphicsDevice.EndScene ();
+        }
+
+        protected override void UnloadContent()
+        {
+        }
+
+        protected override void Update(GLGameTime gameTime)
+        {
+        }
+    }

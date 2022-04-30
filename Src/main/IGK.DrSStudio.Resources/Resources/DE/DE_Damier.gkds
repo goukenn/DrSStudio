@@ -1,0 +1,16 @@
+<!--This is a gkds ICore file 9.6.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2014-->
+<gkds>
+  <Project>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+    <FileName>D:\DRSStudio 9.0 Src\Src\main\IGK.DrSStudio.Resources\Resources\DE\DE_Damier.gkds</FileName>
+  </Project>
+  <Documents>
+    <LayerDocument ClipView="True" PixelOffset="None" Width="48" Height="48" Id="LayerDocument_20981769">
+      <Layer Id="Layer_2211443">
+        <Damier FillMode="Alternate" Bounds="0;0;48;48" FillBrush="Type:Solid;Colors:#F000;" StrokeBrush="Type:Solid;Colors:#0000;" Id="Damier_32628789" />
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

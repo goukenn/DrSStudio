@@ -1,0 +1,358 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{04ADF5A1-C4DB-484C-9DD8-02101D2E064C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>IGK.DrSStudio.Drawing2D</RootNamespace>
+    <AssemblyName>drs2DGUI</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>drsstudio2021.pfx</AssemblyOriginatorKeyFile>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>Bin\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;WINDOW</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>Bin\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>Bin\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>Bin\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddIn2DButtonSurface\Templates\IGKD2DButtonDocumentTemplate.cs" />
+    <Compile Include="AddIn2DButtonSurface\WinUI\IGKD2DButtonSurface.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AddIn2DButtonSurface\WinUI\IGKD2DButtonSurfaceInitializer.cs" />
+    <Compile Include="AddIn2DCodec\Codec\IGKD2DTiffDecoder.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AddIn2DCodec\Codec\Encoders\IGKD2DTiffEncoder.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AddIn2DCodec\Codec\Decoders\IGKD2DBitmapDecoderAttribute.cs" />
+    <Compile Include="AddIn2DCodec\Codec\Encoders\IGKD2DBitmapEncoderAttribute.cs" />
+    <Compile Include="AddIn2DCodec\Codec\enuBitmapBitCount.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AddIn2DCodec\Codec\enuPngBitCount.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AddIn2DCodec\Codec\enuTiffBitCount.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AddIn2DCodec\Codec\Encoders\IGKD2DBitmapEncoder.cs" />
+    <Compile Include="AddIn2DCodec\Codec\Encoders\IGKD2DPictureEncoderBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AddIn2DCodec\Codec\Encoders\IGKD2DPngEncoder.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AddIn2DCodec\Codec\Encoders\IGKD2DJPEGEncoder.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AddIn2DCodec\Codec\Encoders\IGKD2DSystemIconEncoder.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AddIn2DConverter\ContextMenu\IGKD2DConvertToContextMenuBase.cs" />
+    <Compile Include="AddIn2DConverter\ContextMenu\_ConvertToCombinaisonElementContextMenu.cs" />
+    <Compile Include="AddIn2DConverter\ContextMenu\_ConvertToQuadraticPathContextMenu.cs" />
+    <Compile Include="AddIn2DConverter\ContextMenu\_ConvertToMergedPathContextMenu.cs" />
+    <Compile Include="AddIn2DConverter\ContextMenu\IGKD2DConvertToContextMenu.cs" />
+    <Compile Include="AddIn2DConverter\ContextMenu\IGKD2DConvertToContextMenuAttribute.cs" />
+    <Compile Include="AddIn2DConverter\ContextMenu\_ConvertToImageElement.cs" />
+    <Compile Include="AddIn2DConverter\ContextMenu\_ConvertToOutlinePathContextMenu.cs" />
+    <Compile Include="AddIn2DConverter\ContextMenu\_ConvertToPathElement.cs" />
+    <Compile Include="AddIn2DConverter\ContextMenu\_ConvertToRegion.cs" />
+    <Compile Include="AddIn2DConverter\ContextMenu\_ConvertToRegionComplement.cs" />
+    <Compile Include="AddIn2DConverter\ContextMenu\_ConvertToRegionExclude.cs" />
+    <Compile Include="AddIn2DConverter\ContextMenu\_ConvertToRegionIntersect.cs" />
+    <Compile Include="AddIn2DConverter\ContextMenu\_ConvertToRegionUnion.cs" />
+    <Compile Include="AddIn2DConverter\ContextMenu\_ConvertToRegionXOR.cs" />
+    <Compile Include="AddIn2DConverter\ContextMenu\_ConvertToTextBlock.cs" />
+    <Compile Include="AddIn2DConverter\ContextMenu\_RegionConverterContextMenuBase.cs" />
+    <Compile Include="AddIn2DConverter\ConverterConstant.cs" />
+    <Compile Include="AddIn2DConverter\enuRegionConverter.cs" />
+    <Compile Include="AddIn2DConverter\Menu\Drawing2DSelectedElementMenu.cs" />
+    <Compile Include="AddIn2DConverter\Menu\Edit\IGKD2DConvertToMenu.cs" />
+    <Compile Include="AddIn2DConverter\Menu\Edit\ConvertToRegion\_ConvertToRegionComplement.cs" />
+    <Compile Include="AddIn2DConverter\Menu\Edit\ConvertToRegion\_ConvertToRegionExclude.cs" />
+    <Compile Include="AddIn2DConverter\Menu\Edit\ConvertToRegion\_ConvertToRegionIntersect.cs" />
+    <Compile Include="AddIn2DConverter\Menu\Edit\ConvertToRegion\_ConvertToRegionMenu.cs" />
+    <Compile Include="AddIn2DConverter\Menu\Edit\ConvertToRegion\_ConvertToRegionUnion.cs" />
+    <Compile Include="AddIn2DConverter\Menu\Edit\ConvertToRegion\_ConvertToRegionXOR.cs" />
+    <Compile Include="AddIn2DConverter\Menu\Edit\ConvertToRegion\_RegionConverterMenu.cs" />
+    <Compile Include="AddIn2DConverter\Menu\Edit\IGKD2DConvertToMenuBase.cs" />
+    <Compile Include="AddIn2DConverter\Menu\enuPathConvertType.cs" />
+    <Compile Include="AddIn2DConverter\Menu\_ConvertToOutLinePath.cs" />
+    <Compile Include="AddIn2DConverter\Menu\_ConvertToPathElementMenu.cs" />
+    <Compile Include="AddIn2DConverter\Menu\_ConvertToTextBlock.cs" />
+    <Compile Include="AddIn2DDocument\Menu\Document\Clear.cs" />
+    <Compile Include="AddIn2DDocument\Menu\Document\IGKD2DDocumentMoveEnd.cs" />
+    <Compile Include="AddIn2DDocument\Menu\Document\IGKD2DDocumentMoveBegin.cs" />
+    <Compile Include="AddIn2DDocument\Menu\Document\CopyDocument.cs" />
+    <Compile Include="AddIn2DDocument\Menu\Document\Copy\CopyDocumentBitmap.cs" />
+    <Compile Include="AddIn2DDocument\Menu\Document\Copy\CopyDocumentBlock.cs" />
+    <Compile Include="AddIn2DDocument\Menu\Document\Copy\CopyDocumentEMF.cs" />
+    <Compile Include="AddIn2DDocument\Menu\Document\Copy\CopyDocumentImageElement.cs" />
+    <Compile Include="AddIn2DDocument\Menu\Document\Delete.cs" />
+    <Compile Include="AddIn2DDocument\Menu\Document\EditBackgroundBrush.cs" />
+    <Compile Include="AddIn2DDocument\Menu\Document\GoToNextDocument.cs" />
+    <Compile Include="AddIn2DDocument\Menu\Document\GoToPreviousDocument.cs" />
+    <Compile Include="AddIn2DDocument\Menu\Document\IGKD2DAddDuplicateDocumentMenu.cs" />
+    <Compile Include="AddIn2DDocument\Menu\Document\IGKD2DAddNewDocumentMenu.cs" />
+    <Compile Include="AddIn2DDocument\Menu\Document\IGKD2DDocumentKeyManagerToolMenu.cs" />
+    <Compile Include="AddIn2DDocument\Menu\Document\IGKD2DDocumentMakeBackgroundTransparentMenu.cs" />
+    <Compile Include="AddIn2DDocument\Menu\Document\IGKD2DDocumentPropertiesMenu.cs" />
+    <Compile Include="AddIn2DDocument\Menu\Document\IGKD2DDocumentMoveBackMenu.cs" />
+    <Compile Include="AddIn2DDocument\Menu\Document\IGKD2DDocumentMoveUp.cs" />
+    <Compile Include="AddIn2DDocument\Menu\IGKD2DDocumentMenuAttribute.cs" />
+    <Compile Include="AddIn2DDocument\Menu\IGKD2DDrawingCopyDocumentMenuAttribute.cs" />
+    <Compile Include="AddIn2DDocument\Menu\IGKD2DDrawingDocumentMenu.cs" />
+    <Compile Include="AddIn2DDocument\Menu\IGKD2DDrawingDocumentMenuBase.cs" />
+    <Compile Include="AddIn2DDocument\Menu\Insert\IGKD2DInsertAppendDocument.cs" />
+    <Compile Include="AddIn2DDocument\Tools\IGKD2DDocumentKeyManagerTool.cs" />
+    <Compile Include="AddIn2DLayer\Menu\Copy\CopyLayerBitmap.cs" />
+    <Compile Include="AddIn2DLayer\Menu\Copy\CopyLayerBlock.cs" />
+    <Compile Include="AddIn2DLayer\Menu\Copy\CopyLayerEMFMenu.cs" />
+    <Compile Include="AddIn2DLayer\Menu\Copy\CopyLayerAsImageElement.cs" />
+    <Compile Include="AddIn2DLayer\Menu\FlattenLayerMenu.cs" />
+    <Compile Include="AddIn2DLayer\Menu\IGKD2DDrawingCopyLayerMenuAttribute.cs" />
+    <Compile Include="AddIn2DLayer\Menu\IGKD2DDrawingLayerMenuAttribute.cs" />
+    <Compile Include="AddIn2DLayer\Menu\IGKD2DDrawingLayerMenu.cs" />
+    <Compile Include="AddIn2DLayer\Menu\IGKD2DDrawingLayerMenuBase.cs" />
+    <Compile Include="Actions\ICoreEditLayerPropertiesAction.cs" />
+    <Compile Include="AddIn2DLayer\Menu\Layer\IGKD2DDrawingLayerResetTransformMenu.cs" />
+    <Compile Include="AddIn2DLayer\Menu\Layer\IGKD2DDrawingLayerMoveBegin.cs" />
+    <Compile Include="AddIn2DLayer\Menu\Layer\IGKD2DDrawingLayerMoveEnd.cs" />
+    <Compile Include="AddIn2DLayer\Menu\Layer\GoToNextLayer.cs" />
+    <Compile Include="AddIn2DLayer\Menu\Layer\GoToPreviousLayer.cs" />
+    <Compile Include="AddIn2DLayer\Menu\Layer\IGKD2DDrawingClearLayerMenu.cs" />
+    <Compile Include="AddIn2DLayer\Menu\Layer\IGKD2DDrawingDeleteLayerMenu.cs" />
+    <Compile Include="AddIn2DLayer\Menu\Layer\IGKD2DDrawingLayerPropertyMenu.cs" />
+    <Compile Include="AddIn2DLayer\Menu\Layer\IGKD2DDrawingAddNewLayerMenu.cs" />
+    <Compile Include="AddIn2DLayer\Menu\Layer\IGKD2DDrawingLayerKeyManagerTool.cs" />
+    <Compile Include="AddIn2DLayer\Menu\Layer\IGKD2DDrawingLayerMoveBack.cs" />
+    <Compile Include="AddIn2DLayer\Menu\Layer\IGKD2DDrawingLayerMoveUp.cs" />
+    <Compile Include="AddIn2DLayer\Menu\Layer\IGKD2DrawingDuplicationLayerMenu.cs" />
+    <Compile Include="AddIn2DLayer\Tools\IGKD2DLayerKeyManagerTool.cs" />
+    <Compile Include="AddIn2DDragDropManager\IGKD2DDragDropManager.cs" />
+    <Compile Include="AddIn2DDragDropManager\Tools\IGKD2DDragDropManagerTool.cs" />
+    <Compile Include="AddIn2DSetAllDocumentSize\Menu\SetAllDocumentSize.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AddInInfo.cs" />
+    <Compile Include="ContextMenu\Document\_ClipDocument.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ContextMenu\Document\_RemoveClipDocument.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ContextMenu\Drawing2DClip.cs" />
+    <Compile Include="ContextMenu\Edit\Editable2DSurfaceContextMenu.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ContextMenu\Edit\_CopyContextMenu.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ContextMenu\Edit\_CropDocumentToElementSizeContextMenu.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ContextMenu\Edit\_Cut.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ContextMenu\Edit\_DeleteSelectedElement.cs" />
+    <Compile Include="ContextMenu\Edit\_ElementEditPropertyContextMenu.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ContextMenu\Edit\_PasteContextMenu.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ContextMenu\Edit\_PasteHereContextMenu.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ContextMenu\Export\IGKD2DExportContextMenu.cs" />
+    <Compile Include="ContextMenu\Group\GroupContextMenu.cs" />
+    <Compile Include="ContextMenu\IGKD2DDrawingChildContextMenuBase.cs" />
+    <Compile Include="ContextMenu\IGKD2DDrawingContextMenuBase.cs" />
+    <Compile Include="ContextMenu\IGKD2DChildContextMenuBase.cs" />
+    <Compile Include="Actions\CoreSufaceActionBase.cs" />
+    <Compile Include="Actions\GoToFirstDocument.cs" />
+    <Compile Include="Actions\GoToNextDocument.cs" />
+    <Compile Include="Actions\GotToLastDocument.cs" />
+    <Compile Include="Actions\GotToPreviousDocument.cs" />
+    <Compile Include="Actions\ICoreSurfaceAction.cs" />
+    <Compile Include="ContextMenu\Group\GroupElementContextMenu.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ContextMenu\Group\UngroupElementContextMenu.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ContextMenu\Image\ImageContextMenuBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ContextMenu\Image\_CropDocumentToImageSizeContextMenu.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ContextMenu\Image\_ExportToTexture.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ContextMenu\Layer\_ClipLayerContextMenu.cs" />
+    <Compile Include="ContextMenu\Layer\_RemoveClipLayerContextMenu.cs" />
+    <Compile Include="GridManager\GridRenderer.cs" />
+    <Compile Include="GridManager\Tools\GridTool.cs" />
+    <Compile Include="GridManager\Menu\_EditGridProperty.cs" />
+    <Compile Include="GridManager\Menu\_ShowGrid.cs" />
+    <Compile Include="Menu\Edit\EditElementWithCreationMecanismMenu.cs" />
+    <Compile Include="Menu\Edit\EditElementPropertyMenu.cs" />
+    <Compile Include="Menu\Edit\GroupElementMenu.cs" />
+    <Compile Include="Menu\Edit\SelectAll.cs" />
+    <Compile Include="Menu\Edit\UnGroupElement.cs" />
+    <Compile Include="Menu\Edit\_EditBrush.cs" />
+    <Compile Include="Menu\File\IGKD2DSaveCurrentDocumentMenu.cs" />
+    <Compile Include="Menu\Image\ImageMenuBase.cs" />
+    <Compile Include="Menu\Image\_Image.cs" />
+    <Compile Include="Menu\Image\_ImageInvertColorMenu.cs" />
+    <Compile Include="Menu\Insert\InsertOnSurfaceMenu.cs" />
+    <Compile Include="Menu\Insert\_InsertDocumentBlock.cs" />
+    <Compile Include="Menu\Insert\_InsertEmptyPicture.cs" />
+    <Compile Include="Menu\Insert\_InsertPicture.cs" />
+    <Compile Include="Menu\View\Drawing2DSurfaceSetting.cs" />
+    <Compile Include="Menu\View\Drawing2DSurfaceTool.cs" />
+    <Compile Include="Menu\View\_2DViewZoomModeMenu.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="IGKD2DUtility.cs" />
+    <Compile Include="Templates\ProjectTemplate.cs" />
+    <Compile Include="Tools\IGKD2DImageElementToolBase.cs" />
+    <Compile Include="Tools\IGKD2DrawingRenderingServiceTool.cs" />
+    <Compile Include="Utils\Textures.cs" />
+    <Compile Include="Print\IGKD2DDrawingPrint.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Native\DwmApi.cs" />
+    <Compile Include="Native\User32.cs" />
+    <Compile Include="IGKD2DrawingConstant.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="drsstudio.2013.pfx" />
+    <None Include="drsstudio2021.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="AddIn2DDragDropManager\Menu\" />
+    <Folder Include="AddIn2DLayer\ContextMenu\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\core\IGK.ICore.Drawing2D\IGK.ICore.Drawing2D.csproj">
+      <Project>{29738416-cc50-4ad2-9353-b03fbeecdaf8}</Project>
+      <Name>IGK.ICore.Drawing2D</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\core\IGK.ICore.WinCore\IGK.ICore.WinCore.csproj">
+      <Project>{68ab7706-a97f-4bf8-8d1f-26d69a6bfa0e}</Project>
+      <Name>IGK.ICore.WinCore</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\core\IGK.ICore\IGK.ICore.csproj">
+      <Project>{95e437a5-4a87-4fab-b15f-4a0fde8b7dcf}</Project>
+      <Name>IGK.ICore</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\main\IGK.DrSStudio.WinCore\IGK.DrSStudio.WinCore.csproj">
+      <Project>{74f6a53e-2948-41bc-a842-e036c6d96667}</Project>
+      <Name>IGK.DrSStudio.WinCore</Name>
+      <Private>False</Private>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,299 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{45B60880-EB96-48DF-99DB-607361F74A56}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>IGK.DrSStudio.Tools</RootNamespace>
+    <AssemblyName>drsGlobalToolsAddIn</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>Bin\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>Bin\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>Bin\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>Bin\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddInInfo.cs" />
+    <Compile Include="GlobalColorSelector\IGCSSingleColorPicker.cs" />
+    <Compile Include="GlobalColorSelector\Mecanism\GCSMecanismBase.cs" />
+    <Compile Include="GlobalColorSelector\Mecanism\PickCenterMecanism.cs" />
+    <Compile Include="GlobalColorSelector\Mecanism\PickColorMecanism.cs" />
+    <Compile Include="GlobalColorSelector\Mecanism\PickRectangleMecanism.cs" />
+    <Compile Include="GlobalColorSelector\Menu\GCSViewColorToolMenu.cs" />
+    <Compile Include="GlobalColorSelector\enuGCSColorMode.cs" />
+    <Compile Include="GlobalColorSelector\enuRainbowColor.cs" />
+    <Compile Include="GlobalColorSelector\IBrushSelector.cs" />
+    <Compile Include="GlobalColorSelector\IColorSelector.cs" />
+    <Compile Include="GlobalColorSelector\ContextMenu\_ExportToPenAnchor.cs" />
+    <Compile Include="GlobalColorSelector\Tools\GCSGlobal2DMultiConfigElementTool.cs" />
+    <Compile Include="GlobalColorSelector\WinUI\UIXEditBrush.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GlobalColorSelector\Tools\GCSGlobalPickColorTool.cs" />
+    <Compile Include="GlobalColorSelector\WinUI\GCSColorNoteBook.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GlobalColorSelector\WinUI\GCSXBrushSelector.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GlobalColorSelector\WinUI\GCSXDualBrushModeSelector.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GlobalColorSelector\WinUI\SingleBrushEditor\GCSingleColorPickerBase.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GlobalColorSelector\WinUI\SingleBrushEditor\GdiStrokePropertySelector.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GlobalColorSelector\WinUI\SingleBrushEditor\GCSRGBColorSelector.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GlobalColorSelector\WinUI\GCSXHatchBrushSelector.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GlobalColorSelector\WinUI\GCSXLinearBrushSelector.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GlobalColorSelector\WinUI\GCSXPathBrushSelector.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GlobalColorSelector\WinUI\GCSXSolidBrushSelector.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GlobalColorSelector\WinUI\GCSXTextureBrushSelector.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GlobalColorSelector\WinUI\GCSXBrushConfigureBase.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GlobalColorSelector\WinUI\GCSXSaveCustomLineCap.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GlobalColorSelector\Tools\GCSGlobalColorTool.cs" />
+    <Compile Include="GlobalColorSelector\WinUI\GCSXSingleBrushColorSelector.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GlobalColorSelector\WinUI\GCSPickColor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GlobalColorSelector\WinUI\GCSXDualBrushColorSelector.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GlobalHelpMessageToolAddIn\Tools\GlobalHelpMessageTool.cs" />
+    <Compile Include="GlobalKeyBoardToolAddIn\Tools\GlobalKeyBoarToolAddIn.cs" />
+    <Compile Include="GlobalLayerCenterLayerAsDocumentSize\CenterLayerAsDocumentSize.cs" />
+    <Compile Include="GlobalLayerCenterLayerAsDocumentSize\Menu\ResizeLayerMenu.cs" />
+    <Compile Include="GlobalMousePositionAddIn\Tools\GlobalMouseToolStatusInfo.cs" />
+    <Compile Include="GlobalProgressBarModeAddIn\Tools\GlobalProgressBarAddIn.cs" />
+    <Compile Include="GlobalSelectedToolMessageAddIn\Tools\GlobalSelectedToolManager.cs" />
+    <Compile Include="GlobalSolutionExplorerAddIn\Menu\SolutionGlobalViewMenu.cs" />
+    <Compile Include="GlobalSolutionExplorerAddIn\Settings\SolutionExplorerSetting.cs" />
+    <Compile Include="GlobalSolutionExplorerAddIn\Tools\GlobalSolutionExplorerTool.cs" />
+    <Compile Include="GlobalSolutionExplorerAddIn\WinUI\CoreWorkingFileSolution.cs" />
+    <Compile Include="GlobalSolutionExplorerAddIn\WinUI\GlobalSolutionExplorerGUI.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GlobalSolutionExplorerAddIn\WinUI\SolutionRenderer.cs" />
+    <Compile Include="GlobalSolutionExplorerAddIn\WinUI\GlobalSolutionTreeNode.cs" />
+    <Compile Include="GlobalSolutionExplorerAddIn\WinUI\GlobalSolutionTreeView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GlobalToolSelector\Menu\Tools\IGKGTViewKeyMenu.cs" />
+    <Compile Include="GlobalToolSelector\Menu\Tools\WorkingToolMenu.cs" />
+    <Compile Include="GlobalToolSelector\Tools\IGKGTShortcutManager.cs" />
+    <Compile Include="GlobalToolSelector\Tools\ICoreGTWorkingItem.cs" />
+    <Compile Include="GlobalToolSelector\Tools\IWorkingItemCollections.cs" />
+    <Compile Include="GlobalToolSelector\Tools\IWorkingItemGroup.cs" />
+    <Compile Include="GlobalToolSelector\Tools\WorkingGroup.cs" />
+    <Compile Include="GlobalToolSelector\Tools\WorkingItem.cs" />
+    <Compile Include="GlobalViewToolWindow\Menu\View\IGKGVTViewToolWindowMenu.cs" />
+    <Compile Include="GlobalViewToolWindow\Tools\IGKGVTViewToolWindowTool.cs" />
+    <Compile Include="GlobalViewToolWindow\WinUI\IGKGVTXSelectionGUI.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GlobalZoomModeAddIn\Tools\GlobalZoomModeStatusInfo.cs" />
+    <Compile Include="GlobalPickSystemColorSelector\enuPickMode.cs" />
+    <Compile Include="GlobalPickSystemColorSelector\Menu\Tools\_MenuCaptureImage.cs" />
+    <Compile Include="GlobalPickSystemColorSelector\Menu\Tools\_MenuPickSystemColor.cs" />
+    <Compile Include="GlobalPickSystemColorSelector\Tools\PickSCGlobalTool.cs" />
+    <Compile Include="GlobalPickSystemColorSelector\WinUI\ImagePickerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="GlobalColorSelector\WinUI\GCSColorNoteBook.resx">
+      <DependentUpon>GCSColorNoteBook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GlobalColorSelector\WinUI\GCSXBrushConfigureBase.resx">
+      <DependentUpon>GCSXBrushConfigureBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GlobalColorSelector\WinUI\GCSXDualBrushModeSelector.resx">
+      <DependentUpon>GCSXDualBrushModeSelector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GlobalColorSelector\WinUI\SingleBrushEditor\GdiStrokePropertySelector.resx">
+      <DependentUpon>GdiStrokePropertySelector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GlobalColorSelector\WinUI\SingleBrushEditor\GCSRGBColorSelector.resx">
+      <DependentUpon>GCSRGBColorSelector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GlobalColorSelector\WinUI\GCSXHatchBrushSelector.resx">
+      <DependentUpon>GCSXHatchBrushSelector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GlobalColorSelector\WinUI\GCSXLinearBrushSelector.resx">
+      <DependentUpon>GCSXLinearBrushSelector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GlobalColorSelector\WinUI\GCSXPathBrushSelector.resx">
+      <DependentUpon>GCSXPathBrushSelector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GlobalColorSelector\WinUI\GCSXSolidBrushSelector.resx">
+      <DependentUpon>GCSXSolidBrushSelector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GlobalColorSelector\WinUI\GCSXTextureBrushSelector.resx">
+      <DependentUpon>GCSXTextureBrushSelector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GlobalColorSelector\WinUI\GCSXSaveCustomLineCap.resx">
+      <DependentUpon>GCSXSaveCustomLineCap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GlobalColorSelector\WinUI\GCSXSingleBrushColorSelector.resx">
+      <DependentUpon>GCSXSingleBrushColorSelector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GlobalColorSelector\WinUI\GCSPickColor.resx">
+      <DependentUpon>GCSPickColor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GlobalColorSelector\WinUI\GCSXDualBrushColorSelector.resx">
+      <DependentUpon>GCSXDualBrushColorSelector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GlobalColorSelector\WinUI\UIXEditBrush.resx">
+      <DependentUpon>UIXEditBrush.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GlobalSolutionExplorerAddIn\WinUI\GlobalSolutionExplorerGUI.resx">
+      <DependentUpon>GlobalSolutionExplorerGUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GlobalViewToolWindow\WinUI\IGKGVTXSelectionGUI.resx">
+      <DependentUpon>IGKGVTXSelectionGUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="GlobalProgressBarModeAddIn\Menu\" />
+    <Folder Include="GlobalSolutionExplorerAddIn\ContextMenu\" />
+    <Folder Include="GlobalToolSelector\Menu\View\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\core\IGK.ICore.Drawing2D\IGK.ICore.Drawing2D.csproj">
+      <Project>{29738416-cc50-4ad2-9353-b03fbeecdaf8}</Project>
+      <Name>IGK.ICore.Drawing2D</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\core\IGK.ICore.WinCore\IGK.ICore.WinCore.csproj">
+      <Project>{68ab7706-a97f-4bf8-8d1f-26d69a6bfa0e}</Project>
+      <Name>IGK.ICore.WinCore</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\main\IGK.DrSStudio.WinCoreDesign\IGK.DrSStudio.WinCoreDesign.csproj">
+      <Project>{497fad28-de18-40d3-af73-2ec1f9303b6b}</Project>
+      <Name>IGK.DrSStudio.WinCoreDesign</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\core\IGK.ICore\IGK.ICore.csproj">
+      <Project>{95e437a5-4a87-4fab-b15f-4a0fde8b7dcf}</Project>
+      <Name>IGK.ICore</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\main\IGK.DrSStudio.WinCore\IGK.DrSStudio.WinCore.csproj">
+      <Project>{74f6a53e-2948-41bc-a842-e036c6d96667}</Project>
+      <Name>IGK.DrSStudio.WinCore</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\drawing2D\IGK.DrSStudio.Drawing2D.GUI\IGK.DrSStudio.Drawing2D.GUI.csproj">
+      <Project>{04adf5a1-c4db-484c-9dd8-02101d2e064c}</Project>
+      <Name>IGK.DrSStudio.Drawing2D.GUI</Name>
+      <Private>False</Private>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="GlobalLayerCenterLayerAsDocumentSize\Menu\layer_resize_layout.html" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

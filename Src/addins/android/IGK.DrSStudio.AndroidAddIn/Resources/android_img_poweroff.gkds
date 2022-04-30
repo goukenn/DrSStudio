@@ -1,0 +1,13 @@
+<!--This is a gkds DrSStudio file 9.1.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2014-->
+<gkds>
+  <Documents>
+    <LayerDocument FillBrush="Type:Solid;Colors:#FFFF;" BackgroundTransparent="True" Width="256" Height="256" Id="LayerDocument_24573614">
+      <Layer Id="Layer_60164934">
+        <Pie SweepAngle="311.976166" StartAngle="294.166626" Radius="85.49269;85.49269 117.4777;117.4777" Center="125;129" FillBrush="Type:Solid;Colors:#FFFF4E00;" StrokeBrush="Type:Solid;Colors:#0000;" ShadowProperty="Offset:5 5;IsClipped:False;ShadowBrush:[Type:Solid;Colors:#FFFF;]" AllowShadow="True" Id="Pie_49456272" />
+        <Rectangle Bounds="114.5;6;27;152" FillBrush="Type:Solid;Colors:#FFFF000B;" StrokeBrush="Type:Solid;Colors:#0000;" ShadowProperty="Offset:2 2;IsClipped:False;ShadowBrush:[Type:Solid;Colors:#F000;]" AllowShadow="True" Id="Rectangle_37100670" />
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

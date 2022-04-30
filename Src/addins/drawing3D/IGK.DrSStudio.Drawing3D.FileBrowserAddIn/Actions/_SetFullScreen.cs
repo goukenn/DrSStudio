@@ -1,0 +1,74 @@
+
+
+
+using IGK.ICore;using IGK.ICore.WinUI;
+/*
+IGKDEV @ 2008-2016
+Project : IGK 
+author: C.A.D . BONDJE DOUE
+site: http://www.igkdev.be
+file: _SetFullScreen.cs
+THIS FILE IS A PART OF IGK Library FOR DRSSTUDION APPLICATION.
+Read license.text
+THIS SOFTWARE IS PROVIDED "AS IS" AND WITHOUT ANY EXPRESS OR
+IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+PURPOSE.
+*/
+/*
+IGKDEV @ 2008-2016
+author: C.A.D . BONDJE DOUE
+file:_SetFullScreen.cs
+*/
+/* 
+-------------------------------------------------------------------
+Company: IGK-DEV
+Author : C.A.D. BONDJE DOUE
+SITE : http://www.igkdev.be
+Application : DrSStudio
+powered by IGK - DEV &copy; 2008-2012
+THIS FILE IS A PART OF THE DRSSTUDIO APPLICATION. SEE "License.txt"
+FOR MORE INFORMATION ABOUT THE LICENSE
+------------------------------------------------------------------- 
+*/
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+namespace IGK.DrSStudio.Drawing3D.FileBrowser.Actions
+{
+    class _SetFullScreen : FBAction
+    {
+        protected override bool PerformAction()
+        {
+            FileBrowserMainForm frm = this.FileBrowser.FindForm() as FileBrowserMainForm;
+            if (frm != null)
+            {
+                switch (ShortCut )
+                {
+                    case enuKeys.Escape :
+                        if (frm.FullScreen)
+                        {
+                            frm.FullScreen = false;
+                        }
+                        else {
+                            frm.Close();
+                        }
+                        break;
+                    default :
+                    case enuKeys.Control | enuKeys.Enter :
+                if ((!frm.FullScreen))
+                {
+                    frm.FullScreen = true;
+                }
+                else {
+                    frm.FullScreen = false;
+                }
+                break;
+                }
+            }
+            return false;
+        }
+    }
+}
+

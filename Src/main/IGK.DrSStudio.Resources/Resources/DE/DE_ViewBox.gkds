@@ -1,0 +1,21 @@
+<!--This is a gkds DrSStudio file 8.7.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2013-->
+<gkds>
+  <Project>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+    <FileName>D:\DRSStudio 8.4 Src\Src\core\IGK.DrSStudio.Resources\Resources\DE_WireBezierElement.gkds</FileName>
+    <Resources>
+      <String Id="app_title" />
+    </Resources>
+  </Project>
+  <Documents>
+    <LayerDocument BackgroundTransparent="True" Width="16" Height="16" Id="LayerDocument_64185571">
+      <Layer Id="Layer_37765596">
+        <Rectangle Bounds="1;2;14;11" StrokeBrush="Type:Solid;Colors:#0000;" SmoothingMode="None" Id="Rectangle_53649935" />
+        <Rectangle Bounds="1;13;14;2" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#FF3C00FF;" SmoothingMode="None" Id="Rectangle_22439515" />
+        <Rectangle Bounds="2;3;12;9" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#FFE300FF;" SmoothingMode="None" Id="Rectangle_46766185" />
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

@@ -1,0 +1,157 @@
+
+
+/*
+IGKDEV @ 2008 - 2014
+Project : IGK 
+author: C.A.D . BONDJE DOUE
+site: http://www.igkdev.be
+file: CoreCursorDecoder.cs
+THIS FILE IS A PART OF IGK Library FOR DRSSTUDION APPLICATION.
+Read license.text
+THIS SOFTWARE IS PROVIDED "AS IS" AND WITHOUT ANY EXPRESS OR
+IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+PURPOSE.
+*/
+/*
+IGKDEV - [2008 - 2014]
+author: C.A.D . BONDJE DOUE
+file:CoreCursorDecoder.cs
+*/
+/* 
+-------------------------------------------------------------------
+Company: IGK-DEV
+Author : C.A.D. BONDJE DOUE
+SITE : http://www.igkdev.be
+Application : DrSStudio
+powered by IGK - DEV &copy; 2008-2012
+THIS FILE IS A PART OF THE DRSSTUDIO APPLICATION. SEE "License.txt"
+FOR MORE INFORMATION ABOUT THE LICENSE
+------------------------------------------------------------------- 
+*/
+/* 
+-------------------------------------------------------------
+This file is part of iGK-DEV-DrawingStudio
+-------------------------------------------------------------
+-------------------------------------------------------------
+-------------------------------------------------------------
+view license file in Documentation folder to get more info
+Copyright (c) 2008-2010 
+Author  : Charles A.D. BONDJE DOUE 
+mail : bondje.doue@hotmail.com
+-------------------------------------------------------------
+-------------------------------------------------------------
+*/
+/* This file is part of iGK-DrawingSoft.
+*    iGK-DrawingSoft is free software: you can redistribute it and/or modify
+*    it under the terms of the GNU Lesser General Public License as published by
+*    the Free Software Foundation, either version 3 of the License, or
+*    (at your option) any later version.
+*    iGK-DrawingSoft is distributed in the hope that it will be useful,
+*    but WITHOUT ANY WARRANTY; without even the implied warranty of
+*    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+*    GNU General Public License for more details.
+*    You should have received a copy of the GNU Lesser General Public License
+*    along with IGK-DRAWING SOFT.  If not, see <http://www.gnu.org/licenses/>.
+*
+*    Copyright (c) 2008-2009 
+*    Author : C.A.D. BONDJE DOUE
+*    mail : bondje.doue@hotmail.com
+*/
+using System;
+using System.Collections.Generic;
+using System.Text;
+using System.Windows.Forms;
+using System.Runtime.InteropServices;
+using System.Drawing;
+using System.IO;
+namespace IGK.DrSStudio.XIcon
+{
+    using IGK.ICore.WinCore;
+using IGK.ICore;using IGK.DrSStudio.WinUI;
+    using IGK.DrSStudio;
+    using IGK.DrSStudio.Codec;
+    using IGK.DrSStudio.Drawing2D;
+    using IGK.DrSStudio.Menu;
+    using IGK.DrSStudio.Tools;
+    [StructLayout(LayoutKind.Sequential)]
+    struct RTGroupCursorEntry
+    {
+        internal short iwidth;
+        internal short iheight;
+        internal short hotspotX;
+        internal short hotspotY;
+        internal int iSize;
+        internal short id;
+    }
+    [CoreCodec("CURSOR", "image/cursor", "cur")]
+    class CoreCursorDecoder : CoreIconDecoder 
+    {
+        [StructLayout(LayoutKind.Sequential)]
+        public struct IconInfo
+        {
+            public bool fIcon;
+            public int xHotspot;
+            public int yHotspot;
+            public IntPtr hbmMask;
+            public IntPtr hbmColor;
+            [DllImport("user32.dll")]
+            [return: MarshalAs(UnmanagedType.Bool)]
+            public static extern bool GetIconInfo(IntPtr hIcon,
+                ref IconInfo pIconInfo);
+            [DllImport("user32.dll")]
+            public static extern IntPtr CreateIconIndirect(
+                ref IconInfo icon);
+            public static Cursor CreateCursor(Bitmap bmp, int xHotSpot, int yHotSpot)
+            {
+                IntPtr ptr = bmp.GetHicon();
+                IconInfo tmp = new IconInfo();
+                GetIconInfo(ptr, ref tmp);
+                tmp.xHotspot = xHotSpot;
+                tmp.yHotspot = yHotSpot;
+                tmp.fIcon = false;
+                ptr = CreateIconIndirect(ref tmp);
+                if (ptr == IntPtr.Zero) 
+                    return null;
+                return new Cursor(ptr);
+            }
+        }
+        public override  bool IsValid(string filename)
+        {
+            //read the 3 short valie from stream
+            if (File.Exists(filename) == false) return false;
+            BinaryReader bin = new BinaryReader ( File.OpenRead(filename));
+            short v1 = bin.ReadInt16();
+            short v2 = bin.ReadInt16();
+            short v3 = bin.ReadInt16();
+            bin.Close();
+            return ((v1 == 0) && (v2 == 2));
+        }
+        public new Core2DDrawingDocumentBase[] Open(string filename)
+        {
+            IconStruct ico = IconStruct.OpenFromFile(filename);
+            if (ico.Equals(IconStruct.Empty)) 
+                return null;
+            CoreIconDocument[] documents = new CoreIconDocument[ico.Count];
+            enuCoreDocumentPixelFormat format;
+            for (int i = 0; i < documents.Length; i++)
+            {
+                documents[i] = new CoreIconDocument("cursor_"+i,ico[i]);
+                format = (enuCoreDocumentPixelFormat)ico[i].Bitcount;
+                documents[i].PixelFormat = format;
+            }
+            return documents;
+        }
+        private static Cursor CreateCursor(IconStruct ico)
+        {
+            Bitmap bmp = ico.GetImage (0);
+            Cursor ctr = IconInfo.CreateCursor(bmp, 4, 4);
+            return ctr;
+        }
+        public static Cursor CreateCursor(Bitmap bmp, int hotspotx, int hotspoty)
+        {
+            return IconInfo.CreateCursor(bmp, hotspotx, hotspoty);
+        }
+    }
+}
+

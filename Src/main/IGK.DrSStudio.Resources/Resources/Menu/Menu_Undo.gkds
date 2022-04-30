@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--This is a gkds DrSStudio file 7.0.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2011-->
+<gkds>
+  <Project>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+  </Project>
+  <Documents>
+    <LayerDocument InterpolationMode="Pixel" BackgroundTransparent="True" Width="32" Height="32" Id="LayerDocument_22968433">
+      <Layer Id="Layer_53608909">
+        <Arc SweepAngle="276.3402" StartAngle="45" Center="17;16" Radius="12.04159;12.04159" StrokeBrush="Type:Solid;Colors:#FF004085;Width:4;DashStyle:Solid;EndCap:Round;LineJoin:Round;StartCap:Round" FillBrush="Type:Solid;Colors:#0000;" AllowShadow="False" Matrix="-1;0;0;1;34;1" Id="Arc_19429596" />
+        <Polygon Count="3" Angle="38.65981" Center="27;9" Radius="6.403124" StrokeBrush="Type:Solid;Colors:#FF004085;Width:2;DashStyle:Solid;EndCap:Round;LineJoin:Round;StartCap:Round" FillBrush="Type:Solid;Colors:#FFC0;" AllowShadow="False" Matrix="-1;0;0;1;34;1" Id="Polygon_20391753" />
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

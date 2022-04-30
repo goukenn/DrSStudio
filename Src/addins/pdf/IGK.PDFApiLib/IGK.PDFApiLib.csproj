@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EE7D0097-B829-4A26-8533-8BE1ED29D6DF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>IGK.PDFApi</RootNamespace>
+    <AssemblyName>IGK.PDFApiLib</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\$(Platform)\$(Configuration)</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\$(Platform)\$(Configuration)</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\$(Platform)\$(Configuration)</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\$(Platform)\$(Configuration)</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+    <ItemGroup>
+    <ProjectReference Include="..\..\..\core\IGK.ICore\IGK.ICore.csproj">
+      <Project>{95e437a5-4a87-4fab-b15f-4a0fde8b7dcf}</Project>
+      <Name>IGK.ICore</Name>
+      <Private>False</Private>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="enuPDFCrossTableEntryType.cs" />
+    <Compile Include="PDFPageMode.cs" />
+    <Compile Include="enuPDFSupportDataValue.cs" />
+    <Compile Include="IPDFArrayCollections.cs" />
+    <Compile Include="IPDFDataType.cs" />
+    <Compile Include="IPDFDictionaryCollections.cs" />
+    <Compile Include="IPDFDictionaryEntry.cs" />
+    <Compile Include="IPDFDocument.cs" />
+    <Compile Include="IPDFFileBody.cs" />
+    <Compile Include="IPDFObject.cs" />
+    <Compile Include="IPDFObjectCollections.cs" />
+    <Compile Include="IPDFPageCollections.cs" />
+    <Compile Include="IPDFRenderToStream.cs" />
+    <Compile Include="IPDFTrailer.cs" />
+    <Compile Include="IPDFVersion.cs" />
+    <Compile Include="PDFArrayData.cs" />
+    <Compile Include="PDFBoolean.cs" />
+    <Compile Include="PDFCatalog.cs" />
+    <Compile Include="PDFColorSpace.cs" />
+    <Compile Include="PDFCommentString.cs" />
+    <Compile Include="PDFConstant.cs" />
+    <Compile Include="PDFCounter.cs" />
+    <Compile Include="PDFCrossTableEntry.cs" />
+    <Compile Include="PDFDataBase.cs" />
+    <Compile Include="PDFDataValueBase.cs" />
+    <Compile Include="PDFDictionaryData.cs" />
+    <Compile Include="PDFDictionaryEntry.cs" />
+    <Compile Include="PDFDocument.cs" />
+    <Compile Include="PDFFileBody.cs" />
+    <Compile Include="PDFFileTrailer.cs" />
+    <Compile Include="PDFFilterConstant.cs" />
+    <Compile Include="PDFFont.cs" />
+    <Compile Include="PDFHexaString.cs" />
+    <Compile Include="PDFIdentifier.cs" />
+    <Compile Include="PDFIdentifierStruct.cs" />
+    <Compile Include="PDFIndirectObject.cs" />
+    <Compile Include="PDFIntegerData.cs" />
+    <Compile Include="PDFLitteralString.cs" />
+    <Compile Include="PDFObject.cs" />
+    <Compile Include="PDFObjectEventArgs.cs" />
+    <Compile Include="PDFObjectModel.cs" />
+    <Compile Include="PDFOperatorArgument.cs" />
+    <Compile Include="PDFOperatorEntry.cs" />
+    <Compile Include="PDFPage.cs" />
+    <Compile Include="PDFPageNode.cs" />
+    <Compile Include="PDFPages.cs" />
+    <Compile Include="PDFPropertySupportAttribute.cs" />
+    <Compile Include="PDFRectangle.cs" />
+    <Compile Include="PDFResources.cs" />
+    <Compile Include="PDFResourcesDictionary.cs" />
+    <Compile Include="PDFStreamData.cs" />
+    <Compile Include="PDFStringData.cs" />
+    <Compile Include="PDFTextObject.cs" />
+    <Compile Include="PDFTypeObject.cs" />
+    <Compile Include="PDFVersion.cs" />
+    <Compile Include="PDFXrefData.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utils\PDFUnit.cs" />
+    <Compile Include="Utils\TextUtils.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

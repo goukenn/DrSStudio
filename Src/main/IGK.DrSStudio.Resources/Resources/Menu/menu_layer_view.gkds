@@ -1,0 +1,14 @@
+<!--This is a gkds DrSStudio file 9.1.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2014-->
+<gkds>
+  <Documents>
+    <LayerDocument FillBrush="Type:Solid;Colors:#FFFF;" BackgroundTransparent="True" Width="16" Height="16" Id="LayerDocument_14230478">
+      <Layer Id="Layer_55954662">
+        <Circle Radius="4.24264" Center="8;8" FillBrush="Type:Solid;Colors:#FF0045F3;" StrokeBrush="Type:Solid;Colors:#FF763C32;" Matrix="1,0,0,0,0,1,0,0,0,0,1,0,0,2,0,1" Id="Circle_43991202" />
+        <Circle Radius="1" Center="7;6" FillBrush="Type:Solid;Colors:#7F7F7F7F;" StrokeBrush="Type:Solid;Colors:#FFFF;" Matrix="1,0,0,0,0,1,0,0,0,0,1,0,0,2,0,1" Id="Circle_59949406" />
+        <Arc Closed="False" SweepAngle="125.537674" StartAngle="206.565063" Radius="6.708204;6.708204" Center="8;8" FillBrush="Type:Solid;Colors:#0000;" StrokeBrush="Type:Solid;Colors:#FF00CBFF;Width:2;DashStyle:Solid;LineJoin:Round" Id="Arc_13931824" />
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

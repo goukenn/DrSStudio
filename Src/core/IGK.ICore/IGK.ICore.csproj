@@ -1,0 +1,2509 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{95E437A5-4A87-4FAB-B15F-4A0FDE8B7DCF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>IGK.ICore</RootNamespace>
+    <AssemblyName>IGK.ICore</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AssemblyOriginatorKeyFile>drsstudio2021.pfx</AssemblyOriginatorKeyFile>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>2.0.1.0928</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>Bin\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;WINDOW, SAVE_LANG_RES</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <WarningLevel>4</WarningLevel>
+    <Optimize>false</Optimize>
+    <SignAssembly>false</SignAssembly>
+    <NoWarn>IDE1006;IDE0017</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>Bin\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>TRACE;WINDOW</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+    <WarningLevel>4</WarningLevel>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>Bin\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;WINDOW, DEMO</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+    <WarningLevel>4</WarningLevel>
+    <Optimize>false</Optimize>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>Bin\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>TRACE;WINDOW</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+    <WarningLevel>4</WarningLevel>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'DebugDev|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\DebugDev\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;WINDOW, SAVE_LANG_RES</DefineConstants>
+    <NoWarn>IDE1006;IDE0017</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'DebugDev|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\DebugDev\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;WINDOW, DEMO</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Actions\ContextActionBase.cs" />
+    <Compile Include="Actions\CoreActionAttribute.cs" />
+    <Compile Include="Actions\CoreActionBase.cs" />
+    <Compile Include="Actions\CoreActionEventHandler.cs" />
+    <Compile Include="Actions\CoreActionManager.cs" />
+    <Compile Include="Actions\CoreEditBrushAction.cs" />
+    <Compile Include="Actions\CoreMecanismActionBase.cs" />
+    <Compile Include="Actions\CoreMecanismActionBaseCollections.cs" />
+    <Compile Include="Actions\CoreMecanismActionBaseCollections_1.cs" />
+    <Compile Include="Actions\enuActionType.cs" />
+    <Compile Include="Actions\ICoreAction.cs" />
+    <Compile Include="Actions\ICoreActionContext.cs" />
+    <Compile Include="Actions\ICoreActionContextCollections.cs" />
+    <Compile Include="Actions\ICoreCommandWindowContext.cs" />
+    <Compile Include="Actions\ICoreFilterMessageAction.cs" />
+    <Compile Include="Actions\ICoreMecanismAction.cs" />
+    <Compile Include="Actions\ICoreMecanismActionCollections.cs" />
+    <Compile Include="Actions\ICoreParameterAction.cs" />
+    <Compile Include="Actions\ICoreProjectInfoAction.cs" />
+    <Compile Include="Actions\ICoreRecordableAction.cs" />
+    <Compile Include="Actions\ICoreUndoAndRedoAction.cs" />
+    <Compile Include="Actions\ICoreWorkbenchAction.cs" />
+    <Compile Include="Actions\IGlobalLayoutAction.cs" />
+    <Compile Include="Codec\CodecExtensionCollections.cs" />
+    <Compile Include="Codec\CoreCodecAttribute.cs" />
+    <Compile Include="Codec\CoreCodecBase.cs" />
+    <Compile Include="Codec\CoreCodecCollections.cs" />
+    <Compile Include="Codec\CoreCodecSelector.cs" />
+    <Compile Include="Codec\CoreCodecTypeAttribute.cs" />
+    <Compile Include="Codec\CoreCodecTypeManager.cs" />
+    <Compile Include="Codec\CoreCodecUtils.cs" />
+    <Compile Include="Codec\CoreDecoder.cs" />
+    <Compile Include="Codec\CoreDecoderBase.cs" />
+    <Compile Include="Codec\CoreEncoder.cs" />
+    <Compile Include="Codec\CoreEncoderBase.cs" />
+    <Compile Include="Codec\CoreEncoderVisitor.cs" />
+    <Compile Include="Codec\CoreEncoderWriter.cs" />
+    <Compile Include="Codec\CorePathDecoder.cs" />
+    <Compile Include="Codec\CoreProjectInfoItemAttribute.cs" />
+    <Compile Include="Codec\CoreResourceSerializer.cs" />
+    <Compile Include="Codec\CoreVisitorAttribute.cs" />
+    <Compile Include="Codec\CoreVisitorManager.cs" />
+    <Compile Include="Codec\CoreXMLAttributeAttribute.cs" />
+    <Compile Include="Codec\CoreXMLDefaultAttributeBrushValueAttribute.cs" />
+    <Compile Include="Codec\CoreXMLDefaultAttributeUnitValueAttribute.cs" />
+    <Compile Include="Codec\CoreXMLDefaultAttributeValueAttribute.cs" />
+    <Compile Include="Codec\CoreXMLDefaultColorfValueAttribute.cs" />
+    <Compile Include="Codec\CoreXMLDeserializer.cs" />
+    <Compile Include="Codec\CoreXMLDisplayNameAttribute.cs" />
+    <Compile Include="Codec\CoreXMLElementAttribute.cs" />
+    <Compile Include="Codec\CoreXmlName.cs" />
+    <Compile Include="Codec\CoreXMLResourceElementAttribute.cs" />
+    <Compile Include="Codec\CoreXMLSerializer.cs" />
+    <Compile Include="Codec\CoreXMLSerializerAttribute.cs" />
+    <Compile Include="Codec\CoreXMLSerializerUtility.cs" />
+    <Compile Include="Codec\enuCodecCategories.cs" />
+    <Compile Include="Codec\ICoreBitmapDecoder.cs" />
+    <Compile Include="Codec\ICoreCodec.cs" />
+    <Compile Include="Codec\ICoreCodecCollections.cs" />
+    <Compile Include="Codec\ICoreCodecExtensionCollections.cs" />
+    <Compile Include="Codec\ICoreDecoder.cs" />
+    <Compile Include="Codec\ICoreDeserializable.cs" />
+    <Compile Include="Codec\ICoreDocumentDecoder.cs" />
+    <Compile Include="Codec\ICoreEncoder.cs" />
+    <Compile Include="Codec\ICoreListBox.cs" />
+    <Compile Include="Codec\ICoreLocalizableReferenceCountCollections.cs" />
+    <Compile Include="Codec\ICoreProjectDesignableItem.cs" />
+    <Compile Include="Codec\ICoreProjectInfo.cs" />
+    <Compile Include="Codec\ICoreProjectInfoActions.cs" />
+    <Compile Include="Codec\ICoreProjectItem.cs" />
+    <Compile Include="Codec\ICoreProjectItemCollections.cs" />
+    <Compile Include="Codec\ICoreProjectItemContainer.cs" />
+    <Compile Include="Codec\ICoreSerializerAdditionalPropertyService.cs" />
+    <Compile Include="Codec\ICoreSerializerLoadingService.cs" />
+    <Compile Include="Codec\ICoreSerializerService.cs" />
+    <Compile Include="Codec\ICoreWorkingFileEntity.cs" />
+    <Compile Include="Codec\ICoreWorkingFileSerializer.cs" />
+    <Compile Include="Codec\ICoreXmlReader.cs" />
+    <Compile Include="Codec\IXMLDefinition.cs" />
+    <Compile Include="Codec\IXMLDeserializer.cs" />
+    <Compile Include="Codec\IXmlProjectPropertyItem.cs" />
+    <Compile Include="Codec\IXMLSerializer.cs" />
+    <Compile Include="Collections\CoreItemCollections.cs" />
+    <Compile Include="ComponentModel\ByteArrayConverter.cs" />
+    <Compile Include="ComponentModel\CoreArrayStringConverter.cs" />
+    <Compile Include="ComponentModel\CoreBooleanTypeConverter.cs" />
+    <Compile Include="ComponentModel\CoreColorfTypeConverter.cs" />
+    <Compile Include="ComponentModel\CoreFloatArrayTypeConverter.cs" />
+    <Compile Include="ComponentModel\CoreFontTypeConverter.cs" />
+    <Compile Include="ComponentModel\CoreGraphicCategoryAttribute.cs" />
+    <Compile Include="ComponentModel\CoreMatrixDefaultValueAttribute.cs" />
+    <Compile Include="ComponentModel\CoreMatrixTypeConverter.cs" />
+    <Compile Include="ComponentModel\CoreRectanglefTypeConverter.cs" />
+    <Compile Include="ComponentModel\CoreTypeDescriptor.cs" />
+    <Compile Include="ComponentModel\CoreUnitTypeConverter.cs" />
+    <Compile Include="ComponentModel\CoreVector2fArrayTypeConverter.cs" />
+    <Compile Include="ComponentModel\CoreVector2fTypeConverter.cs" />
+    <Compile Include="ComponentModel\RectangledTypeConverter.cs" />
+    <Compile Include="ComponentModel\SizefConverter.cs" />
+    <Compile Include="ComponentModel\SizeiConverter.cs" />
+    <Compile Include="ComponentModel\Vector2dArrayTypeConverter.cs" />
+    <Compile Include="ComponentModel\Vector2dConverter.cs" />
+    <Compile Include="ComponentModel\Vector2iTypeConverter.cs" />
+    <Compile Include="ComponentModel\VectorfConverter.cs" />
+    <Compile Include="ContextMenu\CoreApplicationContextMenu.cs" />
+    <Compile Include="ContextMenu\CoreContextMenuAttribute.cs" />
+    <Compile Include="ContextMenu\CoreContextMenuBase.cs" />
+    <Compile Include="ContextMenu\CoreSystemContextRootMenu.cs" />
+    <Compile Include="ContextMenu\ICoreContextMenuAction.cs" />
+    <Compile Include="ContextMenu\ICoreContextMenuActionCollections.cs" />
+    <Compile Include="CoreApplicationBase.cs" />
+    <Compile Include="CoreAssemblyUtility.cs" />
+    <Compile Include="CoreBindApplicationListener.cs" />
+    <Compile Include="CoreBrushRegister.cs" />
+    <Compile Include="CoreCollectionExtension.cs" />
+    <Compile Include="CoreDictionaryExtensions.cs" />
+    <Compile Include="CoreImageKeys.cs" />
+    <Compile Include="CoreInitializationParam.cs" />
+    <Compile Include="CoreMaxIdCallBack.cs" />
+    <Compile Include="CoreOSVersions.cs" />
+    <Compile Include="CoreRegexUtils.cs" />
+    <Compile Include="CoreRendererBase.cs" />
+    <Compile Include="CoreServiceAttribute.cs" />
+    <Compile Include="CoreSingleApp.cs" />
+    <Compile Include="CoreSingleWorkbench.cs" />
+    <Compile Include="CoreStringExtensions.cs" />
+    <Compile Include="CoreSystemEnvironment.cs" />
+    <Compile Include="CoreSystemService.cs" />
+    <Compile Include="CoreTypeExtensions.cs" />
+    <Compile Include="CoreWorkbenchExtension.cs" />
+    <Compile Include="CoreWorkingObjectCollections_1.cs" />
+    <Compile Include="CoreWorkingProjectTemplate.cs" />
+    <Compile Include="CoreWorkingProjectUtils.cs" />
+    <Compile Include="Core\CoreWorkingObjectZIndexChanged.cs" />
+    <Compile Include="Core\ICoreWorkingPositionableObject.cs" />
+    <Compile Include="Core\ICoreWorkingPositionableObjectContainer.cs" />
+    <Compile Include="Core\ICoreWorkingPositionableObjectContainer_1.cs" />
+    <Compile Include="Core\Layers\CoreLayerChangedEventArgs.cs" />
+    <Compile Include="Core\Layers\ICoreLayer.cs" />
+    <Compile Include="Core\Layers\ICoreLayerCollections.cs" />
+    <Compile Include="Core\Layers\ICoreLayeredDocument.cs" />
+    <Compile Include="Data\Colorf.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\CoreArrayStringConverter.cs" />
+    <Compile Include="Data\CoreUnit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\enuMatrixMode.cs" />
+    <Compile Include="Data\enuUnitType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\IColorf.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\ICoreUnitCm.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\ICoreUnitEmSize.cs" />
+    <Compile Include="Data\ICoreUnitInch.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\ICoreUnitMm.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\ICoreUnitPercent.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\ICoreUnitPica.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\ICoreUnitPixel.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\ICoreUnitPoint.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\IRectanglef.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\IRectanglei.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\Math\ISize2f.cs" />
+    <Compile Include="Data\Math\IVector2d.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\Math\IVector2f.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\Math\IVector2i.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\Math\IVector3d.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\Math\IVector3f.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\Math\IVector3i.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\Math\IVector4f.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\Math\Matrix3x3f.cs" />
+    <Compile Include="Data\Math\Matrix4x4f.cs" />
+    <Compile Include="Data\Math\OperationExtension.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\Math\Rectangled.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\Math\Rectanglef.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\Math\Rectanglei.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\Math\Size2d.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\Math\Size2f.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\Math\Size2i.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\Math\TexCoord1D.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\Math\TexCoord2D.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\Math\Vector2d.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\Math\Vector2f.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\Math\Vector2i.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\Math\Vector3d.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\Math\Vector3f.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\Math\Vector4d.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\Math\Vector4f.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\Math\Vector4i.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\Matrix.cs" />
+    <Compile Include="DB\CoreDataBaseInitializerAttribute.cs" />
+    <Compile Include="DB\CoreDataBaseTable.cs" />
+    <Compile Include="DB\CoreDataDummyIdentifier.cs" />
+    <Compile Include="DB\CoreDataInitializerBase.cs" />
+    <Compile Include="DB\CoreDataTableColumnIdentifier.cs" />
+    <Compile Include="DB\CoreDataAdapterBase.cs" />
+    <Compile Include="DB\CoreDataConstant.cs" />
+    <Compile Include="DB\CoreDataContextLoader.cs" />
+    <Compile Include="DB\CoreDataGuiAttribute.cs" />
+    <Compile Include="DB\CoreDataSet.cs" />
+    <Compile Include="DB\CoreDataTableAttribute.cs" />
+    <Compile Include="DB\CoreDataTableFieldAttribute.cs" />
+    <Compile Include="DB\CoreDataUtility.cs" />
+    <Compile Include="DB\CoreDBManager.cs" />
+    <Compile Include="DB\CoreQueryConditionalExpression.cs" />
+    <Compile Include="DB\DBUtils.cs" />
+    <Compile Include="DB\enuCoreDataField.cs" />
+    <Compile Include="DB\enuCoreDataRelation.cs" />
+    <Compile Include="DB\enuGuiType.cs" />
+    <Compile Include="DB\CoreDataContext.cs" />
+    <Compile Include="DB\CoreDataColumnInfo.cs" />
+    <Compile Include="DB\CoreDataTableDisplayInfoAttribute.cs" />
+    <Compile Include="DB\CoreDummyDataRow.cs" />
+    <Compile Include="DB\CoreDataRowBase.cs" />
+    <Compile Include="DB\CoreDummyPropertyInfo.cs" />
+    <Compile Include="DB\CoreDataInitRequiredAttribute.cs" />
+    <Compile Include="DB\CoreDataTableInitializerBase.cs" />
+    <Compile Include="DB\CoreEmptyRow.cs" />
+    <Compile Include="DB\CoreQueryDictionary.cs" />
+    <Compile Include="DB\CoreDataExtensions.cs" />
+    <Compile Include="DB\ICoreDataQueryExpression.cs" />
+    <Compile Include="DB\ICoreDataQueryResult_1.cs" />
+    <Compile Include="DB\ICoreDataTableColumnIdentifier.cs" />
+    <Compile Include="DB\ICoreDataTableCLIDIdentifier.cs" />
+    <Compile Include="DB\ICoreDataValue.cs" />
+    <Compile Include="DB\CoreDataInitializer.cs" />
+    <Compile Include="DB\Reflection\CoreContract.cs" />
+    <Compile Include="DB\ICoreDataCell.cs" />
+    <Compile Include="DB\ICoreDataColumnCollections.cs" />
+    <Compile Include="DB\ICoreDataColumnInfo.cs" />
+    <Compile Include="DB\ICoreDataContext.cs" />
+    <Compile Include="DB\ICoreDataQueryResult.cs" />
+    <Compile Include="DB\ICoreDataRow.cs" />
+    <Compile Include="DB\ICoreDataRowCollections.cs" />
+    <Compile Include="DB\ICoreDataSet.cs" />
+    <Compile Include="DB\ICoreDataSetCollections.cs" />
+    <Compile Include="DB\ICoreDataTable.cs" />
+    <Compile Include="DB\ICoreDataPropertyInfo.cs" />
+    <Compile Include="DB\ICoreDataTableInitializer.cs" />
+    <Compile Include="DB\ICoreLoadingAdapterEventArgs.cs" />
+    <Compile Include="DB\ICoreQueryConditionalExpression.cs" />
+    <Compile Include="Dependency\CoreDependencyExtension.cs" />
+    <Compile Include="Dependency\CoreDependencyInfo.cs" />
+    <Compile Include="Dependency\CoreDependencyLoader.cs" />
+    <Compile Include="Dependency\CoreDependencyNameAttribute.cs" />
+    <Compile Include="Dependency\CoreDependencyObject.cs" />
+    <Compile Include="Dependency\CoreDependencyProperty.cs" />
+    <Compile Include="Dependency\CoreDependencyPropertyMetadata.cs" />
+    <Compile Include="Dependency\CoreDependencyValue.cs" />
+    <Compile Include="Dependency\enuDependencyType.cs" />
+    <Compile Include="Dependency\enuDependencyValueType.cs" />
+    <Compile Include="Design\CorePropertyCategoryAttribute.cs" />
+    <Compile Include="Design\CorePropertyDescriptionAttribute.cs" />
+    <Compile Include="Drawing2D\Actions\Core2DDrawingActionBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\Actions\EditElementBrushActions.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\MecanismActions\Core2DDrawingZoom0.cs" />
+    <Compile Include="Drawing2D\WorkingObjects\Quadratics\QuadraticElement.cs" />
+    <Compile Include="Drawing2D\WorkingObjects\Standard\BezierElement\BezierElement.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\WorkingObjects\Standard\BezierElement\MecanismActions\BezierActionBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\WorkingObjects\Standard\BezierElement\MecanismActions\BezierToggleViewMode.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\WorkingObjects\Standard\BezierElement\MecanismActions\GoToNextSegmentAction.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\WorkingObjects\Standard\BezierElement\MecanismActions\GoToPreviousSegmentAction.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\WorkingObjects\Standard\BezierElement\MecanismActions\ResetSegementAction.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\WorkingObjects\Standard\BezierElement\MecanismActions\ToggleControlModeAction.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\Codec\CoreBitmapDecoder.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\Codec\ICoreBitmapEncoder.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\Codec\JPegDecoder.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\Codec\PngDecoder.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\Codec\TiffDecoder.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\Core2DDrawingChangement.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\Core2DDrawingComponentItemAttribute.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\Core2DDrawingComponentObjectBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\Core2DDrawingDeviceVisitorBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\Core2DDrawingDocumentAttribute.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\Core2DDrawingDocumentEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\Core2DDrawingDualBrushElement.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\Core2DDrawingElementEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\Core2DDrawingElementPropertyChangeEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\Core2DDrawingEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\Core2DDrawingExtensions.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\Core2DDrawingGroupAttribute.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\Core2DDrawingGroupElementAttribute.cs" />
+    <Compile Include="Drawing2D\Core2DDrawingLayerChangedEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\Core2DDrawingLayeredElement.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\Core2DDrawingLayerEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\Core2DDrawingObjectAttribute.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\Core2DDrawingObjectBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\Core2DDrawingSelectionAttribute.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\Core2DDrawingStandardElement.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\Core2DDrawingUtility.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\Core2DElementsContainerCollections.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\Core2DPathDefinition.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\Core2DPathUtilsBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\Core2DShadowProperty.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\CoreBrush.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\CoreBrushes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\CoreBrushRegisterManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\CoreFont.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\CoreFontRegister.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\CoreGraphicsPath.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\CoreGraphicsPathDefinition.cs" />
+    <Compile Include="Drawing2D\CoreGraphicsPathSegment.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\CorePen.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\CorePenDashStyle.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\CorePenLineCap.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\CorePenStruct.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\Dependency\Core2DMarginDependency.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\Dependency\Core2DPaddingDependency.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\enu2DPropertyChangedType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\enuBitmapSource.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\enuBrushSupport.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\enuBrushType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\enuCompositingMode.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\enuCopyMode.cs" />
+    <Compile Include="Drawing2D\enuCore2DAlignElement.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\enuCore2DDockElement.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\enuCoreLayerOperation.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\enuCoreWebColors.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\enuDashCap.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\enuDashStyle.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\enuFillMode.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\enuFlipMode.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\enuGdiGraphicPathType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\enuGraphicUnit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\enuHandStyle.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\enuHatchStyle.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\enuInflateMode.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\enuInterpolationMode.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\enuLayerChannel.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\enuLinearMode.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\enuLinearOperator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\enuLineCap.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\enuLineJoin.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\enuPathBrushMode.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\enuPenAlignment.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\enuPixelFormat.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\enuPixelOffset.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\enuRenderingMode.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\enuRoundStyle.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\enuSmoothingMode.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\enuStringAlignment.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\enuTextElementMode.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\enuTextRenderingMode.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\enuTextTrimming.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\enuTransformOrder.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\enuWarpMode.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\enuWrapMode.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\enuZoomMode.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\ICore2DArcDefinition.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\ICore2DArcElement.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\ICore2DCircleElement.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\ICore2DClosableElement.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\ICore2DCountElement.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\ICore2DDocumentContainer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\ICore2DDrawingClippedObject.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\ICore2DDrawingDesignRendering.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\ICore2DDrawingDevice.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\ICore2DDrawingDimensionDocument.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\ICore2DDrawingDocument.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\ICore2DDrawingDocumentCollections.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\ICore2DDrawingDualBrushElement.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\ICore2DDrawingElement.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\ICore2DDrawingElementCollections.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\ICore2DDrawingElementContainer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\ICore2DDrawingFrameRenderer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\ICore2DDrawingGraphicsProperty.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\ICore2DDrawingInvetibleElement.cs" />
+    <Compile Include="Drawing2D\ICore2DDrawingLayer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\ICore2DDrawingLayerCollections.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\ICore2DDrawingLayeredElement.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\ICore2DDrawingLayeredElementCollections.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\ICore2DDrawingLoackableElement.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\ICore2DDrawingObject.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\ICore2DDrawingObjectContainer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\ICore2DDrawingPathMeasurer.cs" />
+    <Compile Include="Drawing2D\ICore2DDrawingRegionElement.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\ICore2DDrawingRenderer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\ICore2DDrawingRTFElement.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\ICore2DDrawingSelectedElementCollections.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\ICore2DDrawingSelectionContainer.cs" />
+    <Compile Include="Drawing2D\ICore2DDrawingSelectionHost.cs" />
+    <Compile Include="Drawing2D\ICore2DDrawingSelectionView.cs" />
+    <Compile Include="Drawing2D\ICore2DDrawingShadowElement.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\ICore2DDrawingSingleElementContainer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\ICore2DDrawingTextGraphicsProperty.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\ICore2DDrawingTransform.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\ICore2DDrawingTransformableElement.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\ICore2DDrawingViewPort.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\ICore2DDrawingVisitable.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\ICore2DDrawingVisitor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\ICore2DDrawingWorkingSurfaceRenderer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\ICore2DDualBrushObject.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\ICore2DElementsContainer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\ICore2DElementsContainerCollections.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\ICore2DEllipseElement.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\ICore2DFillModeElement.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\ICore2DGdiRenderingContext.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\ICore2DLineElement.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\ICore2DPathDefinition.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\ICore2DPieElement.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\ICore2DPolygonElement.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\ICore2DRectangleElement.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\ICore2DSymbolElement.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\ICore2DTensionElement.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\ICore2DTextElement.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\ICoreBitmap.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\ICoreBitmapView.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\ICoreBrush.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\ICoreBrushContainer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\ICoreBrushOwner.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\ICoreBrushRegister.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\ICoreD2DPathUtils.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\ICoreDrawingPath.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\ICoreEditBrushAction.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\ICoreFontFamilyDefinition.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\ICoreFontInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\ICoreGraphicsRegion.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\ICoreImageHwnd.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\ICoreLineCap.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\ICoreLineStyle.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\ICorePen.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\ICorePenStruct.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\ICoreRegionBuildAction.cs" />
+    <Compile Include="Drawing2D\ICoreRegionBuildListener.cs" />
+    <Compile Include="Drawing2D\ICoreTextureResource.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\ICoreTransformObject.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\ICoreWorkingBoundResult.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\ICoreWorkingDocumentContainerName.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\ICoreWorkingLayerContainerName.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\ICoreWorkingObjectVisitable.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\Imaging\CoreFilterManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\Imaging\CoreFilterManagerTool.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\Imaging\ICore2DDrawingBlurFilter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\Imaging\ICore2DDrawingFilter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\Imaging\ICore2DDrawingSharpenFilter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\Imaging\ICore2DDrawingTintFilter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\LayerTransparencyKey.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\LayerTransparencyKeyDefaultValueAttribute.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\MecanismActions\Core2DDrawingDeleteElementMecanismAction.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\MecanismActions\Core2DDrawingMecanismActionBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\MecanismActions\Core2DDrawingSelectAllMecanismAction.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\MecanismActions\Core2DDrawingToogleHandMecanismActions.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\MecanismActions\Core2DDToogleCloseModeMecanismAction.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\MecanismActions\Core2DDToogleFillModeMecanismAction.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\MecanismActions\Core2DDToogleViewMecanismAction.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\Mecanism\Core2DDrawingCircleMecanismBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\Mecanism\Core2DDrawingLineMecanismBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\Mecanism\Core2DDrawingMecanismBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\Mecanism\Core2DDrawingMultiCircleMecanismBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\Mecanism\Core2DDrawingRectangleMecanismBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\Mecanism\Core2DDrawingSelectionMecanismBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\Mecanism\Core2DDrawingSurfaceMecanismBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\Mecanism\enuDrawing2DEditionMode.cs" />
+    <Compile Include="Drawing2D\Mecanism\ICoreHandStyleMecanism.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\Mecanism\ICoreSnippetMecanismObserver.cs" />
+    <Compile Include="Drawing2D\Mecanism\ObjectRenderer.cs" />
+    <Compile Include="Drawing2D\Menu\Core2DMenuViewToolBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\Printing\ICorePrintingElement.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\Segments\ArcSegment.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\Segments\BezierSegment.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\Segments\CircleSegment.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\Segments\CorePathSegmentBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\Segments\ICoreGraphicsResource.cs" />
+    <Compile Include="Drawing2D\Segments\LineSegment.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\Segments\PathSegment.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\Segments\PathSegments.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\Segments\PieSegment.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\Segments\PointSegment.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\Segments\PolygonSegment.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\Segments\RectangleSegment.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\Segments\SplineSegment.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\Segments\TextSegment.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\Tools\Core2DDrawingToolBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\WinUI\Core2DDocumentChangedEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\WinUI\CoreSnippetRenderProc.cs" />
+    <Compile Include="Drawing2D\WinUI\ICore2DDrawingFrameRendererCollections.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\WinUI\ICore2DDrawingMecanismSurface.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\WinUI\ICore2DDrawingMultiFrameSurface.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\WinUI\ICore2DDrawingPositionnableDocumentSurface.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\WinUI\ICore2DDrawingRuleSurface.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\WinUI\ICore2DDrawingScale.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\WinUI\ICore2DDrawingSurface.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\WinUI\ICore2DScrollableWorkingSurface.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\WinUI\ICore2DSurface.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\WorkingObjects\CircleElementBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\WorkingObjects\Core2DDrawingDocumentBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\WorkingObjects\Core2DDrawingLayer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\WorkingObjects\Core2DDrawingLayerDocument.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\WorkingObjects\CustomPolygonElement.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\WorkingObjects\enu2DLayerBlending.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\WorkingObjects\enuCircleModel.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\WorkingObjects\enuEllipseModel.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\WorkingObjects\ICore2DSmoothObject.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\WorkingObjects\ImageElement.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\WorkingObjects\Selections\CropDocumentSelectionElement.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\WorkingObjects\Selections\MarginSelectionElement.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\WorkingObjects\Selections\SelectElementBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\WorkingObjects\Selections\SelectionElement.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\WorkingObjects\Standard\ArcElement.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\WorkingObjects\Standard\BezierPenToolElement\BezierPenToolElement.cs" />
+    <Compile Include="Drawing2D\WorkingObjects\Standard\BezierPenToolElement\ICorePenToolSegment.cs" />
+    <Compile Include="Drawing2D\WorkingObjects\Standard\BezierPenToolElement\PenToolSegment.cs" />
+    <Compile Include="Drawing2D\WorkingObjects\Standard\ButtonElement.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\WorkingObjects\Standard\CircleElement.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\WorkingObjects\Standard\Core2DDrawingCanvasLayer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\WorkingObjects\Standard\Core2DDrawingDualBrushVisitableElement.cs" />
+    <Compile Include="Drawing2D\WorkingObjects\Standard\CorePathUtils.cs" />
+    <Compile Include="Drawing2D\WorkingObjects\Standard\CoreRegionData.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\WorkingObjects\Standard\CoreRegionOperation.cs" />
+    <Compile Include="Drawing2D\WorkingObjects\Standard\CurveElement.cs" />
+    <Compile Include="Drawing2D\WorkingObjects\Standard\DocumentBlockElement.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\WorkingObjects\Standard\EllipseElement.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\WorkingObjects\Standard\enuArcJoinMode.cs" />
+    <Compile Include="Drawing2D\WorkingObjects\Standard\enuBezierPathControlMode.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\WorkingObjects\Standard\enuBezierPathDrawingMode.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\WorkingObjects\Standard\enuPreserveFontType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\WorkingObjects\Standard\GroupElement.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\WorkingObjects\Standard\ICorePathElement.cs" />
+    <Compile Include="Drawing2D\WorkingObjects\Standard\ICoreQuadraticPath.cs" />
+    <Compile Include="Drawing2D\WorkingObjects\Standard\LayerObjectElement.cs" />
+    <Compile Include="Drawing2D\WorkingObjects\Standard\Torus2DElement.cs" />
+    <Compile Include="Drawing2D\WorkingObjects\Text\HtmlString\HtmlStringElement.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\WorkingObjects\Text\HtmlString\HtmlStringElementRenderingEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\WorkingObjects\Text\HtmlString\HtmlStringSegment.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\WorkingObjects\Text\HtmlString\HtmlStringVirtualLineInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\WorkingObjects\Standard\LineElement.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\WorkingObjects\Standard\PathElement.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\WorkingObjects\Standard\PieElement.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\WorkingObjects\Standard\PolygonElement.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\WorkingObjects\Standard\RectangleElement.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\WorkingObjects\Standard\RegionElement.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\WorkingObjects\Standard\RoundRectangleElement.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\WorkingObjects\Standard\SplineElement.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\WorkingObjects\Standard\StarElement.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\WorkingObjects\Text\StringElement.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\WorkingObjects\Standard\TextElement.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\WorkingObjects\Standard\TextElementBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing2D\WorkingObjects\Standard\ViewBoxElement.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing3D\CoreCamera.cs" />
+    <Compile Include="Drawing3D\CorePolygonFaceComparer.cs" />
+    <Compile Include="Drawing3D\ICore3DDrawingDevice.cs" />
+    <Compile Include="Drawing3D\ICoreCamera.cs" />
+    <Compile Include="Drawing3D\ICoreCameraOwner.cs" />
+    <Compile Include="Drawing3D\ICorePolygonFace.cs" />
+    <Compile Include="Drawing3D\Segments\Core3DPathSegmentBase.cs" />
+    <Compile Include="Drawing3D\Segments\Line3DSegment.cs" />
+    <Compile Include="enuHotKeyPrefix.cs" />
+    <Compile Include="ExColorHandler.cs" />
+    <Compile Include="Extensions\CoreArrayExtensions.cs" />
+    <Compile Include="Extensions\CoreByteArrayExtension.cs" />
+    <Compile Include="Extensions\CoreExtensionAttribute.cs" />
+    <Compile Include="Extensions\CoreExtensionContextBase.cs" />
+    <Compile Include="Extensions\CoreExtensions.cs" />
+    <Compile Include="Extensions\CoreReflectionExtensions.cs" />
+    <Compile Include="Extensions\CoreStringExtension.cs" />
+    <Compile Include="Extensions\CoreSystemExtensions.cs" />
+    <Compile Include="Extensions\CoreWorkingObjectExtension.cs" />
+    <Compile Include="GlobalSuppressions.cs" />
+    <Compile Include="GraphicModels\enuSegmentType.cs" />
+    <Compile Include="GraphicModels\ICoreGraphics.cs" />
+    <Compile Include="GraphicModels\ICoreGraphicsPath.cs" />
+    <Compile Include="GraphicModels\ICoreGraphicsSegment.cs" />
+    <Compile Include="GraphicModels\ICoreGraphicsSegmentCollections.cs" />
+    <Compile Include="History\enuHistoryState.cs" />
+    <Compile Include="History\HistoryActionBase.cs" />
+    <Compile Include="History\HistoryChangedEventArgs.cs" />
+    <Compile Include="History\IHistoryAction.cs" />
+    <Compile Include="History\IHistoryList.cs" />
+    <Compile Include="ICoreAlignmentCircle.cs" />
+    <Compile Include="ICoreApplicationService.cs" />
+    <Compile Include="ICoreApplicationServices.cs" />
+    <Compile Include="ICoreClipboard.cs" />
+    <Compile Include="DB\ICoreDataManagerContext.cs" />
+    <Compile Include="ICoreDesignerService.cs" />
+    <Compile Include="ICoreEnvironmentManager.cs" />
+    <Compile Include="ICoreFontService.cs" />
+    <Compile Include="ICoreLog.cs" />
+    <Compile Include="ICoreMessageFilterApplication.cs" />
+    <Compile Include="ICoreParameterDefinition.cs" />
+    <Compile Include="ICorePathService.cs" />
+    <Compile Include="ICoreServiceManager.cs" />
+    <Compile Include="ICoreSystemAssemblyResolver.cs" />
+    <Compile Include="ICoreWorbenchMultisurface.cs" />
+    <Compile Include="ICoreWorbenchToolListener.cs" />
+    <Compile Include="ICoreWorkingDependentAttribute.cs" />
+    <Compile Include="ICoreWorkingDisposableObject.cs" />
+    <Compile Include="ICoreWorkingIdManager.cs" />
+    <Compile Include="CoreWorkingDisposableObjectContainer.cs" />
+    <Compile Include="CoreBitmapFormat.cs" />
+    <Compile Include="CoreConvertionExtensions.cs" />
+    <Compile Include="CoreItemEventArgs.cs" />
+    <Compile Include="CorePositionnableUtility.cs" />
+    <Compile Include="CoreEventArgs.cs" />
+    <Compile Include="ICoreWorkingModifiableElementContainer.cs" />
+    <Compile Include="ICoreWorkingObjectVisitor.cs" />
+    <Compile Include="ICoreEditableWorkingMecanism.cs" />
+    <Compile Include="ICorePathStringDefinition.cs" />
+    <Compile Include="CoreColorHandle.cs" />
+    <Compile Include="CoreMessageBoxAttribute.cs" />
+    <Compile Include="CoreWorkbenchBase.cs" />
+    <Compile Include="CoreWorkingElementChangedEventArgs.cs" />
+    <Compile Include="CoreWorkingSurfaceChangedEventArgs.cs" />
+    <Compile Include="ICoreSerializable.cs" />
+    <Compile Include="ICoreWorkbenchHost.cs" />
+    <Compile Include="ICoreWorkingMecanism.cs" />
+    <Compile Include="ICoreWorkingMecanismSurface.cs" />
+    <Compile Include="ICoreWorkingStringExpression.cs" />
+    <Compile Include="ICoreWorkingSurfaceHost.cs" />
+    <Compile Include="enuFontStyle.cs" />
+    <Compile Include="ICoreCursor.cs" />
+    <Compile Include="ICoreInitializer.cs" />
+    <Compile Include="ICoreResourceManager.cs" />
+    <Compile Include="ICoreSaveToBitmap.cs" />
+    <Compile Include="ICoreTextValueElement.cs" />
+    <Compile Include="ICoreWorkingRenderableObject.cs" />
+    <Compile Include="ICoreWorkingRenderer.cs" />
+    <Compile Include="CoreWorkingDocumentChangedEventHandler.cs" />
+    <Compile Include="CoreMethodInvoker.cs" />
+    <Compile Include="CoreAddinChecking.cs" />
+    <Compile Include="CoreAddInItem.cs" />
+    <Compile Include="CoreApplicationManager.cs" />
+    <Compile Include="CoreApplicationAttribute.cs" />
+    <Compile Include="CoreApplicationContext.cs" />
+    <Compile Include="CoreItemEventArgs_1.cs" />
+    <Compile Include="CoreProject.cs" />
+    <Compile Include="CoreProjectAttribute.cs" />
+    <Compile Include="CoreWorkingObjectIdManagerBase.cs" />
+    <Compile Include="CoreWorkingObjectSerializable.cs" />
+    <Compile Include="CoreEditorAttribute.cs" />
+    <Compile Include="CoreLocalizableProperty.cs" />
+    <Compile Include="CoreLocalizeAttribute.cs" />
+    <Compile Include="CoreResourceIdentifier.cs" />
+    <Compile Include="CoreWorkingDocumentAttribute.cs" />
+    <Compile Include="CoreWorkingObjectEventArgs.cs" />
+    <Compile Include="ICoreApplication.cs" />
+    <Compile Include="ICoreWorkingMecanismAction.cs" />
+    <Compile Include="ICoreWorkingObjectIdElementContainer.cs" />
+    <Compile Include="ICoreWorkingObjectIdManager.cs" />
+    <Compile Include="enuCoreAddInStatus.cs" />
+    <Compile Include="ICoreProjectInfo.cs" />
+    <Compile Include="ICoreWorkingComponentObject.cs" />
+    <Compile Include="ICoreWorkingElementCollections.cs" />
+    <Compile Include="ICoreWorkingElementContainer.cs" />
+    <Compile Include="ICoreWorkingSingleElementHost.cs" />
+    <Compile Include="ICoreZLibService.cs" />
+    <Compile Include="IIGKSceneTransform.cs" />
+    <Compile Include="IO\CoreIOExtensions.cs" />
+    <Compile Include="IO\CoreZipFile.cs" />
+    <Compile Include="IO\CoreFileUtils.cs" />
+    <Compile Include="IO\Files\IniReader.cs" />
+    <Compile Include="IO\Files\XCursor.cs" />
+    <Compile Include="IO\Font\CoreFontFile.cs" />
+    <Compile Include="IO\Font\CoreFontGlyphInfo.cs" />
+    <Compile Include="IO\Font\CoreFontGlyphPoint.cs" />
+    <Compile Include="IO\Font\CoreFontUtility.cs" />
+    <Compile Include="IO\Font\Native\FontTables.cs" />
+    <Compile Include="IO\ICoreZipFileExtractListener.cs" />
+    <Compile Include="IO\ICoreZipReader.cs" />
+    <Compile Include="IO\PathUtils.cs" />
+    <Compile Include="JSon\CoreJSon.cs" />
+    <Compile Include="JSon\CoreJSonDataExpression.cs" />
+    <Compile Include="JSon\CoreJSonDependencyLoader.cs" />
+    <Compile Include="JSon\CoreJSonExpressionReader.cs" />
+    <Compile Include="JSon\CoreJSonReader.cs" />
+    <Compile Include="JSon\IJSonObjectListener.cs" />
+    <Compile Include="MecanismActions\CoreDeleteElementMecanismAction.cs" />
+    <Compile Include="MecanismActions\CoreEditPropertyMecanismAction.cs" />
+    <Compile Include="MecanismActions\CoreEndEditionElementMecanismAction.cs" />
+    <Compile Include="MecanismActions\CoreMecanismActionBase.cs" />
+    <Compile Include="Mecanism\CoreMecanismBase.cs" />
+    <Compile Include="Mecanism\CoreSnippetCollections.cs" />
+    <Compile Include="Menu\CoreApplicationMenu.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Menu\CoreApplicationSurfaceMenuBase.cs" />
+    <Compile Include="Menu\CoreMenuActionBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Menu\CoreMenuActionEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Menu\CoreMenuAttribute.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Menu\CoreMenuComparer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Menu\CoreSystemRootMenu.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Menu\CoreViewToolMenuBase.cs" />
+    <Compile Include="Menu\ICoreMenuAction.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Menu\ICoreMenuActionCollections.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Menu\ICoreMenuMessageShortcutContainer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Menu\ICoreMenuShortCutChild.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Menu\ICoreworkingSurface.cs" />
+    <Compile Include="Menu\View\CoreViewMenuAttribute.cs" />
+    <Compile Include="R.cs" />
+    <Compile Include="ICoreLoadingContext.cs" />
+    <Compile Include="ICoreWorkingLoadingIdentifiableDefinition.cs" />
+    <Compile Include="ICoreWorkingObjectInfo.cs" />
+    <Compile Include="LoadingCompleteEventArgs.cs" />
+    <Compile Include="CorePictureFileDataChain.cs" />
+    <Compile Include="CoreAddInAttribute.cs" />
+    <Compile Include="CoreAddInDescriptionAttribute.cs" />
+    <Compile Include="CoreAddInInfo.cs" />
+    <Compile Include="CoreAddInInitalizerAttribute.cs" />
+    <Compile Include="CoreAddInInitializerBase.cs" />
+    <Compile Include="CoreAddInVersionAttribute.cs" />
+    <Compile Include="CoreAttribute.cs" />
+    <Compile Include="CoreConstant.cs" />
+    <Compile Include="CoreDocumentEventArgs.cs" />
+    <Compile Include="CoreException.cs" />
+    <Compile Include="CoreExtensions.cs" />
+    <Compile Include="CoreMathOperation.cs" />
+    <Compile Include="CoreServices.cs" />
+    <Compile Include="CoreSystemAssemblyResolver.cs" />
+    <Compile Include="CoreUtils.cs" />
+    <Compile Include="CoreWorkingDocumentCollectionsBase.cs" />
+    <Compile Include="CoreWorkingProjectTemplateAttribute.cs" />
+    <Compile Include="CoreJobProgressEventHandler.cs" />
+    <Compile Include="CoreProjectTemplateAttribute.cs" />
+    <Compile Include="CoreSurfaceAttribute.cs" />
+    <Compile Include="CoreWorkingObjectAttribute.cs" />
+    <Compile Include="CoreWorkingObjectPropertyChangedEventArgs.cs" />
+    <Compile Include="CoreWorkingSurfaceEventArgs.cs" />
+    <Compile Include="CoreZIndexComparer.cs" />
+    <Compile Include="ICoreBoundElementf.cs" />
+    <Compile Include="ICoreSnippetCollections.cs" />
+    <Compile Include="ICoreCountEnumerable.cs" />
+    <Compile Include="ICoreExtensionContext.cs" />
+    <Compile Include="ICoreExtensionContextCollections.cs" />
+    <Compile Include="ICoreFont.cs" />
+    <Compile Include="enuBrushMode.cs" />
+    <Compile Include="enuExceptionType.cs" />
+    <Compile Include="enuPropertyChanged.cs" />
+    <Compile Include="ICoreAddIn.cs" />
+    <Compile Include="ICoreAddInAttribute.cs" />
+    <Compile Include="ICoreAddInCollections.cs" />
+    <Compile Include="ICoreCaptionItem.cs" />
+    <Compile Include="ICoreContextMenuCollections.cs" />
+    <Compile Include="ICoreDisposableObject.cs" />
+    <Compile Include="ICoreHelpDocument.cs" />
+    <Compile Include="ICoreIdentifier.cs" />
+    <Compile Include="ICoreLoadableComponent.cs" />
+    <Compile Include="ICoreLocalizable.cs" />
+    <Compile Include="ICoreMenuCollections.cs" />
+    <Compile Include="ICoreRegistry.cs" />
+    <Compile Include="ICoreResources.cs" />
+    <Compile Include="ICoreSystem.cs" />
+    <Compile Include="ICoreTemplateCollections.cs" />
+    <Compile Include="ICoreTextElement.cs" />
+    <Compile Include="ICoreToolsCollections.cs" />
+    <Compile Include="ICoreWorkingDefinitionObject.cs" />
+    <Compile Include="ICoreWorkingDocument.cs" />
+    <Compile Include="ICoreWorkingDocumentCollections.cs" />
+    <Compile Include="ICoreWorkingDocumentContainer.cs" />
+    <Compile Include="ICoreWorkingGroupObjectAttribute.cs" />
+    <Compile Include="ICoreWorkingMecanism_1.cs" />
+    <Compile Include="ICoreWorkingObject.cs" />
+    <Compile Include="ICoreWorkingObjectAttribute.cs" />
+    <Compile Include="ICoreWorkingObjectCollections.cs" />
+    <Compile Include="ICoreWorkingObjectcontext.cs" />
+    <Compile Include="ICoreWorkingObjectElementContainer.cs" />
+    <Compile Include="ICoreWorkingObjectPropertyEvent.cs" />
+    <Compile Include="ICoreWorkingProject.cs" />
+    <Compile Include="ICoreWorkingProjectCollections.cs" />
+    <Compile Include="ICoreWorkingProjectItem.cs" />
+    <Compile Include="ICoreWorkingProjectItemCollections.cs" />
+    <Compile Include="ICoreWorkingSurfaceCollections.cs" />
+    <Compile Include="CoreLog.cs" />
+    <Compile Include="CoreSystemAddInLoader.cs" />
+    <Compile Include="CoreSystemTypeLoader.cs" />
+    <Compile Include="Reflection\CoreContract.cs" />
+    <Compile Include="Resources\BinaryDataResource.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Resources\BitmapResource.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Resources\BrushResource.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Resources\CoreBrushResource.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Resources\CoreDeserializerResources.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Resources\CoreResourceFileManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Resources\CoreResourceItemBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Resources\CoreResourceManagerBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Resources\CoreResourceReferenceCollections.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Resources\CoreResources.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Resources\enuCoreResourceType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Resources\FileResourceItem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Resources\ICoreDeserializerResources.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Resources\ICoreResourceContainer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Resources\ICoreResourceItem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Resources\ICoreResourceReferenceCollections.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Resources\ICoreResourceSerializer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Resources\ICoreStringResource.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Resources\ICoreWorkingObjectResources.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Resources\Resource.designer.cs" />
+    <Compile Include="Resources\ResourceManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Resources\SoundFileResource.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Resources\StringResource.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Resources\TextureResource.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Serializer\CoreDataEntityCreatorBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Serializer\CoreFileBaseDataChain.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Serializer\ICoreDataChain.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Serializer\ICoreDataChainHeader.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Serializer\ICoreDataEntity.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Serializer\ICoreDataEntityCreator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Settings\CoreApplicationSetting.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Settings\CoreAppSettingAttribute.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Settings\CoreEditorSettingAttribute.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Settings\CoreEnvironmentSettingBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Settings\CorePropertySetting.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Settings\CoreRendererSetting.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Settings\CoreAttributeSettingBase.cs" />
+    <Compile Include="Settings\CoreSettingBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Settings\CoreSettingChangedEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Settings\CoreSettingCollections.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Settings\CoreSettingDefaultValueAttribute.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Settings\CoreSettingPropertyAttribute.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Settings\CoreSettings.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Settings\CoreUserInfoSetting.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Settings\enuRendererSettingType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Settings\enuSettingConfig.cs" />
+    <Compile Include="Settings\ICoreRendererSetting.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Settings\ICoreSetting.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Settings\ICoreSettingValue.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Settings\SettingManager.cs" />
+    <Compile Include="System\CoreActionContextCollections.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="System\CoreAddinCollections.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="System\CoreAssemblyLoadedHandler.cs" />
+    <Compile Include="System\CoreAssemblyLoader.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="System\CoreMessageBox.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="System\CoreMethodHandler.cs" />
+    <Compile Include="System\CoreResourcesManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="System\CoreSystem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="System\CoreSystemCollections.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="System\CoreTemplateRegisterCollections.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="System\CoreToolsCollections.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="System\CoreTypeLoaderHandler.cs" />
+    <Compile Include="System\CoreWorkingActionCollections.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="System\CoreWorkingApplicationSetting.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="System\CoreWorkingContextMenuCollections.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="System\CoreWorkingMenuCollections.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="System\CoreWorkingObjectCollections.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="System\ICoreIcon.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="System\ICoreImage.cs" />
+    <Compile Include="System\ICoreResourceObjectListener.cs" />
+    <Compile Include="System\ICoreWorkingDesignerAttribute.cs" />
+    <Compile Include="System\ICoreWorkingInitializableObject.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TextEditor\Actions\AppendCharAction.cs" />
+    <Compile Include="TextEditor\Actions\ChangeTextHorizontalOrientation.cs" />
+    <Compile Include="TextEditor\Actions\ChangeWrapModeAction.cs" />
+    <Compile Include="TextEditor\Actions\CopySelecionAction.cs" />
+    <Compile Include="TextEditor\Actions\CutSelectionAction.cs" />
+    <Compile Include="TextEditor\Actions\DeleteAction.cs" />
+    <Compile Include="TextEditor\Actions\Enter.cs" />
+    <Compile Include="TextEditor\Actions\EscapeAction.cs" />
+    <Compile Include="TextEditor\Actions\MoveBack.cs" />
+    <Compile Include="TextEditor\Actions\MoveDown.cs" />
+    <Compile Include="TextEditor\Actions\MoveEnd.cs" />
+    <Compile Include="TextEditor\Actions\MoveHome.cs" />
+    <Compile Include="TextEditor\Actions\MoveLeft.cs" />
+    <Compile Include="TextEditor\Actions\MoveRight.cs" />
+    <Compile Include="TextEditor\Actions\MoveUp.cs" />
+    <Compile Include="TextEditor\Actions\PasteAction.cs" />
+    <Compile Include="TextEditor\Actions\SelectAllAction.cs" />
+    <Compile Include="TextEditor\Actions\TextEditorActionBase.cs" />
+    <Compile Include="TextEditor\enuTextEditorSelectionMode.cs" />
+    <Compile Include="TextEditor\ITextEditorHost.cs" />
+    <Compile Include="TextEditor\ITextEditorListener.cs" />
+    <Compile Include="TextEditor\TextEditorItemBase.cs" />
+    <Compile Include="TextEditor\TextEditorVirtualLine.cs" />
+    <Compile Include="TextEditor\TextHostEditor.cs" />
+    <Compile Include="Threading\CoreThreadingManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Tools\ActionRegister\CoreActionItem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Tools\ActionRegister\CoreActionRegisterCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Tools\ActionRegister\CoreActionRegisterTool.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Tools\ActionRegister\ICoreActionRegisterWorkbench.cs" />
+    <Compile Include="Tools\CoreEnvironmentManagerToolBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Tools\CoreShortCutMenuContainerToolBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Tools\CoreToolBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Tools\CoreToolEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Tools\CoreToolsAttribute.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Tools\ICoreActionRegister.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Tools\ICoreTool.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Tools\ICoreWorkingEnvironmentManagerTool.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Tools\ViewKeyManager\ViewKeyManagerTool.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Web\CoreStringEvaluationCallback.cs" />
+    <Compile Include="Web\CoreWebExtensions.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Web\CoreWebScriptObjectBase.cs" />
+    <Compile Include="Web\CoreWebUtils.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Web\CoreXmlHtmlOptions.cs" />
+    <Compile Include="Web\ICoreDialogBox.cs" />
+    <Compile Include="Web\ICoreWebControl.cs" />
+    <Compile Include="Web\ICoreWebDialogFileManagerProvider.cs" />
+    <Compile Include="Web\ICoreWebDialogForm.cs" />
+    <Compile Include="Web\ICoreWebDocumentHost.cs" />
+    <Compile Include="Web\ICoreWebReloadDocumentListener.cs" />
+    <Compile Include="Web\ICoreWebScriptListener.cs" />
+    <Compile Include="Web\ICoreWebScriptObject.cs" />
+    <Compile Include="Web\ICoreWebWorkbench.cs" />
+    <Compile Include="Web\ICoreWorkbenchDocumentInitializer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Web\IIGKWebBrowserControl.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\ButtonDocument\CoreButtonDocument.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\ButtonDocument\CoreButtonDocumentUtils.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\ButtonDocument\enuButtonDocumentRotation.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\Common\CoreCommonDialogs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\Common\CoreCommonDialogUtility.cs" />
+    <Compile Include="WinUI\Common\CoreCommonWebDialogProvider.cs" />
+    <Compile Include="WinUI\Common\FileNamePicker.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\Common\FolderNamePicker.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\Common\ICoreWorkbenchDialogFactory.cs" />
+    <Compile Include="WinUI\Common\IXCommonDialog.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\Common\IXCommonSaveFileAsDialog.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\Common\IXCoreColorDialog.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\Common\IXCoreFontDialog.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\Common\IXCoreOpenDialog.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\Common\IXCoreSaveDialog.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\Common\IXFileDialog.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\Configuration\CoreConfigurableObjectBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\Configuration\CoreConfigurablePropertyAttribute.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\Configuration\CoreEditElementAction.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\Configuration\CoreParameterActionBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\Configuration\CoreParameterChangedEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\Configuration\CoreParameterConfigUtility.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\Configuration\CoreParameterEntryBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\Configuration\CoreParameterItemBase.cs" />
+    <Compile Include="WinUI\Configuration\enuParamConfigType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\Configuration\enuParameterType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\Configuration\ICoreConfigurableEnumProperty.cs" />
+    <Compile Include="WinUI\Configuration\ICoreConfigurableObjectParameterItem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\Configuration\ICoreParameterAction.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\Configuration\ICoreParameterConfig.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\Configuration\ICoreParameterConfigCollections.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\Configuration\ICoreParameterControl.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\Configuration\ICoreParameterEntry.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\Configuration\ICoreParameterGroup.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\Configuration\ICoreParameterGroupCollections.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\Configuration\ICoreParameterGroupEnumItem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\Configuration\ICoreParameterGroupItem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\Configuration\ICoreParameterIContainer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\Configuration\ICoreParameterItem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\Configuration\ICoreParameterStatus.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\Configuration\ICoreParameterTab.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\Configuration\ICoreParameterTrackbarItem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\Configuration\ICoreParamterTabCollections.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\Configuration\ICoreWorkingConfigurableObject.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\Configuration\ICoreWorkingParameterConfigurableObject.cs" />
+    <Compile Include="WinUI\CoreCancelEventHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\CoreClosingEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\CoreContextClosedEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\CoreControlConstant.cs" />
+    <Compile Include="WinUI\CoreControlFactory.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\CoreCursors.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\CoreEditorValidator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\CoreExceptionManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\CoreFormClosedEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\CoreFormClosingEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\CoreKeyEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\CoreKeyEventHandler.cs" />
+    <Compile Include="WinUI\CoreKeyPressEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\CoreKeyPressEventHandler.cs" />
+    <Compile Include="WinUI\CoreLayoutManagerBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\CoreMouseEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\CoreMouseStateManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\CorePaintEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\CoreProjectOpenedEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\CoreRegistrableControlAttribute.cs" />
+    <Compile Include="WinUI\CoreRenderer.cs" />
+    <Compile Include="WinUI\CoreSaveAsInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\CoreScreen.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\CoreScreenSetting.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\CoreScrollEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\CoreSurfaceClosedEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\CoreSurfaceValidator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\CoreSystemWorbenchBase.cs" />
+    <Compile Include="WinUI\CoreWorkbenchUtility.cs" />
+    <Compile Include="WinUI\CoreWorkingFileOpenEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\CoreWorkingProjectSolutionBase.cs" />
+    <Compile Include="WinUI\CoreWorkingSolutionOpenedManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\Dispatch\CoreDispatcherEvent.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\Dispatch\CoreDispatcherEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\Dispatch\CoreMouseClickDispatcherEvent.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\Dispatch\CoreMouseDispatcherEventBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\Dispatch\CoreMouseMoveDispatcherEvent.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\Dispatch\ICoreDispatcher.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\Dispatch\ICoreDispatcherEvent.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\Dispatch\ICoreDispatcherEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\Dispatch\ICoreDispatcherInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\Dispatch\ICoreMouseClickDispatcher.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\Dispatch\ICoreMouseEventDispatcher.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\Dispatch\ICoreMouseMoveDispatcher.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\enuButtonState.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\enuCloseReason.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\enuContextCloseReason.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\enuCoreMessageBoxButtons.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\enuCoreMessageBoxModel.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\enuCoreMessageBoxType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\enuCoreScreenChangeRequest.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\enuCoreScreenResponse.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\enuDialogResult.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\enuDialogStyle.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\enuFormStartPosition.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\enuKeys.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\enuKeyState.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\enuMouseButtons.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\enuMouseState.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\enuSnippetShape.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\enuStatusItemType.cs" />
+    <Compile Include="WinUI\enuSurfaceCloseReason.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\ICoreActionManagerWorkbench.cs" />
+    <Compile Include="WinUI\ICoreApplicationWorkbench.cs" />
+    <Compile Include="WinUI\ICoreBrushPicker.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\ICoreButton.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\ICoreButtonControl.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\ICoreButtonDocument.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\ICoreCaptionControl.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\ICoreCaret.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\ICoreColorPicker.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\ICoreContextMenu.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\ICoreContextMenuOwner.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\ICoreControl.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\ICoreControlCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\ICoreControlManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\ICoreDialogForm.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Web\WinUI\ICoreWebDialogProvider.cs" />
+    <Compile Include="WinUI\ICoreDialogToolRenderer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\ICoreEditSingleBrushControl.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\ICoreFileManagerWorkbench.cs" />
+    <Compile Include="WinUI\ICoreFilterToolMessage.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\ICoreHelpWorkbench.cs" />
+    <Compile Include="WinUI\ICoreInitializatorParam.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\ICoreJobManagerWorckbench.cs" />
+    <Compile Include="WinUI\ICoreLayoutManagerWorkbench.cs" />
+    <Compile Include="WinUI\ICoreMainForm.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\ICoreMainMenuItem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\ICoreMenu.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\ICoreMenuHostControl.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\ICoreMenuItemCollections.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\ICoreMenuPresentableMainForm.cs" />
+    <Compile Include="WinUI\ICoreMessage.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\ICoreMessageBox.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\ICoreMessageFilter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\ICoreMouseStateObject.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\ICoreMultiSurfaceWorkingBench.cs" />
+    <Compile Include="WinUI\ICorePictureBox.cs" />
+    <Compile Include="WinUI\ICoreProjectManagerWorkbench.cs" />
+    <Compile Include="WinUI\ICoreRtfControl.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\ICoreRuleSurface.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\ICoreRunnableMainForm.cs" />
+    <Compile Include="WinUI\ICoreSaveAsInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\ICoreScreen.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\ICoreScreenInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\ICoreScrollBar.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\ICoreSingleColorSelector.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\ICoreSnippet.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\ICoreSolutionManagerWorkbench.cs" />
+    <Compile Include="WinUI\ICoreSplashScreen.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\ICoreStartForm.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\ICoreStatusStrip.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\ICoreSurfaceManagerWorkbench.cs" />
+    <Compile Include="WinUI\ICoreSystemWorkbench.cs" />
+    <Compile Include="WinUI\ICoreToolHostedControl.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\ICoreWindowKeyEvent.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\ICoreWindowMouseEvent.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\ICoreWorbenchFileCreator.cs" />
+    <Compile Include="WinUI\ICoreWorbenchProjectCreator.cs" />
+    <Compile Include="WinUI\ICoreWorckBenchConfiguration.cs" />
+    <Compile Include="WinUI\ICoreWorkbench.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\ICoreWorkbenchAboutHost.cs" />
+    <Compile Include="WinUI\ICoreWorkbenchEnvironment.cs" />
+    <Compile Include="WinUI\ICoreWorkbenchEnvironmentHandler.cs" />
+    <Compile Include="WinUI\ICoreWorkbenchHelpMessageListener.cs" />
+    <Compile Include="WinUI\ICoreWorkbenchLayoutManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\ICoreWorkbenchMessageFilter.cs" />
+    <Compile Include="WinUI\ICoreWorkbenchOpener.cs" />
+    <Compile Include="WinUI\ICoreWorkbenchShowSetting.cs" />
+    <Compile Include="WinUI\ICoreWorkbenchWorkingObjectConfigurator.cs" />
+    <Compile Include="WinUI\ICoreWorkingApplicationContextSurface.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\ICoreWorkingBrushSupportSurface.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\ICoreWorkingColorSurface.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\ICoreWorkingConfigElementSurface.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\ICoreWorkingDesignerSurface.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\ICoreWorkingDocumentManagerSurface.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\ICoreWorkingDualBrushSelectorSurface.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\ICoreWorkingEditableSurface.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\ICoreWorkingEditorSurface.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\ICoreWorkingFilemanagerSurface.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\ICoreWorkingInsertItemSurface.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\ICoreWorkingPasteAtSurface.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\ICoreWorkingPrintingSurface.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\ICoreWorkingProjectManagerSurface.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\ICoreWorkingProjectWizard.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\ICoreWorkingRecordableSurface.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\ICoreWorkingRenderingSurface.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\ICoreWorkingResourcesContainerSurface.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\ICoreWorkingRulesSurfaces.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\ICoreWorkingSaveSurface.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\ICoreWorkingScrollableSurface.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\ICoreWorkingSelectionSurface.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\ICoreWorkingProjectSolution.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\ICoreWorkingProjectSolutionItem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\ICoreWorkingProjectSolutionItemCollections.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\ICoreWorkingProjectSolutionItemContainer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\ICoreWorkingProjectSolutionSurface.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\ICoreWorkingSurface.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\ICoreWorkingSurfaceContainer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\ICoreWorkingSurfaceHandler.cs" />
+    <Compile Include="WinUI\ICoreWorkingToolManagerSurface.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\ICoreWorkingUndoableSurface.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\ICoreWorkingReloadViewSurface.cs" />
+    <Compile Include="WinUI\IUICoreControl.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\IUIListBox.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\IXCoreContextMenuItem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\IXCoreContextMenuItemContainer.cs" />
+    <Compile Include="WinUI\IXCoreForm.cs" />
+    <Compile Include="WinUI\IXCoreJobDialog.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\IXCoreMenuItem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\IXCoreMenuItemContainer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\IXCoreMenuItemSeparator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\IXCoreStatus.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\IXCoreStatusItem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\IXCoreStatusItemCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\IXCoreStatusText.cs" />
+    <Compile Include="WinUI\IXCoreSurfaceContainer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\IXCoreWaitDialog.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\IXForm.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\IXRichtTextZone.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\IXTextControl.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\Registrable\IWebBrowserControl.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinUI\Theme\CoreTheme.cs" />
+    <Compile Include="WinUI\Theme\CoreThemeManager.cs" />
+    <Compile Include="WinUI\UIControl.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WorkingObjects\CoreWorkingObjectBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WorkingObjects\DocumentElement.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WorkingObjects\GKDSElement.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WorkingObjects\GKDSElementItemBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WorkingObjects\GKDSElementSetting.cs" />
+    <Compile Include="WorkingObjects\ICoreDocumentSetup.cs" />
+    <Compile Include="WorkingObjects\ICoreWorkingLayoutElement.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WorkingObjects\ICoreGKDSElementItem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WorkingObjects\ProjectElement.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WorkingObjects\ResourceElement.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Xml\CoreXmlAttributeItem.cs" />
+    <Compile Include="Xml\CoreXmlAttributeValue.cs" />
+    <Compile Include="Xml\CoreXmlCData.cs" />
+    <Compile Include="Xml\CoreXmlCommentElement.cs" />
+    <Compile Include="Xml\CoreXmlDeclaration.cs" />
+    <Compile Include="Xml\CoreXmlDocType.cs" />
+    <Compile Include="Xml\CoreXmlElement.cs" />
+    <Compile Include="Xml\CoreXmlElementBase.cs" />
+    <Compile Include="Xml\CoreXmlElementText.cs" />
+    <Compile Include="Xml\CoreXmlExtensions.cs" />
+    <Compile Include="Xml\CoreXmlHtmlMustCloseTag.cs" />
+    <Compile Include="Xml\CoreXmlPreprocessor.cs" />
+    <Compile Include="Xml\CoreXmlQueryListener.cs" />
+    <Compile Include="Xml\CoreXmlQuerySelector.cs" />
+    <Compile Include="Xml\CoreXmlSettingOptions.cs" />
+    <Compile Include="Xml\CoreXmlUriLink.cs" />
+    <Compile Include="Xml\CoreXmlUtility.cs" />
+    <Compile Include="Xml\CoreXmlValueElement.cs" />
+    <Compile Include="Xml\CoreXmlWebBodyElement.cs" />
+    <Compile Include="Xml\CoreXmlWebDivElement.cs" />
+    <Compile Include="Xml\CoreXmlWebDocument.cs" />
+    <Compile Include="Xml\CoreXmlWebElement.cs" />
+    <Compile Include="Xml\CoreXmlWebLinkElement.cs" />
+    <Compile Include="Xml\CoreXmlWebOptions.cs" />
+    <Compile Include="Xml\CoreXmlWebScriptElement.cs" />
+    <Compile Include="Xml\CoreXmlWriter.cs" />
+    <Compile Include="Xml\XSD\CoreXSDAttributeGroup.cs" />
+    <Compile Include="Xml\XSD\CoreXSDChainReference.cs" />
+    <Compile Include="Xml\XSD\CoreXSDFileEntryInfo.cs" />
+    <Compile Include="Xml\XSD\CoreXSDItemAttribute.cs" />
+    <Compile Include="Xml\XSD\CoreXSDItemChoice.cs" />
+    <Compile Include="Xml\XSD\CoreXSDItemDescription.cs" />
+    <Compile Include="Xml\XSD\CoreXSDConstant.cs" />
+    <Compile Include="Xml\XSD\CoreXSDFileBase.cs" />
+    <Compile Include="Xml\XSD\CoreXSDFileEntry.cs" />
+    <Compile Include="Xml\XSD\CoreXSDFileLoaderListener.cs" />
+    <Compile Include="Xml\XSD\CoreXSDItem.cs" />
+    <Compile Include="Xml\XSD\CoreXSDItemInfo.cs" />
+    <Compile Include="Xml\XSD\CoreXSDItemLoadCallback.cs" />
+    <Compile Include="Xml\XSD\CoreXSDItemSequence.cs" />
+    <Compile Include="Xml\XSD\CoreXSDItemUnion.cs" />
+    <Compile Include="Xml\XSD\CoreXSDLoader.cs" />
+    <Compile Include="Xml\ICoreXmlGetValueMethod.cs" />
+    <Compile Include="Xml\ICoreXmlValueElementContainer.cs" />
+    <Compile Include="Xml\XSD\CoreXSDMinMaxEvaluator.cs" />
+    <Compile Include="Xml\XSD\CoreXSDMinMaxExclusiveEvaluator.cs" />
+    <Compile Include="Xml\XSD\CoreXSDMinMaxInclusiveEvaluator.cs" />
+    <Compile Include="Xml\XSD\CoreXSDNamespaceInfo.cs" />
+    <Compile Include="Xml\XSD\CoreXSDNode.cs" />
+    <Compile Include="Xml\XSD\CoreXSDRescrition.cs" />
+    <Compile Include="Xml\XSD\CoreXSDType.cs" />
+    <Compile Include="Xml\XSD\CoreXSDTypeBase.cs" />
+    <Compile Include="Xml\XSD\CoreXSDUtils.cs" />
+    <Compile Include="Xml\XSD\ICoreXSDAttribute.cs" />
+    <Compile Include="Xml\XSD\ICoreXSDChoice.cs" />
+    <Compile Include="Xml\XSD\ICoreXSDFileEntry.cs" />
+    <Compile Include="Xml\XSD\ICoreXSDFileImportResolver.cs" />
+    <Compile Include="Xml\XSD\ICoreXSDFileManager.cs" />
+    <Compile Include="Xml\XSD\ICoreXSDItem.cs" />
+    <Compile Include="Xml\XSD\ICoreXSDItemChain.cs" />
+    <Compile Include="Xml\XSD\ICoreXSDItemChainValues.cs" />
+    <Compile Include="Xml\XSD\ICoreXSDItemContainer.cs" />
+    <Compile Include="Xml\XSD\ICoreXSDItemInfo.cs" />
+    <Compile Include="Xml\XSD\ICoreXSDItemValue.cs" />
+    <Compile Include="Xml\XSD\ICoreXSDLoaderListener.cs" />
+    <Compile Include="Xml\XSD\ICoreXSDManagerListener.cs" />
+    <Compile Include="Xml\XSD\ICoreXSDObjectType.cs" />
+    <Compile Include="Xml\XSD\ICoreXSDRestricAttributeData.cs" />
+    <Compile Include="Xml\XSD\ICoreXSDRestrictionEvaluator.cs" />
+    <Compile Include="Xml\XSD\ICoreXSDRestrictionInfo.cs" />
+    <Compile Include="Xml\XSD\ICoreXSDRestrictType.cs" />
+    <Compile Include="Xml\XSD\ICoreXSDSequence.cs" />
+    <Compile Include="Xml\XSD\ICoreXSDSourceType.cs" />
+    <Compile Include="Xml\XSD\ICoreXSDType.cs" />
+    <Compile Include="Xml\IXmlChildCollections.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Xml\IXmlElement.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Xml\IXmlNameSpaceCollections.cs" />
+    <Compile Include="Xml\IXmlOptions.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Xml\XSD\CoreXSDItemArray.cs" />
+    <Compile Include="Xml\XSD\enuXSDType.cs" />
+    <Compile Include="Xml\XSD\ICoreXSDDeclaringType.cs" />
+    <Compile Include="Xml\XSD\ICoreXSDItemArray.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="drsstudio.2013.pfx" />
+    <None Include="drsstudio2021.pfx" />
+    <None Include="Fonts\cour.ttf" />
+    <None Include="Fonts\courbd.ttf" />
+    <None Include="Fonts\courbi.ttf" />
+    <None Include="Fonts\couri.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DB\IGK.GS\" />
+    <Folder Include="Drawing2D\Converter\" />
+    <Folder Include="Lib\" />
+    <Folder Include="Menu\Edit\" />
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

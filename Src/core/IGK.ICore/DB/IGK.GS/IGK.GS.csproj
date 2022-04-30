@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <ProjectGuid>{D46C2DFD-DEF6-471A-8337-B59F16A20546}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>IGK.GS</RootNamespace>
+    <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
+    <AndroidUseLatestPlatformSdk>False</AndroidUseLatestPlatformSdk>
+    <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
+    <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
+    <AndroidResgenClass>Resource</AndroidResgenClass>
+    <AssemblyName>IGK.GS</AssemblyName>
+    <TargetFrameworkVersion>v4.0.3</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidLinkMode>None</AndroidLinkMode>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Mono.Android" />
+    <Reference Include="System.Data" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\IGK.ICore\IGK.ICore.csproj">
+      <Project>{48B5379E-00E1-4CD8-BE3F-970E2020DE89}</Project>
+      <Name>IGK.ICore</Name>
+      <Private>False</Private>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddInInfo.cs" />
+    <Compile Include="enuGSDataField.cs" />
+    <Compile Include="enuGSDataRelation.cs" />
+    <Compile Include="enuGuiType.cs" />
+    <Compile Include="GSApplication.cs" />
+    <Compile Include="GSApplicationAttribute.cs" />
+    <Compile Include="GSApplicationInitializerAttribute.cs" />
+    <Compile Include="GSAttribute.cs" />
+    <Compile Include="GSColumnIdentifier.cs" />
+    <Compile Include="GSConfiguration.cs" />
+    <Compile Include="GSConstant.cs" />
+    <Compile Include="GSContextLoader.cs" />
+    <Compile Include="GSContract.cs" />
+    <Compile Include="GSDataAdapter.cs" />
+    <Compile Include="GSDataBaseTable.cs" />
+    <Compile Include="GSDataContext.cs" />
+    <Compile Include="GSDataExpression.cs" />
+    <Compile Include="GSDataFieldAttribute.cs" />
+    <Compile Include="GSDataFilter.cs" />
+    <Compile Include="GSDataFunctionAttribute.cs" />
+    <Compile Include="GSDataGuiAttribute.cs" />
+    <Compile Include="GSDataInitializer.cs" />
+    <Compile Include="GSDataInitializerBase.cs" />
+    <Compile Include="GSDataInitRequiredAttribute.cs" />
+    <Compile Include="GSDataQueryFunction.cs" />
+    <Compile Include="GSDataRowBase.cs" />
+    <Compile Include="GSDataRowReader.cs" />
+    <Compile Include="GSDataSet.cs" />
+    <Compile Include="GSDataTableAttribute.cs" />
+    <Compile Include="GSDataTableDisplayInfoAttribute.cs" />
+    <Compile Include="GSDB.cs" />
+    <Compile Include="GSDBColumnInfo.cs" />
+    <Compile Include="GSDBEntry.cs" />
+    <Compile Include="GSDBExtensions.cs" />
+    <Compile Include="GSDBUtility.cs" />
+    <Compile Include="GSDictionary.cs" />
+    <Compile Include="GSDummyColumnInfo.cs" />
+    <Compile Include="GSDummyDataRow.cs" />
+    <Compile Include="GSDummyIdentifier.cs" />
+    <Compile Include="GSDummyPropertyInfo.cs" />
+    <Compile Include="GSEmptyRow.cs" />
+    <Compile Include="GSException.cs" />
+    <Compile Include="GSExtensions.cs" />
+    <Compile Include="GSItemEventArgs.cs" />
+    <Compile Include="GSLib.cs" />
+    <Compile Include="GSLoadingEventArgs.cs" />
+    <Compile Include="GSLog.cs" />
+    <Compile Include="GSMD5QueryFunction.cs" />
+    <Compile Include="GSModuleAttribute.cs" />
+    <Compile Include="GSOperationExtension.cs" />
+    <Compile Include="GSOsVersions.cs" />
+    <Compile Include="GSProgramManager.cs" />
+    <Compile Include="GSQueryConditionalExpression.cs" />
+    <Compile Include="GSQueryDictionary.cs" />
+    <Compile Include="GSQueryDictionary_1.cs" />
+    <Compile Include="GSQueryExpression.cs" />
+    <Compile Include="GSSystem.cs" />
+    <Compile Include="GSSystemConfigSettings.cs" />
+    <Compile Include="GSSystemDataTable.cs" />
+    <Compile Include="GSSystemDefaultSetting.cs" />
+    <Compile Include="GSSystemParams.cs" />
+    <Compile Include="GSSystemSettingBase.cs" />
+    <Compile Include="GSUtils.cs" />
+    <Compile Include="GSValidator.cs" />
+    <Compile Include="GSVersion.cs" />
+    <Compile Include="IGSActionRequestListener.cs" />
+    <Compile Include="IGSApplication.cs" />
+    <Compile Include="IGSContext.cs" />
+    <Compile Include="IGSDataCell.cs" />
+    <Compile Include="IGSDataColumnCollections.cs" />
+    <Compile Include="IGSDataLoadingContext.cs" />
+    <Compile Include="IGSDataQueryResult.cs" />
+    <Compile Include="IGSDataRow.cs" />
+    <Compile Include="IGSDataRowCollections.cs" />
+    <Compile Include="IGSDataSet.cs" />
+    <Compile Include="IGSDataTable.cs" />
+    <Compile Include="IGSDataTableInitializer.cs" />
+    <Compile Include="IGSDbColumnInfo.cs" />
+    <Compile Include="IGSDbContext.cs" />
+    <Compile Include="IGSFunctionCollections.cs" />
+    <Compile Include="IGSInitializer.cs" />
+    <Compile Include="IGSLoginInfo.cs" />
+    <Compile Include="IGSLogMessageReciever.cs" />
+    <Compile Include="IGSModule.cs" />
+    <Compile Include="IGSPropertyInfo.cs" />
+    <Compile Include="IGSQueryConditionalExpression.cs" />
+    <Compile Include="IGSQueryExpression.cs" />
+    <Compile Include="IGSSystemSetting.cs" />
+    <Compile Include="IGSTableCLIDIdentifier.cs" />
+    <Compile Include="IGSTableColumnIdentifier.cs" />
+    <Compile Include="IGSValueProvider.cs" />
+    <Compile Include="IGSWorkbench.cs" />
+    <Compile Include="Actions\GSActionAttribute.cs" />
+    <Compile Include="Actions\GSActionBase.cs" />
+    <Compile Include="Actions\GSTaskActionBase.cs" />
+    <Compile Include="Actions\GSTaskAttribute.cs" />
+    <Compile Include="Actions\GSTaskScriptObject.cs" />
+    <Compile Include="Actions\IGSActionCollections.cs" />
+    <Compile Include="Actions\DbActions\ShowTables.cs" />
+    <Compile Include="Actions\SystemActions\actionsListAction.cs" />
+    <Compile Include="Configuration\GSConfigCommandAttribute.cs" />
+    <Compile Include="Configuration\GSConfigs.cs" />
+    <Compile Include="Configuration\IGSConfigCommand.cs" />
+    <Compile Include="Configuration\ConfigCommands\ConfigCommandBase.cs" />
+    <Compile Include="DataTable\GSDataSystemTable.cs" />
+    <Compile Include="DataTable\GSDataTableInitializerBase.cs" />
+    <Compile Include="DataTable\GSItemSingleRowInfo.cs" />
+    <Compile Include="DataTable\GSSystemDataTables.cs" />
+    <Compile Include="DataTable\ITbGSAuthorisations.cs" />
+    <Compile Include="DataTable\ITbGSConfigs.cs" />
+    <Compile Include="DataTable\ITbGSContactInfo.cs" />
+    <Compile Include="DataTable\ITbGSGroupAutorisations.cs" />
+    <Compile Include="DataTable\ITbGSGroups.cs" />
+    <Compile Include="DataTable\ITbGSHuman.cs" />
+    <Compile Include="DataTable\ITbGSUserGroups.cs" />
+    <Compile Include="DataTable\ITbGSUsers.cs" />
+    <Compile Include="Html\GSDocument.cs" />
+    <Compile Include="Html\HtmlBody.cs" />
+    <Compile Include="Html\HtmlController.cs" />
+    <Compile Include="Html\HtmlControllerAttribute.cs" />
+    <Compile Include="Html\HtmlControllerManager.cs" />
+    <Compile Include="Html\HtmlDocType.cs" />
+    <Compile Include="Html\HtmlHead.cs" />
+    <Compile Include="Html\HtmlItem.cs" />
+    <Compile Include="Html\HtmlItemAttribute.cs" />
+    <Compile Include="Html\HtmlItemText.cs" />
+    <Compile Include="Html\HtmlItemTitle.cs" />
+    <Compile Include="Html\HtmlScript.cs" />
+    <Compile Include="Html\HtmlScriptManager.cs" />
+    <Compile Include="Html\IHtmlController.cs" />
+    <Compile Include="Html\IHtmlControllerCollection.cs" />
+    <Compile Include="Html\IHtmlItem.cs" />
+    <Compile Include="Html\IHtmlItemRenderOptions.cs" />
+    <Compile Include="Mecanism\GSMecanismAction.cs" />
+    <Compile Include="obj\x64\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\x64\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\x64\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="obj\x64\Release\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\x64\Release\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\x64\Release\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="obj\x86\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\x86\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\x86\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="obj\x86\Release\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\x86\Release\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\x86\Release\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs" />
+    <Compile Include="Properties\Settings.Designer.cs" />
+    <Compile Include="Resources\GSResources.cs" />
+    <Compile Include="Resources\Resource.designer.cs" />
+    <Compile Include="Settings\GSSettingAttribute.cs" />
+    <Compile Include="Settings\GSSettings.cs" />
+    <Compile Include="Tools\GSToolAttribute.cs" />
+    <Compile Include="Tools\GSToolBase.cs" />
+    <Compile Include="Web\GSWebExtensions.cs" />
+    <Compile Include="WinUI\GSComboBoxDataRowViewer.cs" />
+    <Compile Include="WinUI\GSComboBoxObjectViewer.cs" />
+    <Compile Include="WinUI\GSComboBoxObjectViewerListener.cs" />
+    <Compile Include="WinUI\IGSMainForm.cs" />
+    <Compile Include="WinUI\IGSRefreshViewListener.cs" />
+    <Compile Include="WinUI\IGSUpdateView.cs" />
+    <Compile Include="WinUI\IGSUpdateViewListener.cs" />
+    <Compile Include="Xml\GSXmlExtensions.cs" />
+    <Compile Include="DataTable\ITbGSEnumDataTable.cs" />
+    <Compile Include="IGSDataValue.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="IGK.GS.csproj" />
+    <None Include="bin\Debug\IGK.GS.dll" />
+    <None Include="bin\Debug\IGK.GS.dll.mdb" />
+    <None Include="bin\Debug\IGK.GS.pdb" />
+    <None Include="obj\Debug\IGK.GS.csproj.FileListAbsolute.txt" />
+    <None Include="obj\Debug\IGK.GS.csprojResolveAssemblyReference.cache" />
+    <None Include="obj\Debug\IGK.GS.dll" />
+    <None Include="obj\Debug\IGK.GS.pdb" />
+    <None Include="obj\Debug\R.cs.flag" />
+    <None Include="obj\Debug\__AndroidLibraryProjects__.zip" />
+    <None Include="obj\Debug\android\igk\gs\R.java" />
+    <None Include="obj\Debug\__library_projects__\IGK.GS.Lib.dll.stamp" />
+    <None Include="obj\Debug\__library_projects__\IGK.ICore.dll.stamp" />
+    <None Include="obj\Debug\__library_projects__\IGK.GS.Lib\library_project_imports\__res_name_case_map.txt" />
+    <None Include="obj\Debug\__library_projects__\IGK.GS.Lib\library_project_imports\res\values\strings.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
+</Project>

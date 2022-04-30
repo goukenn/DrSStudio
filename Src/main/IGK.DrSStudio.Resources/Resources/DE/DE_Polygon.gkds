@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--This is a gkds DrSStudio file 7.0.a-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--IGKDEV © 2008-2012-->
+<gkds>
+  <Project>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+  </Project>
+  <Documents>
+    <LayerDocument BackgroundTransparent="True" Width="16" Height="16" Id="LayerDocument_22987335">
+      <Layer Id="Layer_60050193">
+        <Polygon Angle="56.3099327" Center="8;8" Radius="7.211102" StrokeBrush="Type:Solid;Colors:#FF1901FF;" FillBrush="Type:Solid;Colors:#FF05CCFF;" Id="Polygon_39183125" />
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

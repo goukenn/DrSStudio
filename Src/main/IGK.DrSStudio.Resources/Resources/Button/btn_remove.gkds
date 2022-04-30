@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--This is a gkds DrSStudio file 7.0.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2011-->
+<gkds>
+  <Project>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+    <FileName>D:\DRSStudio 7.b Src\IGK.DrSStudio.Resources\Resources\btn_remove.gkds</FileName>
+  </Project>
+  <Documents>
+    <LayerDocument InterpolationMode="Pixel" BackgroundTransparent="True" Width="32" Height="32" Id="LayerDocument_15920194">
+      <Layer Id="Layer_59032458">
+        <Circle Center="16;16" Radius="14.86607" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:PathGradient;Colors:#FF00 #FF870000;LinearMode:Dual;Factors: 0 0;Positions: 0 1;WrapMode:Tile;PathFocusScale:0 0;OneColorPerVertex:True;" AllowShadow="False" Id="Circle_56177837" />
+        <Line StartPoint="12;11" EndPoint="23;23" StrokeBrush="Type:Solid;Colors:#FFFF;Width:4;DashStyle:Solid;LineJoin:Round" AllowShadow="False" Id="Line_18544551" />
+        <Line StartPoint="23;11" EndPoint="12;23" StrokeBrush="Type:Solid;Colors:#FFFF;Width:4;DashStyle:Solid;LineJoin:Round" AllowShadow="False" Id="Line_26711758" />
+        <Arc SweepAngle="102.528809" StartAngle="175.6013" Center="16;16" Radius="13.0384;13.0384" StrokeBrush="Type:Solid;Colors:#FFFFB4AD;Width:3;DashStyle:Solid;LineJoin:Round" FillBrush="Type:Solid;Colors:#0000;" AllowShadow="False" Matrix="1;0;0;1;1;1" Id="Arc_40259716" />
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

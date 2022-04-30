@@ -1,0 +1,120 @@
+<link href="https://fonts.googleapis.com/css?family=Roboto:400" rel="stylesheet" />
+<div class="fith" style="font-family: Roboto, arial, sans-serif; ">
+  <script language="javascript" type="text/javascript">
+    function search_data(v){
+    var c = $igk(document.body).qselect('#listview .r').first();
+    c.setHtml(external.search_for(v)).init();
+    c.select('input').each_all(function(){
+    android_init_event.apply(this);
+    });
+    };
+
+
+    function android_update_value(id,v){
+    var s = external.update_value(id, v);
+    var g = $igk(this).select('^tr').first().o;
+    var m = igk.dom.loadDocument(s);
+
+    g.parentNode.replaceChild(m ,g);
+    $igk(m).select("input").each_all(function(){
+    android_init_event.apply(this);
+    });
+
+    }
+    //register event input
+    function android_init_event(){
+
+    var q = this;
+    q.reg_event("change", function(evt){
+    android_update_value.apply(this, [this.id, this.value]);
+    }).reg_event("keypress", function(evt){
+    if (evt.keyCode ==13){
+    var e=document.createEvent('HTMLEvents');
+    e.initEvent("change",true,true);
+    q.dispatchEvent(e);
+
+    }
+    });
+
+    };
+
+    function android_edit_info(t){
+      var g = $igk(t).select("^.igk-roll-in").first();
+      var p = g.o.parentNode;    
+      g.remove();
+      var s = external.EditProperties();
+      $igk(p).setHtml("<div>"+s+"</div>").init();
+      p.appendChild(g.o);
+
+
+    }
+    (function(){
+    igk.ready(function(){
+    var q = $igk("#search").first();
+    q.reg_event("keypress", function(e){
+    if (e.keyCode ==13){
+    search_data(q.o.value);
+    }
+    });
+
+    });
+
+    })();
+  </script>
+  <style type="text/css">
+	select.igk-form-control, .igk-form-control[type="text"]:not(#search){
+	width: 300px;
+	}
+	div.color{
+	height:4px;
+	width:300px;
+	}
+	
+  </style>
+  <div class="posab loc_t loc_l loc_r" style="padding:10px; background-color: #444; color:#eee">
+    <div class=" igk-title-5">
+      [lang:title.android.EditTheme]
+    </div>
+  </div>
+  
+  
+  <div class="fith" style="padding-top:24pt; padding-bottom:210px;">
+    <div class="igk-container igk-roll-owner">
+      <div>
+        [imeth:getThemeInfo]
+      </div>
+      <div class="igk-roll-in  igk-pull-right fith dispib" style="margin-top:24pt">
+        <a href="#" class="dispb igk-btn" style="width:32px; background-image:url('[res:dark_op40]');" onclick="javascript: android_edit_info(this); return false;">
+          <img src="[res:edit]" alt="edit"/>
+        </a>
+      </div>
+  </div>
+    <div class="igk-container">
+      <form action="." onsubmit="javascript:return false;"  >
+        <input type="text" class="igk-form-control" value="[imeth:getSearchKey]" id="search" onchange="javascript: search_data(this.value); return false;"></input>
+      </form>
+    </div>
+  
+	<div style="overflow-y:auto; top:0px; bottom:0px; right:0px; left:0px; border-top:1px solid #cecece; position : absolute; margin-top:180px;" id="listview">
+    <div class="igk-container">
+		<div class="igk-row">
+		<div class="igk-col">
+		  <div class="r">
+				[imeth:getThemePropertiesList]
+				</div>
+				<script language="javascript" type="text/javascript">
+				(function(q){			
+				igk.ready(function(){
+					//for all input update the values
+					$igk(q).select('input').each_all(function(){
+						android_init_event.apply(this);
+					});
+				});
+				})(igk.getParentScript());
+				</script>
+			</div>
+		</div>
+	  </div>
+    </div>
+	</div>
+  </div>

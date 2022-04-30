@@ -1,0 +1,67 @@
+<!--This is a gkds DrSStudio file 9.1.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2014-->
+<gkds>
+  <Documents>
+    <LayerDocument FillBrush="Type:Solid;Colors:#FFFF;" PixelOffset="Half" BackgroundTransparent="True" Width="120" Height="32" Id="LayerDocument_27231856">
+      <Layer Id="Layer_31329236">
+        <Rectangle Bounds="5.722046E-06;2.384186E-07;120;32" FillBrush="Type:Solid;Colors:#FF848484;" StrokeBrush="Type:Solid;Colors:#0000;" Id="Rectangle_35956384" />
+        <Rectangle Bounds="0;-2.384186E-07;1;32" StrokeBrush="Type:Solid;Colors:#0000;Alignment:Inset;DashStyle:Solid;LineJoin:Round" Id="Rectangle_56214549" />
+        <Rectangle Bounds="1;-2.657624E-16;119;1" FillBrush="Type:Solid;Colors:#F000;" StrokeBrush="Type:Solid;Colors:#0000;Alignment:Inset;DashStyle:Solid;LineJoin:Round" Matrix="1.008403,0,0,0,0,1,0,0,0,0,1,0,-1.008403,31,0,1" Id="Rectangle_56214549" />
+        <Rectangle Bounds="0;-2.384186E-07;1;32" FillBrush="Type:Solid;Colors:#F000;" StrokeBrush="Type:Solid;Colors:#0000;Alignment:Inset;DashStyle:Solid;LineJoin:Round" Matrix="1,0,0,0,0,1,0,0,0,0,1,0,119,2.384186E-07,0,1" Id="Rectangle_56214549" />
+        <String Font="FontName:bauhaus md bt;Size:9;VerticalAlignment:Center;HorizontalAlignment:Center;" Bounds="0;0;120;32" FillBrush="Type:Solid;Colors:#FFEBF8FF;" SmoothingMode="None" Id="text">
+          <Text>Please &amp;Click here</Text>
+        </String>
+        <Rectangle Bounds="1;-2.657624E-16;119;1" StrokeBrush="Type:Solid;Colors:#0000;Alignment:Inset;DashStyle:Solid;LineJoin:Round" Id="Rectangle_56214549" />
+      </Layer>
+    </LayerDocument>
+    <LayerDocument FillBrush="Type:Solid;Colors:#FFFF;" PixelOffset="Half" BackgroundTransparent="True" Width="120" Height="32" Id="LayerDocument_27231856">
+      <Layer Id="Layer_31329236">
+        <Rectangle Bounds="5.722046E-06;2.384186E-07;120;32" FillBrush="Type:Solid;Colors:#FF60;" StrokeBrush="Type:Solid;Colors:#0000;" Id="Rectangle_35956384" />
+        <Rectangle Bounds="0;-2.384186E-07;1;32" StrokeBrush="Type:Solid;Colors:#0000;Alignment:Inset;DashStyle:Solid;LineJoin:Round" Id="Rectangle_56214549" />
+        <Rectangle Bounds="1;-2.657624E-16;119;1" FillBrush="Type:Solid;Colors:#F000;" StrokeBrush="Type:Solid;Colors:#0000;Alignment:Inset;DashStyle:Solid;LineJoin:Round" Matrix="1.008403,0,0,0,0,1,0,0,0,0,1,0,-1.008403,31,0,1" Id="Rectangle_56214549" />
+        <Rectangle Bounds="0;-2.384186E-07;1;32" FillBrush="Type:Solid;Colors:#F000;" StrokeBrush="Type:Solid;Colors:#0000;Alignment:Inset;DashStyle:Solid;LineJoin:Round" Matrix="1,0,0,0,0,1,0,0,0,0,1,0,119,2.384186E-07,0,1" Id="Rectangle_56214549" />
+        <String Font="FontName:bauhaus md bt;Size:9;VerticalAlignment:Center;HorizontalAlignment:Center;" Bounds="0;0;120;32" FillBrush="Type:Solid;Colors:#FFEBF8FF;" SmoothingMode="None" Id="text">
+          <Text>Please &amp;Click here</Text>
+        </String>
+        <Rectangle Bounds="1;-2.657624E-16;119;1" StrokeBrush="Type:Solid;Colors:#0000;Alignment:Inset;DashStyle:Solid;LineJoin:Round" Id="Rectangle_56214549" />
+      </Layer>
+    </LayerDocument>
+    <LayerDocument FillBrush="Type:Solid;Colors:#FFFF;" PixelOffset="Half" BackgroundTransparent="True" Width="120" Height="32" Id="LayerDocument_27231856">
+      <Layer Id="Layer_31329236">
+        <Rectangle Bounds="5.722046E-06;2.384186E-07;120;32" FillBrush="Type:Solid;Colors:#FF848484;" StrokeBrush="Type:Solid;Colors:#0000;" Id="Rectangle_35956384" />
+        <Rectangle Bounds="0;-2.384186E-07;1;32" StrokeBrush="Type:Solid;Colors:#0000;Alignment:Inset;DashStyle:Solid;LineJoin:Round" Id="Rectangle_56214549" />
+        <Rectangle Bounds="1;-2.657624E-16;119;1" FillBrush="Type:Solid;Colors:#F000;" StrokeBrush="Type:Solid;Colors:#0000;Alignment:Inset;DashStyle:Solid;LineJoin:Round" Matrix="1.008403,0,0,0,0,1,0,0,0,0,1,0,-1.008403,31,0,1" Id="Rectangle_56214549" />
+        <Rectangle Bounds="0;-2.384186E-07;1;32" FillBrush="Type:Solid;Colors:#F000;" StrokeBrush="Type:Solid;Colors:#0000;Alignment:Inset;DashStyle:Solid;LineJoin:Round" Matrix="1,0,0,0,0,1,0,0,0,0,1,0,119,2.384186E-07,0,1" Id="Rectangle_56214549" />
+        <String Font="FontName:bauhaus md bt;Size:9;VerticalAlignment:Center;HorizontalAlignment:Center;" Bounds="0;0;120;32" FillBrush="Type:Solid;Colors:#FFEBF8FF;" SmoothingMode="None" Id="text">
+          <Text>Please &amp;Click here</Text>
+        </String>
+        <Rectangle Bounds="1;-2.657624E-16;119;1" StrokeBrush="Type:Solid;Colors:#0000;Alignment:Inset;DashStyle:Solid;LineJoin:Round" Id="Rectangle_56214549" />
+      </Layer>
+    </LayerDocument>
+    <LayerDocument FillBrush="Type:Solid;Colors:#FFFF;" PixelOffset="Half" BackgroundTransparent="True" Width="120" Height="32" Id="LayerDocument_27231856">
+      <Layer Id="Layer_31329236">
+        <Rectangle Bounds="5.722046E-06;2.384186E-07;120;32" FillBrush="Type:Solid;Colors:#FF848484;" StrokeBrush="Type:Solid;Colors:#0000;" Id="Rectangle_35956384" />
+        <Rectangle Bounds="0;-2.384186E-07;1;32" StrokeBrush="Type:Solid;Colors:#0000;Alignment:Inset;DashStyle:Solid;LineJoin:Round" Id="Rectangle_56214549" />
+        <Rectangle Bounds="1;-2.657624E-16;119;1" FillBrush="Type:Solid;Colors:#F000;" StrokeBrush="Type:Solid;Colors:#0000;Alignment:Inset;DashStyle:Solid;LineJoin:Round" Matrix="1.008403,0,0,0,0,1,0,0,0,0,1,0,-1.008403,31,0,1" Id="Rectangle_56214549" />
+        <Rectangle Bounds="0;-2.384186E-07;1;32" FillBrush="Type:Solid;Colors:#F000;" StrokeBrush="Type:Solid;Colors:#0000;Alignment:Inset;DashStyle:Solid;LineJoin:Round" Matrix="1,0,0,0,0,1,0,0,0,0,1,0,119,2.384186E-07,0,1" Id="Rectangle_56214549" />
+        <String Font="FontName:bauhaus md bt;Size:9;VerticalAlignment:Center;HorizontalAlignment:Center;" Bounds="0;0;120;32" FillBrush="Type:Solid;Colors:#FFEBF8FF;" SmoothingMode="None" Id="text">
+          <Text>Please &amp;Click here</Text>
+        </String>
+        <Rectangle Bounds="1;-2.657624E-16;119;1" StrokeBrush="Type:Solid;Colors:#0000;Alignment:Inset;DashStyle:Solid;LineJoin:Round" Id="Rectangle_56214549" />
+      </Layer>
+    </LayerDocument>
+    <LayerDocument FillBrush="Type:Solid;Colors:#FFFF;" PixelOffset="Half" BackgroundTransparent="True" Width="120" Height="32" Id="LayerDocument_27231856">
+      <Layer Id="Layer_31329236">
+        <Rectangle Bounds="5.722046E-06;2.384186E-07;120;32" FillBrush="Type:Solid;Colors:#FF848484;" StrokeBrush="Type:Solid;Colors:#0000;" Id="Rectangle_35956384" />
+        <Rectangle Bounds="0;-2.384186E-07;1;32" StrokeBrush="Type:Solid;Colors:#0000;Alignment:Inset;DashStyle:Solid;LineJoin:Round" Id="Rectangle_56214549" />
+        <Rectangle Bounds="1;-2.657624E-16;119;1" FillBrush="Type:Solid;Colors:#F000;" StrokeBrush="Type:Solid;Colors:#0000;Alignment:Inset;DashStyle:Solid;LineJoin:Round" Matrix="1.008403,0,0,0,0,1,0,0,0,0,1,0,-1.008403,31,0,1" Id="Rectangle_56214549" />
+        <Rectangle Bounds="0;-2.384186E-07;1;32" FillBrush="Type:Solid;Colors:#F000;" StrokeBrush="Type:Solid;Colors:#0000;Alignment:Inset;DashStyle:Solid;LineJoin:Round" Matrix="1,0,0,0,0,1,0,0,0,0,1,0,119,2.384186E-07,0,1" Id="Rectangle_56214549" />
+        <String Font="FontName:bauhaus md bt;Size:9;VerticalAlignment:Center;HorizontalAlignment:Center;" Bounds="0;0;120;32" FillBrush="Type:Solid;Colors:#FFEBF8FF;" SmoothingMode="None" Id="text">
+          <Text>Please &amp;Click here</Text>
+        </String>
+        <Rectangle Bounds="1;-2.657624E-16;119;1" StrokeBrush="Type:Solid;Colors:#0000;Alignment:Inset;DashStyle:Solid;LineJoin:Round" Id="Rectangle_56214549" />
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--This is a gkds DrSStudio file 7.0.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--IGKDEV © 2008-2012-->
+<gkds>
+  <Project>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+  </Project>
+  <Documents>
+    <LayerDocument InterpolationMode="Pixel" Width="32" Height="32" BackgroundTransparent="True" Id="LayerDocument_17673046">
+      <Layer Id="Layer_41650780">
+        <CustomPolygon Points="10;17 5;8 5;1 10;12" StrokeBrush="Type:LinearGradient;Colors:#F000 #F000 #FFFF;LinearMode:MultiColor;Angle:221.9872;AutoSize:False;Bounds:0 -1 16 20;GammaCorrection:True;Factors: 0 0 1;Positions: 0 0.3973214 1;" FillBrush="Type:LinearGradient;Colors:#F000 #F000 #FFFF;LinearMode:MultiColor;Angle:218.418;GammaCorrection:True;Factors: 0 0 1;Positions: 0 0.3973214 1;" Id="CustomPolygon_55664210" />
+        <CustomPolygon Points="10;17 20;9 21;1 18;2 10;13" StrokeBrush="Type:LinearGradient;Colors:#F000 #F000 #FFFF;LinearMode:MultiColor;Angle:-46.27303;AutoSize:False;Bounds:7 -1 19 21;GammaCorrection:True;Factors: 0 0 1;Positions: 0 0.3973214 1;" FillBrush="Type:LinearGradient;Colors:#F000 #F000 #FFFF;LinearMode:MultiColor;Angle:-46.27303;GammaCorrection:True;Factors: 0 0 1;Positions: 0 0.3973214 1;" Id="CustomPolygon_18743396" />
+        <Path Closed="False" StrokeBrush="Type:Solid;Colors:#FFFF5300;" FillBrush="Type:Solid;Colors:#FFFFC600;" Id="Path_16650517">
+          <Points>8;15 3;22 3;22 4;29 10;30 12;20 5;26 5;22 7;21 7;23</Points>
+          <PointTypes>0;1;1;1;1;129;0;1;1;129</PointTypes>
+        </Path>
+        <Path Closed="False" StrokeBrush="Type:Solid;Colors:#FFFF7A10;" FillBrush="Type:Solid;Colors:#FFFFD800;" Id="Path_14420296">
+          <Points>9;19 10;14 18;20 20;28 14;30 12;20 14;25 16;24 14;20</Points>
+          <PointTypes>0;1;1;1;129;0;1;1;129</PointTypes>
+        </Path>
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

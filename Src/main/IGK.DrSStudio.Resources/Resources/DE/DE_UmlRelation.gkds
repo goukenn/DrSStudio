@@ -1,0 +1,20 @@
+<!--This is a gkds DrSStudio file 8.7.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2013-->
+<gkds>
+  <Project>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+    <FileName>D:\DRSStudio 8.4 Src\Src\core\IGK.DrSStudio.Resources\Resources\DE_ViewBox.gkds</FileName>
+    <Resources>
+      <String Id="app_title" />
+    </Resources>
+  </Project>
+  <Documents>
+    <LayerDocument BackgroundTransparent="True" Width="16" Height="16" Id="LayerDocument_64185571">
+      <Layer Id="Layer_37765596">
+        <Line StartPoint="0;7" EndPoint="12;7" Id="Line_60350139" />
+        <CustomPolygon FillMode="Alternate" Points="11;10 15;7 11;4" StrokeBrush="Type:Solid;Colors:#F000;DashStyle:Solid;LineJoin:Round" Id="CustomPolygon_6136476" />
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

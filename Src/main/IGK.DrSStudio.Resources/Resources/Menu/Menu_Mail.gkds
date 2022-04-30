@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--This is a gkds DrSStudio file 7.0.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--IGKDEV © 2008-2012-->
+<gkds>
+  <Project>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+  </Project>
+  <Documents>
+    <LayerDocument InterpolationMode="Pixel" BackgroundTransparent="True" Width="16" Height="16" Id="LayerDocument_44282409">
+      <Layer Id="Layer_46205043">
+        <Rectangle SmoothingMode="None" Id="Rectangle_14976606" Bounds="2;10;27;13" StrokeBrush="Type:Solid;Colors:#F000;Width:0.5;LineJoin:Round" FillBrush="Type:Solid;Colors:#F000;" Matrix="0.7029857;0;0;0.935216;-0.2545433;-6.513818">
+          <Filters><BlurAndOpacity Smooth="2" Opacity="0.43" /></Filters>
+        </Rectangle>
+        <Rectangle SmoothingMode="None" Id="Rectangle_22584688" Bounds="2;10;27;13" StrokeBrush="Type:Solid;Colors:#FF326FA8;Width:0.5;LineJoin:Round" FillBrush="Type:Solid;Colors:#FF0AD3FF;" Matrix="0.5230122;0;0;0.741843;0.02570635;-5.645253" />
+        <CustomPolygon FillMode="Alternate" Points="2;23 15;16 29;23" StrokeBrush="Type:Solid;Colors:#FF326FA8;Width:0.5;LineJoin:Round" FillBrush="Type:Solid;Colors:#FF0AD3FF;" Matrix="0.515365;0;0;0.9212795;0.03629416;-9.861343" Id="CustomPolygon_35488725" />
+        <CustomPolygon FillMode="Alternate" Points="2;10 15;20 29;10" StrokeBrush="Type:Solid;Colors:#FF326FA8;Width:0.5;LineJoin:Round" FillBrush="Type:Solid;Colors:#FF0AD3FF;" Matrix="0.5153655;0;0;0.7488794;0.03629458;-5.640032" Id="CustomPolygon_17328588" />
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

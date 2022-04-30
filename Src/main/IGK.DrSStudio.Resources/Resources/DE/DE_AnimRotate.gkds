@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--This is a gkds DrSStudio file 7.0.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--IGKDEV © 2008-2012-->
+<gkds>
+  <Project>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+  </Project>
+  <Documents>
+    <LayerDocument InterpolationMode="Pixel" BackgroundTransparent="True" Width="128" Height="128" Id="LayerDocument_62494547">
+      <Layer Id="Layer_37313616">
+        <Circle Center="53.75;63.625" Radius="23.78452" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:PathGradient;Colors:#FFFFF1FF #FFA79CFF;LinearMode:Dual;Factors: 0 1;Positions: 0 1;WrapMode:Tile;PathFocusScale:0 0;OneColorPerVertex:True;" Id="Circle_58228444" />
+        <Bezier Points="59;45 45;44 45;44 31;43 39;30.5 39;30.5 47;18 49;22.5 49;22.5 51;27 119;20 128;64 91;105 86;95 86;95 81;85 124;43 70;21 55;36" StrokeBrush="Type:Solid;Colors:#FF000BFF;" FillBrush="Type:LinearGradient;Colors:#FF00FFE3 #FF002AFF;LinearMode:Dual;GammaCorrection:True;Factors: 0 1;Positions: 0 1;" Matrix="1.474227;0;0;1.367816;-42.70104;-23.62069" Id="Bezier_30686982" />
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

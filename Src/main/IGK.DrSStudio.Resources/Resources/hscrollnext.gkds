@@ -1,0 +1,12 @@
+<!--This is a gkds DrSStudio file 9.1.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2014-->
+<gkds>
+  <Documents>
+    <LayerDocument FillBrush="Type:Solid;Colors:#FFFF;" BackgroundTransparent="True" Width="16" Height="16" Id="LayerDocument_17929744">
+      <Layer Id="Layer_1262149">
+        <CustomPolygon Tension="0" EnableTension="False" Closed="False" FillMode="Alternate" Points="12;1 2;8 12;15 12;10 9;8 12;6" FillBrush="Type:Solid;Colors:#F000;" StrokeBrush="Type:Solid;Colors:#C1000000;DashStyle:DashStyle [Solid];LineJoin:Round" Matrix="-1,0,0,0,0,1,0,0,0,0,1,0,17,0,0,1" Id="CustomPolygon_54960051" />
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

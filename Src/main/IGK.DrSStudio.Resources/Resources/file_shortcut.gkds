@@ -1,0 +1,20 @@
+<!--This is a gkds DrSStudio file 8.7.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2013-->
+<gkds>
+  <Project>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+    <FileName>D:\DRSStudio 8.4 Src\Src\core\IGK.DrSStudio.Resources\Resources\file_shortcut.gkds</FileName>
+    <Resources>
+      <String Id="app_title" />
+    </Resources>
+  </Project>
+  <Documents>
+    <LayerDocument Id="LayerDocument_34842166" BackgroundTransparent="True" Width="32" Height="32">
+      <Layer Id="Layer_30045860">
+        <Rectangle Bounds="7;1;23;29" StrokeBrush="Type:Solid;Colors:#FAAA;" FillBrush="Type:PathGradient;Colors:#FFFF #FFFF;LinearMode:Dual;Factors: 0 1;Positions: 0 1;PathBrushMode:OuterEllipse;WrapMode:Tile;PathFocusScale:0 0;OneColorPerVertex:True;" Id="Rectangle_30994428" />
+        <Bezier Points="13.75;9.157894 15.875;11.57895 15.875;11.57895 18;14 18.0625;8 18.0625;8 18.125;2 12.875;2 12.875;2 7.625;2 9.375;4.236842 9.375;4.236842 11.125;6.473684 5;9.157894 5;14.52632 12;19 11.125;15.42105 11.125;12.73684 13.75;9.157894" StrokeBrush="Type:Solid;Colors:#FF5B49FF;" FillBrush="Type:Solid;Colors:#FF37B1FF;" Matrix="1;0;0;1;-5;12" Id="Bezier_26210120" />
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

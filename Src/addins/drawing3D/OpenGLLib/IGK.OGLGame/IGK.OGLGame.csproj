@@ -1,0 +1,343 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x64</Platform>
+    <ProjectGuid>{C8C92FC2-FCEA-4462-9D97-2F75D392C3F4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>IGK.OGLGame</RootNamespace>
+    <AssemblyName>IGK.OGLGame</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <SignAssembly>false</SignAssembly>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
+    <DebugSymbols>true</DebugSymbols>
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;OS_WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+    <AssemblyOriginatorKeyFile>DrSStudioSignKey.pfx</AssemblyOriginatorKeyFile>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>TRACE;OS_WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+    <AssemblyOriginatorKeyFile>DrSStudioSignKey.pfx</AssemblyOriginatorKeyFile>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>Bin\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;OS_WINDOWS</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+    <Optimize>false</Optimize>
+    <WarningLevel>4</WarningLevel>
+    <AssemblyOriginatorKeyFile>DrSStudioSignKey.pfx</AssemblyOriginatorKeyFile>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <NoWarn>IDE1006;IDE0017</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>Bin\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>TRACE;OS_WINDOWS</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <WarningLevel>4</WarningLevel>
+    <AssemblyOriginatorKeyFile>DrSStudioSignKey.pfx</AssemblyOriginatorKeyFile>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|LinX86' ">
+    <Optimize>false</Optimize>
+    <OutputPath>bin\LinX86\Debug</OutputPath>
+    <DefineConstants>TRACE;DEBUG;UNIX</DefineConstants>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|LinX86' ">
+    <Optimize>false</Optimize>
+    <OutputPath>bin\LinX86\Release</OutputPath>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddInInfo.cs" />
+    <Compile Include="enuBuffetBit.cs" />
+    <Compile Include="enuCylinderType.cs" />
+    <Compile Include="enuGLClientState.cs" />
+    <Compile Include="enuGLCopyPixelFlag.cs" />
+    <Compile Include="enuGLCreationFlag.cs" />
+    <Compile Include="enuGLDataType.cs" />
+    <Compile Include="enuGLDeviceProcProfile.cs" />
+    <Compile Include="enuGLVertexUsage.cs" />
+    <Compile Include="GLExtensions.cs" />
+    <Compile Include="GLConstant.cs" />
+    <Compile Include="GLGameUtils.cs" />
+    <Compile Include="Buffers\OGLVertexArrayBuffer.cs" />
+    <Compile Include="Input\GLGameInput.Mouse.cs" />
+    <Compile Include="Input\GLGameInput.Keyboard.cs" />
+    <Compile Include="OGLGameException.cs" />
+    <Compile Include="GLGame.cs" />
+    <Compile Include="GLGameApp.cs" />
+    <Compile Include="GLGameBuffer.cs" />
+    <Compile Include="OGLGameDeviceProcs.cs" />
+    <Compile Include="GLGameException.cs" />
+    <Compile Include="GLGameTime.cs" />
+    <Compile Include="GLVersions.cs" />
+    <Compile Include="GLVertexDefinition.cs" />
+    <Compile Include="Input\GLGameKeyboardStates.cs" />
+    <Compile Include="Input\GLGameMouseStates.cs" />
+    <Compile Include="Input\MouseState.cs" />
+    <Compile Include="Math\Quaternion.cs" />
+    <Compile Include="OGLGameCreateDeviceProc.cs" />
+    <Compile Include="OGLGameExtensions.cs" />
+    <Compile Include="OGLGamePIXFormatInitilizer.cs" />
+    <Compile Include="V2\GLGame.cs" />
+    <Compile Include="V2\GLGameTime.cs" />
+    <Compile Include="V2\GLGameUtility.cs" />
+    <Compile Include="V2\IGLGameObject.cs" />
+    <Compile Include="V2\IGLGame.cs" />
+    <Compile Include="V2\IGLGameComponent.cs" />
+    <Compile Include="V2\WinUI\GLGameControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="V2\WinUI\GLGameWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinUI\GLGameWindow.cs" />
+    <Compile Include="GLMarshal.cs" />
+    <Compile Include="GLProperty.cs" />
+    <Compile Include="GLPropertyChanged.cs" />
+    <Compile Include="GLPropertyCollection.cs" />
+    <Compile Include="GLPropertyRegister.cs" />
+    <Compile Include="GLUT.cs" />
+    <Compile Include="GLUtilitys.cs" />
+    <Compile Include="GLVersionChecker.cs" />
+    <Compile Include="GLVertexDeclaration.cs" />
+    <Compile Include="GraphicsResources.cs" />
+    <Compile Include="Graphics\BlendFactorEXT.cs" />
+    <Compile Include="Graphics\Blending\BlendEquation.cs" />
+    <Compile Include="Graphics\Blending\BlendFactor.cs" />
+    <Compile Include="Graphics\Blending\GraphicsBlending.cs" />
+    <Compile Include="Graphics\ClipPlaneCollection.cs" />
+    <Compile Include="Graphics\enuAlphaTestFunc.cs" />
+    <Compile Include="Graphics\enuAttribBit.cs" />
+    <Compile Include="Graphics\enuBufferMode.cs" />
+    <Compile Include="Graphics\enuGLSpriteEffect.cs" />
+    <Compile Include="Graphics\enuStencilFunc.cs" />
+    <Compile Include="Graphics\enuStencilOp.cs" />
+    <Compile Include="Graphics\GLDrawUtils.cs" />
+    <Compile Include="Graphics\GLGdiFont.cs" />
+    <Compile Include="Graphics\OGLGraphicsExtensions.cs" />
+    <Compile Include="Graphics\GraphicsBuffer.cs" />
+    <Compile Include="Graphics\GraphicsClipPlane.cs" />
+    <Compile Include="Graphics\OGLGraphicsDevice.cs" />
+    <Compile Include="Graphics\GraphicsDeviceCapabilities.cs" />
+    <Compile Include="Graphics\GraphicsMaterial.cs" />
+    <Compile Include="Graphics\GraphicsPixelColorMode.cs" />
+    <Compile Include="Graphics\GraphicsPixelColorType.cs" />
+    <Compile Include="Graphics\GraphicsPixelFormat.cs" />
+    <Compile Include="Graphics\GraphicsPixelTransfer.cs" />
+    <Compile Include="Graphics\GraphicsPrimitives.cs" />
+    <Compile Include="Graphics\GraphicsProjection.cs" />
+    <Compile Include="Graphics\GraphicsRenderState.cs" />
+    <Compile Include="Graphics\Hint\Fog\FogCoordMode.cs" />
+    <Compile Include="Graphics\Hint\Fog\FogMode.cs" />
+    <Compile Include="Graphics\Hint\Fog\GraphicsFog.cs" />
+    <Compile Include="Graphics\Hint\GraphicsHint.cs" />
+    <Compile Include="Graphics\Hint\Hint.cs" />
+    <Compile Include="Graphics\IGLGraphicsDevice.cs" />
+    <Compile Include="Graphics\IGraphicResource.cs" />
+    <Compile Include="Graphics\IGraphicsMaterial.cs" />
+    <Compile Include="Graphics\IOGLGGraphicsView.cs" />
+    <Compile Include="Graphics\Imaging\Convolution2D.cs" />
+    <Compile Include="Graphics\Imaging\enuDeviceBuffer.cs" />
+    <Compile Include="Graphics\Imaging\enuGLConvolutionType.cs" />
+    <Compile Include="Graphics\Imaging\GraphicsImage.cs" />
+    <Compile Include="Graphics\InterleavedArrayType.cs" />
+    <Compile Include="Graphics\IOGLBending.cs" />
+    <Compile Include="Graphics\LightCollection.cs" />
+    <Compile Include="Graphics\Lighting\GraphicsLight.cs" />
+    <Compile Include="Graphics\Lighting\GraphicsLightModel.cs" />
+    <Compile Include="Graphics\LightModelColorControl.cs" />
+    <Compile Include="Graphics\ListMode.cs" />
+    <Compile Include="Graphics\LogicOp.cs" />
+    <Compile Include="Graphics\MaterialFace.cs" />
+    <Compile Include="Graphics\MatrixMode.cs" />
+    <Compile Include="Graphics\Native\Gdi32Lib.cs" />
+    <Compile Include="Graphics\Native\User32Lib.cs" />
+    <Compile Include="Graphics\PolygonCullFace.cs" />
+    <Compile Include="Graphics\PolygonFaceMode.cs" />
+    <Compile Include="Graphics\PolygonFrontFace.cs" />
+    <Compile Include="Graphics\ShadeModel.cs" />
+    <Compile Include="Graphics\Shaders\enuShaderType.cs" />
+    <Compile Include="Graphics\Shaders\Shader.cs" />
+    <Compile Include="Graphics\Shaders\ShaderUtility.cs" />
+    <Compile Include="Graphics\Shaders\ShaderProgram.cs" />
+    <Compile Include="Graphics\SpriteBatch.cs" />
+    <Compile Include="Graphics\SpriteFont.cs" />
+    <Compile Include="Graphics\Texture1D.cs" />
+    <Compile Include="Graphics\Texture2D.cs" />
+    <Compile Include="Graphics\enuTextureEnvironmentMode.cs" />
+    <Compile Include="Graphics\TextureWrapMethod.cs" />
+    <Compile Include="Graphics\VertexArray.cs" />
+    <Compile Include="Graphics\VertexArrayCollection.cs" />
+    <Compile Include="Graphics\VertexBuffer.cs" />
+    <Compile Include="IGLListElement.cs" />
+    <Compile Include="Input\enuKeyboardButton.cs" />
+    <Compile Include="Input\enuKeyState.cs" />
+    <Compile Include="Input\enuGLGameMouseButton.cs" />
+    <Compile Include="Input\enuMouseState.cs" />
+    <Compile Include="Input\KeyboardInput.cs" />
+    <Compile Include="Input\KeyboardState.cs" />
+    <Compile Include="Input\KeyBoardStateCollections.cs" />
+    <Compile Include="Input\MouseDeviceInput.cs" />
+    <Compile Include="Math\MatrixExtension.cs" />
+    <Compile Include="Math\OperationExtension.cs" />
+    <Compile Include="Text\enuGL3DFontFormat.cs" />
+    <Compile Include="Text\FontQuality.cs" />
+    <Compile Include="Text\GL3DFont.cs" />
+    <Compile Include="Text\GLFont.cs" />
+    <Compile Include="Text\OGLFont.cs" />
+    <Compile Include="WinUI\GLControlBase.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WinUI\GLControlConstant.cs" />
+    <Compile Include="WinUI\GLControlEventArgs.cs" />
+    <Compile Include="WinUI\GLControlItemBase.cs" />
+    <Compile Include="WinUI\GLControlTime.cs" />
+    <Compile Include="WinUI\GLForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinUI\GLPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WinUI\GLShape.cs" />
+    <Compile Include="WinUI\GLShapeRectangle.cs" />
+    <Compile Include="WinUI\GLTriangle.cs" />
+    <Compile Include="WinUI\IGLControl.cs" />
+    <Compile Include="WinUI\IGLControlItem.cs" />
+    <Compile Include="WinUI\IGLControlItemCollections.cs" />
+    <Compile Include="WinUI\IGLControlTime.cs" />
+    <Compile Include="WinUI\IGLGameWindow.cs" />
+    <Compile Include="WinUI\Native\GLUtils.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utils.cs" />
+    <Compile Include="Vector3fColor.cs" />
+    <Compile Include="Vector3fColorTextureCoord.cs" />
+    <EmbeddedResource Include="WinUI\GLForm.resx">
+      <DependentUpon>GLForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="documentation.doc" />
+    <None Include="DrSStudioSignKey.pfx" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="glut32.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Core\" />
+    <Folder Include="V2\Effects\" />
+    <Folder Include="V2\Graphics\" />
+    <Folder Include="V2\Physics\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\IGK.GLLib4.1\IGK.GLLib.csproj">
+      <Project>{ADB81747-5B27-4BC3-BDDF-B5492D3568F6}</Project>
+      <Name>IGK.GLLib</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\core\IGK.ICore\IGK.ICore.csproj">
+      <Project>{95E437A5-4A87-4FAB-B15F-4A0FDE8B7DCF}</Project>
+      <Name>IGK.ICore</Name>
+      <Private>False</Private>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

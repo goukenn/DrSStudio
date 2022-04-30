@@ -1,0 +1,50 @@
+<!--This is a gkds ICore file 9.6.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2014-->
+<gkds>
+  <Project>
+    <SurfaceType>ButtonSurface</SurfaceType>
+  </Project>
+  <Documents>
+    <LayerDocument PixelOffset="None" BackgroundTransparent="True" Width="32" Height="32" Id="LayerDocument_56537614">
+      <Layer Id="Layer_9112899">
+        <Path Closed="True" FillBrush="Type:Solid;Colors:#FF003E5C;" StrokeBrush="Type:Solid;Colors:#0000;DashStyle:Solid;LineJoin:Round" Id="Path_63034692">
+          <PointTypes>0;3;3;3;1;3;3;3;1;3;3;3;1;3;3;131;0;1;1;1;1;1;1;129</PointTypes>
+          <Points>4;4.05 4;4.022386 4.022386;4 4.05;4 28.95;4 28.97761;4 29;4.022386 29;4.05 29;26.95 29;26.97761 28.97761;27 28.95;27 4.05;27 4.022386;27 4;26.97761 4;26.95 8;7 12;7 12;14 21;14 21;7 25;7 25;18 8;18</Points>
+        </Path>
+      </Layer>
+    </LayerDocument>
+    <LayerDocument PixelOffset="None" BackgroundTransparent="True" Width="32" Height="32" Id="LayerDocument_56537614">
+      <Layer Id="Layer_9112899">
+        <Path Closed="True" FillBrush="Type:Solid;Colors:#FF4152FF;" StrokeBrush="Type:Solid;Colors:#0000;DashStyle:Solid;LineJoin:Round" Id="Path_63034692">
+          <PointTypes>0;3;3;3;1;3;3;3;1;3;3;3;1;3;3;131;0;1;1;1;1;1;1;129</PointTypes>
+          <Points>4;4.05 4;4.022386 4.022386;4 4.05;4 28.95;4 28.97761;4 29;4.022386 29;4.05 29;26.95 29;26.97761 28.97761;27 28.95;27 4.05;27 4.022386;27 4;26.97761 4;26.95 8;7 12;7 12;14 21;14 21;7 25;7 25;18 8;18</Points>
+        </Path>
+      </Layer>
+    </LayerDocument>
+    <LayerDocument PixelOffset="None" BackgroundTransparent="True" Width="32" Height="32" Id="LayerDocument_56537614">
+      <Layer Id="Layer_9112899">
+        <Path Closed="True" FillBrush="Type:Solid;Colors:#F000;" StrokeBrush="Type:Solid;Colors:#0000;DashStyle:Solid;LineJoin:Round" Id="Path_63034692">
+          <PointTypes>0;3;3;3;1;3;3;3;1;3;3;3;1;3;3;131;0;1;1;1;1;1;1;129</PointTypes>
+          <Points>4;4.05 4;4.022386 4.022386;4 4.05;4 28.95;4 28.97761;4 29;4.022386 29;4.05 29;26.95 29;26.97761 28.97761;27 28.95;27 4.05;27 4.022386;27 4;26.97761 4;26.95 8;7 12;7 12;14 21;14 21;7 25;7 25;18 8;18</Points>
+        </Path>
+      </Layer>
+    </LayerDocument>
+    <LayerDocument PixelOffset="None" BackgroundTransparent="True" Width="32" Height="32" Id="LayerDocument_56537614">
+      <Layer Id="Layer_9112899">
+        <Path Closed="True" FillBrush="Type:Solid;Colors:#FF4152FF;" StrokeBrush="Type:Solid;Colors:#0000;DashStyle:Solid;LineJoin:Round" Id="Path_63034692">
+          <PointTypes>0;3;3;3;1;3;3;3;1;3;3;3;1;3;3;131;0;1;1;1;1;1;1;129</PointTypes>
+          <Points>4;4.05 4;4.022386 4.022386;4 4.05;4 28.95;4 28.97761;4 29;4.022386 29;4.05 29;26.95 29;26.97761 28.97761;27 28.95;27 4.05;27 4.022386;27 4;26.97761 4;26.95 8;7 12;7 12;14 21;14 21;7 25;7 25;18 8;18</Points>
+        </Path>
+      </Layer>
+    </LayerDocument>
+    <LayerDocument PixelOffset="None" BackgroundTransparent="True" Width="32" Height="32" Id="LayerDocument_56537614">
+      <Layer Id="Layer_9112899">
+        <Path Closed="True" FillBrush="Type:Solid;Colors:#FF616161;" StrokeBrush="Type:Solid;Colors:#0000;DashStyle:Solid;LineJoin:Round" Id="Path_63034692">
+          <PointTypes>0;3;3;3;1;3;3;3;1;3;3;3;1;3;3;131;0;1;1;1;1;1;1;129</PointTypes>
+          <Points>4;4.05 4;4.022386 4.022386;4 4.05;4 28.95;4 28.97761;4 29;4.022386 29;4.05 29;26.95 29;26.97761 28.97761;27 28.95;27 4.05;27 4.022386;27 4;26.97761 4;26.95 8;7 12;7 12;14 21;14 21;7 25;7 25;18 8;18</Points>
+        </Path>
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

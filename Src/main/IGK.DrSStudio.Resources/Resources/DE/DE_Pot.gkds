@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--This is a gkds DrSStudio file 8.5.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2013-->
+<gkds>
+  <Project>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+    <FileName>D:\DRSStudio 8.4 Src\IGK.DrSStudio.Resources\Resources\DE_Pot.gkds</FileName>
+    <Resources>
+      <String Id="app_title" />
+    </Resources>
+  </Project>
+<Documents>
+  <LayerDocument InterpolationMode="Hight" TextContrast="4" BackgroundTransparent="True" Width="256" Height="256" Id="LayerDocument_51563209"><Extensions /><Layer Id="Layer_38835879"><Rectangle Bounds="47;62;97;34" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#FFFF1E00;" Id="Rectangle_3455518"><Filters /></Rectangle><RoundRect BottomRight="15;18" BottomLeft="15;18" TopRight="15;18" TopLeft="15;18" Bounds="84;65;149;166" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#FF589A79;" Matrix="-0.9383431;0.3457055;-0.3457055;-0.9383431;357.0769;230.315" Id="RoundRect_15982557"><Filters /></RoundRect><RoundRect BottomRight="15;18" BottomLeft="15;18" TopRight="15;18" TopLeft="15;18" Bounds="84;65;149;166" StrokeBrush="Type:Solid;Colors:#FFFFFC00;" FillBrush="Type:Solid;Colors:#FFFF9B00;" Matrix="-0.8110298;0.2979355;-0.2988006;-0.8086817;327.5848;218.778" Id="RoundRect_12642373"><Filters /></RoundRect><Circle Center="169;107" Radius="20" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#FF589A79;" Id="Circle_32987252"><Filters /></Circle><Line StartPoint="171;98" EndPoint="206;19" StrokeBrush="Type:Solid;Colors:#FF2117FF;Width:14;LineJoin:Round" Id="Line_66065366"><Filters /></Line><Rectangle Bounds="33;70;26;34" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#FFFF1E00;" Id="Rectangle_9460031"><Filters /></Rectangle><Rectangle Bounds="17;91;28;39" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#FFFF1E00;" Id="Rectangle_40191024"><Filters /></Rectangle></Layer></LayerDocument>
+</Documents>
+</gkds>

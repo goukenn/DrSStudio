@@ -1,0 +1,18 @@
+<!--This is a gkds ICore file 9.7.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2016-->
+<gkds>
+  <Project>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+    <Author>Charles A.D. BONDJE DOUE</Author>
+    <Creation>15-08-2016 09:12:30</Creation>
+    <Version>1.0</Version>
+  </Project>
+  <Documents>
+    <LayerDocument Id="LayerDocument_36082153" PixelOffset="None" Width="100" Height="100">
+      <Layer Id="Layer_30673288">
+        <Rectangle Bounds="0;0;100;100" FillBrush="Type:LinearGradient;Colors:#FF003CFF #F000 #FFFF;LinearMode:MultiColor;Angle:-34.60567;AutoSize:False;Bounds:71 -5 100 69;WrapMode:TileFlipXY;GammaCorrection:True;Factors: 0 0 1;Positions: 0 0.1603499 1;" StrokeBrush="Type:Solid;Colors:#0000;" Id="Rectangle_43264855" />
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

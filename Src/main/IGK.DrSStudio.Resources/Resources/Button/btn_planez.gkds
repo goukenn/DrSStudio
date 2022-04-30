@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--This is a gkds DrSStudio file 7.0.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--IGKDEV © 2008-2012-->
+<gkds>
+  <Project>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+    <FileName>D:\DRSStudio 7 Src\IGK.DrSStudio.Drawing3DAddIn\Resources\Btn_PlaneZ.gkds</FileName>
+  </Project>
+  <Documents>
+    <LayerDocument Id="LayerDocument_22136793" InterpolationMode="Hight" Width="256" Height="256" BackgroundTransparent="True">
+      <Layer Id="Layer_27087447">
+        <CustomPolygon FillMode="Alternate" Points="78;68 164;69 128;123 151;123 141;135 120;135 102;174 188;143 158;200 80;185 105;134 85;133 92;119 110;121 130;89 63;108" StrokeBrush="Type:Solid;Colors:#FF1800FF;" FillBrush="Type:Solid;Colors:#FF0041FF;" Id="CustomPolygon_32889120" />
+      </Layer>
+      <Layer Id="Layer_21346817" Clipped="#Circle_19663526">
+        <Circle Center="127.3573;127.4775" Radius="80.03392;119.6273" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#0000;" Matrix="1;0;0;1;1;-1" Id="Circle_19663526" />
+        <Circle Center="118.3573;126.4775" Radius="85.86898;114.8494" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#F000;" Matrix="1;0;0;1;9;1" Id="Circle_28430625" />
+        <Circle Center="200;62" Radius="32.64965" StrokeBrush="Type:Solid;Colors:#F000;Width:5;LineJoin:Round" Matrix="1;0;0;1;0;1" Id="Circle_41721573" />
+        <Circle Center="201;61" Radius="15.81139" StrokeBrush="Type:Solid;Colors:#FF7608FF;" FillBrush="Type:Solid;Colors:#FF003CFF;" Id="Circle_61988040" />
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

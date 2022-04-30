@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--This is a gkds DrSStudio file 8.5.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2013-->
+<gkds>
+  <Project>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+    <FileName>D:\DRSStudio 8.4 Src\IGK.DrSStudio.Resources\Resources\Menu_Zoom.gkds</FileName>
+    <Resources>
+      <String Id="app_title" />
+    </Resources>
+  </Project>
+<Documents>
+  <LayerDocument Id="LayerDocument_26545885" InterpolationMode="Hight" TextContrast="4" BackgroundTransparent="True" Width="32" Height="32">
+    <Extensions />
+    <Layer Id="Layer_29316831">
+      <RoundRect BottomRight="2;2" BottomLeft="2;2" TopRight="2;2" TopLeft="2;2" Bounds="15;15;26;5" StrokeBrush="Type:Solid;Colors:#FF2170FF;" FillBrush="Type:LinearGradient;Colors:#F000 #FF0065FF;LinearMode:Dual;Angle:203.3852;WrapMode:TileFlipXY;GammaCorrection:True;Factors: 0 1;Positions: 0 1;" 
+                                          Matrix="0.7174277;0.6966327;-0.6966328;0.7174277;12.31624;-11.99313" Id="RoundRect_60933342"><Filters /></RoundRect><Circle Center="12;12" Radius="11.40175" StrokeBrush="Type:Solid;Colors:#FF83A3FF;" FillBrush="Type:Solid;Colors:#FF812DFF;" Id="Circle_17456541"><Filters /></Circle></Layer><Layer Id="Layer_63745657"><Circle Center="12;12" Radius="11.40175" StrokeBrush="Type:LinearGradient;Colors:#F000 #FF0065FF;LinearMode:Dual;Angle:-42.61406;WrapMode:TileFlipXY;GammaCorrection:True;Factors: 0 1;Positions: 0 1;" FillBrush="Type:LinearGradient;Colors:#FF0041FF #FF2DFFF2;LinearMode:DualBlend;Angle:-42.61406;WrapMode:TileFlipXY;GammaCorrection:True;Factors: 0 0 1;Positions: 0 0.4375 1;" Id="Circle_17456541"><Filters /></Circle></Layer></LayerDocument>
+</Documents>
+</gkds>

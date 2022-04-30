@@ -1,0 +1,27 @@
+<!--This is a gkds ICore file 9.7.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2016-->
+<gkds>
+  <Project>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+    <FileName>D:\DRSStudio 9.0 Src\Src\main\IGK.DrSStudio.Resources\Resources\DE\DE_QRCode.gkds</FileName>
+  </Project>
+  <Documents>
+    <LayerDocument Id="LayerDocument_21097935" PixelOffset="None" BackgroundTransparent="True" Width="100" Height="100">
+      <Layer Id="Layer_28510941">
+        <Path Closed="True" FillBrush="Type:Solid;Colors:#F444;" StrokeBrush="Type:Solid;Colors:#0000;" Id="Path_45009256">
+          <PointTypes>0;1;1;129;0;1;1;129</PointTypes>
+          <Points>3;4 44;4 44;46 3;46 10;13 36;13 36;37 10;37</Points>
+        </Path>
+        <Path Closed="True" FillBrush="Type:Solid;Colors:#F444;" StrokeBrush="Type:Solid;Colors:#0000;" Id="Path_45009256">
+          <PointTypes>0;1;1;129;0;1;1;129</PointTypes>
+          <Points>3;55 44;55 44;97 3;97 10;64 36;64 36;88 10;88</Points>
+        </Path>
+        <Path Closed="True" FillBrush="Type:Solid;Colors:#F444;" StrokeBrush="Type:Solid;Colors:#0000;" Id="Path_45009256">
+          <PointTypes>0;1;1;129;0;1;1;129</PointTypes>
+          <Points>53;29 94;29 94;71 53;71 60;38 86;38 86;62 60;62</Points>
+        </Path>
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

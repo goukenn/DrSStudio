@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--This is a gkds DrSStudio file 7.0.a-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--IGKDEV © 2008-2012-->
+<gkds>
+  <Project>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+    <FileName>D:\DRSStudio2\IGK.DrSStudio.Resources\Resources\btn_alignLeft.gkds</FileName>
+  </Project>
+  <Documents>
+    <LayerDocument InterpolationMode="Pixel" BackgroundTransparent="True" Width="16" Height="16" Id="LayerDocument_64362393">
+      <Layer Id="Layer_57535090">
+        <Line StartPoint="1;3" EndPoint="14;3" SmoothingMode="None" Id="Line_36064815" />
+        <Line SmoothingMode="None" Id="Line_29205164" StartPoint="1;6" EndPoint="8;6" />
+        <Line SmoothingMode="None" Id="Line_59040482" StartPoint="1;9" EndPoint="14;9" />
+        <Line SmoothingMode="None" Id="Line_66725913" StartPoint="1;12" EndPoint="8;12" />
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

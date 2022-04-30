@@ -1,0 +1,15 @@
+<html>
+<head>
+<title>$title</title>
+<style type="text/css"> 	
+body{margin:0px; padding:0px;}
+</style>
+</head>
+<body>
+<h1>$pagetitle</h1>
+</div>
+<!-- content of this page -->
+$content
+</div>
+</body>
+</html>

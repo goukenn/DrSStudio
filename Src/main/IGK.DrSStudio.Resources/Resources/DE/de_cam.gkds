@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--This is a gkds DrSStudio file 7.0.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--IGKDEV © 2008-2012-->
+<gkds>
+  <Project>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+  </Project>
+  <Documents>
+    <LayerDocument InterpolationMode="Pixel" Width="256" Height="256" BackgroundTransparent="True" Id="LayerDocument_15510480">
+      <Layer Id="Layer_50334272">
+        <CustomPolygon Points="178;93 245;34 245;214 178;163" FillBrush="Type:Solid;Colors:#F000;" Id="CustomPolygon_24913918" />
+        <CustomPolygon Points="13;83 161;83 161;183 13;183" FillBrush="Type:Solid;Colors:#F000;" Matrix="0.8648649;0;0;0.8;9.756756;20.6" Id="CustomPolygon_43354028" />
+        <Circle Center="40;47" Radius="17.20465;33.30165" FillBrush="Type:Solid;Colors:#F000;" Matrix="1;0;0;1;9;12" Id="Circle_27350020" />
+        <Circle Center="40;47" Radius="17.20465;33.30165" FillBrush="Type:Solid;Colors:#F000;" Matrix="1;0;0;1;80.30165;10.30165" Id="Circle_32388806" />
+        <Polygon Angle="59.4207764" Center="55;124" Radius="25.55387" Matrix="1;0;0;1;7;2" Id="Polygon_58337409" />
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

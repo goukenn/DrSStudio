@@ -1,0 +1,36 @@
+﻿using System;
+using Android.App;
+using Android.Content;
+using Android.Runtime;
+using Android.Views;
+using Android.Widget;
+using Android.OS;
+using IGK.ICore;
+using IGK.ICore.Android;
+using IGK.ICore.Android.WinUI;
+[imeth:getUsings]
+
+namespace [imeth:getDefaultNS]
+{
+	[Activity (Label = "@string/app_title",
+		MainLauncher = true, 
+		NoHistory=true,
+		Theme=[imeth:getMainSplashScreenTheme],
+		Icon = "@drawable/app_icon")]
+	public class [imeth:getClassName] : AndroidSplashScreenActivity
+	{
+		[imeth:getclassdef]
+
+		protected override void OnCreate (Bundle bundle)
+		{
+			base.OnCreate (bundle);
+		}
+		protected override void StartMainActivity ()
+		{
+			//create your main activity
+			var i = new Intent (this, typeof([imeth:getAppPrefix]MainActivity));
+			StartActivity (i);
+			this.Finish ();
+		}
+	}
+}

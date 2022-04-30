@@ -1,0 +1,49 @@
+﻿<div  class="fitw fith overflow-y-a igk-poweredview igk-parentscroll" style="padding-top:80px">
+    <div class="igk-title-4 posfix  loc_t loc_l loc_r" igk-js-fix-loc-scroll-width="1" style="background-color:#012277; color:white; z-index:100;" id="dialog_title">IGKDEV - Balafon Project</div>
+<form  onsubmit="javascript: this.create_project(); return false;">
+<div class="igk-row" >
+<div class="igk-col-lg-12-3 alignt" style="padding-left:15px;padding-right:15px;" >
+<div class="igk-title-5">[lang:title.globalsetting]</div>
+<div class="form-group">
+  <input type="text" value="[imeth:getfilename]" id="clName" class="igk-form-control" style="position:relative;" placeholder="insert your filename" /> 
+</div>
+
+<div class="form-group">
+	<label for="clOutputFolder">[lang:lb.outputFolder]</label>
+	<div class="input-group">
+		<input type="text" value="[imeth:getOutputFolder]" id="clOutputFolder" class="form-control" ></input>
+		<span class="input-group-btn"><button class="btn igk-btn igk-btn-defaul igk-btn igk-btn-default" onclick="javascript: this.form.clOutputFolder.value = ns_igk.ext.call('pickFolder',this.form.clOutputFolder.value); return false;">...</button></span>
+	</div>
+</div>
+<div class="form-group">
+	<label for="clPrefix">[lang:lb.prefix]</label>	
+	<input type="text" id="clPrefix" class="igk-form-control" value="[imeth:getPrefix]" ></input>			
+</div>
+  
+ <div class="form-group">
+<input type="checkbox" id="clOverrideExisting" class="-clinput -clcheckbox" value="1" checked="true"><label for="clOverrideExisting">[lang:lb.balafon.project.overrideexisting]</label></input>
+</div>
+</div>
+
+<div class="igk-col-lg-12-9 alignt" >
+	  <div class="igk-title-5">[lang:title.balafonsetting]</div>
+	  <div igk-tip="android-tab">
+		<ul class="igk-horizontal-menu">
+			<li class="igk-active"><a href="#" menu-target="application" >[lang:menu.Application]</a></li>			      
+			<li class="igk-active"><a href="#" menu-target="security" >[lang:menu.Security]</a></li>		
+			<li class="igk-active"><a href="#" menu-target="pdf" >[lang:menu.pdf]</a></li>	
+		</ul>
+	  </div>
+	  <div igk-tip="android-tab-content" id="#menu-tab-content" class="igk-tab-content android-tab-content">
+		
+	  </div>
+</div>
+
+</div>
+
+<div class="posfix loc_b dispb" id="tab_button" igk-js-fix-loc-scroll-width="1" style="z-index: 100; background-color:#ddd; min-height:48px; display:block; left:0px; right:0px; padding-top:8px; padding-right:8px; padding-bottom:8px;">
+<input type="submit" value="[lang:btn.ok]" class="igk-btn igk-btn-default floatr" />
+<input type="button" value="[lang:btn.cancel]" class="igk-btn igk-btn-default floatr"  style="margin-right:8px;" onclick="javascript: $ns_igk.ext.call('cancel',''); return false;"/>
+</div>
+</form>
+</div>

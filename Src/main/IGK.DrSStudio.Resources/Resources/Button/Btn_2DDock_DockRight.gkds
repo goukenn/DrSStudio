@@ -1,0 +1,13 @@
+<!--This is a gkds DrSStudio file 9.1.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2014-->
+<gkds>
+  <Documents>
+    <LayerDocument FillBrush="Type:Solid;Colors:#FFFF;" BackgroundTransparent="True" Width="32" Height="32" Id="LayerDocument_49527525">
+      <Layer Id="Layer_31340138">
+        <Rectangle Bounds="21;1.000538;8.000145;28.99946" FillBrush="Type:Solid;Colors:#F007;" StrokeBrush="Type:Solid;Colors:#0000;" SmoothingMode="None" Id="Rectangle_6254019" />
+        <Rectangle Bounds="1.625328;1.000538;17;28.99946" FillBrush="Type:Solid;Colors:#FFBAFF00;" StrokeBrush="Type:Solid;Colors:#0000;" SmoothingMode="None" Id="Rectangle_6254019" />
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

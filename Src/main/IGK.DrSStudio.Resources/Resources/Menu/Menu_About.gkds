@@ -1,0 +1,12 @@
+<!--This is a gkds DrSStudio file 9.1.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2014-->
+<gkds>
+  <Documents>
+    <LayerDocument BackgroundTransparent="True" Width="32" Height="32" Id="LayerDocument_20773082" FillBrush="Type:Solid;Colors:#FFFF;">
+      <Layer Id="Layer_57362552">
+        <Circle Radius="6.403124 12.04159 14.14214" Center="16;16" FillBrush="Type:Solid;Colors:#FF4BA2FF;" StrokeBrush="Type:Solid;Colors:#0000;" ShadowProperty="Offset:-1 -1;IsClipped:False;ShadowBrush:[Type:Solid;Colors:#FF0030FF;]" AllowShadow="True" Id="Circle_31585548" />
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

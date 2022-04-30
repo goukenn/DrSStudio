@@ -1,0 +1,15 @@
+<!--This is a gkds DrSStudio file 9.2.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2014-->
+<gkds>
+  <Project>
+    <TargetSurface>2DDrawingSurface</TargetSurface>
+  </Project>
+  <Documents>
+    <LayerDocument FillBrush="Type:Solid;Colors:#FFFF;" BackgroundTransparent="True" Width="16" Height="16" Id="LayerDocument_57658313">
+      <Layer GammaCorrection="0" Id="Layer_38041845">
+        <GridElement Bounds="2;2;12;12" FillBrush="Type:Solid;Colors:#F000;" StrokeBrush="Type:Solid;Colors:#FF62CDFF;" Id="GridElement_62047511" />
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

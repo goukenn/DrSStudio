@@ -1,0 +1,22 @@
+<!--This is a gkds DrSStudio file 9.2.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2014-->
+<gkds>
+  <Project>
+    <TargetSurface>2DDrawingSurface</TargetSurface>
+  </Project>
+  <Documents>
+    <LayerDocument FillBrush="Type:Solid;Colors:#FFFF;" Width="512" Height="512" Id="LayerDocument_57086342">
+      <Layer GammaCorrection="0" Id="Layer_23128738">
+        <Rectangle Bounds="0;0;512;512" FillBrush="Type:Solid;Colors:#FFC9CBC3;" StrokeBrush="Type:Solid;Colors:#FF1A45FF;" Id="Rectangle_14957265" />
+        <MapRectArea Bounds="0;0;0;0" Id="MapRectArea_36835441" />
+        <MapRectArea Bounds="0;0;0;0" Id="MapRectArea_32451512" />
+        <Rectangle Bounds="0;0;90;512" FillBrush="Type:Solid;Colors:#F07F;" StrokeBrush="Type:Solid;Colors:#0000;" SmoothingMode="None" Id="Rectangle_65235265" />
+      </Layer>
+      <Layer GammaCorrection="0" Id="Layer_43495465">
+        <RoundRect BottomRight="0;0" BottomLeft="0;0" TopRight="74;97" TopLeft="74;97" Bounds="144;161;274;229" FillBrush="Type:Solid;Colors:#FF002AFF;" StrokeBrush="Type:Solid;Colors:#FFFF;Width:20;DashStyle:Solid;LineJoin:Round" Id="RoundRect_58736530" />
+        <Circle Radius="88.61716" Center="279;142" FillBrush="Type:Solid;Colors:#FF002AFF;" StrokeBrush="Type:Solid;Colors:#FFFF;Width:20;DashStyle:Solid;LineJoin:Round" Id="Circle_31642295" />
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

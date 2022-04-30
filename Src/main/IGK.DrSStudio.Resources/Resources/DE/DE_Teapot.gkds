@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--This is a gkds DrSStudio file 8.5.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2013-->
+<gkds>
+  <Project>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+    <FileName>D:\DRSStudio 8.4 Src\IGK.DrSStudio.Resources\Resources\DE_Teapot.gkds</FileName>
+    <Resources>
+      <String Id="app_title" />
+    </Resources>
+  </Project>
+<Documents>
+  <LayerDocument InterpolationMode="Pixel" TextContrast="4" BackgroundTransparent="True" Width="32" Height="32" Id="LayerDocument_3217067"><Extensions /><Layer Id="Layer_1699224"><Rectangle Bounds="1;1;30;30" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#FF6D6D6D;" Id="Rectangle_48765756"><Filters /></Rectangle><CustomPolygon FillMode="Alternate" Points="3;7 5;4 15;4 18;6 18;10 13;10 12;7 6;7 4;11 6;18 12;19 13;17 13;15 9;15 9;12 23;12 23;15 18;15 18;17 16;21 12;23 4;21 2;12" StrokeBrush="Type:Solid;Colors:#0000;" Matrix="1;0;0;1;4;2" Id="CustomPolygon_4920786"><Filters /></CustomPolygon></Layer></LayerDocument>
+</Documents>
+</gkds>

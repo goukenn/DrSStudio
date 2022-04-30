@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EA089FFE-07C0-4F2E-8470-094CB4030C11}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>IGK.DrSStudio.Drawing2D</RootNamespace>
+    <AssemblyName>drs2DHistoryAddIn</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>Bin\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>Bin\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>Bin\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>Bin\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddInInfo.cs" />
+    <Compile Include="Configuration\HistoryActionSetting.cs" />
+    <Compile Include="HistoryActionsList.cs" />
+    <Compile Include="HistoryActions\Drawing2DHistoryActionPerformed.cs" />
+    <Compile Include="HistoryActions\Drawing2DHistoryActionBase.cs" />
+    <Compile Include="HistoryActions\_BitmapHistoryActions.cs" />
+    <Compile Include="HistoryActions\_DocumentAdded.cs" />
+    <Compile Include="HistoryActions\_DocumentPropertyChanged.cs" />
+    <Compile Include="HistoryActions\_DocumentRemoved.cs" />
+    <Compile Include="HistoryActions\_ItemAdded.cs" />
+    <Compile Include="HistoryActions\_ItemColorChanged.cs" />
+    <Compile Include="HistoryActions\_ItemDefinitionChanged.cs" />
+    <Compile Include="HistoryActions\_ItemPositionChanged.cs" />
+    <Compile Include="HistoryActions\_ItemRemoved.cs" />
+    <Compile Include="HistoryActions\_LayerAdded.cs" />
+    <Compile Include="HistoryActions\_LayerDefinitionChanged.cs" />
+    <Compile Include="HistoryActions\_LayerRemoved.cs" />
+    <Compile Include="HistoryChangedEventHandler.cs" />
+    <Compile Include="HistoryConstant.cs" />
+    <Compile Include="HistoryItemEventArgs.cs" />
+    <Compile Include="IHistoryChain.cs" />
+    <Compile Include="IHistoryChainCollection.cs" />
+    <Compile Include="IHistoryChainItem.cs" />
+    <Compile Include="Image\IImageHistory.cs" />
+    <Compile Include="Image\ImageHistoryAction.cs" />
+    <Compile Include="Image\SingleImageHistoryManager.cs" />
+    <Compile Include="Settings\HistoryMemberSettings.cs" />
+    <Compile Include="Settings\HistorySetting.cs" />
+    <Compile Include="IHistory2DUndoAndRedo.cs" />
+    <Compile Include="IHistoryActionList.cs" />
+    <Compile Include="IHistorySurfaceManager.cs" />
+    <Compile Include="Menu\Edit\_ClearHistoryMenu.cs" />
+    <Compile Include="Menu\Edit\_RedoMenu.cs" />
+    <Compile Include="Menu\Edit\_SaveHistoryMenu.cs" />
+    <Compile Include="Menu\Edit\_UndoMenu.cs" />
+    <Compile Include="Menu\View\_ShowHistoryManager.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\DocumentManager.cs" />
+    <Compile Include="Tools\ElementAddedManager.cs" />
+    <Compile Include="Tools\HistoryChainActionItem.cs" />
+    <Compile Include="Tools\HistoryChainItemBase.cs" />
+    <Compile Include="Tools\HistoryChainManagerTool.cs" />
+    <Compile Include="Tools\HistorySurfaceManager.cs" />
+    <Compile Include="Tools\HistoryToolManager.cs" />
+    <Compile Include="Tools\HistoryToolManagerBase.cs" />
+    <Compile Include="Tools\ImageManager.cs" />
+    <Compile Include="Tools\LayerManager.cs" />
+    <Compile Include="WinUI\HistoryRenderer.cs" />
+    <Compile Include="WinUI\UIXHistoryControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WinUI\UIXHistoryControlHost.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WinUI\XHistoryItemControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tool_2DHistory.gkds" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\core\IGK.ICore.Drawing2D\IGK.ICore.Drawing2D.csproj">
+      <Project>{29738416-cc50-4ad2-9353-b03fbeecdaf8}</Project>
+      <Name>IGK.ICore.Drawing2D</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\core\IGK.ICore.WinCore\IGK.ICore.WinCore.csproj">
+      <Project>{68ab7706-a97f-4bf8-8d1f-26d69a6bfa0e}</Project>
+      <Name>IGK.ICore.WinCore</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\main\IGK.DrSStudio.WinCoreDesign\IGK.DrSStudio.WinCoreDesign.csproj">
+      <Project>{497fad28-de18-40d3-af73-2ec1f9303b6b}</Project>
+      <Name>IGK.DrSStudio.WinCoreDesign</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\main\IGK.DrSStudio.WinCore\IGK.DrSStudio.WinCore.csproj">
+      <Project>{74f6a53e-2948-41bc-a842-e036c6d96667}</Project>
+      <Name>IGK.DrSStudio.WinCore</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\core\IGK.ICore\IGK.ICore.csproj">
+      <Project>{95e437a5-4a87-4fab-b15f-4a0fde8b7dcf}</Project>
+      <Name>IGK.ICore</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\IGK.DrSStudio.Drawing2D.GUI\IGK.DrSStudio.Drawing2D.GUI.csproj">
+      <Project>{04adf5a1-c4db-484c-9dd8-02101d2e064c}</Project>
+      <Name>IGK.DrSStudio.Drawing2D.GUI</Name>
+      <Private>False</Private>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

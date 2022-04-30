@@ -1,0 +1,85 @@
+<?php
+
+if (!defined('IGK_FRAMEWORK')){
+	header("Content-Type: text/javascript");
+	require_once("../../../../igk_framework.php");
+}
+else{
+	// echo "//no framework found";
+	// return;
+}
+$o="";
+
+$o.=<<<EOF
+(function(){\n
+EOF;
+
+$s = igk_getr("f");
+if ($s)
+	$s = base64_decode($s);
+$tv = igk_io_getfiles($s ?? dirname(__FILE__)."/shaders", "/.(vs|fs)/i");
+if ($folder){
+	$tv = array_merge($tv, igk_io_getfiles($folder, "/.(vs|fs)/i"));
+}
+foreach( $tv as $k=>$v){
+	
+	$f = igk_io_read_allfile($v);
+	//remove comment line
+	$h = preg_replace("#//(.)*$#im","", $f);
+	//$h = preg_replace("/(\n|\r)/", "",  $h);
+	$ho = "";
+	$ms=0;
+	// $o.= " console.debug('file : ".$h."');\n";
+	//filter lines //preprocessor
+	//igk_wln($h);
+	foreach(explode("\n", $h) as $line){
+	//preg_replace_callback("/^((.)*)$/im", function($s)use(& $ho, & $ms){
+		$txt = $line; //$s[1];
+		// igk_wl($txt);
+		if (preg_match("/^\s*#(.)*$/mi",$txt)){
+			$ho.= ($ho==""?null:"\n").rtrim ($txt)."\n";
+			$ms = 1;
+			
+			// igk_wln($s);
+		// exit;
+			continue;//return;
+		}
+		$ho .=  preg_replace("/(\n|\r|\t)/im", "",  $txt);
+	}//, $h);
+	//$v .= " = 1\n";
+	
+	if ($ms){
+		$tt = "[";
+		//igk_wln("ho".$ho);
+		$ff=0;
+		foreach(explode("\n", $ho) as $kk=>$vv){
+			if ($ff)
+				$tt.=",";
+			$tt.= "\"".$vv."\"";
+			$ff=1;
+		}
+		$tt .= "].join(\"\\n\")";
+		$h = $tt;
+		// igk_wl($tt);
+		// exit;
+	}else{
+		$h = "\"".$ho."\"";
+	}
+	// igk_wln($h);
+	switch(strtolower(igk_io_path_ext($v))){
+		
+		case "vs":
+			$o.= " igk.bge.shaders.".igk_io_basenamewithoutext($v)."VS =".$h.";\n";
+		break;
+		case "fs":
+			$o.= " igk.bge.shaders.".igk_io_basenamewithoutext($v)."FS = ".$h.";\n";
+			break;
+	}
+	
+	
+}
+$o.=<<<EOF
+})();
+EOF;
+echo $o;
+?>

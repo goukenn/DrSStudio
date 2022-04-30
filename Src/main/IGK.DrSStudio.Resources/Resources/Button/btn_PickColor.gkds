@@ -1,0 +1,67 @@
+<!--This is a gkds DrSStudio file 9.1.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2014-->
+<gkds>
+  <Documents>
+    <LayerDocument FillBrush="Type:Solid;Colors:#FFFF;" PixelOffset="Default" BackgroundTransparent="True" Width="32" Height="32" Id="Normal">
+      <Layer Id="Layer_52480367">
+        <Group Matrix="0.1222707,0,0,0,0,0.1266968,0,0,0,0,1,0,0.41048,-0.5339372,0,1" Id="Group_13350640">
+          <Rectangle Bounds="52;40;139;45" FillBrush="Type:Solid;Colors:#FF6D6D6D;" StrokeBrush="Type:Solid;Colors:#FF6D6D6D;Width:8;DashStyle:DashStyle [Solid];LineJoin:Round" Matrix="-0.7071069,-0.7071066,0,0,0.7071065,-0.7071069,0,0,0,0,1,0,198.2193,234.6076,0,1" Id="Rectangle_31425761" />
+          <Circle Radius="44.55334" Center="209;56" FillBrush="Type:Solid;Colors:#FF6D6D6D;" StrokeBrush="Type:Solid;Colors:#0000;" Matrix="1,0,0,0,0,1,0,0,0,0,1,0,-12,9,0,1" Id="Circle_16090734" />
+          <RoundRect BottomRight="10;10" BottomLeft="0;0" TopRight="10;10" TopLeft="0;0" Bounds="23;88.25002;126;79.50002" FillBrush="Type:Solid;Colors:#0000;" StrokeBrush="Type:Solid;Colors:#FF6D6D6D;Width:8;DashStyle:DashStyle [Solid];LineJoin:Round" Matrix="-0.6230803,0.5877888,0,0,-0.6230804,-0.5877888,0,0,0,0,1,0,234.182,183.2828,0,1" Id="RoundRect_38590948" />
+          <RoundRect BottomRight="10;10" BottomLeft="0;0" TopRight="10;10" TopLeft="0;0" Bounds="149;111.75;67;32.50002" FillBrush="Type:Solid;Colors:#0000;" StrokeBrush="Type:Solid;Colors:#FF6D6D6D;Width:8;DashStyle:DashStyle [Solid];LineJoin:Round" Matrix="-0.6230803,0.5877888,0,0,-0.6230804,-0.5877888,0,0,0,0,1,0,234.182,183.2828,0,1" Id="RoundRect_52200412" />
+          <Bezier Closed="False" Points="41;100 82.5;100 82.5;100 124;100 138;100 138;107 138;114 138;130.5 138;130.5 138;141 138;150 133;154 127;154 106.5;154 106.5;154 86;154" FillBrush="Type:Solid;Colors:#FF6D6D6D;" StrokeBrush="Type:Solid;Colors:#0000;" Matrix="-0.5769262,0.5442489,0,0,-0.5769263,-0.5442489,0,0,0,0,1,0,225.6743,177.7139,0,1" Id="Bezier_28162760" Def="41;100 82.5;100 82.5;100 124;100 138;100 138;107 138;114 138;130.5 138;130.5 138;141 138;150 133;154 127;154 106.5;154 106.5;154 86;154" />
+        </Group>
+        <CustomPolygon Tension="0" EnableTension="False" Closed="True" FillMode="Alternate" Points="6;21 11;26 19;18" FillBrush="Type:Solid;Colors:#C6FFFFFF;" StrokeBrush="Type:Solid;Colors:#0000;" Id="CustomPolygon_29192790" />
+      </Layer>
+    </LayerDocument>
+    <LayerDocument FillBrush="Type:Solid;Colors:#FFFF;" PixelOffset="Default" BackgroundTransparent="True" Width="32" Height="32" Id="Over">
+      <Layer Id="Layer_52480367">
+        <Group Matrix="0.1222707,0,0,0,0,0.1266968,0,0,0,0,1,0,0.41048,-0.5339372,0,1" Id="Group_13350640">
+          <Rectangle Bounds="52;40;139;45" FillBrush="Type:Solid;Colors:#FF6D6D6D;" StrokeBrush="Type:Solid;Colors:#FF6D6D6D;Width:8;DashStyle:DashStyle [Solid];LineJoin:Round" Matrix="-0.7071069,-0.7071066,0,0,0.7071065,-0.7071069,0,0,0,0,1,0,198.2193,234.6076,0,1" Id="Rectangle_31425761" />
+          <Circle Radius="44.55334" Center="209;56" FillBrush="Type:Solid;Colors:#FF6D6D6D;" StrokeBrush="Type:Solid;Colors:#0000;" Matrix="1,0,0,0,0,1,0,0,0,0,1,0,-12,9,0,1" Id="Circle_16090734" />
+          <RoundRect BottomRight="10;10" BottomLeft="0;0" TopRight="10;10" TopLeft="0;0" Bounds="23;88.25002;126;79.50002" FillBrush="Type:Solid;Colors:#0000;" StrokeBrush="Type:Solid;Colors:#FF6D6D6D;Width:8;DashStyle:DashStyle [Solid];LineJoin:Round" Matrix="-0.6230803,0.5877888,0,0,-0.6230804,-0.5877888,0,0,0,0,1,0,234.182,183.2828,0,1" Id="RoundRect_38590948" />
+          <RoundRect BottomRight="10;10" BottomLeft="0;0" TopRight="10;10" TopLeft="0;0" Bounds="149;111.75;67;32.50002" FillBrush="Type:Solid;Colors:#0000;" StrokeBrush="Type:Solid;Colors:#FF6D6D6D;Width:8;DashStyle:DashStyle [Solid];LineJoin:Round" Matrix="-0.6230803,0.5877888,0,0,-0.6230804,-0.5877888,0,0,0,0,1,0,234.182,183.2828,0,1" Id="RoundRect_52200412" />
+          <Bezier Closed="False" Points="41;100 82.5;100 82.5;100 124;100 138;100 138;107 138;114 138;130.5 138;130.5 138;141 138;150 133;154 127;154 106.5;154 106.5;154 86;154" FillBrush="Type:Solid;Colors:#FFFFA200;" StrokeBrush="Type:Solid;Colors:#0000;" Matrix="-0.5769262,0.5442489,0,0,-0.5769263,-0.5442489,0,0,0,0,1,0,225.6743,177.7139,0,1" Id="Bezier_28162760" Def="41;100 82.5;100 82.5;100 124;100 138;100 138;107 138;114 138;130.5 138;130.5 138;141 138;150 133;154 127;154 106.5;154 106.5;154 86;154" />
+        </Group>
+        <CustomPolygon Tension="0" EnableTension="False" Closed="True" FillMode="Alternate" Points="6;21 11;26 19;18" FillBrush="Type:Solid;Colors:#C4FFFF0D;" StrokeBrush="Type:Solid;Colors:#0000;" Id="CustomPolygon_29192790" />
+        <Circle Radius="4.24264" Center="24;8" FillBrush="Type:Solid;Colors:#FFF0;" StrokeBrush="Type:Solid;Colors:#A6FFF600;" Id="Circle_66530993" />
+      </Layer>
+    </LayerDocument>
+    <LayerDocument FillBrush="Type:Solid;Colors:#FFFF;" PixelOffset="Default" BackgroundTransparent="True" Width="32" Height="32" Id="Down">
+      <Layer Id="Layer_52480367">
+        <Group Matrix="0.1222707,0,0,0,0,0.1266968,0,0,0,0,1,0,0.41048,-0.5339372,0,1" Id="Group_13350640">
+          <Rectangle Bounds="52;40;139;45" FillBrush="Type:Solid;Colors:#FF6D6D6D;" StrokeBrush="Type:Solid;Colors:#FF6D6D6D;Width:8;DashStyle:DashStyle [Solid];LineJoin:Round" Matrix="-0.7071069,-0.7071066,0,0,0.7071065,-0.7071069,0,0,0,0,1,0,198.2193,234.6076,0,1" Id="Rectangle_31425761" />
+          <Circle Radius="44.55334" Center="209;56" FillBrush="Type:Solid;Colors:#FF6D6D6D;" StrokeBrush="Type:Solid;Colors:#0000;" Matrix="1,0,0,0,0,1,0,0,0,0,1,0,-12,9,0,1" Id="Circle_16090734" />
+          <RoundRect BottomRight="10;10" BottomLeft="0;0" TopRight="10;10" TopLeft="0;0" Bounds="23;88.25002;126;79.50002" FillBrush="Type:Solid;Colors:#0000;" StrokeBrush="Type:Solid;Colors:#FF6D6D6D;Width:8;DashStyle:DashStyle [Solid];LineJoin:Round" Matrix="-0.6230803,0.5877888,0,0,-0.6230804,-0.5877888,0,0,0,0,1,0,234.182,183.2828,0,1" Id="RoundRect_38590948" />
+          <RoundRect BottomRight="10;10" BottomLeft="0;0" TopRight="10;10" TopLeft="0;0" Bounds="149;111.75;67;32.50002" FillBrush="Type:Solid;Colors:#0000;" StrokeBrush="Type:Solid;Colors:#FF6D6D6D;Width:8;DashStyle:DashStyle [Solid];LineJoin:Round" Matrix="-0.6230803,0.5877888,0,0,-0.6230804,-0.5877888,0,0,0,0,1,0,234.182,183.2828,0,1" Id="RoundRect_52200412" />
+          <Bezier Closed="False" Points="41;100 82.5;100 82.5;100 124;100 138;100 138;107 138;114 138;130.5 138;130.5 138;141 138;150 133;154 127;154 106.5;154 106.5;154 86;154" FillBrush="Type:Solid;Colors:#F000;" StrokeBrush="Type:Solid;Colors:#0000;" Matrix="-0.5769262,0.5442489,0,0,-0.5769263,-0.5442489,0,0,0,0,1,0,225.6743,177.7139,0,1" Id="Bezier_28162760" Def="41;100 82.5;100 82.5;100 124;100 138;100 138;107 138;114 138;130.5 138;130.5 138;141 138;150 133;154 127;154 106.5;154 106.5;154 86;154" />
+        </Group>
+        <CustomPolygon Tension="0" EnableTension="False" Closed="True" FillMode="Alternate" Points="6;21 11;26 19;18" FillBrush="Type:Solid;Colors:#C6FF0B00;" StrokeBrush="Type:Solid;Colors:#0000;" Id="CustomPolygon_29192790" />
+      </Layer>
+    </LayerDocument>
+    <LayerDocument FillBrush="Type:Solid;Colors:#FFFF;" PixelOffset="Default" BackgroundTransparent="True" Width="32" Height="32" Id="Up">
+      <Layer Id="Layer_52480367">
+        <Group Matrix="0.1222707,0,0,0,0,0.1266968,0,0,0,0,1,0,0.41048,-0.5339372,0,1" Id="Group_13350640">
+          <Rectangle Bounds="52;40;139;45" FillBrush="Type:Solid;Colors:#FF6D6D6D;" StrokeBrush="Type:Solid;Colors:#FF6D6D6D;Width:8;DashStyle:DashStyle [Solid];LineJoin:Round" Matrix="-0.7071069,-0.7071066,0,0,0.7071065,-0.7071069,0,0,0,0,1,0,198.2193,234.6076,0,1" Id="Rectangle_31425761" />
+          <Circle Radius="44.55334" Center="209;56" FillBrush="Type:Solid;Colors:#FF6D6D6D;" StrokeBrush="Type:Solid;Colors:#0000;" Matrix="1,0,0,0,0,1,0,0,0,0,1,0,-12,9,0,1" Id="Circle_16090734" />
+          <RoundRect BottomRight="10;10" BottomLeft="0;0" TopRight="10;10" TopLeft="0;0" Bounds="23;88.25002;126;79.50002" FillBrush="Type:Solid;Colors:#0000;" StrokeBrush="Type:Solid;Colors:#FF6D6D6D;Width:8;DashStyle:DashStyle [Solid];LineJoin:Round" Matrix="-0.6230803,0.5877888,0,0,-0.6230804,-0.5877888,0,0,0,0,1,0,234.182,183.2828,0,1" Id="RoundRect_38590948" />
+          <RoundRect BottomRight="10;10" BottomLeft="0;0" TopRight="10;10" TopLeft="0;0" Bounds="149;111.75;67;32.50002" FillBrush="Type:Solid;Colors:#0000;" StrokeBrush="Type:Solid;Colors:#FF6D6D6D;Width:8;DashStyle:DashStyle [Solid];LineJoin:Round" Matrix="-0.6230803,0.5877888,0,0,-0.6230804,-0.5877888,0,0,0,0,1,0,234.182,183.2828,0,1" Id="RoundRect_52200412" />
+          <Bezier Closed="False" Points="41;100 82.5;100 82.5;100 124;100 138;100 138;107 138;114 138;130.5 138;130.5 138;141 138;150 133;154 127;154 106.5;154 106.5;154 86;154" FillBrush="Type:Solid;Colors:#FF6D6D6D;" StrokeBrush="Type:Solid;Colors:#0000;" Matrix="-0.5769262,0.5442489,0,0,-0.5769263,-0.5442489,0,0,0,0,1,0,225.6743,177.7139,0,1" Id="Bezier_28162760" Def="41;100 82.5;100 82.5;100 124;100 138;100 138;107 138;114 138;130.5 138;130.5 138;141 138;150 133;154 127;154 106.5;154 106.5;154 86;154" />
+        </Group>
+        <CustomPolygon Tension="0" EnableTension="False" Closed="True" FillMode="Alternate" Points="6;21 11;26 19;18" FillBrush="Type:Solid;Colors:#C6700BFF;" StrokeBrush="Type:Solid;Colors:#0000;" Id="CustomPolygon_29192790" />
+      </Layer>
+    </LayerDocument>
+    <LayerDocument FillBrush="Type:Solid;Colors:#FFFF;" PixelOffset="Default" BackgroundTransparent="True" Width="32" Height="32" Id="Disabled">
+      <Layer Id="Layer_52480367">
+        <Group Matrix="0.1222707,0,0,0,0,0.1266968,0,0,0,0,1,0,0.41048,-0.5339372,0,1" Id="Group_13350640">
+          <Rectangle Bounds="52;40;139;45" FillBrush="Type:Solid;Colors:#FF6D6D6D;" StrokeBrush="Type:Solid;Colors:#FF6D6D6D;Width:8;DashStyle:DashStyle [Solid];LineJoin:Round" Matrix="-0.7071069,-0.7071066,0,0,0.7071065,-0.7071069,0,0,0,0,1,0,198.2193,234.6076,0,1" Id="Rectangle_31425761" />
+          <Circle Radius="44.55334" Center="209;56" FillBrush="Type:Solid;Colors:#FF6D6D6D;" StrokeBrush="Type:Solid;Colors:#0000;" Matrix="1,0,0,0,0,1,0,0,0,0,1,0,-12,9,0,1" Id="Circle_16090734" />
+          <RoundRect BottomRight="10;10" BottomLeft="0;0" TopRight="10;10" TopLeft="0;0" Bounds="23;88.25002;126;79.50002" FillBrush="Type:Solid;Colors:#0000;" StrokeBrush="Type:Solid;Colors:#FF6D6D6D;Width:8;DashStyle:DashStyle [Solid];LineJoin:Round" Matrix="-0.6230803,0.5877888,0,0,-0.6230804,-0.5877888,0,0,0,0,1,0,234.182,183.2828,0,1" Id="RoundRect_38590948" />
+          <RoundRect BottomRight="10;10" BottomLeft="0;0" TopRight="10;10" TopLeft="0;0" Bounds="149;111.75;67;32.50002" FillBrush="Type:Solid;Colors:#0000;" StrokeBrush="Type:Solid;Colors:#FF6D6D6D;Width:8;DashStyle:DashStyle [Solid];LineJoin:Round" Matrix="-0.6230803,0.5877888,0,0,-0.6230804,-0.5877888,0,0,0,0,1,0,234.182,183.2828,0,1" Id="RoundRect_52200412" />
+          <Bezier Closed="False" Points="41;100 82.5;100 82.5;100 124;100 138;100 138;107 138;114 138;130.5 138;130.5 138;141 138;150 133;154 127;154 106.5;154 106.5;154 86;154" FillBrush="Type:Solid;Colors:#FF6D6D6D;" StrokeBrush="Type:Solid;Colors:#0000;" Matrix="-0.5769262,0.5442489,0,0,-0.5769263,-0.5442489,0,0,0,0,1,0,225.6743,177.7139,0,1" Id="Bezier_28162760" Def="41;100 82.5;100 82.5;100 124;100 138;100 138;107 138;114 138;130.5 138;130.5 138;141 138;150 133;154 127;154 106.5;154 106.5;154 86;154" />
+        </Group>
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

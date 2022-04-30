@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--This is a gkds DrSStudio file 7.0.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--IGKDEV © 2008-2012-->
+<gkds>
+  <Project>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+  </Project>
+  <Documents>
+    <LayerDocument InterpolationMode="Pixel" BackgroundTransparent="True" Width="32" Height="32" Id="LayerDocument_22405262">
+      <Layer Id="Layer_21869034">
+        <RoundRect RoundStyle="Outer" BottomRight="0;0" BottomLeft="0;0" TopRight="0;0" TopLeft="0;0" Bounds="6;6;18;21" Id="RoundRect_22324333" />
+        <Line StartPoint="26;6" EndPoint="20;27" StrokeBrush="Type:Solid;Colors:#FFFF0083;Width:2;EndCap:Round;LineJoin:Round;StartCap:Round" Id="Line_55179023" />
+        <Circle Center="26;6" Radius="4.472136" StrokeBrush="Type:Solid;Colors:#F000;Width:2;EndCap:Round;LineJoin:Round;StartCap:Round" Id="Circle_19607044" />
+        <Rectangle Bounds="2;2;4;28" StrokeBrush="Type:Solid;Colors:#F000;EndCap:Round;LineJoin:Round;StartCap:Round" FillBrush="Type:Solid;Colors:#F000;" Id="Rectangle_65399377" />
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--This is a gkds DrSStudio file 8.4.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2012-->
+<gkds>
+  <Project>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+    <FileName>D:\DRSStudio 8.4 Src\bin\Debug\Empty.gkds</FileName>
+    <Resources>
+      <String Id="app_title" />
+    </Resources>
+  </Project>
+<Documents>
+  <LayerDocument BackgroundTransparent="True" Width="32" Height="32" Id="LayerDocument_1770140" InterpolationMode="Pixel" TextContrast="4"><Extensions /><Layer Id="Layer_48438420"><CustomPolygon FillMode="Alternate" Points="2;3 18;3 19;10 30;10 30;29 2;29" StrokeBrush="Type:Solid;Colors:#0000;DashStyle:Solid;LineJoin:Round" SmoothingMode="None" Matrix="1;0;0;1;0;2" Id="CustomPolygon_52064366"><Filters /></CustomPolygon><CustomPolygon FillMode="Alternate" Points="5.150537;6 15;6 16;13 28;13 28;26 5.150537;26" StrokeBrush="Type:Solid;Colors:#0000;DashStyle:Solid;LineJoin:Round" FillBrush="Type:Solid;Colors:#F222;" SmoothingMode="None" Matrix="1;0;0;1;0;2" Id="CustomPolygon_55325894"><Filters /></CustomPolygon><Line StartPoint="22;9" EndPoint="29;3" StrokeBrush="Type:Solid;Colors:#FFFFC600;Width:2;DashStyle:Solid;LineJoin:Round" Id="Line_44768012"><Filters /></Line><Line StartPoint="20;6" EndPoint="21;1" StrokeBrush="Type:Solid;Colors:#FFFFC600;" Id="Line_46494208"><Filters /></Line><Line StartPoint="27;10" EndPoint="31;10" StrokeBrush="Type:Solid;Colors:#FFFFC600;" Id="Line_17574414"><Filters /></Line></Layer></LayerDocument>
+</Documents>
+</gkds>

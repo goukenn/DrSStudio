@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--This is a gkds DrSStudio file 7.0.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--IGKDEV © 2008-2012-->
+<gkds>
+  <Project>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+    <FileName>D:\DRSStudio 7 Src\IGK.DrSStudio.Drawing3DAddIn\Resources\Btn_UpZ.gkds</FileName>
+  </Project>
+  <Documents>
+    <LayerDocument Id="LayerDocument_35363977" InterpolationMode="Hight" Width="256" Height="256" BackgroundTransparent="True">
+      <Layer Id="Layer_66619090">
+        <Polygon Count="3" Angle="29.7448826" Center="59;57" Radius="32.24903" StrokeBrush="Type:Solid;Colors:#A1000000;" FillBrush="Type:Solid;Colors:#F000;" Matrix="1;0;0;1;-3;-1" Id="Polygon_5502791" />
+        <RoundRect RoundStyle="Outer" BottomRight="0;0" BottomLeft="0;0" TopRight="0;0" TopLeft="0;0" Bounds="46;68;27;150" StrokeBrush="Type:Solid;Colors:#A1000000;" FillBrush="Type:Solid;Colors:#F000;" Matrix="1;0;0;1;-3;-1" Id="RoundRect_63550892" />
+        <Polygon Count="3" Angle="29.7448826" Center="59;57" Radius="32.24903" StrokeBrush="Type:Solid;Colors:#FF5A00FF;" FillBrush="Type:Solid;Colors:#FF4100FF;" Matrix="1;0;0;1;-10;-5" Id="Polygon_48342074" />
+        <RoundRect RoundStyle="Outer" BottomRight="0;0" BottomLeft="0;0" TopRight="0;0" TopLeft="0;0" Bounds="46;68;27;150" StrokeBrush="Type:Solid;Colors:#FF5A00FF;" FillBrush="Type:Solid;Colors:#FF4100FF;" Matrix="1;0;0;1;-9;-5" Id="RoundRect_63185419" />
+        <Path Closed="False" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#FF6D6D6D;" Matrix="3.016285;0;0;3.130057;-225.6277;15.71643" Id="Path_62966744">
+          <Points>151.3928;52.2785 149.3733;63.10986 115.1274;63.10986 115.1274;61.99353 142.1322;24.61179 128.6628;24.61179 124.982;24.61367 122.6022;25.532 121.5255;27.36865 120.9881;28.27944 120.5016;29.96524 120.0679;32.42605 118.8554;32.42605 119.7568;22.19812 150.895;22.19812 123.2377;60.66601 140.4766;60.66601 143.4126;60.6679 145.6245;59.9306 147.1104;58.45599 148.2909;57.28687 149.3657;55.16737 150.3349;52.09748</Points>
+          <PointTypes>0;1;1;1;1;1;3;3;3;3;3;3;1;1;1;1;1;3;3;3;3;3;163</PointTypes>
+        </Path>
+        <Path Closed="False" StrokeBrush="Type:Solid;Colors:#FF0091FF;" FillBrush="Type:Solid;Colors:#FF5A00FF;" Matrix="1;0;0;1;-2;57" Id="Path_22211538">
+          <Points>231.0161;118.3511 224.9247;152.2539 121.6293;152.2539 121.6293;148.7597 203.0835;31.75273 162.4559;31.75273 151.3536;31.75862 144.1755;34.63304 140.9278;40.38187 139.3069;43.23269 137.8395;48.50934 136.5313;56.21181 132.874;56.21181 135.5929;24.19781 229.5146;24.19781 146.0923;144.6045 198.0897;144.6045 206.9455;144.6104 213.6173;142.3026 218.0992;137.687 221.6599;134.0276 224.9018;127.3934 227.8252;117.7845</Points>
+          <PointTypes>0;1;1;1;1;1;3;3;3;3;3;3;1;1;1;1;1;3;3;3;3;3;163</PointTypes>
+        </Path>
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

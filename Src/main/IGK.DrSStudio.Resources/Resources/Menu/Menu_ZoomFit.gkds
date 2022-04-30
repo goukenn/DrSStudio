@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--This is a gkds DrSStudio file 8.1.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2012-->
+<gkds>
+  <Project>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+    <Resources />
+  </Project><Documents>
+  <LayerDocument InterpolationMode="HightQualityBilinear" BackgroundTransparent="True" Width="32" Height="32" Id="LayerDocument_388951">
+    <Layer Id="Layer_1869325">
+      <Rectangle Bounds="5;21;18;5" StrokeBrush="Type:Solid;Colors:#FF4C4C4C;DashStyle:Solid;LineJoin:Round" FillBrush="Type:LinearGradient;Colors:#FF0C00FF #FF4E00FF;LinearMode:Dual;Angle:220.684;GammaCorrection:True;Factors: 0 1;Positions: 0 1;" Matrix="0.6503627;0.7596235;-0.7596236;0.6503627;28.98331;-3.832897" Id="Rectangle_55305768" />
+      <Circle Center="12;12" Radius="11.31371" StrokeBrush="Type:Solid;Colors:#FF3E3E3E;" FillBrush="Type:Solid;Colors:#FFFF3600;" Matrix="1;0;0;1;1;2" Id="Circle_7645460" />
+      <Rectangle Bounds="4;6;3;8" StrokeBrush="Type:Solid;Colors:#0000;" SmoothingMode="None" Matrix="1;0;0;1;3;4" Id="Rectangle_60363419" />
+      <Rectangle Bounds="4;6;3;8" StrokeBrush="Type:Solid;Colors:#0000;" SmoothingMode="None" Matrix="1;0;0;1;12;4" Id="Rectangle_31334997" />
+      <Circle Center="10;8" Radius="1" StrokeBrush="Type:Solid;Colors:#0000;" Matrix="1;0;0;1;3;4" Id="Circle_36299682" />
+      <Circle Center="10;12" Radius="1" StrokeBrush="Type:Solid;Colors:#0000;" Matrix="1;0;0;1;3;4" Id="Circle_46057828" />
+    </Layer>
+    <Layer Id="Layer_51981365" Clipped="#Circle_7645460">
+      <Circle Center="13;14" Radius="10.63015" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#0000;" Id="Circle_7645460" />
+      <Polygon Angle="-39.8055725" Center="10;19" Radius="7.81025" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#5AFFFFFF;" Matrix="1;0;0;1;0;-11" Id="Polygon_19968034" />
+    </Layer>
+  </LayerDocument>
+</Documents></gkds>

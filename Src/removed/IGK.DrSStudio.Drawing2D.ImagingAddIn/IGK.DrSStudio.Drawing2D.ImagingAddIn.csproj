@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F3F89BEF-2357-4C15-A4E8-AB6AB3DB220B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>IGK.DrSStudio.Drawing2D</RootNamespace>
+    <AssemblyName>drs2DImgAddIn</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>Bin\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>Bin\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>Bin\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>Bin\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddinInfo.cs" />
+    <Compile Include="CoreConvolution.cs" />
+    <Compile Include="CoreConvolutionCallBack.cs" />
+    <Compile Include="CoreConvolutionParam.cs" />
+    <Compile Include="CoreImageEffectAttribute.cs" />
+    <Compile Include="Effects\Menu\BlendColorMenu.cs" />
+    <Compile Include="Effects\NoiseEffect\enuNoiseType.cs" />
+    <Compile Include="Effects\UnaryPixelOp.cs" />
+    <Compile Include="Effects\UnaryPixelOps.cs" />
+    <Compile Include="enuRegionOperation.cs" />
+    <Compile Include="enuCoreSelectionForm.cs" />
+    <Compile Include="GDIAttribute\Menu\_GdiAttribute.cs" />
+    <Compile Include="GDIAttribute\WinUI\XGdiConfigAttribute.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GDIColorMatrix\Menu\_ColorMatrixMenu.cs" />
+    <Compile Include="GDIColorMatrix\WinUI\XGdiMatrixControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="IBitmapEffect.cs" />
+    <Compile Include="ICoreImageFilter.cs" />
+    <Compile Include="IImagingEffect.cs" />
+    <Compile Include="ImageEffectBase.cs" />
+    <Compile Include="ImageSelectionOperator\ContextMenu\ContextCopySelection.cs" />
+    <Compile Include="ImageSelectionOperator\ContextMenu\ContextMenuSetSelectionType.cs" />
+    <Compile Include="ImageSelectionOperator\ContextMenu\ContextMenuSelectionRegion.cs" />
+    <Compile Include="ImageSelectionOperator\enuSelectionOperationType.cs" />
+    <Compile Include="ImageSelectionOperator\Tools\SelectionRegionOperationTools.cs" />
+    <Compile Include="ImageSelectionOperator\ImageSelectionElement.cs" />
+    <Compile Include="ImageSelectionOperator\ContextMenu\_ImageSelectionContextMenuBase.cs" />
+    <Compile Include="Menu\_Effects.cs" />
+    <Compile Include="Effects\NoiseEffect\NoiseEffect.cs" />
+    <Compile Include="WorkingObjects\CopyDocumentSelectionAsImage.cs" />
+    <Compile Include="WorkingObjects\PotSelectionElement.cs" />
+    <Compile Include="Menu\Artistics\_ArtisticBase.cs" />
+    <Compile Include="Menu\Artistics\_CartoonFilter.cs" />
+    <Compile Include="Menu\CustomConvolutionMenu.cs" />
+    <Compile Include="Menu\Effect\AdjustlLevel.cs" />
+    <Compile Include="Menu\Effect\_Desaturate.cs" />
+    <Compile Include="Menu\_ConvolutionsMenu.cs" />
+    <Compile Include="Menu\_DilateFilter.cs" />
+    <Compile Include="Menu\_Filters.cs" />
+    <Compile Include="Menu\_ErodeFilter.cs" />
+    <Compile Include="Menu\_ZoomEffect.cs" />
+    <Compile Include="Effects\NoiseEffect\Menu\_NoiseEffect.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WinUI\XCustomConvolutionControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="GDIAttribute\WinUI\XGdiConfigAttribute.resx">
+      <DependentUpon>XGdiConfigAttribute.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GDIColorMatrix\WinUI\XGdiMatrixControl.resx">
+      <DependentUpon>XGdiMatrixControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!--
+  To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

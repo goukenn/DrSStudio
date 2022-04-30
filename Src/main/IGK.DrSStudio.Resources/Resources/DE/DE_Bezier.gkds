@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--This is a gkds DrSStudio file 7.0.a-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--IGKDEV © 2008-2012-->
+<gkds>
+  <Project>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+  </Project>
+  <Documents>
+    <LayerDocument InterpolationMode="Pixel" BackgroundTransparent="True" Width="16" Height="16" Id="LayerDocument_25498532">
+      <Layer Id="Layer_46791859">
+        <Bezier Closed="False" Points="2;2 13;2 1;14 14;14" StrokeBrush="Type:Solid;Colors:#F000;Width:2;LineJoin:Round" FillBrush="Type:Solid;Colors:#00FF0018;" Id="Bezier_47025782" />
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

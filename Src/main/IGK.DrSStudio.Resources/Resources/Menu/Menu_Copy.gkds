@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--This is a gkds DrSStudio file 7.0.a-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--IGKDEV © 2008-2012-->
+<gkds>
+  <Project>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+    <FileName>D:\DRSStudio2\IGK.DrSStudio.Resources\Resources\Menu_Copy.gkds</FileName>
+  </Project>
+  <Documents>
+    <LayerDocument InterpolationMode="Pixel" BackgroundTransparent="True" Width="16" Height="16" Id="LayerDocument_47061523">
+      <Layer Id="Layer_52180656">
+        <CustomPolygon Points="1;1 6;1 8;3 8;9 1;9" StrokeBrush="Type:Solid;Colors:#F000;Width:0.01;LineJoin:Round" FillBrush="Type:Solid;Colors:#FFFFC600;" SmoothingMode="None" Id="CustomPolygon_62497024" />
+        <CustomPolygon Points="1;1 6;1 8;3 8;9 1;9" StrokeBrush="Type:Solid;Colors:#F000;Width:0.01;LineJoin:Round" FillBrush="Type:Solid;Colors:#FFFFC600;" SmoothingMode="None" Matrix="1;0;0;1;6;5" Id="CustomPolygon_2668102" />
+        <Line StartPoint="3;3" EndPoint="5;3" SmoothingMode="None" Id="Line_3344175" />
+        <Line StartPoint="3;5" EndPoint="6;5" SmoothingMode="None" Id="Line_28536498" />
+        <Line StartPoint="3;7" EndPoint="5;7" SmoothingMode="None" Id="Line_63004825" />
+        <Line StartPoint="9;8" EndPoint="12;8" SmoothingMode="None" Id="Line_18089118" />
+        <Line StartPoint="9;10" EndPoint="12;10" SmoothingMode="None" Id="Line_29694374" />
+        <Line StartPoint="9;12" EndPoint="11;12" SmoothingMode="None" Id="Line_66526350" />
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

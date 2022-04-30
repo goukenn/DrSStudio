@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--This is a gkds DrSStudio file 8.5.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2013-->
+<gkds>
+  <Project>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+    <FileName>D:\DRSStudio 8.4 Src\IGK.DrSStudio.Resources\Resources\ViewColor.gkds</FileName>
+    <Resources>
+      <String Id="app_title"></String>
+    </Resources>
+  </Project>
+<Documents>
+  <LayerDocument InterpolationMode="Bilinear" TextContrast="4" PixelOffset="None" BackgroundTransparent="True" Width="32" Height="32" Id="ViewColorDoc"><Extensions /><Layer Id="Layer_4434273"><Rectangle Bounds="1;1;30;30" StrokeBrush="Type:Solid;Colors:#FFFF;Alignment:Inset;Width:2;DashStyle:Solid;LineJoin:Round" FillBrush="Type:Solid;Colors:#FF434343;" Matrix="1.066667;0;0;1.066667;-1.066667;-1.066667" Id="Color"><Filters /></Rectangle></Layer></LayerDocument>
+</Documents>
+</gkds>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--This is a gkds DrSStudio file 8.5.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2013-->
+<gkds>
+  <Project>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+    <FileName>D:\DRSStudio 8.4 Src\IGK.DrSStudio.Resources\Resources\Btn_2DAlign_Right.gkds</FileName>
+    <Resources />
+  </Project>
+<Documents>
+  <LayerDocument Id="LayerDocument_10139745" InterpolationMode="Pixel" PixelOffset="None" TextContrast="4" BackgroundTransparent="True" Width="16" Height="16"><Extensions /><Layer Id="Layer_26174080"><DocumentBlock StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#0000;" Matrix="-0.5;7.549791E-08;-7.549792E-08;-0.5;16;16" Id="DocumentBlock_37594234"><Filters /><LayerDocument Id="LayerDocument_8280140" InterpolationMode="Hight" TextContrast="4" BackgroundTransparent="True" Width="32" Height="32"><Extensions /><Layer Id="Layer_20177831"><Rectangle Bounds="2;2;5;28" StrokeBrush="Type:Solid;Colors:#FF9FC0FF;" FillBrush="Type:Solid;Colors:#FF486EFF;" Id="Rectangle_22343647"><Filters /></Rectangle><Circle Center="10;15" Radius="2.236068" StrokeBrush="Type:Solid;Colors:#FFFFE2E4;" Id="Circle_27489842"><Filters /></Circle><CustomPolygon FillMode="Alternate" Points="13;15 18;9 18;12 30;12 30;19 18;19 18;22" StrokeBrush="Type:Solid;Colors:#FFFF563A;" FillBrush="Type:Solid;Colors:#FFFF7945;" Id="CustomPolygon_51675648"><Filters /></CustomPolygon></Layer></LayerDocument></DocumentBlock></Layer></LayerDocument>
+</Documents>
+</gkds>

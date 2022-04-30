@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--This is a gkds DrSStudio file 8.2.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2012-->
+<gkds>
+  <Project>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+    <FileName>D:\DRSStudio 7.b Src\IGK.DrSStudio.Resources\Resources\DE_RoundRect.gkds</FileName>
+    <Resources />
+  </Project><Documents>
+  <LayerDocument InterpolationMode="HightQualityBicubic" Width="16" Height="16" Id="LayerDocument_39055747" BackgroundTransparent="True">
+    <Layer Id="Layer_55595606">
+      <RoundRect BottomRight="4;4" BottomLeft="4;4" TopRight="4;4" TopLeft="4;4" Bounds="1;1;14;14" StrokeBrush="Type:Solid;Colors:#FF4C0000;" FillBrush="Type:LinearGradient;Colors:#FFE3FF00 #FFFF4E00;LinearMode:Dual;Angle:228.5035;WrapMode:TileFlipXY;GammaCorrection:True;" Id="RoundRect_56944618" />
+    </Layer>
+  </LayerDocument>
+</Documents></gkds>

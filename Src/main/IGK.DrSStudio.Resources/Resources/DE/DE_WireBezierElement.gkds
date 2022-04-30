@@ -1,0 +1,22 @@
+<!--This is a gkds DrSStudio file 8.7.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2013-->
+<gkds>
+  <Project>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+    <FileName>D:\DRSStudio 8.4 Src\Src\core\IGK.DrSStudio.Resources\Resources\DE_WireBezierElement.gkds</FileName>
+    <Resources>
+      <String Id="app_title"></String>
+    </Resources>
+  </Project>
+  <Documents>
+    <LayerDocument Id="LayerDocument_64185571" BackgroundTransparent="True" Width="32" Height="32">
+      <Layer Id="Layer_37765596">
+        <Bezier Closed="False" Points="1;28 29;28 3;2 28;10" StrokeBrush="Type:Solid;Colors:#F000;Width:4;DashStyle:Solid;LineJoin:Round" FillBrush="Type:Solid;Colors:#0000;" Id="Bezier_31006192" />
+        <Circle Center="13;9" Radius="1.414214" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#FFFF008F;" Matrix="1;0;0;1;13;-7" Id="Circle_37968293" />
+        <Line StartPoint="26;2" EndPoint="3;11" StrokeBrush="Type:Solid;Colors:#F8FC0092;" Id="Line_26313167" />
+        <Circle Center="2;2" Radius="1.414214" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#FFFF008F;" Matrix="1;0;0;1;1;9" Id="Circle_50557349" />
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

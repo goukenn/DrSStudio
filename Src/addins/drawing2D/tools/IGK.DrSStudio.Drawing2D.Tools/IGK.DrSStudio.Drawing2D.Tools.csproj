@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2E3BA55C-B825-4833-B4D8-9D91025A03CD}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>IGK.DrSStudio.Drawing2D</RootNamespace>
+    <AssemblyName>drs2DTools</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>Bin\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>Bin\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>Bin\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>Bin\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddInCloneElement\CloneElement.cs" />
+    <Compile Include="AddInCloneElement\Menu\Edit\CloneElements.cs" />
+    <Compile Include="AddInPathFinderTool\Extension.cs" />
+    <Compile Include="AddInPathFinderTool\Menu\PathFinderUniteMenu.cs" />
+    <Compile Include="AddInPathFinderTool\PathFinderOperator.cs" />
+    <Compile Include="AddInPathOperator\Menu\Path\AddReversedPathMenu.cs" />
+    <Compile Include="AddInPathOperator\PathConstants.cs" />
+    <Compile Include="Document\AddInDocumentView\ContextMenu\_ExtractDocument.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Document\AddInDocumentView\IDocumentBlock.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Document\AddInDocumentView\Menu\CoreMenu_DocumentViewMenu.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Document\AddInDocumentView\Tools\CoreTool_DocumentView.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Document\AddInDocumentView\WinUI\UIXDocumentViewControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Document\AddInDocumentView\WinUI\XDocumentViewPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Document\AddInDocumentView\WinUI\XDocumentViewPanelRenderer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Document\AddInDocumentPreview\Menu\Document\PreviewDocumentMenu.cs" />
+    <Compile Include="Document\AddInDocumentPreview\Menu\Tools\Document.cs" />
+    <Compile Include="AddInDrawingSurfaceFileManager\IGKSurfaceFileManager.cs" />
+    <Compile Include="AddInDrawingSurfaceFileManager\Menu\File\FileReloadFileFromDiskMenu.cs" />
+    <Compile Include="AddInElementTransform\ContextMenu\Disposition\_MoveElementToTopContextMenu.cs" />
+    <Compile Include="AddInElementTransform\Menu\Edit\ProportionalFitElementToDocumentMenu.cs" />
+    <Compile Include="AddInElementTransform\Menu\Layer\_LayerMoveElementsToEnd.cs" />
+    <Compile Include="AddInElementTransform\Menu\Layer\_LayerMoveElementsToStart.cs" />
+    <Compile Include="AddInLayerOutlineExplorer\ContextMenu\DesignElementLayerExplorerContextMenu.cs" />
+    <Compile Include="AddInLayerOutlineExplorer\ContextMenu\LayerExplorerContextMenuBase.cs" />
+    <Compile Include="AddInLayerTools\Menu\Layer\LayerMergeAllLayersMenu.cs" />
+    <Compile Include="AddInLayerView\Menu\View\ViewLayerViewMenu.cs" />
+    <Compile Include="AddInLayerView\Tools\LayerViewTool.cs" />
+    <Compile Include="AddInLayerView\WinUI\LayerViewGUI.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AddInLayerView\WinUI\LayerViewItem.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="AddInLayerView\WinUI\LayerViewPanelGUI.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AddInLayerView\WinUI\LayerViewRenderer.cs" />
+    <Compile Include="AddInLinearGradientBrush\RadialGradientBrushElement.cs" />
+    <Compile Include="AddInLinearGradientBrush\LinearGradientBrushElement.cs" />
+    <Compile Include="AddInOrientationPathDetectionTool\OrientationPathDetectionElement.cs" />
+    <Compile Include="AddInPathOperator\Menu\Path\AddMirrorXPathPointMenu.cs" />
+    <Compile Include="AddInPathOperator\Menu\PathElementMenu.cs" />
+    <Compile Include="AddInPathOperator\Menu\PathElementMenuBase.cs" />
+    <Compile Include="AddInPathOperator\Menu\Path\BuildGraphicPathMask.cs" />
+    <Compile Include="AddInPathOperator\Menu\Path\ExplosePathMenu.cs" />
+    <Compile Include="AddInPathOperator\Menu\Path\FitterPathMenu.cs" />
+    <Compile Include="AddInPathOperator\Menu\Path\FlattenPathMenu.cs" />
+    <Compile Include="AddInPathOperator\Menu\Path\InvertMatrixMenu.cs" />
+    <Compile Include="AddInPathOperator\Menu\Path\InvertPathElementMenu.cs" />
+    <Compile Include="AddInZoomViewTool\WinUI\IGKD2DZoomToolGUI.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="AddInZoomViewTool\Menu\View\IGKD2DViewZoomToolMenu.cs" />
+    <Compile Include="AddInZoomViewTool\Tools\IGKD2DZoomTool.cs" />
+    <Compile Include="Core2DDrawingBrushElementAttribute.cs" />
+    <Compile Include="Document\Menu\Document\CopyDocumentAsNewSurfaceMenu.cs" />
+    <Compile Include="Document\Menu\Document\CloneDocumentAsNewSurfaceMenu.cs" />
+    <Compile Include="Menu\InvertElementMenu.cs" />
+    <Compile Include="Menu\SelecteElementMenuBase.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\ReplaceColorInAllDocumentTool.cs" />
+    <Compile Include="Document\AddInDocumentPreview\WinUI\UIPreviewDocument.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Document\AddInDocumentStatusInfo\Tools\DocumentStatusInfoTools.cs" />
+    <Compile Include="AddInElementTransform\ContextMenu\Disposition\Disposition.cs" />
+    <Compile Include="AddInElementTransform\ContextMenu\Disposition\DispositionChild.cs" />
+    <Compile Include="AddInElementTransform\ContextMenu\Disposition\_MoveElementToBackContextMenu.cs" />
+    <Compile Include="AddInElementTransform\ContextMenu\Disposition\_MoveElementDownContextMenu.cs" />
+    <Compile Include="AddInElementTransform\ContextMenu\Disposition\_MoveElementUpContextMenu.cs" />
+    <Compile Include="AddInElementTransform\ContextMenu\Transform\Transform.cs" />
+    <Compile Include="AddInElementTransform\ContextMenu\Transform\TransformChilds.cs" />
+    <Compile Include="AddInElementTransform\ContextMenu\Transform\_ClearTransformContextMenu.cs" />
+    <Compile Include="AddInElementTransform\ContextMenu\Transform\_ResetTransformContextMenu.cs" />
+    <Compile Include="AddInElementTransform\enuCore2DSpecialAlignElement.cs" />
+    <Compile Include="AddInElementTransform\enuSize2DTransform.cs" />
+    <Compile Include="AddInElementTransform\IGKElementTransformConstant.cs" />
+    <Compile Include="AddInElementTransform\Menu\Layer\_LayerMoveElementBack.cs" />
+    <Compile Include="AddInElementTransform\Menu\Layer\_LayerMoveElementUp.cs" />
+    <Compile Include="AddInElementTransform\Menu\Tools\_Align.cs" />
+    <Compile Include="AddInElementTransform\Menu\Tools\_Dock.cs" />
+    <Compile Include="AddInElementTransform\Menu\Tools\_Invert.cs" />
+    <Compile Include="AddInElementTransform\Menu\Tools\_SizeTransform.cs" />
+    <Compile Include="AddInElementTransform\Menu\View\_ViewElementDock.cs" />
+    <Compile Include="AddInElementTransform\Menu\View\_ViewElementsDisposition.cs" />
+    <Compile Include="AddInElementTransform\Menu\View\_ViewElementTransform.cs" />
+    <Compile Include="AddInElementTransform\Tools\enuElementDisposition.cs" />
+    <Compile Include="AddInElementTransform\Tools\_ElementDisposition.cs" />
+    <Compile Include="AddInElementTransform\Tools\_ElementDockTool.cs" />
+    <Compile Include="AddInElementTransform\Tools\_ElementTransform.cs" />
+    <Compile Include="AddInElementTransform\WinUI\XElementDispositionToolStrip.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="AddInElementTransform\WinUI\XElementDockToolStrip.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="AddInElementTransform\WinUI\XElementTransformToolStrip.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="AddInInfo.cs" />
+    <Compile Include="AddInLayerOutlineExplorer\ContextMenu\LayerExplorerEditSelectedElementPropertyContextMenu.cs" />
+    <Compile Include="AddInLayerOutlineExplorer\LayerExplorer.cs" />
+    <Compile Include="AddInLayerOutlineExplorer\WinUI\LayerExplorerTreeView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="AddInLayerOutlineExplorer\WinUI\LayerExplorerViewControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AddInLayerOutlineExplorer\Menu\View\LayerExplorerViewToolMenu.cs" />
+    <Compile Include="AddInLayerOutlineExplorer\Tools\LayerExplorerTool.cs" />
+    <Compile Include="AddInLayerStatusInfo\Tools\LayerStatusToolInfo.cs" />
+    <Compile Include="AddInPaletteManager\CoreColorPallette.cs" />
+    <Compile Include="AddInPaletteManager\enuCorePaletteSavingMode.cs" />
+    <Compile Include="AddInPropertyTool\Menu\ViewAcceleratorPropertyTool.cs" />
+    <Compile Include="AddInPropertyTool\Properties\AssemblyInfo.cs" />
+    <Compile Include="AddInPropertyTool\Tools\AcceleratorPropertyTool.cs" />
+    <Compile Include="AddInPropertyTool\WinUI\XAcceleratorToolStrip.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Document\AddInSplitDocument\enuMergeDocumentType.cs" />
+    <Compile Include="Document\AddInSplitDocument\enuMergeSaveFormat.cs" />
+    <Compile Include="Document\AddInSplitDocument\ISplitDocument.cs" />
+    <Compile Include="Document\AddInSplitDocument\Menu\_MergeAllDocument.cs" />
+    <Compile Include="Document\AddInSplitDocument\Menu\_SplitDocument.cs" />
+    <Compile Include="Document\AddInSplitDocument\WinUI\UIXSplitDocumentControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AddInSuperCopy\ContextMenu\ContextMenu_SuperCopy.cs" />
+    <Compile Include="AddInSuperCopy\Menu\CoreMenu_SuperCopy.cs" />
+    <Compile Include="AddInSuperCopy\WinUI\UIXSuperCopy.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AddInZoomPercentStatusInfo\Tools\IGKD2DrawingZoomPercentStatusInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="AddInLayerView\ContextMenu\" />
+    <Folder Include="AddInPropertyTool\bin\x64\Debug\" />
+    <Folder Include="AddInPropertyTool\bin\x64\Release\" />
+    <Folder Include="Document\AddInSplitDocument\Tools\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Document\AddInDocumentView\WinUI\UIXDocumentViewControl.resx">
+      <DependentUpon>UIXDocumentViewControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Document\AddInDocumentPreview\WinUI\UIPreviewDocument.resx">
+      <DependentUpon>UIPreviewDocument.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddInLayerOutlineExplorer\WinUI\LayerExplorerViewControl.resx">
+      <DependentUpon>LayerExplorerViewControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddInLayerView\WinUI\LayerViewGUI.resx">
+      <DependentUpon>LayerViewGUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddInLayerView\WinUI\LayerViewPanelGUI.resx">
+      <DependentUpon>LayerViewPanelGUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Document\AddInSplitDocument\WinUI\UIXSplitDocumentControl.resx">
+      <DependentUpon>UIXSplitDocumentControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AddInZoomViewTool\Resources\img_zoommode_Center.gkds" />
+    <None Include="AddInZoomViewTool\Resources\img_zoommode_Normal.gkds" />
+    <None Include="AddInZoomViewTool\Resources\img_zoommode_Stretch.gkds" />
+    <None Include="AddInZoomViewTool\Resources\img_zoommode_ZoomCenter.gkds" />
+    <None Include="AddInZoomViewTool\Resources\img_zoommode_ZoomNormal.gkds" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\core\IGK.ICore.Drawing2D\IGK.ICore.Drawing2D.csproj">
+      <Project>{29738416-cc50-4ad2-9353-b03fbeecdaf8}</Project>
+      <Name>IGK.ICore.Drawing2D</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\core\IGK.ICore.WinCore\IGK.ICore.WinCore.csproj">
+      <Project>{68ab7706-a97f-4bf8-8d1f-26d69a6bfa0e}</Project>
+      <Name>IGK.ICore.WinCore</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\main\IGK.DrSStudio.WinCore\IGK.DrSStudio.WinCore.csproj">
+      <Project>{74f6a53e-2948-41bc-a842-e036c6d96667}</Project>
+      <Name>IGK.DrSStudio.WinCore</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\core\IGK.ICore\IGK.ICore.csproj">
+      <Project>{95e437a5-4a87-4fab-b15f-4a0fde8b7dcf}</Project>
+      <Name>IGK.ICore</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\IGK.DrSStudio.Drawing2D.GUI\IGK.DrSStudio.Drawing2D.GUI.csproj">
+      <Project>{04adf5a1-c4db-484c-9dd8-02101d2e064c}</Project>
+      <Name>IGK.DrSStudio.Drawing2D.GUI</Name>
+      <Private>False</Private>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

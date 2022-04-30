@@ -1,0 +1,15 @@
+<!--This is a gkds DrSStudio file 9.2.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2014-->
+<gkds>
+  <Project>
+    <TargetSurface>2DDrawingSurface</TargetSurface>
+  </Project>
+  <Documents>
+    <LayerDocument FillBrush="Type:Solid;Colors:#FFFF;" BackgroundTransparent="True" Width="16" Height="16" Id="LayerDocument_57658313">
+      <Layer GammaCorrection="0" Id="Layer_38041845">
+        <GridBox Large="2px" Small="1px" Bounds="0;0;16;15" FillBrush="Type:Solid;Colors:#FF3F7EFF;" StrokeBrush="Type:Solid;Colors:#FF59FF00;" Id="GridBox_62841072" />
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

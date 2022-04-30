@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AD373D94-AC10-4B33-88F7-E9AD4BB93850}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>IGK.AVIApi</RootNamespace>
+    <AssemblyName>IGK.AVIApi</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;WINDOWS_64</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x64</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;WINDOWS_64</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+    <Prefer32Bit>false</Prefer32Bit>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ACM\ACMApi.cs" />
+    <Compile Include="ACM\ACMDriverInfo.cs" />
+    <Compile Include="ACM\ACMExtension.cs" />
+    <Compile Include="ACM\ACMFilterInfo.cs" />
+    <Compile Include="ACM\ACMFilterTagInfo.cs" />
+    <Compile Include="ACM\ACMFormatInfo.cs" />
+    <Compile Include="ACM\ACMFormatTagInfo.cs" />
+    <Compile Include="ACM\ACMInfo.cs" />
+    <Compile Include="ACM\ACMManager.cs" />
+    <Compile Include="ACM\enuACMConvertType.cs" />
+    <Compile Include="ACM\enuACMDriverFlag.cs" />
+    <Compile Include="ACM\enuACMEnumFormatType.cs" />
+    <Compile Include="ACM\enuACMWaveFormat.cs" />
+    <Compile Include="ACM\enuACMMetrics.cs" />
+    <Compile Include="ACM\enuACMOpenMode.cs" />
+    <Compile Include="ACM\enuACMPreparedStatus.cs" />
+    <Compile Include="ACM\enuACMResult.cs" />
+    <Compile Include="ACM\enuACMSizeFlag.cs" />
+    <Compile Include="ACM\enuACMSuggest.cs" />
+    <Compile Include="ACM\enuACMSupportFlag.cs" />
+    <Compile Include="AVI\AVIFileManager.cs" />
+    <Compile Include="AVI\AVIFileUpdateCallBack.cs" />
+    <Compile Include="AVI\AVIFileUtility.cs" />
+    <Compile Include="AVI\AVIVideoCompressionOption.cs" />
+    <Compile Include="MP3\enuMP3PlayerMode.cs" />
+    <Compile Include="MP3\enuMP3TargetType.cs" />
+    <Compile Include="MP3\MP3Frame.cs" />
+    <Compile Include="Native\Structs.lib.cs" />
+    <Compile Include="Players\AVI\AVIFilePlayerConstant.cs" />
+    <Compile Include="Players\enuMP3PlayerMode.cs" />
+    <Compile Include="Native\PWAVEFORMAT.cs" />
+    <Compile Include="Players\PCMPlayer.cs" />
+    <Compile Include="Utils\AVIStreamUtils.cs" />
+    <Compile Include="AVI\AVIApi.cs" />
+    <Compile Include="AVI\AVIEditableStream.cs" />
+    <Compile Include="AVI\AVIFile.cs" />
+    <Compile Include="Players\AVI\AVIFileAudioPlayer.cs">
+    </Compile>
+    <Compile Include="AVI\AVIFrameStream.cs" />
+    <Compile Include="AVI\AVIMemoryStream.cs" />
+    <Compile Include="AVI\AVIPlayerBase.cs">
+    </Compile>
+    <Compile Include="AVI\AVIStream.cs" />
+    <Compile Include="AVI\AVITextStream.cs" />
+    <Compile Include="AVI\AVITimeInfo.cs" />
+    <Compile Include="AVI\enuAVIVideoFormat.cs" />
+    <Compile Include="AVI\enuAviAccess.cs" />
+    <Compile Include="AVI\enuAviCompression.cs" />
+    <Compile Include="AVI\enuAviFileCap.cs" />
+    <Compile Include="AVI\enuAviError.cs" />
+    <Compile Include="AVI\enuAVIPlayerType.cs" />
+    <Compile Include="AVI\enuAviWriteMode.cs" />
+    <Compile Include="AVI\enuDialogFlag.cs" />
+    <Compile Include="AVI\IAVIFormat.cs" />
+    <Compile Include="AVI\IAVIFrame.cs" />
+    <Compile Include="Native\IWAVEFORMAT.cs" />
+    <Compile Include="Native\IWAVEFORMATEX.cs" />
+    <Compile Include="Native\BitmapHeader.cs" />
+    <Compile Include="Native\BITMAPINFOHEADER.cs" />
+    <Compile Include="AVI\IAVIPlayer.cs" />
+    <Compile Include="Native\IntPtr64.cs" />
+    <Compile Include="Native\LPBITMAPINFOHEADER.cs" />
+    <Compile Include="MCI\enuMCIWaveInFlag.cs" />
+    <Compile Include="MCI\enuMCIWaveInMSG.cs" />
+    <Compile Include="MCI\MCIWaveInStream.cs" />
+    <Compile Include="MCI\enuMCIWaveInOpenFlag.cs" />
+    <Compile Include="MCI\enuMCIWaveInFormat.cs" />
+    <Compile Include="MCI\enuMCIWaveOutMessage.cs" />
+    <Compile Include="MCI\enuMCIWaveOutSupport.cs" />
+    <Compile Include="MCI\enuWaveOutMessage.cs" />
+    <Compile Include="MCI\MCIApi.cs" />
+    <Compile Include="MCI\MCIManager.cs" />
+    <Compile Include="MCI\MCIStream.cs" />
+    <Compile Include="MCI\MCIWaveInApi.cs" />
+    <Compile Include="MCI\MCIWaveInDeviceInfo.cs" />
+    <Compile Include="MCI\MCIWaveInManager.cs" />
+    <Compile Include="MCI\MCIWaveManager.cs" />
+    <Compile Include="MCI\MCIWaveOutApi.cs" />
+    <Compile Include="MCI\MCIWaveOutManager.cs" />
+    <Compile Include="MCI\enuMCIWaveOutOpenFlag.cs" />
+    <Compile Include="MCI\MCIWaveOutStream.cs" />
+    <Compile Include="MCI\MMTIME.cs" />
+    <Compile Include="MCI\MMVERSION.cs" />
+    <Compile Include="MCI\WAVEHDR.cs" />
+    <Compile Include="MMIO\enuMMIOAccess.cs" />
+    <Compile Include="MMIO\enuMMIOCKInfoflag.cs" />
+    <Compile Include="MMIO\enuMMIOCreateChunkParam.cs" />
+    <Compile Include="MMIO\enuMMIOError.cs" />
+    <Compile Include="MMIO\enuMMIOFindMode.cs" />
+    <Compile Include="MMIO\enuMMIOInfoFlags.cs" />
+    <Compile Include="MMIO\enuMMIOInstallFlag.cs" />
+    <Compile Include="MMIO\enuMMIOMessage.cs" />
+    <Compile Include="MMIO\enuMMIOMode.cs" />
+    <Compile Include="MMIO\enuMMIOOpenFlag.cs" />
+    <Compile Include="MMIO\enuMMIOSeek.cs" />
+    <Compile Include="MMIO\enuMMIOStreamType.cs" />
+    <Compile Include="MMIO\MMIOApi.cs" />
+    <Compile Include="MMIO\MMIOManager.cs" />
+    <Compile Include="MMIO\MMIOMsgHandler.cs" />
+    <Compile Include="MMIO\MMIOStream.cs" />
+    <Compile Include="MMIO\PMMCHKInfo.cs" />
+    <Compile Include="MMIO\PMMIOInfo.cs" />
+    <Compile Include="MMSYSTEM\mmSystemAPI.cs" />
+    <Compile Include="Players\MCIMP3Player.cs" />
+    <Compile Include="MP3\enuMP3ChannelType.cs" />
+    <Compile Include="MP3\enuMP3LayerType.cs" />
+    <Compile Include="MP3\enuMP3Type.cs" />
+    <Compile Include="MP3\MP3FileInfo.cs" />
+    <Compile Include="Native\NativeAPI.cs" />
+    <Compile Include="Native\winmm.dll.cs" />
+    <Compile Include="AVIApiProgressEventArgs.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="AVIApiUtility.cs" />
+    <Compile Include="VCM\enuVCMError.cs" />
+    <Compile Include="VCM\enuVCMLocateFlags.cs" />
+    <Compile Include="VCM\ICSETSTATUSPROCHandler.cs" />
+    <Compile Include="VCM\VCMApi.cs" />
+    <Compile Include="VCM\VCMDriverInfo.cs" />
+    <Compile Include="VCM\VCMInfo.cs" />
+    <Compile Include="VCM\VCMManager.cs" />
+    <Compile Include="Players\VideoPlayer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ACM\AudioCompressionManager.txt" />
+    <Content Include="VCM\info.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\core\IGK.ICore\IGK.ICore.csproj">
+      <Project>{95e437a5-4a87-4fab-b15f-4a0fde8b7dcf}</Project>
+      <Name>IGK.ICore</Name>
+      <Private>False</Private>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

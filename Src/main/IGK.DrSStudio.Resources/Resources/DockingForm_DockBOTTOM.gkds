@@ -1,0 +1,19 @@
+<!--This is a gkds DrSStudio file 9.3.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2014-->
+<gkds>
+  <Project>
+    <TargetSurface>2DDrawingSurface</TargetSurface>
+  </Project>
+  <Documents>
+    <LayerDocument FillBrush="Type:Solid;Colors:#FFFF;" PixelOffset="None" BackgroundTransparent="True" Width="32" Height="32" Id="LayerDocument_46846031">
+      <Layer GammaCorrection="0" Id="Layer_40432798">
+        <Rectangle Bounds="0;0;32;32" FillBrush="Type:Solid;Colors:#FFFFBA00;" StrokeBrush="Type:Solid;Colors:#FFFF;Alignment:Inset;DashStyle:Solid;LineJoin:Round" SmoothingMode="None" Id="background" />
+        <Path Closed="True" FillMode="Alternate" StrokeBrush="Type:Solid;Colors:#0000;" Matrix="-0.0454074,-0.9989685,0,0,0.9989685,-0.0454074,0,0,0,0,1,0,0.6522064,31.71208,0,1" Id="Path_19604934">
+          <PointTypes>0;3;3;3;3;3;3;3;3;3;3;3;131;0;3;3;3;3;3;3;3;3;3;3;3;131</PointTypes>
+          <Points>18.69538;21.19227 15.9374;21.05437 13.81341;18.7068 13.95131;15.94882 14.08921;13.19083 16.43678;11.06684 19.19476;11.20474 21.95274;11.34264 24.07673;13.69021 23.93883;16.44819 23.80093;19.20618 21.45337;21.33017 18.69538;21.19227 18.62531;22.59364 15.09338;22.41704 12.37334;19.41068 2.965033;15.3995 12.72654;12.34681 15.73289;9.626772 19.26483;9.803369 22.79677;9.979966 25.5168;12.98632 25.34021;16.51826 25.16361;20.0502 22.15725;22.77023 18.62531;22.59364</Points>
+        </Path>
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--This is a gkds DrSStudio file 8.1.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2012-->
+<gkds>
+  <Project>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+    <FileName>D:\DRSStudio 7.b Src\IGK.DrSStudio.Resources\Resources\DE_DocumentBlock.gkds</FileName>
+  </Project>
+  <Documents>
+    <LayerDocument InterpolationMode="Pixel" BackgroundTransparent="True" Width="32" Height="32" Id="LayerDocument_16316050">
+      <Layer Id="Layer_51563209">
+        <RoundRect BottomRight="4;2.999998" BottomLeft="4;2.999998" TopRight="4;2.999998" TopLeft="4;2.999998" Bounds="1;6.000002;30;20" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#FF696969;" Matrix="0.9148469;0;0;1;1.085153;0" Id="RoundRect_35150206" />
+        <RoundRect BottomRight="4;2.999998" BottomLeft="4;2.999998" TopRight="4;2.999998" TopLeft="4;2.999998" Bounds="1;6.000002;30;20" StrokeBrush="Type:LinearGradient;Colors:#F555 #FFFF;LinearMode:Dual;Angle:248.0513;WrapMode:TileFlipXY;GammaCorrection:True;Factors: 0 1;Positions: 0 1;" FillBrush="Type:LinearGradient;Colors:#FF5D87D7 #FF003F9B;LinearMode:Dual;Angle:248.0513;WrapMode:TileFlipXY;GammaCorrection:True;Factors: 0 1;Positions: 0 1;" Matrix="0.8666667;0;0;1;0.1333332;-2" Id="RoundRect_57404416" />
+        <Circle Center="12;14" Radius="4.24264;7.615773" StrokeBrush="Type:Solid;Colors:#0000;" Matrix="1;0;0;1;-2;0" Id="Circle_26454263" />
+        <Polygon Angle="26.565052" Center="10;14" Radius="2.236068" StrokeBrush="Type:Solid;Colors:#0000;" Id="Polygon_3097357" />
+        <Rectangle Bounds="13;12;12;4" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:LinearGradient;Colors:#FF5D87D7 #FF003F9B;LinearMode:Dual;Angle:248.0513;WrapMode:TileFlipXY;GammaCorrection:True;Factors: 0 1;Positions: 0 1;" Id="Rectangle_61119853" />
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

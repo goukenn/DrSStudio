@@ -1,0 +1,23 @@
+<!--This is a gkds ICore file 9.7.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2016-->
+<gkds>
+  <Project>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+    <Author>Charles A.D. BONDJE DOUE</Author>
+    <Creation>15-08-2016 09:58:26</Creation>
+    <Version>1.0</Version>
+  </Project>
+  <Documents>
+    <LayerDocument Id="LayerDocument_59002136" PixelOffset="None" BackgroundTransparent="True" Width="100" Height="100">
+      <Layer Id="Layer_18630954">
+        <Rectangle Bounds="9;10;22;22" FillBrush="Type:Solid;Colors:#F444;" StrokeBrush="Type:Solid;Colors:#0000;" Id="Rectangle_7103910" />
+        <Rectangle Bounds="9;41;22;22" FillBrush="Type:Solid;Colors:#F444;" StrokeBrush="Type:Solid;Colors:#0000;" Id="Rectangle_7103910" />
+        <Rectangle Bounds="9;73;22;22" FillBrush="Type:Solid;Colors:#F444;" StrokeBrush="Type:Solid;Colors:#0000;" Id="Rectangle_7103910" />
+        <Rectangle Bounds="44;10;22;22" FillBrush="Type:Solid;Colors:#F444;" StrokeBrush="Type:Solid;Colors:#0000;" Id="Rectangle_7103910" />
+        <Rectangle Bounds="44;41;22;22" FillBrush="Type:Solid;Colors:#F444;" StrokeBrush="Type:Solid;Colors:#0000;" Id="Rectangle_7103910" />
+        <Rectangle Bounds="73;73;22;22" FillBrush="Type:Solid;Colors:#F444;" StrokeBrush="Type:Solid;Colors:#0000;" Id="Rectangle_7103910" />
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

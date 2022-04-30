@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--This is a gkds DrSStudio file 7.0.a-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--IGKDEV © 2008-2012-->
+<gkds>
+  <Project>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+    <FileName>D:\DRSStudio2\IGK.DrSStudio.Resources\Resources\DE_Pentacle2.gkds</FileName>
+  </Project>
+  <Documents>
+    <LayerDocument InterpolationMode="Pixel" BackgroundTransparent="True" Width="16" Height="16" Id="LayerDocument_22987335">
+      <Layer Id="Layer_60050193">
+        <Pentacle2 RoundItem="2" EnableTension="False" Tension="0" FillMode="Alternate" Angle="218.659821" Count="3" Radius="6.40312433" StrokeBrush="Type:Solid;Colors:#FFF5FF00;" FillBrush="Type:Solid;Colors:#FFFFD200;" Matrix="1;0;0;1;8;8" Id="Pentacle2_63750370" />
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

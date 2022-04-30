@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--This is a gkds DrSStudio file 7.0.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2011-->
+<gkds>
+  <Project>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+    <FileName>D:\DRSStudio 7.b Src\IGK.DrSStudio.Resources\Resources\DE_Default.gkds</FileName>
+  </Project>
+  <Documents>
+    <LayerDocument InterpolationMode="Pixel" BackgroundTransparent="True" Width="512" Height="512" Id="LayerDocument_61429828">
+      <Layer Id="Layer_53096198">
+        <Bolt OffsetAngle="26.44366" StartAngle="0" OuterAngle="30" InnerAngle="30" Rounded="False" EnableTension="False" Tension="0" FillMode="Alternate" OuterRadius="244.125;244.125" InnerRadius="198.0101;198.0101" Center="251;252" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:LinearGradient;Colors:#FFFF5900 #FFFFB300;LinearMode:Dual;GammaCorrection:True;Factors: 0 1;Positions: 0 1;" Id="Bolt_7601298" />
+        <Circle Center="256;256" Radius="94.79452;162.2005" StrokeBrush="Type:Solid;Colors:#0000;" Id="Circle_32807939" />
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

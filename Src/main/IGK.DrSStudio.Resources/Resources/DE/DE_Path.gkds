@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--This is a gkds DrSStudio file 8.3.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2012-->
+<gkds>
+  <Project>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+    <FileName>D:\DRSStudio 7.b Src\IGK.DrSStudio.Resources\Resources\DE_Path.gkds</FileName>
+    <Resources />
+  </Project><Documents>
+  <LayerDocument Id="LayerDocument_18497668" PixelOffset="None" Width="32" Height="32" BackgroundTransparent="True">
+    <Layer Id="Layer_61497783">
+      <Path Closed="False" StrokeBrush="Type:Solid;Colors:#0000;DashStyle:Solid;LineJoin:Round" FillBrush="Type:Solid;Colors:#FF474747;" Matrix="1;0;0;1;1;0" Id="Path_45757654">
+        <Points>6;29 6;1 21;1 25;6 25;13 21;18 13;18 13;29 12;13 12;7 19;7 19;11 17;13</Points>
+        <PointTypes>0;1;1;1;1;1;1;129;0;1;1;1;129</PointTypes>
+      </Path>
+      <Path Closed="False" StrokeBrush="Type:Solid;Colors:#0000;DashStyle:Solid;LineJoin:Round" FillBrush="Type:Solid;Colors:#FF0071FF;" Matrix="1;0;0;1;1;2" Id="Path_16444322">
+        <Points>6;29 6;1 21;1 25;6 25;13 21;18 13;18 13;29 12;13 12;7 19;7 19;11 17;13</Points>
+        <PointTypes>0;1;1;1;1;1;1;129;0;1;1;1;129</PointTypes>
+      </Path>
+      <CustomPolygon FillMode="Alternate" Points="10;8 8;8 8;4 21;4 21;5 11;6" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#FF2B9CFF;" Id="CustomPolygon_66242702" />
+    </Layer>
+  </LayerDocument>
+</Documents></gkds>

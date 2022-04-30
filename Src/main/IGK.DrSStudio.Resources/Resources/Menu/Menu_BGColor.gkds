@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--This is a gkds DrSStudio file 8.5.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2013-->
+<gkds>
+  <Project>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+    <FileName>D:\DRSStudio 8.4 Src\IGK.DrSStudio.Resources\Resources\Menu_BGColor.gkds</FileName>
+    <Resources>
+      <String Id="app_title" />
+    </Resources>
+  </Project>
+<Documents>
+  <LayerDocument InterpolationMode="Pixel" TextContrast="4" BackgroundTransparent="True" Width="32" Height="32" Id="LayerDocument_16127975"><Extensions /><Layer Id="Layer_13670503"><Rectangle Bounds="3;3;27;25" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#F000;" Id="Rectangle_16872420"><Filters /></Rectangle><Rectangle Bounds="4;4;25;23" StrokeBrush="Type:Solid;Colors:#0000;" Id="Rectangle_7346559"><Filters /></Rectangle><Rectangle Bounds="5;5;23;21" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#FFC0;" Id="Rectangle_45486940"><Filters /></Rectangle></Layer></LayerDocument>
+</Documents>
+</gkds>

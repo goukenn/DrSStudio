@@ -1,0 +1,17 @@
+<!--This is a gkds DrSStudio file 9.1.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2014-->
+<gkds>
+  <Documents>
+    <LayerDocument FillBrush="Type:Solid;Colors:#FFFF;" PixelOffset="Half" BackgroundTransparent="True" Width="32" Height="32" Id="LayerDocument_48432894">
+      <Layer Id="Layer_57620120">
+        <Rectangle Bounds="2;1;21;23" FillBrush="Type:Solid;Colors:#FF3E86FF;" StrokeBrush="Type:Solid;Colors:#FF000BFF;LineJoin:Round;Alignment:Inset;DashStyle:Solid" Matrix="1,0,0,0,0,1,0,0,0,0,1,0,8,7,0,1" SmoothingMode="None" Id="Rectangle_11286771" />
+        <Rectangle Bounds="2;1;21;23" FillBrush="Type:Solid;Colors:#FF3E86FF;" StrokeBrush="Type:Solid;Colors:#FF1F2EFF;LineJoin:Round;Alignment:Inset;DashStyle:Solid" SmoothingMode="None" Id="Rectangle_11286771" />
+        <Line StrokeBrush="Type:Solid;Colors:#FFFF;LineJoin:Round;Width:2;DashStyle:Solid" EndPoint="20;5" StartPoint="4;5" SmoothingMode="None" Id="Line_65064488" />
+        <Line StrokeBrush="Type:Solid;Colors:#FFFF;LineJoin:Round;Width:2;DashStyle:Solid" EndPoint="12;14" StartPoint="4;14" Matrix="1,0,0,0,0,1,0,0,0,0,1,0,0,6,0,1" SmoothingMode="None" Id="Line_65064488" />
+        <Line StrokeBrush="Type:Solid;Colors:#FFFF;LineJoin:Round;Width:2;DashStyle:Solid" EndPoint="20;5" StartPoint="4;5" Matrix="1,0,0,0,0,1,0,0,0,0,1,0,0,10,0,1" SmoothingMode="None" Id="Line_65064488" />
+        <Line StrokeBrush="Type:Solid;Colors:#FFFF;LineJoin:Round;Width:2;DashStyle:Solid" EndPoint="20;5" StartPoint="4;5" Matrix="1,0,0,0,0,1,0,0,0,0,1,0,0,5,0,1" SmoothingMode="None" Id="Line_65064488" />
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

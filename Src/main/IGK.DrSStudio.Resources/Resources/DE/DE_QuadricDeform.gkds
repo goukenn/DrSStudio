@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--This is a gkds DrSStudio file 7.0.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--IGKDEV © 2008-2012-->
+<gkds>
+  <Project>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+  </Project>
+  <Documents>
+    <LayerDocument InterpolationMode="Pixel" BackgroundTransparent="True" Width="32" Height="32" Id="LayerDocument_59418880">
+      <Layer Id="Layer_31906251">
+        <Spline Tension="0" Points="4;12 7;25 18;4 29;13" StrokeBrush="Type:Solid;Colors:#FFFFC600;" FillBrush="Type:Solid;Colors:#0000;" Id="Spline_12849853" />
+        <Circle Center="4;11" Radius="2.236068" Id="Circle_61352991" />
+        <Circle Center="28;12" Radius="2.828427" Id="Circle_7459599" />
+        <Line StartPoint="4;11" EndPoint="2;30" Id="Line_22543964" />
+        <Line StartPoint="28;12" EndPoint="30;1" Id="Line_9937552" />
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

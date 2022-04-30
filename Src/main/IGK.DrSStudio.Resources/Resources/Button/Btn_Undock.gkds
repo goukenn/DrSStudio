@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--This is a gkds DrSStudio file 7.0.a-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--IGKDEV © 2008-2012-->
+<gkds>
+  <Project>
+    <SurfaceType>ButtonSurface</SurfaceType>
+  </Project>
+  <Documents>
+    <LayerDocument InterpolationMode="Low" BackgroundTransparent="True" Width="16" Height="16" Id="Normal">
+      <Layer Id="Layer_18406640">
+        <Rectangle SmoothingMode="None" Id="Rectangle_35777115" Bounds="2;1;11;3" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#F000;" />
+        <Rectangle SmoothingMode="None" Id="Rectangle_38154223" Bounds="2;1;11;3" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#F000;" Matrix="1;0;0;1;0;8" />
+        <Rectangle SmoothingMode="None" Id="Rectangle_64105451" Bounds="3;3;5;7" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#F000;" />
+        <Rectangle SmoothingMode="None" Id="Rectangle_6104808" Bounds="10;5;2;3" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#F000;" />
+        <Rectangle SmoothingMode="None" Id="Rectangle_23014118" Bounds="6;11;2;4" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#F000;" />
+      </Layer>
+    </LayerDocument>
+    <LayerDocument InterpolationMode="Low" BackgroundTransparent="True" Width="16" Height="16" Id="Over">
+      <Layer Id="Layer_18406640">
+        <Rectangle SmoothingMode="None" Id="Rectangle_35777115" Bounds="2;1;11;3" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#F000;" />
+        <Rectangle SmoothingMode="None" Id="Rectangle_38154223" Bounds="2;1;11;3" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#F000;" Matrix="1;0;0;1;0;8" />
+        <Rectangle SmoothingMode="None" Id="Rectangle_64105451" Bounds="3;3;5;7" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#F000;" />
+        <Rectangle SmoothingMode="None" Id="Rectangle_6104808" Bounds="10;5;2;3" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#FF00;" />
+        <Rectangle SmoothingMode="None" Id="Rectangle_23014118" Bounds="6;11;2;4" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#F000;" />
+      </Layer>
+    </LayerDocument>
+    <LayerDocument InterpolationMode="Low" BackgroundTransparent="True" Width="16" Height="16" Id="Down">
+      <Layer Id="Layer_18406640">
+        <Rectangle SmoothingMode="None" Id="Rectangle_35777115" Bounds="2;1;11;3" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#FFFF8F0A;" />
+        <Rectangle SmoothingMode="None" Id="Rectangle_38154223" Bounds="2;1;11;3" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#FFFF8F0A;" Matrix="1;0;0;1;0;8" />
+        <Rectangle SmoothingMode="None" Id="Rectangle_64105451" Bounds="3;3;5;7" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#FFFF8F0A;" />
+        <Rectangle SmoothingMode="None" Id="Rectangle_6104808" Bounds="10;5;2;3" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#FFFF0030;" />
+        <Rectangle SmoothingMode="None" Id="Rectangle_23014118" Bounds="6;11;2;4" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#FFFF8F0A;" />
+      </Layer>
+    </LayerDocument>
+    <LayerDocument InterpolationMode="Low" BackgroundTransparent="True" Width="16" Height="16" Id="Up">
+      <Layer Id="Layer_18406640">
+        <Rectangle SmoothingMode="None" Id="Rectangle_35777115" Bounds="2;1;11;3" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#F000;" />
+        <Rectangle SmoothingMode="None" Id="Rectangle_38154223" Bounds="2;1;11;3" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#F000;" Matrix="1;0;0;1;0;8" />
+        <Rectangle SmoothingMode="None" Id="Rectangle_64105451" Bounds="3;3;5;7" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#F000;" />
+        <Rectangle SmoothingMode="None" Id="Rectangle_6104808" Bounds="10;5;2;3" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#F000;" />
+        <Rectangle SmoothingMode="None" Id="Rectangle_23014118" Bounds="6;11;2;4" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#F000;" />
+      </Layer>
+    </LayerDocument>
+    <LayerDocument InterpolationMode="Low" BackgroundTransparent="True" Width="16" Height="16" Id="Disabled">
+      <Layer Id="Layer_18406640">
+        <Rectangle SmoothingMode="None" Id="Rectangle_35777115" Bounds="2;1;11;3" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#FF393939;" />
+        <Rectangle SmoothingMode="None" Id="Rectangle_38154223" Bounds="2;1;11;3" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#FF393939;" Matrix="1;0;0;1;0;8" />
+        <Rectangle SmoothingMode="None" Id="Rectangle_64105451" Bounds="3;3;5;7" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#FF393939;" />
+        <Rectangle SmoothingMode="None" Id="Rectangle_6104808" Bounds="10;5;2;3" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#FF393939;" />
+        <Rectangle SmoothingMode="None" Id="Rectangle_23014118" Bounds="6;11;2;4" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#FF393939;" />
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

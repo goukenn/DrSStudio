@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--This is a gkds DrSStudio file 7.0.a-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--IGKDEV © 2008-2012-->
+<gkds>
+  <Project>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+  </Project>
+  <Documents>
+    <LayerDocument InterpolationMode="Pixel" BackgroundTransparent="True" Width="32" Height="32" Id="LayerDocument_43559369">
+      <Layer Id="Layer_9358635">
+        <RoundRect RoundStyle="Plus" BottomRight="8;8" BottomLeft="8;8" TopRight="8;8" TopLeft="8;8" Bounds="4;3;24;25" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#FF6F615D;" Matrix="1;0;0;1;1;1" Id="RoundRect_6414627" />
+        <RoundRect RoundStyle="Plus" BottomRight="8;8" BottomLeft="8;8" TopRight="8;8" TopLeft="8;8" Bounds="4;3;24;25" StrokeBrush="Type:Solid;Colors:#FFD2FF05;" FillBrush="Type:Solid;Colors:#FFE4FF01;" Matrix="1;0;0;1;-1;-1" Id="RoundRect_25831512" />
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

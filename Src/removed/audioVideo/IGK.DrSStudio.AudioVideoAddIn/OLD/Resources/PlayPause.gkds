@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--This is a gkds DrSStudio file 7.0.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--IGKDEV © 2008-2012-->
+<gkds>
+  <ProjectInfo>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+  </ProjectInfo>
+  <Documents>
+    <LayerDocument InterpolationMode="Pixel" BackgroundTransparent="True" Width="255" Height="255" Id="LayerDocument_23499931">
+      <Layer Id="Layer_17909221">
+        <Group Matrix="0.7609756;0;0;0.8666666;29.63902;17" Id="Group_20270072">
+          <DocumentBlock Matrix="1;0;0;1;-81;0" Id="DocumentBlock_44589353">
+            <LayerDocument InterpolationMode="Pixel" BackgroundTransparent="True" Width="255" Height="255" Id="LayerDocument_39841734">
+              <Layer Id="Layer_30114564">
+                <Polygon Count="3" Center="116;127.5" Radius="92.0489" FillBrush="Type:Solid;Colors:#FF00A7FF;" Id="Polygon_52568045" />
+              </Layer>
+              <Layer Id="Layer_157689">
+                <Polygon Count="3" Center="116;127.5" Radius="92.0489" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#FF007DFF;" Matrix="0.8715933;0;0;0.8369225;15.71486;20.79238" Id="Polygon_52568045" />
+              </Layer>
+              <Layer Id="Layer_40295481" Clipped="#Polygon_52568045">
+                <Polygon Count="3" Center="116;127.5" Radius="92.0489" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#0000;" Id="Polygon_52568045" />
+                <Ellipse Center="81;73" Radius="78;44" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#85FFFFFF;" Id="Ellipse_55285718" />
+              </Layer>
+              <Layer Id="Layer_44461952">
+                <Polygon Count="3" Center="116;127.5" Radius="92.0489" StrokeBrush="Type:Solid;Colors:#F000;Width:3;LineJoin:Round" FillBrush="Type:Solid;Colors:#0000;" Id="Polygon_52568045" />
+              </Layer>
+            </LayerDocument>
+          </DocumentBlock>
+          <DocumentBlock Matrix="1;0;0;1;74;0" Id="DocumentBlock_32759748">
+            <LayerDocument InterpolationMode="Pixel" BackgroundTransparent="True" Width="255" Height="255" Id="LayerDocument_53301549">
+              <Layer Id="Layer_65950613">
+                <Rectangle Bound="164;44;32;157" StrokeBrush="Type:Solid;Colors:#F000;Width:5;LineJoin:Round" FillBrush="Type:Solid;Colors:#FF00CBFF;" Matrix="1;0;0;1;-87;5" Id="Rectangle_29584581" />
+                <Rectangle Bound="164;44;32;157" StrokeBrush="Type:Solid;Colors:#F000;Width:5;LineJoin:Round" FillBrush="Type:Solid;Colors:#FF00CBFF;" Matrix="1;0;0;1;-19.5;5" Id="Rectangle_22316197" />
+              </Layer>
+              <Layer Id="Layer_5721570" Clipped="#Path_34807804">
+                <Path Closed="False" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#0000;" Id="Path_34807804">
+                  <Points>77;49 109;49 109;206 77;206 144.5;49 176.5;49 176.5;206 144.5;206</Points>
+                  <Types>0;1;1;129;0;1;1;129</Types>
+                </Path>
+                <Ellipse Center="88;66" Radius="126;63" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#C4FFFFFF;" Id="Ellipse_32874312" />
+              </Layer>
+            </LayerDocument>
+          </DocumentBlock>
+        </Group>
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

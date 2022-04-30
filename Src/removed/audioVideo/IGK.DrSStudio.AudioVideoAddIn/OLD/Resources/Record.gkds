@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--This is a gkds DrSStudio file 7.0.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--IGKDEV © 2008-2012-->
+<gkds>
+  <ProjectInfo>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+  </ProjectInfo>
+  <Documents>
+    <LayerDocument Id="LayerDocument_14742649" InterpolationMode="Pixel" Width="255" Height="255" BackgroundTransparent="True">
+      <Layer Id="Layer_62783175">
+        <DocumentBlock Matrix="1.180392;0;0;1.12549;-23;-16" Id="DocumentBlock_50667050">
+          <Filters><BlurAndOpacity Smooth="8" Opacity="0.54" /></Filters>
+          <LayerDocument Id="LayerDocument_32920132" InterpolationMode="Pixel" Width="255" Height="255" BackgroundTransparent="True">
+            <Layer Id="Layer_62783175">
+              <Circle Center="127.5;127.5" Radius="106.6677" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#FF00;" Id="Circle_23326556" />
+            </Layer>
+            <Layer Id="Layer_32688313">
+              <Circle Center="127.5;127.5" Radius="98.28784" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:PathGradient;Colors:#FFFF #FF00;LinearMode:Dual;Factors: 0 1;Positions: 0 1;WrapMode:Tile;PathFocusScale:0 0;OnColorPerVertex:True" Id="Circle_54758995" />
+            </Layer>
+            <Layer Id="Layer_30964381" Clipped="#Circle_23326556">
+              <Circle Center="127.5;127.5" Radius="106.6677" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#2BBDC200;" Id="Circle_23326556" />
+              <Ellipse Center="48;36" Radius="179;109" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#39FFFFFF;" Id="Ellipse_30499474" />
+            </Layer>
+          </LayerDocument>
+        </DocumentBlock>
+        <Circle Center="127.5;127.5" Radius="106.6677" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#FF00;" Id="Circle_23326556" />
+      </Layer>
+      <Layer Id="Layer_32688313">
+        <Circle Center="127.5;127.5" Radius="98.28784" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:PathGradient;Colors:#FFFF #FF00;LinearMode:Dual;Factors: 0 1;Positions: 0 1;AutoCenter:True;Center:85 65;WrapMode:Tile;PathFocusScale:0 0;OnColorPerVertex:True" Id="Circle_54758995" />
+      </Layer>
+      <Layer Id="Layer_30964381" Clipped="#Circle_23326556">
+        <Circle Center="127.5;127.5" Radius="106.6677" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#2BBDC200;" Id="Circle_23326556" />
+        <Ellipse Center="48;36" Radius="179;109" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#39FFFFFF;" Id="Ellipse_30499474" />
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

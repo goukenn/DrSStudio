@@ -1,0 +1,24 @@
+<!--This is a gkds ICore file 9.7.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2016-->
+<gkds>
+  <Project>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+    <Author>Charles A.D. BONDJE DOUE</Author>
+    <Creation>17-08-2016 09:40:21</Creation>
+    <Version>1.0</Version>
+  </Project>
+  <Documents>
+    <LayerDocument Id="LayerDocument_26457921" PixelOffset="None" BackgroundTransparent="True" Width="100" Height="100">
+      <Layer Id="Layer_50874795">
+        <Path Closed="True" FillBrush="Type:Solid;Colors:#F444;" StrokeBrush="Type:Solid;Colors:#0000;" Matrix="0.7071068 , 0.7071068 , 0 , 0 , -0.7071068 , 0.7071068 , 0 , 0 , 0 , 0 , 1 , 0 , 53.24264 , -24.71068 , 0 , 1" Id="Path_66090491">
+          <PointTypes>0;1;1;1;1;1;1;1;1;1;1;1;1;1;1;129;0;3;3;3;3;3;3;3;3;3;3;3;131</PointTypes>
+          <Points>35;8 22;20 22;45 35;53 40;59 39;95 42;98 54;98 56;95 56;59 60;53 73;45 73;19 60;8 59;36 35;36 53.65685;86 53.65685;89.1242 51.1242;91.65685 48;91.65685 44.8758;91.65685 42.34315;89.1242 42.34315;86 42.34315;82.8758 44.8758;80.34315 48;80.34315 51.1242;80.34315 53.65685;82.8758 53.65685;86</Points>
+        </Path>
+        <Rectangle Bounds="39;85;14;10" FillBrush="Type:Solid;Colors:#F444;" StrokeBrush="Type:Solid;Colors:#0000;" Id="Rectangle_54875090" />
+        <Rectangle Bounds="61;85;14;10" FillBrush="Type:Solid;Colors:#F444;" StrokeBrush="Type:Solid;Colors:#0000;" Id="Rectangle_54875090" />
+        <Rectangle Bounds="39;85;14;10" FillBrush="Type:Solid;Colors:#F444;" StrokeBrush="Type:Solid;Colors:#0000;" Matrix="1 , 0 , 0 , 0 , 0 , 1 , 0 , 0 , 0 , 0 , 1 , 0 , 43 , 0 , 0 , 1" Id="Rectangle_54875090" />
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

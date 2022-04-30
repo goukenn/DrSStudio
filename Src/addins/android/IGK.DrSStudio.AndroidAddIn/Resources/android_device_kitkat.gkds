@@ -1,0 +1,51 @@
+<!--This is a gkds DrSStudio file 9.2.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2014-->
+<gkds>
+  <Documents>
+    <LayerDocument FillBrush="Type:Solid;Colors:#FFFF;" BackgroundTransparent="True" Width="654" Height="1076" Id="LayerDocument_33487001">
+      <Layer GammaCorrection="0" Id="Layer_11182767">
+        <Rectangle Bounds="0;48;654;48" FillBrush="Type:Solid;Colors:#FF004DFF;" StrokeBrush="Type:Solid;Colors:#0000;" SmoothingMode="None" Id="Rectangle_20005888" />
+        <Rectangle Bounds="0;0;654;48" FillBrush="Type:Solid;Colors:#F000;" StrokeBrush="Type:Solid;Colors:#0000;" SmoothingMode="None" Id="Rectangle_20005888" />
+        <Rectangle Bounds="0;1028;654;48" FillBrush="Type:Solid;Colors:#F000;" StrokeBrush="Type:Solid;Colors:#0000;" SmoothingMode="None" Id="Rectangle_20005888" />
+        <Group Matrix="1,0,0,0,0,1,0,0,0,0,1,0,252,10,0,1" Id="Group_54176940">
+          <String Font="FontName:arial black;Size:12;HorizontalAlignment:Far;" Bounds="324;4;74;23" Id="String_32723987">
+            <Text>12:00</Text>
+          </String>
+          <Path Closed="True" FillMode="Alternate" StrokeBrush="Type:Solid;Colors:#0000;" Matrix="0.6111044,0,0,0,0,0.5139458,0,0,0,0,1,0,322.7694,-2.890297,0,1" Id="Path_66175337">
+            <PointTypes>0;1;1;129;0;1;1;1;1;1;129;0;1;1;129</PointTypes>
+            <Points>13;17.3638 35;17.3638 35;45 13;45 26;18.85765 15;30.80844 23;33.04921 19;43.50615 32;29.31459 24;26.32689 26;18.85765 17;10 31;10 31;14 17;14</Points>
+          </Path>
+          <DocumentBlock Matrix="0.7916667,0,0,0,0,0.625,0,0,0,0,1,0,288,-2,0,1" Id="DocumentBlock_37268549">
+            <LayerDocument FillBrush="Type:Solid;Colors:#FFFF;" BackgroundTransparent="True" Width="48" Height="48" Id="LayerDocument_35834605">
+              <Layer GammaCorrection="0" Id="Layer_22888963">
+                <Rectangle Bounds="3;33;8;9" StrokeBrush="Type:Solid;Colors:#FFACACAC;Alignment:Inset;DashStyle:Solid;LineJoin:Round" SmoothingMode="None" Id="Rectangle_22496121" />
+                <Rectangle Bounds="14;26;8;16" StrokeBrush="Type:Solid;Colors:#FFACACAC;Alignment:Inset;DashStyle:Solid;LineJoin:Round" SmoothingMode="None" Id="Rectangle_22496121" />
+                <Rectangle Bounds="25;16;8;26" StrokeBrush="Type:Solid;Colors:#FFAEAEAE;Alignment:Inset;DashStyle:Solid;LineJoin:Round" SmoothingMode="None" Id="Rectangle_22496121" />
+                <Rectangle Bounds="38;4;8;38" FillBrush="Type:Solid;Colors:#7F7F7F7F;" StrokeBrush="Type:Solid;Colors:#F000;Alignment:Inset;DashStyle:Solid;LineJoin:Round" SmoothingMode="None" Id="Rectangle_22496121" />
+              </Layer>
+            </LayerDocument>
+          </DocumentBlock>
+          <DocumentBlock Matrix="0.5905749,0,0,0,0,0.7075534,0,0,0,0,1,0,258,3,0,1" Id="DocumentBlock_56232614">
+            <LayerDocument FillBrush="Type:Solid;Colors:#FFFF;" BackgroundTransparent="True" Width="32" Height="32" Id="LayerDocument_62078901">
+              <Layer GammaCorrection="0" Id="Layer_22894574">
+                <Path Closed="True" FillMode="Winding" StrokeBrush="Type:Solid;Colors:#FFFF;" Id="Path_42420696">
+                  <PointTypes>0;3;3;3;1;3;3;3;1;3;3;3;1;3;3;131;0;1;1;1;129</PointTypes>
+                  <Points>4;13 4;11.34315 5.343146;10 7;10 17;10 18.65685;10 20;11.34315 20;13 20;19 20;20.65685 18.65685;22 17;22 7;22 5.343145;22 4;20.65685 4;19 14;11 29;2 29;30 14;21 14;11</Points>
+                </Path>
+              </Layer>
+            </LayerDocument>
+          </DocumentBlock>
+          <Group Matrix="0.6256684,0,0,0,0,0.9168152,0,0,0,0,1,0,108.5615,2,0,1" Id="Group_11968397">
+            <Rectangle Bounds="282;0;5;15" StrokeBrush="Type:Solid;Colors:#0000;" Id="Rectangle_42031809" />
+            <Rectangle Bounds="282;0;5;15" StrokeBrush="Type:Solid;Colors:#0000;" Matrix="1,0,0,0,0,1,0,0,0,0,1,0,10,0,0,1" Id="Rectangle_42031809" />
+            <Rectangle Bounds="286;4;8;6" StrokeBrush="Type:Solid;Colors:#0000;" Id="Rectangle_42031809" />
+          </Group>
+        </Group>
+      </Layer>
+      <Layer GammaCorrection="0" Id="Layer_35381486">
+        <ViewBox Bounds="29;101.7627;603;921.2372" FillBrush="Type:Solid;Colors:#F000;" Id="viewbox" />
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

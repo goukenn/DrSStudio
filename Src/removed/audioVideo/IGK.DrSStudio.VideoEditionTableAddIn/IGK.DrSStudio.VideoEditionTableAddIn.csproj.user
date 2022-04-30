@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <StartAction>Program</StartAction>
+    <StartProgram>D:\DRSStudio 7.b Src\IGK.DrSStudio.WinLauncher\bin\Release\Drs.exe</StartProgram>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <StartAction>Program</StartAction>
+    <StartProgram>D:\DRSStudio 7.b Src\IGK.DrSStudio.WinLauncher\bin\Debug\Drs.exe</StartProgram>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ProjectView>ShowAllFiles</ProjectView>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <StartProgram>D:\DRSStudio 7.b Src\IGK.DrSStudio.WinLauncher\bin\Debug\Drs.exe</StartProgram>
+    <StartAction>Program</StartAction>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <StartProgram>D:\DRSStudio 7.b Src\IGK.DrSStudio.WinLauncher\bin\Release\Drs.exe</StartProgram>
+    <StartAction>Program</StartAction>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <StartProgram>D:\DRSStudio 7.b Src\IGK.DrSStudio.WinLauncher\bin\Debug\Drs.exe</StartProgram>
+    <StartAction>Program</StartAction>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <StartProgram>D:\DRSStudio 7.b Src\IGK.DrSStudio.WinLauncher\bin\Release\Drs.exe</StartProgram>
+    <StartAction>Program</StartAction>
+  </PropertyGroup>
+</Project>

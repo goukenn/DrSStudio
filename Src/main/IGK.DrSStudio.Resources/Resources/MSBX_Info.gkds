@@ -1,0 +1,13 @@
+<!--This is a gkds ICore file 9.4.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2014-->
+<gkds>
+  <Project>
+    <TargetSurface>2DDrawingSurface</TargetSurface>
+  </Project>
+  <Documents>
+    <LayerDocument FillBrush="Type:Solid;Colors:#FFFF;" BackgroundTransparent="True" Width="430" Id="LayerDocument_4819497">
+      <Layer Id="Layer_33032064" />
+    </LayerDocument>
+  </Documents>
+</gkds>

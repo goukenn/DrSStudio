@@ -1,0 +1,110 @@
+<div class="overflow-y-a fith igk-parentscroll" style="margin-bottom:0px;">
+	<div class="posr igk-title-4 loc_t loc_r loc_l" style="background-color: #444; color:#eee;">
+		[lang:balafon.title.DataBaseBuilder]
+	</div>
+	<div>
+		<form>
+			<input class="clinput cltext" name="databasename" id="databasename" value="[imeth:getDatabaseName]" placeholder="database name"
+				   oninput="javascript: ns_igk.ext.call('setDatabaseName', this.value); "/>
+		</form>
+	</div>
+	<div style="padding-left:15px; padding-right:15px;">
+		<div class="igk-row">
+			<div class="igk-col igk-col-sm-3-3 igk-col-xsm-3-3 igk-lg-dispn igk-xlg-dispn igk-xxlg-dispn" style="overflow:hidden;">
+				<div>
+					<span class="igk-title-5">[lang:title.Tables]</span>
+					<div class="igk-lsv-control  fitw">[imeth:getTables]</div>
+				</div>
+			</div>
+			
+			<div class="igk-col igk-col-12-2 igk-sm-dispn igk-xsm-dispn" style="overflow:hidden;">
+				<div>
+					<div class="igk-title-5">[lang:title.Tables]</div>
+					<div class="igk-lsv-control  fitw">[imeth:getTables]</div>
+				</div>
+			</div>
+			<div class="igk-col igk-col-12-10 igk-col-xsm-3-3 igk-col-sm-3-3">
+				<div style="width: auto;">
+					<div class="igk-title-5 igk-roll-owner igk-pull-right">
+						<div class="floatl">
+							<div>[imeth:getTableName]</div>
+							<div style="font-size:0.6em; color:#aeaeae" class="igk-table-desc">[imeth:getTableDescription]</div>
+						</div>
+						<div class="igk-roll-in fith dispib">
+							<a href="#" class="dispb igk-btn" style="width:32px; background-image:url('[res:dark_op40]');" onclick="javascript: ns_igk.balafon.editTableName(); return false;">
+								<img src="[res:edit]" alt="edit" />
+							</a>
+						</div>
+					</div>
+					<div class="igk-tab-control igk-horizontal-menu">[imeth:getOptions]</div>
+					<div class="igk-tab-view" id="igk-tab-view">
+						<div>
+							[imeth:getViewInfo]
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="action-bar" class="igk-action-bar igk-pull-right posfix loc_b loc_l loc_r dispb no-margin"
+		 igk-js-fix-loc-scroll-width="1" style="z-index:10; background-color:#222;" >
+			<span class="sr-only">Tables actions</span>
+			<input type="button" value="[lang:btn.addtable]" class="igk-btn igk-btn-default" onclick="javascript: ns_igk.ext.call('addTable'); return false; " />
+			<input type="button" value="[lang:btn.cleartable]" class="igk-btn igk-btn-default" onclick="javascript: ns_igk.ext.call('clearTables'); return false; " />
+			<input type="button" value="[lang:btn.save]" class="igk-btn igk-btn-default" onclick="javascript: ns_igk.ext.call('saveSchemas'); return false; " />
+
+			<input type="button" value="[lang:btn.open]" class="igk-btn igk-btn-default" onclick="javascript: ns_igk.ext.call('openSchemas'); return false; " />
+			<input type="button" value="[lang:btn.import]" class="igk-btn igk-btn-default" onclick="javascript: ns_igk.ext.call('importSchemas'); return false; " />
+
+			<input type="button" value="[lang:btn.exportphp]" class="igk-btn igk-btn-default" onclick="javascript: ns_igk.ext.call('ExportToPhp'); return false; " />
+			<input type="button" value="[lang:btn.exportcs]" class="igk-btn igk-btn-default" onclick="javascript: ns_igk.ext.call('ExportToCS'); return false; " />
+		</div>
+		<div igk-js-fix-height="#action-bar" style="border:1px solid black; visibility:hidden; "> </div>
+	</div>
+
+	<script type="text/javascript">
+		(function () {
+
+			if (!igk.balafon) {
+				//create balafon namespace
+				igk.system.createNS("igk.balafon", {});
+			}
+
+			igk.appendProperties(igk.balafon, {
+				rmColumn: function (d) {
+					var m = $igk(d).select('^.igk-tab-view').getItemAt(0);
+					if (m) {
+						m.setHtml(ns_igk.ext.call('rmColumn', ns_igk.form.form_tojson(d.form)));
+						igk.ctrl.callBindAttribData(m);
+					}
+				},
+				addNewColumn: function (d) {
+					var m = $igk(d).select('^.igk-tab-view').getItemAt(0);
+
+					if (m) {
+						try {
+							m.setHtml(ns_igk.ext.call('addNewColumn'));
+							igk.ctrl.callBindAttribData(m);
+						}
+						catch (ex) {
+							alert("Exception" + "ex" + ex.stack);
+						}
+					}
+				},
+				editTableName: function () {
+					try {
+						ns_igk.ext.call('editTableName');
+
+					}
+					catch (ex) {
+						alert("Exception" + "ex : " + ex + " ::: " + ex.stack);
+					}
+				},
+				storeColumn: function () {
+					ns_igk.ext.call('storeColumn', ns_igk.form.form_tojson(this.form));
+				}
+			});
+
+
+		})();
+	</script>
+</div>

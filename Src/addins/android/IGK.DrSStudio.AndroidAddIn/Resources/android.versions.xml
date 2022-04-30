@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidPlatformTargets>
+  <item versionNumber="1" name="Base" />
+  <item versionNumber="2" name="Base_1_1" />
+  <item versionNumber="3" name="Cupcake" />
+  <item versionNumber="4" name="Donut" />
+  <item versionNumber="5" name="Eclair" />
+  <item versionNumber="6" name="Eclair_0_1" />
+  <item versionNumber="7" name="Eclair_MR1" />
+  <item versionNumber="8" name="Froyo" version="v2.2"/>
+  <item versionNumber="9" name="Gingerbread" version="v2.3" />
+  <item versionNumber="10" name="Gingerbread_MR1" version="v2.3.3"/>
+  <item versionNumber="11" name="HoneyComb" />
+  <item versionNumber="12" name="HoneyComb_MR1" />
+  <item versionNumber="13" name="HoneyComb_MR2" />
+  <item versionNumber="14" name="IceScream Sandwich" version="v4.0"/>
+  <item versionNumber="15" name="IceScream Sandwich_MR1" version="v4.0.3" />
+  <item versionNumber="16" name="JellyBeen" />
+  <item versionNumber="17" name="JellyBeen_MR1" />
+  <item versionNumber="18" name="JellyBeen_MR2" />
+  <item versionNumber="19" name="kitkat" />
+  <item versionNumber="20" name="Lollipop_MR1" />
+  <item versionNumber="21" name="Lollipop_MR2" />
+  <item versionNumber="22" name="Lollipop" />
+  <item versionNumber="23" name="Marshmallow" version="v6.0"/>
+  <item versionNumber="24" name="Nouga" version="v7.0"/>
+  <item versionNumber="25" name="Nouga" version="v7.1"/>
+  <item versionNumber="26" name="Oreo" version="v8.0"/>
+  <item versionNumber="-1" name="L Developer Preview" />  
+  </androidPlatformTargets>

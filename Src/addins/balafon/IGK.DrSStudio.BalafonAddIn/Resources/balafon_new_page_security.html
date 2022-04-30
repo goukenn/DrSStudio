@@ -1,0 +1,23 @@
+<div>
+<div class="igk-title-5">Security</div>
+<div>
+<div class="igk-panel" >
+<input type="text" id="clSysPropAppLogin" class="igk-form-control" placeholder="" />
+<input type="password" id="clSysPropAppLoginPwd" class="igk-form-control" placeholder="login" value="admin"/>
+</div>
+
+<div class="igk-panel" >
+<input type="submit" onclick="javascript: this.form.load_properties('clSysPropAppLogin', this.form.clSysPropAppLogin.value); this.form.load_properties('clSysPropAppLoginPwd', this.form.clSysPropAppLoginPwd.value); return false;" text="clSysPropLogin" class="igk-btn igk-btn-connexion" placeholder="login" value="[lang:btn.updatesecurity]"/>
+</div>
+
+</div>
+
+<script language="javascript">
+(function(){
+	var q = igk.getParentScriptForm();
+	$igk("#clSysPropAppLogin").setAttribute("value", q.getproperty('clSysPropAppLogin', "admin"));
+	$igk("#clSysPropAppLoginPwd").setAttribute("value", q.getproperty('clSysPropAppLoginPwd', "admin"));
+})();
+</script>
+
+</div>

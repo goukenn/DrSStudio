@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--This is a gkds DrSStudio file 7.0.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--IGKDEV © 2008-2012-->
+<gkds>
+  <Project>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+  </Project>
+  <Documents>
+    <LayerDocument InterpolationMode="Pixel" Width="32" Height="32" BackgroundTransparent="True" Id="LayerDocument_60872397">
+      <Layer Id="Layer_52901981">
+        <Fleche EndPoint="29;14" StartPoint="2;14" StrokeBrush="Type:Solid;Colors:#FFC000FF;" FillBrush="Type:Solid;Colors:#FFEA00FF;" Matrix="1;0;0;1;1;2" Id="Fleche_33688819" />
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

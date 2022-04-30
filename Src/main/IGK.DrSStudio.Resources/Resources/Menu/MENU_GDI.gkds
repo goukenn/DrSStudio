@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--This is a gkds DrSStudio file 7.0.a-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--IGKDEV © 2008-2012-->
+<gkds>
+  <Project>
+    <SurfaceType>2DDrawingSurface</SurfaceType>
+  </Project>
+  <Documents>
+    <LayerDocument InterpolationMode="Pixel" BackgroundTransparent="True" Width="32" Height="32" Id="LayerDocument_55122667">
+      <Layer Id="Layer_19731926">
+        <Rectangle Bounds="1;1;12;15" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#FFFF0018;" Id="Rectangle_52239385" />
+        <Rectangle Bounds="9;13;13;9" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#FFC0;" Matrix="1.214452;0;0;1.363636;-4.71795;-8.000001" Id="Rectangle_48268948" />
+        <Rectangle Bounds="18;3;12;9" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#FF5CFF3D;" Matrix="1;0;0;1;-1;2" Id="Rectangle_57622216" />
+        <Rectangle Bounds="4;22;13;8" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#F00F;" Matrix="1.158508;0;0;1.484848;-2.694639;-14.54546" Id="Rectangle_60431530" />
+        <RoundRect RoundStyle="Plus" BottomRight="4;5" BottomLeft="4;5" TopRight="4;5" TopLeft="4;5" Bounds="20;17;11;14" StrokeBrush="Type:Solid;Colors:#0000;" FillBrush="Type:Solid;Colors:#FFFF8730;" Id="RoundRect_21507300" />
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>

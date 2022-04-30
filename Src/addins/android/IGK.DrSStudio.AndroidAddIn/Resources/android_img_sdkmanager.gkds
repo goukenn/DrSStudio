@@ -1,0 +1,16 @@
+<!--This is a gkds DrSStudio file 9.1.d-->
+<!--Charles A.D. BONDJE DOUE-->
+<!--igkdev © 2008-2014-->
+<gkds>
+  <Documents>
+    <LayerDocument FillBrush="Type:Solid;Colors:#FFFF;" PixelOffset="Half" BackgroundTransparent="True" Width="32" Height="32" Id="LayerDocument_33487001">
+      <Layer Id="Layer_11182767">
+        <Rectangle Bounds="5;11;18.60606;19" FillBrush="Type:Solid;Colors:#FF616161;" StrokeBrush="Type:Solid;Colors:#FF8A8A8A;Alignment:Inset;DashStyle:Solid;LineJoin:Round" SmoothingMode="None" Id="Rectangle_10600959" />
+        <CustomPolygon Tension="0" EnableTension="False" Closed="False" FillMode="Alternate" Points="12;15 16;15 16;22 19;22 14;26 9;22 12;22" StrokeBrush="Type:Solid;Colors:#FFFF;DashStyle:Solid;LineJoin:Round" Id="CustomPolygon_11853707" />
+        <Arc Closed="True" SweepAngle="113.574707" StartAngle="213.690079" Radius="10.81665;10.81665" Center="14;13" FillBrush="Type:Solid;Colors:#FF00C500;" StrokeBrush="Type:Solid;Colors:#FF00FF25;" Id="Arc_27924095" />
+        <Line StrokeBrush="Type:Solid;Colors:#FF00CB25;Alignment:Inset;Width:2;DashStyle:Solid;LineJoin:Round" EndPoint="23;1" StartPoint="19;5" Id="Line_50687167" />
+        <Line StrokeBrush="Type:Solid;Colors:#FF00CB25;Alignment:Inset;Width:2;DashStyle:Solid;LineJoin:Round" EndPoint="23;1" StartPoint="19;5" Matrix="-0.1414214,0.9899495,0,0,-0.9899495,-0.1414214,0,0,0,0,1,0,12.80833,-17.51615,0,1" Id="Line_50687167" />
+      </Layer>
+    </LayerDocument>
+  </Documents>
+</gkds>
